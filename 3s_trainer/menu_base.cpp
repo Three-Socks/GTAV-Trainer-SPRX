@@ -363,7 +363,6 @@ void menu_addItem_action( char* menu_item_string )
 		Static_72[menu_get_count()] = menu_item_string;
 		Static_225[menu_get_count()] = 1;
 	}
-	return;
 }
 
 void menu_add_action()
@@ -390,7 +389,6 @@ void menu_set_catch_button_id( uint catch_id )
 	{
 		Static_30 = catch_id;
 	}
-	return;
 }
 
 uint menu_get_catch_button_id()
@@ -432,7 +430,6 @@ void menu_add_frontend( uint frontend_id, uint button_id, char* string_val )
 	add_text_component_integer( -1 );
 	unk_0x386CE0B8();
 	unk_0x02DBF2D7();
-	return;
 }
 
 void menu_setup()
@@ -669,10 +666,7 @@ void menu_shutdown()
 
 void menu_catch_button_press()
 {
-	Var32 var_0;
 	int catch_button_menu_count;
-	Var32 var_2;
-	Var32 var_3;
 	uint catch_start_scolling;
 	uint i;
 	float float_change;
@@ -828,7 +822,7 @@ void menu_catch_button_press()
 void menu_set_last_selected()
 {
 	int i;
-	Var32 set_last_menu_count;
+	int set_last_menu_count;
 	if ( menu_get_last_selected( menu_get_current_level() ) <= menu_get_count() )
 	{
 		Static_4 = menu_get_last_selected( menu_get_current_level() );
@@ -856,7 +850,6 @@ void menu_set_last_selected()
 			}
 		}
 	}
-	return;
 }
 
 void menu_catch_select_button_press()
@@ -901,7 +894,7 @@ void menu_catch_select_button_press()
 	}
 }
 
-var32 menu_add_int_to_string( int int_val, char* string_val )
+char* menu_add_int_to_string( int int_val, char* string_val )
 {
 	char string_int[16];
 	
@@ -911,7 +904,7 @@ var32 menu_add_int_to_string( int int_val, char* string_val )
 	return menu_return_var( &string_int );
 }
 
-var32 menu_add_int_to_string2( int int_val, char* string_val )
+char* menu_add_int_to_string2( int int_val, char* string_val )
 {
 	char string_int[16];
 	
@@ -924,7 +917,7 @@ var32 menu_add_int_to_string2( int int_val, char* string_val )
 	return menu_return_var( &string_int );
 }
 
-var32 menu_return_var( int return_this )
+char* menu_return_var( char* return_this )
 {
 	return return_this;
 }
@@ -937,7 +930,7 @@ void menu_play_sound( char* sound_name )
 	}
 }
 
-var32 menu_keyboard( char* keyboard_title )
+bool menu_keyboard( char* keyboard_title )
 {
 	char* keyboard_title1;
 	char* keyboard_title2;
@@ -1004,19 +997,13 @@ var32 menu_keyboard( char* keyboard_title )
 
 void menu_msg( char* string_val )
 {
-	Var32 var_0;
-	Var32 var_1;
 	unk_0x574EE85C( "STRING" );
 	unk_0x27A244D8( string_val );
 	unk_0x08F7AF78( 0, 1 );
-	return;
 }
 
 void menu_error( char* string_val, int menu_level_back )
 {
-	Var32 var_0;
-	Var32 var_1;
-	Var32 var_2;
 	if ( menu_level_back >= 1 )
 	{
 		menu_error_back( menu_level_back );
@@ -1024,14 +1011,10 @@ void menu_error( char* string_val, int menu_level_back )
 	unk_0x574EE85C( "STRING" );
 	unk_0x27A244D8( string_val );
 	unk_0x08F7AF78( 0, 1 );
-	return;
 }
 
 void menu_error_gxt( char* gxt, int menu_level_back )
 {
-	Var32 var_0;
-	Var32 var_1;
-	Var32 var_2;
 	if ( menu_level_back >= 1 )
 	{
 		menu_error_back( menu_level_back );
@@ -1042,10 +1025,6 @@ void menu_error_gxt( char* gxt, int menu_level_back )
 
 void menu_error_2_strings( char* string_val, char* string_val2, int menu_level_back )
 {
-	Var32 var_0;
-	Var32 var_1;
-	Var32 var_2;
-	Var32 var_3;
 	if ( menu_level_back >= 1 )
 	{
 		menu_error_back( menu_level_back );
@@ -1058,10 +1037,6 @@ void menu_error_2_strings( char* string_val, char* string_val2, int menu_level_b
 
 void menu_error_2_strings_gxt( char* string_val, char* gxt, int menu_level_back )
 {
-	Var32 var_0;
-	Var32 var_1;
-	Var32 var_2;
-	Var32 var_3;
 	if ( menu_level_back >= 1 )
 	{
 		menu_error_back( menu_level_back );
