@@ -1,39 +1,33 @@
 #ifndef __MENU_BASE_H__
 #define __MENU_BASE_H__
 
-typedef unsigned int uint;
-typedef char* string;
-typedef int BOOL;
-typedef void* Void;
-typedef unsigned int Any;
-typedef int Vector3;
-typedef unsigned int Hash;
-typedef unsigned int Entity;
-typedef unsigned int Player;
-typedef unsigned int Ped;
-typedef unsigned int Vehicle;
-typedef unsigned int Camera;
-typedef unsigned int Cam;
-typedef unsigned int Object;
-typedef unsigned int Weapon;
-typedef unsigned int Interior;
-typedef unsigned int Blip;
-typedef unsigned int Texture;
-typedef unsigned int Sphere;
+static int menu_count, instructional_buttons, frontend_count;
 
-
-int menu_count, instructional_buttons, frontend_count;
-
-unsigned int menu_item_highlighted, menu_action_mode, menu_load_hold_pressed, menu_level,
+static unsigned int menu_item_highlighted, menu_action_mode, menu_load_hold_pressed, menu_level,
  press_counter, hold_counter, press_counter_timesby, press_id, menu_unload_hold_pressed,
  menu_max, menu_consts_max, menu_start_scrolling, menu_sub_action_mode, menu_keyboard_update, 
- menu_keyboard_custom_length, menu_catch_button_id, menu_just_opened;
+ menu_keyboard_custom_length, menu_catch_button_id, menu_just_opened, custom_float_dp,
+ custom_font;
 
-bool menu_hidden = 1, menu_items_set, scaleform_requested, reset_counter, menu_texture_loaded, frontend_items_set;
+static bool menu_hidden, menu_items_set, scaleform_requested, reset_counter, menu_texture_loaded,
+ frontend_items_set, menu_align, menu_sfx, menu_continue_action;
 
-float menu_x, menu_start_y, menu_consts_start_y, menu_spacing;
+static float menu_x, menu_start_y, menu_consts_start_y, menu_spacing;
 
-char* menu_header;
+static char* menu_header;
+static char* custom_bool_string_off;
+static char* custom_bool_string_on;
+
+static uint frontend_items_button[6];
+static char* frontend_items_name[6];
+static uint last_selected[10];
+static char* menu_items_name[50];
+static uint menu_items_type[50];
+static int menu_items_extra_val[50];
+static bool menu_items_action[50];
+static uint menu_items_num_val[50];
+static float menu_items_float_val[50];
+static int menu_stored_data[50];
 
 uint menu_get_current_item();
 int menu_get_count();
@@ -77,11 +71,11 @@ void menu_toggle_current_bool();
 bool menu_get_current_bool();
 bool menu_get_bool( uint menu_item );
 void menu_addItem_gxt_veh_hash( int hash );
-void menu_addItem_keyboard( char* menu_item_string, char* string_val, uint keyboard_len );
+/*void menu_addItem_keyboard( char* menu_item_string, char* string_val, uint keyboard_len );
 void menu_addItem_number_keyboard( int int_val, int min, int max, uint keyboard_len );
 void menu_addItem_number_format_keyboard( float float_val, int min, int max, uint keyboard_len );
 void menu_addItem_float_keyboard( float float_val, float min, float max, uint keyboard_len );
-char* menu_get_current_keyboard();
+char* menu_get_current_keyboard();*/
 int menu_get_current_extra();
 void menu_add_extra( int extra_val );
 int menu_get_extra( uint menu_item );

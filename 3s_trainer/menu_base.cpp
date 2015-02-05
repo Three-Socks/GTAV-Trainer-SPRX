@@ -2,78 +2,78 @@
 
 uint menu_get_current_item()
 {
-	return Static_4;
+	return menu_item_highlighted;
 }
 
 int menu_get_count()
 {
-	return Static_5;
+	return menu_count;
 }
 
 bool menu_get_open_state()
 {
 	if ( !is_pause_menu_active() )
 	{
-		return Static_6;
+		return menu_hidden;
 	}
 	return 0;
 }
 
 void menu_set_open_state( bool state )
 {
-	Static_6 = state;
+	menu_hidden = state;
 }
 
 uint menu_get_action_mode()
 {
-	return Static_7;
+	return menu_action_mode;
 }
 
 void menu_set_action_mode( uint action_mode )
 {
-	Static_7 = action_mode;
+	menu_action_mode = action_mode;
 }
 
 uint menu_get_sub_action_mode()
 {
-	return Static_26;
+	return menu_sub_action_mode;
 }
 
 void menu_set_sub_action_mode( uint sub_action_mode )
 {
-	Static_26 = sub_action_mode;
+	menu_sub_action_mode = sub_action_mode;
 }
 
 bool menu_get_continue_action()
 {
-	return Static_31;
+	return menu_continue_action;
 }
 
 void menu_set_continue_action( bool state )
 {
-	Static_31 = state;
+	menu_continue_action = state;
 }
 
 uint menu_get_current_level()
 {
-	return Static_9;
+	return menu_level;
 }
 
 uint menu_get_last_selected( uint menu_level )
 {
-	return Static_61[menu_level];
+	return last_selected[menu_level];
 }
 
 int menu_get_stored_data( uint menu_item )
 {
-	return Static_379[menu_item];
+	return menu_stored_data[menu_item];
 }
 
 void menu_set_stored_data( int store_data )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_379[menu_get_count()] = store_data;
+		menu_stored_data[menu_get_count()] = store_data;
 	}
 }
 
@@ -81,42 +81,42 @@ void menu_set_title( char* menu_title )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_10 = menu_title;
+		menu_header = menu_title;
 	}
 }
 
-void menu_set_bool_strings( char* bool_string_off, char* bool_string_on )
+void menu_set_bool_strings(char* bool_string_off, char* bool_string_on )
 {
-	Static_430 = bool_string_off;
-	Static_431 = bool_string_on;
+	custom_bool_string_off = bool_string_off;
+	custom_bool_string_on = bool_string_on;
 }
 
 void menu_set_float_dp( uint float_dp )
 {
-	Static_432 = float_dp;
+	custom_float_dp = float_dp;
 }
 
 void menu_set_font( uint font )
 {
-	Static_433 = font;
+	custom_font = font;
 }
 
 void menu_set_menu_align( bool align )
 {
-	Static_434 = align;
+	menu_align = align;
 }
 
 void menu_set_sfx( bool state )
 {
-	Static_435 = state;
+	menu_sfx = state;
 }
 
-void menu_addItem( char* menu_item_string )
+void menu_addItem(char* menu_item_string )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_5 = menu_get_count() + 1;
-		Static_72[menu_get_count()] = menu_item_string;
+		menu_count = menu_get_count() + 1;
+		menu_items_name[menu_get_count()] = menu_item_string;
 	}
 }
 
@@ -124,10 +124,10 @@ void menu_addItem_add_number( char* menu_item_string, int num_val )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_5 = menu_get_count() + 1;
-		Static_123[menu_get_count()] = 8;
-		Static_72[menu_get_count()] = menu_item_string;
-		Static_276[menu_get_count()] = num_val;
+		menu_count = menu_get_count() + 1;
+		menu_items_type[menu_get_count()] = 8;
+		menu_items_name[menu_get_count()] = menu_item_string;
+		menu_items_num_val[menu_get_count()] = num_val;
 	}
 }
 
@@ -135,10 +135,10 @@ void menu_addItem_gxt_add_number( char* gxt, int num_val )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_5 = menu_get_count() + 1;
-		Static_123[menu_get_count()] = 9;
-		Static_72[menu_get_count()] = gxt;
-		Static_276[menu_get_count()] = num_val;
+		menu_count = menu_get_count() + 1;
+		menu_items_type[menu_get_count()] = 9;
+		menu_items_name[menu_get_count()] = gxt;
+		menu_items_num_val[menu_get_count()] = num_val;
 	}
 }
 
@@ -146,10 +146,10 @@ void menu_addItem_gxt_add_number2( char* gxt, int num_val )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_5 = menu_get_count() + 1;
-		Static_123[menu_get_count()] = 10;
-		Static_72[menu_get_count()] = gxt;
-		Static_276[menu_get_count()] = num_val;
+		menu_count = menu_get_count() + 1;
+		menu_items_type[menu_get_count()] = 10;
+		menu_items_name[menu_get_count()] = gxt;
+		menu_items_num_val[menu_get_count()] = num_val;
 	}
 }
 
@@ -157,10 +157,10 @@ void menu_addItem_gxt_number( char* gxt, int num_val )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_5 = menu_get_count() + 1;
-		Static_123[menu_get_count()] = 11;
-		Static_72[menu_get_count()] = gxt;
-		Static_276[menu_get_count()] = num_val;
+		menu_count = menu_get_count() + 1;
+		menu_items_type[menu_get_count()] = 11;
+		menu_items_name[menu_get_count()] = gxt;
+		menu_items_num_val[menu_get_count()] = num_val;
 	}
 }
 
@@ -168,10 +168,10 @@ void menu_addItem_number( int num_val, int min, int max )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_123[menu_get_count()] = 1;
-		Static_276[menu_get_count()] = num_val;
-		Static_327[menu_get_count()] = min;
-		Static_174[menu_get_count()] = max;
+		menu_items_type[menu_get_count()] = 1;
+		menu_items_num_val[menu_get_count()] = num_val;
+		menu_items_float_val[menu_get_count()] = min;
+		menu_items_extra_val[menu_get_count()] = max;
 	}
 }
 
@@ -179,10 +179,10 @@ void menu_addItem_number_format( int num_val, int min, int max )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_123[menu_get_count()] = 13;
-		Static_276[menu_get_count()] = num_val;
-		Static_327[menu_get_count()] = min;
-		Static_174[menu_get_count()] = max;
+		menu_items_type[menu_get_count()] = 13;
+		menu_items_num_val[menu_get_count()] = num_val;
+		menu_items_float_val[menu_get_count()] = min;
+		menu_items_extra_val[menu_get_count()] = max;
 	}
 }
 
@@ -190,33 +190,33 @@ void menu_add_number( int num_val )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_276[menu_get_count()] = num_val;
+		menu_items_num_val[menu_get_count()] = num_val;
 	}
 }
 
 void menu_set_number( uint menu_item, int num_val )
 {
-	Static_276[menu_item] = num_val;
+	menu_items_num_val[menu_item] = num_val;
 }
 
 int menu_get_current_number()
 {
-	return Static_276[menu_get_current_item()];
+	return menu_items_num_val[menu_get_current_item()];
 }
 
 int menu_get_number( uint menu_item )
 {
-	return Static_276[menu_item];
+	return menu_items_num_val[menu_item];
 }
 
-void menu_addItem_float( float* float_val, float min, float max )
+void menu_addItem_float( float float_val, float min, float max )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_123[menu_get_count()] = 2;
-		Static_276[menu_get_count()] = float_val;
-		Static_327[menu_get_count()] = min;
-		Static_174[menu_get_count()] = max;
+		menu_items_type[menu_get_count()] = 2;
+		menu_items_float_val[menu_get_count()] = float_val;
+		//menu_items_float_val[menu_get_count()] = min;
+		//menu_items_extra_val[menu_get_count()] = max;
 	}
 }
 
@@ -224,75 +224,75 @@ void menu_add_data_2( int data_2 )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_327[menu_get_count()] = data_2;
+		menu_items_float_val[menu_get_count()] = data_2;
 	}
 }
 
 int menu_get_current_data_2()
 {
-	return Static_327[menu_get_current_item()];
+	return menu_items_float_val[menu_get_current_item()];
 }
 
 void menu_addItem_bool( bool state )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_123[menu_get_count()] = 3;
-		Static_174[menu_get_count()] = param_0;
+		menu_items_type[menu_get_count()] = 3;
+		menu_items_extra_val[menu_get_count()] = state;
 	}
 }
 
 void menu_set_current_bool( bool state )
 {
-	Static_174[menu_get_current_item()] = param_0;
+	menu_items_extra_val[menu_get_current_item()] = state;
 }
 
 void menu_set_bool( uint menu_item, bool state )
 {
-	Static_174[menu_item] = state;
+	menu_items_extra_val[menu_item] = state;
 }
 
 void menu_toggle_bool( uint menu_item )
 {
-	Static_174[menu_item] = !menu_get_current_bool();
+	menu_items_extra_val[menu_item] = !menu_get_current_bool();
 	return;
 }
 
 void menu_toggle_current_bool()
 {
-	Static_174[menu_get_current_item()] = !menu_get_current_bool();
+	menu_items_extra_val[menu_get_current_item()] = !menu_get_current_bool();
 	return;
 }
 
 bool menu_get_current_bool()
 {
-	return Static_174[menu_get_current_item()];
+	return menu_items_extra_val[menu_get_current_item()];
 }
 
 bool menu_get_bool( uint menu_item )
 {
-	return Static_174[menu_item];
+	return menu_items_extra_val[menu_item];
 }
 
 void menu_addItem_gxt_veh_hash( int hash )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_5 = menu_get_count() + 1;
-		Static_174[menu_get_count()] = hash;
-		Static_123[menu_get_count()] = 5;
+		menu_count = menu_get_count() + 1;
+		menu_items_extra_val[menu_get_count()] = hash;
+		menu_items_type[menu_get_count()] = 5;
 	}
 }
 
-void menu_addItem_keyboard( char* menu_item_string, char* string_val, uint keyboard_len )
+/*void menu_addItem_keyboard( char* menu_item_string, const char* string_val, uint keyboard_len )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_5 = menu_get_count() + 1;
-		Static_72[menu_get_count()] = menu_item_string;
-		Static_123[menu_get_count()] = 6;
-		Static_276[menu_get_count()] = string_val;
-		Static_29 = keyboard_len;
+		menu_count = menu_get_count() + 1;
+		menu_items_name[menu_get_count()] = menu_item_string;
+		menu_items_type[menu_get_count()] = 6;
+		menu_items_num_val[menu_get_count()] = string_val;
+		menu_keyboard_custom_length = keyboard_len;
 	}
 }
 
@@ -300,11 +300,11 @@ void menu_addItem_number_keyboard( int int_val, int min, int max, uint keyboard_
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_123[menu_get_count()] = 7;
-		Static_276[menu_get_count()] = int_val;
-		Static_327[menu_get_count()] = min;
-		Static_174[menu_get_count()] = max;
-		Static_29 = keyboard_len;
+		menu_items_type[menu_get_count()] = 7;
+		menu_items_num_val[menu_get_count()] = int_val;
+		menu_items_float_val[menu_get_count()] = min;
+		menu_items_extra_val[menu_get_count()] = max;
+		menu_keyboard_custom_length = keyboard_len;
 	}
 }
 
@@ -312,11 +312,11 @@ void menu_addItem_number_format_keyboard( float float_val, int min, int max, uin
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_123[menu_get_count()] = 14;
-		Static_276[menu_get_count()] = float_val;
-		Static_327[menu_get_count()] = min;
-		Static_174[menu_get_count()] = max;
-		Static_29 = keyboard_len;
+		menu_items_type[menu_get_count()] = 14;
+		menu_items_num_val[menu_get_count()] = float_val;
+		menu_items_float_val[menu_get_count()] = min;
+		menu_items_extra_val[menu_get_count()] = max;
+		menu_keyboard_custom_length = keyboard_len;
 	}
 }
 
@@ -324,44 +324,44 @@ void menu_addItem_float_keyboard( float float_val, float min, float max, uint ke
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_123[menu_get_count()] = 12;
-		Static_276[menu_get_count()] = float_val;
-		Static_327[menu_get_count()] = min;
-		Static_174[menu_get_count()] = max;
-		Static_29 = keyboard_len;
+		menu_items_type[menu_get_count()] = 12;
+		menu_items_num_val[menu_get_count()] = float_val;
+		menu_items_float_val[menu_get_count()] = min;
+		menu_items_extra_val[menu_get_count()] = max;
+		menu_keyboard_custom_length = keyboard_len;
 	}
 }
 
 char* menu_get_current_keyboard()
 {
-	return Static_276[menu_get_current_item()];
-}
+	return menu_items_num_val[menu_get_current_item()];
+}*/
 
 int menu_get_current_extra()
 {
-	return Static_174[menu_get_current_item()];
+	return menu_items_extra_val[menu_get_current_item()];
 }
 
 void menu_add_extra( int extra_val )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_174[menu_get_count()] = extra_val;
+		menu_items_extra_val[menu_get_count()] = extra_val;
 	}
 }
 
 int menu_get_extra( uint menu_item )
 {
-	return Static_174[menu_item];
+	return menu_items_extra_val[menu_item];
 }
 
 void menu_addItem_action( char* menu_item_string )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_5 = menu_get_count() + 1;
-		Static_72[menu_get_count()] = menu_item_string;
-		Static_225[menu_get_count()] = 1;
+		menu_count = menu_get_count() + 1;
+		menu_items_name[menu_get_count()] = menu_item_string;
+		menu_items_action[menu_get_count()] = 1;
 	}
 }
 
@@ -369,7 +369,7 @@ void menu_add_action()
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_225[menu_get_count()] = 1;
+		menu_items_action[menu_get_count()] = 1;
 	}
 }
 
@@ -377,9 +377,9 @@ void menu_addItem_frontend( uint button_id, char* string_val )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_46++;
-		Static_47[Static_46] = button_id;
-		Static_54[Static_46] = string_val;
+		frontend_count++;
+		frontend_items_button[frontend_count] = button_id;
+		frontend_items_name[frontend_count] = string_val;
 	}
 }
 
@@ -387,23 +387,23 @@ void menu_set_catch_button_id( uint catch_id )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		Static_30 = catch_id;
+		menu_catch_button_id = catch_id;
 	}
 }
 
 uint menu_get_catch_button_id()
 {
-	return Static_30;
+	return menu_catch_button_id;
 }
 
 void menu_draw_frontend_hook()
 {
-	uint i = Static_46;
-	if ( ( ( (Static_123[menu_get_current_item()] == 6 || Static_123[menu_get_current_item()] == 7) || Static_123[menu_get_current_item()] == 12) || Static_123[menu_get_current_item()] == 14) )
+	uint i = frontend_count;
+	if ( ( ( (menu_items_type[menu_get_current_item()] == 6 || menu_items_type[menu_get_current_item()] == 7) || menu_items_type[menu_get_current_item()] == 12) || menu_items_type[menu_get_current_item()] == 14) )
 	{
 		i++;
 		menu_add_frontend( i, 32, "Edit With Keyboard" );
-		if ( (Static_123[menu_get_current_item()] == 2 || Static_123[menu_get_current_item()] == 12) )
+		if ( (menu_items_type[menu_get_current_item()] == 2 || menu_items_type[menu_get_current_item()] == 12) )
 		{
 			i++;
 			menu_add_frontend( i, 36, "Increment Faster (Hold)" );
@@ -415,50 +415,50 @@ void menu_draw_frontend_hook()
 
 void menu_add_frontend( uint frontend_id, uint button_id, char* string_val )
 {
-	unk_0x215ABBE8( Static_12, "SET_DATA_SLOT" );
-	unk_0x716777CB( frontend_id );
-	unk_0x716777CB( button_id );
+	_0x215ABBE8( instructional_buttons, "SET_DATA_SLOT" );
+	_0x716777CB( frontend_id );
+	_0x716777CB( button_id );
 	if ( does_text_label_exist( string_val ) )
 	{
-		clear_player_has_2_characters_enable( string_val );
+		_0x3AC9CB55( string_val );
 	}
 	else
 	{
-		clear_player_has_2_characters_enable( "STRING" );
-		unk_0x27A244D8( string_val );
+		_0x3AC9CB55( "STRING" );
+		_add_text_component_string( string_val );
 	}
 	add_text_component_integer( -1 );
-	unk_0x386CE0B8();
-	unk_0x02DBF2D7();
+	_0x386CE0B8();
+	_0x02DBF2D7();
 }
 
 void menu_setup()
 {
-	if ( Static_434 == 0 )
+	if ( menu_align == 0 )
 	{
-		Static_3 = 0.0546875f;
+		menu_x = 0.0546875f;
 	}
 	else
 	{
-		Static_3 = 0.7546875f;
+		menu_x = 0.7546875f;
 	}
-	Static_4 = 0;
-	Static_5 = -1;
+	menu_item_highlighted = 0;
+	menu_count = -1;
 	menu_set_action_mode( 0 );
-	Static_8 = 0;
-	Static_9 = 0;
+	menu_load_hold_pressed = 0;
+	menu_level = 0;
 	menu_set_title( "" );
-	Static_11 = 0;
-	Static_15 = 2;
-	Static_17 = 1;
-	Static_20 = 0.0527f;
-	Static_21 = Static_20;
-	Static_22 = 0.03472f;
-	Static_23 = 14;
-	Static_24 = Static_23;
-	Static_25 = 7;
-	Static_45 = 0;
-	Static_46 = -1;
+	menu_items_set = 0;
+	press_counter = 2;
+	press_counter_timesby = 1;
+	menu_start_y = 0.0527f;
+	menu_consts_start_y = menu_start_y;
+	menu_spacing = 0.03472f;
+	menu_max = 14;
+	menu_consts_max = menu_max;
+	menu_start_scrolling = 7;
+	frontend_items_set = 0;
+	frontend_count = -1;
 	menu_set_bool_strings( "PIM_DHIGH0", "PIM_DHIGH1" );
 	menu_set_float_dp( 4 );
 	menu_set_font( 0 );
@@ -637,7 +637,7 @@ bool menu_get_mobile_globals( bool get_mobile_globals )
 		}
 		return 0;
 	}
-	if ( unk_0x029D3841( -754107665 ) > 0 )
+	if ( _0x029D3841( -754107665 ) > 0 )
 	{
 		return 1;
 	}
@@ -657,9 +657,9 @@ void menu_reverse_game_state()
 void menu_shutdown()
 {
 	menu_reverse_game_state();
-	Static_13 = 0;
-	set_scaleform_movie_as_no_longer_needed( &Static_12 );
-	Static_27 = 0;
+	scaleform_requested = 0;
+	set_scaleform_movie_as_no_longer_needed( &instructional_buttons );
+	menu_texture_loaded = 0;
 	set_streamed_texture_dict_as_no_longer_needed( "CommonMenu" );
 	project_close();
 }
@@ -669,32 +669,32 @@ void menu_catch_button_press()
 	int catch_button_menu_count;
 	uint catch_start_scolling;
 	uint i;
-	float float_change;
+	//float float_change;
 	catch_button_menu_count = menu_get_count();
-	catch_start_scolling = catch_button_menu_count - Static_25;
+	catch_start_scolling = catch_button_menu_count - menu_start_scrolling;
 	if ( menu_down_pressed( 1 ) )
 	{
 		menu_play_sound( "NAV_UP_DOWN" );
 		if ( menu_get_current_item() < catch_button_menu_count )
 		{
-			Static_4 = menu_get_current_item() + 1;
-			if ( catch_button_menu_count > Static_24 )
+			menu_item_highlighted = menu_get_current_item() + 1;
+			if ( catch_button_menu_count > menu_consts_max )
 			{
 				if ( menu_get_current_item() < catch_start_scolling + 1 )
 				{
-					if ( menu_get_current_item() > Static_25 )
+					if ( menu_get_current_item() > menu_start_scrolling )
 					{
-						Static_20 -= Static_22;
-						Static_23++;
+						menu_start_y -= menu_spacing;
+						menu_max++;
 					}
 				}
 			}
 		}
 		else
 		{
-			Static_20 = Static_21;
-			Static_23 = Static_24;
-			Static_4 = 0;
+			menu_start_y = menu_consts_start_y;
+			menu_max = menu_consts_max;
+			menu_item_highlighted = 0;
 		}
 	}
 	else if ( menu_up_pressed( 1 ) )
@@ -702,57 +702,57 @@ void menu_catch_button_press()
 		menu_play_sound( "NAV_UP_DOWN" );
 		if ( menu_get_current_item() > 0 )
 		{
-			Static_4 = menu_get_current_item() - 1;
-			if ( catch_button_menu_count > Static_24 )
+			menu_item_highlighted = menu_get_current_item() - 1;
+			if ( catch_button_menu_count > menu_consts_max )
 			{
 				if ( menu_get_current_item() < catch_start_scolling )
 				{
-					if ( menu_get_current_item() > Static_25 - 1 )
+					if ( menu_get_current_item() > menu_start_scrolling - 1 )
 					{
-						Static_20 += Static_22;
-						Static_23--;
+						menu_start_y += menu_spacing;
+						menu_max--;
 					}
 				}
 			}
 		}
-		else if ( menu_get_count() > Static_24 )
+		else if ( menu_get_count() > menu_consts_max )
 		{
-			i = Static_25;
+			i = menu_start_scrolling;
 			while ( i <= menu_get_count() )
 			{
 				if ( i < catch_start_scolling )
 				{
-					Static_20 -= Static_22;
-					Static_23++;
+					menu_start_y -= menu_spacing;
+					menu_max++;
 					i++;
 				}
 			}
-			Static_4 = catch_button_menu_count;
+			menu_item_highlighted = catch_button_menu_count;
 		}
 		else
 		{
-			Static_4 = catch_button_menu_count;
+			menu_item_highlighted = catch_button_menu_count;
 		}
 	}
 	else if ( menu_left_pressed( 1 ) )
 	{
-		if ( ( ( (Static_123[menu_get_current_item()] == 1 || Static_123[menu_get_current_item()] == 7) || Static_123[menu_get_current_item()] == 13) || Static_123[menu_get_current_item()] == 14) )
+		if ( ( ( (menu_items_type[menu_get_current_item()] == 1 || menu_items_type[menu_get_current_item()] == 7) || menu_items_type[menu_get_current_item()] == 13) || menu_items_type[menu_get_current_item()] == 14) )
 		{
-			if ( Static_276[menu_get_current_item()] != Static_327[menu_get_current_item()] )
-			{
-				Static_276[menu_get_current_item()]--;
-			}
-			else
-			{
-				Static_276[menu_get_current_item()] = Static_174[menu_get_current_item()];
-			}
+			//if ( menu_items_num_val[menu_get_current_item()] != menu_items_float_val[menu_get_current_item()] )
+			//{
+				menu_items_num_val[menu_get_current_item()]--;
+			//}
+			//else
+			//{
+			//	menu_items_num_val[menu_get_current_item()] = menu_items_extra_val[menu_get_current_item()];
+			//}
 			menu_play_sound( "NAV_LEFT_RIGHT" );
 		}
 		else
 		{
-			if ( (Static_123[menu_get_current_item()] == 2 || Static_123[menu_get_current_item()] == 12) )
+			if ( (menu_items_type[menu_get_current_item()] == 2 || menu_items_type[menu_get_current_item()] == 12) )
 			{
-				if ( (IntToFloat( Static_327[menu_get_current_item()] ) <= IntToFloat( Static_276[menu_get_current_item()] ) || IntToFloat( Static_327[menu_get_current_item()] ) < 0.0f) )
+				/*if ( (IntToFloat( menu_items_float_val[menu_get_current_item()] ) <= IntToFloat( menu_items_num_val[menu_get_current_item()] ) || IntToFloat( menu_items_float_val[menu_get_current_item()] ) < 0.0f) )
 				{
 					float_change = 0.010f;
 					if ( is_control_pressed( 2, 178 ) )
@@ -763,35 +763,35 @@ void menu_catch_button_press()
 					{
 						float_change = 0.100f;
 					}
-					Static_276[menu_get_current_item()] -= float_change;
+					menu_items_num_val[menu_get_current_item()] -= float_change;
 				}
 				else
 				{
-					Static_276[menu_get_current_item()] = Static_174[menu_get_current_item()];
+					menu_items_num_val[menu_get_current_item()] = menu_items_extra_val[menu_get_current_item()];
 				}
-				menu_play_sound( "NAV_LEFT_RIGHT" );
+				menu_play_sound( "NAV_LEFT_RIGHT" );*/
 			}
 		}
 	}
 	else if ( menu_right_pressed( 1 ) )
 	{
-		if ( ( ( (Static_123[menu_get_current_item()] == 1 || Static_123[menu_get_current_item()] == 7) || Static_123[menu_get_current_item()] == 13) || Static_123[menu_get_current_item()] == 14) )
+		if ( ( ( (menu_items_type[menu_get_current_item()] == 1 || menu_items_type[menu_get_current_item()] == 7) || menu_items_type[menu_get_current_item()] == 13) || menu_items_type[menu_get_current_item()] == 14) )
 		{
-			if ( Static_174[menu_get_current_item()] != Static_276[menu_get_current_item()] )
-			{
-				Static_276[menu_get_current_item()]++;
-			}
-			else
-			{
-				Static_276[menu_get_current_item()] = Static_327[menu_get_current_item()];
-			}
+			//if ( menu_items_extra_val[menu_get_current_item()] != menu_items_num_val[menu_get_current_item()] )
+			//{
+				menu_items_num_val[menu_get_current_item()]++;
+			//}
+			//else
+			//{
+			//	menu_items_num_val[menu_get_current_item()] = menu_items_float_val[menu_get_current_item()];
+			//}
 			menu_play_sound( "NAV_LEFT_RIGHT" );
 		}
 		else
 		{
-			if ( (Static_123[menu_get_current_item()] == 2 || Static_123[menu_get_current_item()] == 12) )
+			if ( (menu_items_type[menu_get_current_item()] == 2 || menu_items_type[menu_get_current_item()] == 12) )
 			{
-				if ( IntToFloat( Static_276[menu_get_current_item()] ) <= IntToFloat( Static_174[menu_get_current_item()] - 0.010f ) )
+				/*if ( IntToFloat( menu_items_num_val[menu_get_current_item()] ) <= IntToFloat( menu_items_extra_val[menu_get_current_item()] - 0.010f ) )
 				{
 					float_change = 0.010f;
 					if ( is_control_pressed( 2, 178 ) )
@@ -802,20 +802,20 @@ void menu_catch_button_press()
 					{
 						float_change = 0.100f;
 					}
-					Static_276[menu_get_current_item()] += float_change;
+					menu_items_num_val[menu_get_current_item()] += float_change;
 				}
 				else
 				{
-					Static_276[menu_get_current_item()] = Static_327[menu_get_current_item()];
+					menu_items_num_val[menu_get_current_item()] = menu_items_float_val[menu_get_current_item()];
 				}
-				menu_play_sound( "NAV_LEFT_RIGHT" );
+				menu_play_sound( "NAV_LEFT_RIGHT" );*/
 			}
 		}
 	}
-	if ( Static_14 )
+	if ( reset_counter )
 	{
-		Static_15 = 2;
-		Static_14 = 0;
+		press_counter = 2;
+		reset_counter = 0;
 	}
 }
 
@@ -825,27 +825,27 @@ void menu_set_last_selected()
 	int set_last_menu_count;
 	if ( menu_get_last_selected( menu_get_current_level() ) <= menu_get_count() )
 	{
-		Static_4 = menu_get_last_selected( menu_get_current_level() );
+		menu_item_highlighted = menu_get_last_selected( menu_get_current_level() );
 	}
 	else
 	{
-		Static_4 = menu_get_count();
+		menu_item_highlighted = menu_get_count();
 	}
-	Static_61[menu_get_current_level()] = 0;
-	if ( menu_get_count() > Static_24 )
+	last_selected[menu_get_current_level()] = 0;
+	if ( menu_get_count() > menu_consts_max )
 	{
-		if ( menu_get_current_item() > Static_25 )
+		if ( menu_get_current_item() > menu_start_scrolling )
 		{
-			i = Static_25 + 1;
-			set_last_menu_count = menu_get_count() - Static_25;
+			i = menu_start_scrolling + 1;
+			set_last_menu_count = menu_get_count() - menu_start_scrolling;
 			while ( i <= menu_get_current_item() )
 			{
 				if ( !( i < set_last_menu_count + 1 ) )
 				{
 					break;
 				}
-				Static_20 -= Static_22;
-				Static_23++;
+				menu_start_y -= menu_spacing;
+				menu_max++;
 				i++;
 			}
 		}
@@ -856,16 +856,16 @@ void menu_catch_select_button_press()
 {
 	if ( is_disabled_control_just_pressed( 2, 174 ) )
 	{
-		if ( Static_17 < 2 )
+		if ( press_counter_timesby < 2 )
 		{
 			menu_play_sound( "SELECT" );
-			if ( Static_225[menu_get_current_item()] != 1 )
+			if ( menu_items_action[menu_get_current_item()] != 1 )
 			{
-				Static_11 = 0;
-				Static_61[menu_get_current_level()] = menu_get_current_item();
-				Static_4 = 0;
+				menu_items_set = 0;
+				last_selected[menu_get_current_level()] = menu_get_current_item();
+				menu_item_highlighted = 0;
 				menu_clean();
-				Static_9 = menu_get_current_level() + 1;
+				menu_level = menu_get_current_level() + 1;
 			}
 			else
 			{
@@ -878,8 +878,8 @@ void menu_catch_select_button_press()
 		if ( menu_get_current_level() != 0 )
 		{
 			menu_play_sound( "BACK" );
-			Static_11 = 0;
-			Static_9 = menu_get_current_level() - 1;
+			menu_items_set = 0;
+			menu_level = menu_get_current_level() - 1;
 			menu_clean();
 		}
 		else
@@ -896,17 +896,18 @@ void menu_catch_select_button_press()
 
 char* menu_add_int_to_string( int int_val, char* string_val )
 {
-	char string_int[16];
+	/*char string_int[16];
 	
 	strcpy( &string_int, "", 16 );
 	strcpy( &string_int, string_val, 16 );
 	sprintf(string_int,"%d", int_val);
-	return menu_return_var( &string_int );
+	return menu_return_var( &string_int );*/
+	return "";
 }
 
 char* menu_add_int_to_string2( int int_val, char* string_val )
 {
-	char string_int[16];
+	/*char string_int[16];
 	
 	strcpy( &string_int, string_val, 16 );
 	if ( int_val < 10 )
@@ -914,7 +915,8 @@ char* menu_add_int_to_string2( int int_val, char* string_val )
 		strcat( &string_int, "0", 16 );
 	}
 	sprintf(string_int,"%d", int_val);
-	return menu_return_var( &string_int );
+	return menu_return_var( &string_int );*/
+	return "";
 }
 
 char* menu_return_var( char* return_this )
@@ -924,20 +926,20 @@ char* menu_return_var( char* return_this )
 
 void menu_play_sound( char* sound_name )
 {
-	if ( Static_435 )
+	if ( menu_sfx )
 	{
 		play_sound_frontend( -1, sound_name, "HUD_FRONTEND_DEFAULT_SOUNDSET" );
 	}
 }
 
-bool menu_keyboard( char* keyboard_title )
+/*bool menu_keyboard( char* keyboard_title )
 {
 	char* keyboard_title1;
 	char* keyboard_title2;
 	char keyboard_current[64];
 
 	menu_set_action_mode( 3 );
-	Switch( menu_get_sub_action_mode() )
+	switch( menu_get_sub_action_mode() )
 	{
 		case 0:
 		keyboard_title1 = keyboard_title;
@@ -947,25 +949,25 @@ bool menu_keyboard( char* keyboard_title )
 			keyboard_title2 = keyboard_title1;
 		}
 		menu_set_sub_action_mode( 1 );
-		if ( Static_29 == 0 )
+		if ( menu_keyboard_custom_length == 0 )
 		{
-			Static_29 = 3;
+			menu_keyboard_custom_length = 3;
 		}
-		if ( Static_123[menu_get_current_item()] == 6 )
+		if ( menu_items_type[menu_get_current_item()] == 6 )
 		{
 			strcpy( &keyboard_current, menu_get_current_keyboard(), 64 );
 			if ( ! (is_string_null_or_empty( &keyboard_current ) ) )
 			{
-				display_onscreen_keyboard( 0, keyboard_title1, keyboard_title2, &keyboard_current, "", "", "", Static_29 + 1 );
+				display_onscreen_keyboard( 0, keyboard_title1, keyboard_title2, &keyboard_current, "", "", "", menu_keyboard_custom_length + 1 );
 				break;
 			}
 		}
-		display_onscreen_keyboard( 0, keyboard_title1, keyboard_title2, "", "", "", "", Static_29 + 1 );
+		display_onscreen_keyboard( 0, keyboard_title1, keyboard_title2, "", "", "", "", menu_keyboard_custom_length + 1 );
 		break;
 		
 		case 1:
-		Static_28 = update_onscreen_keyboard();
-		Switch( Static_28 )
+		menu_keyboard_update = update_onscreen_keyboard();
+		Switch( menu_keyboard_update )
 		{
 			case 0:
 			return 0;
@@ -973,19 +975,19 @@ bool menu_keyboard( char* keyboard_title )
 			case 3:
 			menu_set_action_mode( 0 );
 			menu_set_sub_action_mode( 0 );
-			Static_28 = 0;
+			menu_keyboard_update = 0;
 			return 0;
 			
 			case 2:
 			menu_set_action_mode( 0 );
 			menu_set_sub_action_mode( 0 );
-			Static_28 = 0;
+			menu_keyboard_update = 0;
 			return 0;
 			
 			case 1:
 			menu_set_action_mode( 0 );
 			menu_set_sub_action_mode( 0 );
-			Static_28 = 0;
+			menu_keyboard_update = 0;
 			return 1;
 			
 		}
@@ -993,13 +995,13 @@ bool menu_keyboard( char* keyboard_title )
 		
 	}
 	return 0;
-}
+}*/
 
 void menu_msg( char* string_val )
 {
-	unk_0x574EE85C( "STRING" );
-	unk_0x27A244D8( string_val );
-	unk_0x08F7AF78( 0, 1 );
+	_0x574EE85C( "STRING" );
+	_add_text_component_string( string_val );
+	_0x08F7AF78( 0, 1 );
 }
 
 void menu_error( char* string_val, int menu_level_back )
@@ -1008,9 +1010,9 @@ void menu_error( char* string_val, int menu_level_back )
 	{
 		menu_error_back( menu_level_back );
 	}
-	unk_0x574EE85C( "STRING" );
-	unk_0x27A244D8( string_val );
-	unk_0x08F7AF78( 0, 1 );
+	_0x574EE85C( "STRING" );
+	_add_text_component_string( string_val );
+	_0x08F7AF78( 0, 1 );
 }
 
 void menu_error_gxt( char* gxt, int menu_level_back )
@@ -1019,8 +1021,8 @@ void menu_error_gxt( char* gxt, int menu_level_back )
 	{
 		menu_error_back( menu_level_back );
 	}
-	unk_0x574EE85C( gxt );
-	unk_0x08F7AF78( 0, 1 );
+	_0x574EE85C( gxt );
+	_0x08F7AF78( 0, 1 );
 }
 
 void menu_error_2_strings( char* string_val, char* string_val2, int menu_level_back )
@@ -1029,10 +1031,10 @@ void menu_error_2_strings( char* string_val, char* string_val2, int menu_level_b
 	{
 		menu_error_back( menu_level_back );
 	}
-	unk_0x574EE85C( "TWOSTRINGS" );
-	unk_0x27A244D8( string_val );
-	unk_0x27A244D8( string_val2 );
-	unk_0x08F7AF78( 0, 1 );
+	_0x574EE85C( "TWOSTRINGS" );
+	_add_text_component_string( string_val );
+	_add_text_component_string( string_val2 );
+	_0x08F7AF78( 0, 1 );
 }
 
 void menu_error_2_strings_gxt( char* string_val, char* gxt, int menu_level_back )
@@ -1041,27 +1043,27 @@ void menu_error_2_strings_gxt( char* string_val, char* gxt, int menu_level_back 
 	{
 		menu_error_back( menu_level_back );
 	}
-	unk_0x574EE85C( "TWOSTRINGS" );
-	unk_0x27A244D8( string_val );
-	unk_0xDCE05406( gxt );
-	unk_0x08F7AF78( 0, 1 );
+	_0x574EE85C( "TWOSTRINGS" );
+	_add_text_component_string( string_val );
+	_0xDCE05406( gxt );
+	_0x08F7AF78( 0, 1 );
 }
 
 void menu_error_back( int menu_level_back )
 {
-	Static_11 = 0;
-	Static_45 = 0;
+	menu_items_set = 0;
+	frontend_items_set = 0;
 	menu_clean();
-	Static_9 = menu_get_current_level() - menu_level_back;
-	Static_4 = menu_get_last_selected( menu_get_current_level() );
+	menu_level = menu_get_current_level() - menu_level_back;
+	menu_item_highlighted = menu_get_last_selected( menu_get_current_level() );
 	menu_set();
 	menu_set_frontend();
 }
 
 void menu_frontend_clean()
 {
-	Static_45 = 0;
-	Static_46 = -1;
+	frontend_items_set = 0;
+	frontend_count = -1;
 }
 
 void menu_clean()
@@ -1072,22 +1074,22 @@ void menu_clean()
 	clean_menu_count = menu_get_count() + 1;
 	while ( clean_index < clean_menu_count )
 	{
-		Static_72[clean_index] = "";
-		Static_123[clean_index] = 0;
-		Static_174[clean_index] = 0;
-		Static_225[clean_index] = 0;
-		Static_276[clean_index] = 0;
-		Static_327[clean_index] = 0;
+		menu_items_name[clean_index] = "";
+		menu_items_type[clean_index] = 0;
+		menu_items_extra_val[clean_index] = 0;
+		menu_items_action[clean_index] = 0;
+		menu_items_num_val[clean_index] = 0;
+		menu_items_float_val[clean_index] = 0;
 		clean_index++;
 	}
-	Static_20 = Static_21;
-	Static_23 = Static_24;
-	Static_5 = -1;
+	menu_start_y = menu_consts_start_y;
+	menu_max = menu_consts_max;
+	menu_count = -1;
 	menu_set_action_mode( 0 );
 	menu_set_sub_action_mode( 0 );
-	Static_28 = 0;
-	Static_29 = 0;
-	Static_30 = 0;
+	menu_keyboard_update = 0;
+	menu_keyboard_custom_length = 0;
+	menu_catch_button_id = 0;
 	menu_frontend_clean();
 }
 
@@ -1099,27 +1101,27 @@ void menu_draw_window()
 	uint win_a;
 	uint win_menu_count;
 	float win_size;
-	unk_0x228A2598( 76, 84 );
-	unk_0x76C641E4( -0.05f, -0.05f, 0.0f, 0.0f );
+	_0x228A2598( 76, 84 );
+	_0x76C641E4( -0.05f, -0.05f, 0.0f, 0.0f );
 	win_r = 0;
 	win_g = 0;
 	win_b = 0;
 	win_a = 186;
 	//get_hud_colour( 140, &var_0, &var_1, &var_2, &var_3 );
-	if ( menu_get_count() > Static_24 )
+	if ( menu_get_count() > menu_consts_max )
 	{
-		win_menu_count = Static_24 + 1;
+		win_menu_count = menu_consts_max + 1;
 	}
 	else
 	{
 		win_menu_count = menu_get_count() + 1;
 	}
-	win_size = Static_22 * IntToFloat( win_menu_count );
-	menu_draw_rect( Static_3 - 0.0046875f, 0.084722f, 0.225f, win_size, win_r, win_g, win_b, win_a );
-	menu_draw_rect( Static_3 - 0.0046875f, 0.04999922f, 0.225f, Static_22, 0, 0, 0, 204 );
-	if ( menu_get_count() > Static_24 )
+	win_size = menu_spacing * (float)( win_menu_count );
+	menu_draw_rect( menu_x - 0.0046875f, 0.084722f, 0.225f, win_size, win_r, win_g, win_b, win_a );
+	menu_draw_rect( menu_x - 0.0046875f, 0.04999922f, 0.225f, menu_spacing, 0, 0, 0, 204 );
+	if ( menu_get_count() > menu_consts_max )
 	{
-		menu_draw_rect( Static_3 - 0.0046875f, win_size + Static_22 + 0.04999922f, 0.225f, Static_22, 0, 0, 0, 204 );
+		menu_draw_rect( menu_x - 0.0046875f, win_size + menu_spacing + 0.04999922f, 0.225f, menu_spacing, 0, 0, 0, 204 );
 	}
 }
 
@@ -1132,26 +1134,26 @@ void menu_do_hold_pressed( uint button_id )
 {
 	if ( is_disabled_control_pressed( 2, button_id ) )
 	{
-		Static_18 = button_id;
-		if ( Static_16 > 8 )
+		press_id = button_id;
+		if ( hold_counter > 8 )
 		{
-			Static_17++;
-			Static_16 = 0;
+			press_counter_timesby++;
+			hold_counter = 0;
 		}
-		Static_16++;
-		Static_15++;
-		Static_15 *= Static_17;
+		hold_counter++;
+		press_counter++;
+		press_counter *= press_counter_timesby;
 	}
-	else if ( Static_18 == button_id )
+	else if ( press_id == button_id )
 	{
-		Static_17 = 1;
-		Static_16 = 0;
+		press_counter_timesby = 1;
+		hold_counter = 0;
 	}
 }
 
 bool menu_is_hold_pressed( uint button_id )
 {
-	if ( Static_15 > 5 )
+	if ( press_counter > 5 )
 	{
 		if ( is_disabled_control_pressed( 2, button_id ) )
 		{
@@ -1165,7 +1167,7 @@ bool menu_up_pressed( bool do_hold )
 {
 	if ( (is_disabled_control_just_pressed( 2, 162 ) || menu_is_hold_pressed( 162 )) )
 	{
-		Static_14 = 1;
+		reset_counter = 1;
 		return 1;
 	}
 	if ( do_hold )
@@ -1179,7 +1181,7 @@ bool menu_down_pressed( bool do_hold )
 {
 	if ( (is_disabled_control_just_pressed( 2, 161 ) || menu_is_hold_pressed( 161 )) )
 	{
-		Static_14 = 1;
+		reset_counter = 1;
 		return 1;
 	}
 	if ( do_hold )
@@ -1193,7 +1195,7 @@ bool menu_left_pressed( bool do_hold )
 {
 	if ( (is_disabled_control_just_pressed( 2, 163 ) || menu_is_hold_pressed( 163 )) )
 	{
-		Static_14 = 1;
+		reset_counter = 1;
 		return 1;
 	}
 	if ( do_hold )
@@ -1207,7 +1209,7 @@ bool menu_right_pressed( bool do_hold )
 {
 	if ( (is_disabled_control_just_pressed( 2, 164 ) || menu_is_hold_pressed( 164 )) )
 	{
-		Static_14 = 1;
+		reset_counter = 1;
 		return 1;
 	}
 	if ( do_hold )
@@ -1219,21 +1221,21 @@ bool menu_right_pressed( bool do_hold )
 
 void menu_load_sprite()
 {
-	if ( ! (Static_27 ) )
+	if ( ! (menu_texture_loaded ) )
 	{
 		request_streamed_texture_dict( "CommonMenu", 0 );
 		if ( has_streamed_texture_dict_loaded( "CommonMenu" ) )
 		{
-			Static_27 = 1;
+			menu_texture_loaded = 1;
 		}
 	}
 }
 
 void menu_set_frontend()
 {
-	if ( ! (Static_45 ) )
+	if ( ! (frontend_items_set ) )
 	{
-		Static_45 = 1;
+		frontend_items_set = 1;
 		menu_addItem_frontend( 30, "ITEM_SELECT" );
 		if ( menu_get_current_level() != 0 )
 		{
@@ -1248,59 +1250,58 @@ void menu_set_frontend()
 
 void menu_draw_frontend()
 {
-	int var_0;
 	int var_1;
 	int var_2;
-	if ( has_scaleform_movie_loaded( Static_12 ) )
+	if ( has_scaleform_movie_loaded( instructional_buttons ) )
 	{
-		if ( Static_13 )
+		if ( scaleform_requested )
 		{
-			unk_0x215ABBE8( Static_12, "CLEAR_ALL" );
-			unk_0x02DBF2D7();
-			unk_0x215ABBE8( Static_12, "SET_MAX_WIDTH" );
-			unk_0x9A01FFDA( 100f );
-			unk_0x02DBF2D7();
+			_0x215ABBE8( instructional_buttons, "CLEAR_ALL" );
+			_0x02DBF2D7();
+			_0x215ABBE8( instructional_buttons, "SET_MAX_WIDTH" );
+			_0x9A01FFDA( 100.0f );
+			_0x02DBF2D7();
 			var_1 = 0;
-			var_2 = Static_46 + 1;
+			var_2 = frontend_count + 1;
 			while ( var_1 < var_2 )
 			{
-				unk_0x215ABBE8( Static_12, "SET_DATA_SLOT" );
-				unk_0x716777CB( var_1 );
-				unk_0x716777CB( Static_47[var_1] );
-				if ( does_text_label_exist( Static_54[var_1] ) )
+				_0x215ABBE8( instructional_buttons, "SET_DATA_SLOT" );
+				_0x716777CB( var_1 );
+				_0x716777CB( frontend_items_button[var_1] );
+				if ( does_text_label_exist( frontend_items_name[var_1] ) )
 				{
-					clear_player_has_2_characters_enable( Static_54[var_1] );
+					_0x3AC9CB55( frontend_items_name[var_1] );
 				}
 				else
 				{
-					clear_player_has_2_characters_enable( "STRING" );
-					unk_0x27A244D8( Static_54[var_1] );
+					_0x3AC9CB55( "STRING" );
+					_add_text_component_string( frontend_items_name[var_1] );
 				}
 				add_text_component_integer( -1 );
-				unk_0x386CE0B8();
-				unk_0x02DBF2D7();
+				_0x386CE0B8();
+				_0x02DBF2D7();
 				var_1++;
 			}
 			menu_draw_frontend_hook();
-			unk_0x215ABBE8( Static_12, "SET_BACKGROUND_COLOUR" );
-			unk_0x716777CB( 0 );
-			unk_0x716777CB( 0 );
-			unk_0x716777CB( 0 );
-			unk_0x716777CB( 80 );
-			unk_0x02DBF2D7();
-			unk_0x215ABBE8( Static_12, "DRAW_INSTRUCTIONAL_BUTTONS" );
-			unk_0x716777CB( 0 );
-			unk_0x02DBF2D7();
-			unk_0x228A2598( 76, 66 );
-			unk_0x76C641E4( 0.0f, 0.0f, 0.0f, 0.0f );
-			unk_0x3FE33BD6();
-			unk_0x7B48E696( Static_12, 255, 255, 255, 255 );
+			_0x215ABBE8( instructional_buttons, "SET_BACKGROUND_COLOUR" );
+			_0x716777CB( 0 );
+			_0x716777CB( 0 );
+			_0x716777CB( 0 );
+			_0x716777CB( 80 );
+			_0x02DBF2D7();
+			_0x215ABBE8( instructional_buttons, "DRAW_INSTRUCTIONAL_BUTTONS" );
+			_0x716777CB( 0 );
+			_0x02DBF2D7();
+			_0x228A2598( 76, 66 );
+			_0x76C641E4( 0.0f, 0.0f, 0.0f, 0.0f );
+			_0x3FE33BD6();
+			_0x7B48E696( instructional_buttons, 255, 255, 255, 255 );
 		}
 	}
 	else
 	{
-		Static_12 = request_scaleform_movie( "instructional_buttons" );
-		Static_13 = 1;
+		instructional_buttons = request_scaleform_movie( "instructional_buttons" );
+		scaleform_requested = 1;
 	}
 }
 
@@ -1308,10 +1309,10 @@ void menu_draw_number_add( int item_id, float cur_menu_y )
 {
 	char* string_add;
 
-	string_add = menu_add_int_to_string( Static_276[item_id], Static_72[item_id] );
+	string_add = menu_add_int_to_string( menu_items_num_val[item_id], menu_items_name[item_id] );
 	_set_text_entry( "STRING" );
-	unk_0x27A244D8( string_add );
-	_draw_text( Static_3, cur_menu_y );
+	_add_text_component_string( string_add );
+	_draw_text( menu_x, cur_menu_y );
 	return;
 }
 
@@ -1319,18 +1320,18 @@ void menu_draw_gxt_number_add( int item_id, float cur_menu_y )
 {
 	char* string_add;
 
-	string_add = menu_add_int_to_string( Static_276[item_id], Static_72[item_id] );
+	string_add = menu_add_int_to_string( menu_items_num_val[item_id], menu_items_name[item_id] );
 	_set_text_entry( string_add );
-	_draw_text( Static_3, cur_menu_y );
+	_draw_text( menu_x, cur_menu_y );
 }
 
 void menu_draw_gxt_number2_add( int item_id, float cur_menu_y )
 {
 	char* string_add;
 
-	string_add = menu_add_int_to_string2( Static_276[item_id], Static_72[item_id] );
+	string_add = menu_add_int_to_string2( menu_items_num_val[item_id], menu_items_name[item_id] );
 	_set_text_entry( string_add );
-	_draw_text( Static_3, cur_menu_y );
+	_draw_text( menu_x, cur_menu_y );
 }
 
 void menu_draw()
@@ -1353,7 +1354,7 @@ void menu_draw()
 	uint var_16;
 	uint var_17;
 	uint var_18;
-	uint var_19;
+	//uint var_19;
 	uint var_20;
 	uint var_21;
 	uint var_22;
@@ -1365,18 +1366,18 @@ void menu_draw()
 	int var_31;
 	float var_32;
 	var_1 = 0;
-	var_2 = Static_20;
+	var_2 = menu_start_y;
 	var_3 = var_2;
 	var_4 = 0.05f;
 	var_5 = var_4;
-	var_6 = Static_22;
+	var_6 = menu_spacing;
 	var_7 = menu_get_count() + 1;
-	var_8 = Static_430;
-	var_9 = Static_431;
+	var_8 = custom_bool_string_off;
+	var_9 = custom_bool_string_on;
 	var_10 = 240;
 	var_11 = 240;
 	var_12 = 240;
-	var_19 = 255;
+	//var_19 = 255;
 	//get_hud_colour( 1, &var_10, &var_11, &var_12, &var_19 );
 	var_20 = 1280;
 	var_21 = 720;
@@ -1384,19 +1385,19 @@ void menu_draw()
 	var_13 = 0;
 	var_14 = 0;
 	var_15 = 0;
-	set_up_draw( Static_433, 0.0f, 0.35f, var_10, var_11, var_12, 1.0f, 0, 0 );
-	draw_string( Static_10, Static_3, 0.05416665f );
-	if ( menu_get_count() > Static_24 )
+	set_up_draw( custom_font, 0.0f, 0.35f, var_10, var_11, var_12, 1.0f, 0, 0 );
+	draw_string( menu_header, menu_x, 0.05416665f );
+	if ( menu_get_count() > menu_consts_max )
 	{
-		set_up_draw( Static_433, 0.0f, 0.35f, var_10, var_11, var_12, Static_3 + 0.215625f, 1, 0 );
+		set_up_draw( custom_font, 0.0f, 0.35f, var_10, var_11, var_12, menu_x + 0.215625f, 1, 0 );
 		draw_item_count( menu_get_current_item() + 1, menu_get_count() + 1, 0.0f, 0.05416665f );
 	}
 	while ( var_1 < var_7 )
 	{
 		var_3 += var_6;
-		if ( var_1 <= Static_23 )
+		if ( var_1 <= menu_max )
 		{
-			if ( var_3 > Static_21 + 0.0100f )
+			if ( var_3 > menu_consts_start_y + 0.0100f )
 			{
 				var_16 = var_10;
 				var_17 = var_11;
@@ -1404,79 +1405,79 @@ void menu_draw()
 				var_5 += var_6;
 				if ( menu_get_current_item() == var_1 )
 				{
-					menu_draw_rect( Static_3 - 0.0046875f, var_5, 0.225f, var_6, 240, 240, 240, 255 );
+					menu_draw_rect( menu_x - 0.0046875f, var_5, 0.225f, var_6, 240, 240, 240, 255 );
 					var_16 = var_13;
 					var_17 = var_14;
 					var_18 = var_15;
 				}
-				if ( Static_123[var_1] == 5 )
+				if ( menu_items_type[var_1] == 5 )
 				{
-					set_up_draw( Static_433, 0.0f, 0.35f, var_16, var_17, var_18, 1.0f, 0, 0 );
-					draw_string_gxt( get_display_name_from_vehicle_model( Static_174[var_1] ), Static_3, var_3 );
+					set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, 1.0f, 0, 0 );
+					draw_string_gxt( get_display_name_from_vehicle_model( menu_items_extra_val[var_1] ), menu_x, var_3 );
 				}
-				else if ( Static_123[var_1] == 6 )
+				else if ( menu_items_type[var_1] == 6 )
 				{
-					set_up_draw( Static_433, 0.0f, 0.35f, var_16, var_17, var_18, 1.0f, 0, 0 );
-					draw_string( Static_72[var_1], Static_3, var_3 );
-					set_up_draw( Static_433, 0.0f, 0.35f, var_16, var_17, var_18, Static_3 + 0.203125f, 1, 0 );
-					draw_string( Static_276[var_1], 0.0f, var_3 );
+					/*set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, 1.0f, 0, 0 );
+					draw_string( menu_items_name[var_1], menu_x, var_3 );
+					set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, menu_x + 0.203125f, 1, 0 );
+					draw_string( menu_items_num_val[var_1], 0.0f, var_3 );*/
 				}
-				else if ( Static_123[var_1] == 8 )
+				else if ( menu_items_type[var_1] == 8 )
 				{
-					set_up_draw( Static_433, 0.0f, 0.35f, var_16, var_17, var_18, 1.0f, 0, 0 );
+					set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, 1.0f, 0, 0 );
 					menu_draw_number_add( var_1, var_3 );
 				}
-				else if ( Static_123[var_1] == 9 )
+				else if ( menu_items_type[var_1] == 9 )
 				{
-					set_up_draw( Static_433, 0.0f, 0.35f, var_16, var_17, var_18, 1.0f, 0, 0 );
+					set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, 1.0f, 0, 0 );
 					menu_draw_gxt_number_add( var_1, var_3 );
 				}
-				else if ( Static_123[var_1] == 10 )
+				else if ( menu_items_type[var_1] == 10 )
 				{
-					set_up_draw( Static_433, 0.0f, 0.35f, var_16, var_17, var_18, 1.0f, 0, 0 );
+					set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, 1.0f, 0, 0 );
 					menu_draw_gxt_number2_add( var_1, var_3 );
 				}
-				else if ( Static_123[var_1] == 11 )
+				else if ( menu_items_type[var_1] == 11 )
 				{
-					set_up_draw( Static_433, 0.0f, 0.35f, var_16, var_17, var_18, 1.0f, 0, 0 );
-					draw_number_gxt( Static_72[var_1], Static_276[var_1], Static_3, var_3 );
+					//set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, 1.0f, 0, 0 );
+					//draw_number_gxt( menu_items_name[var_1], menu_items_num_val[var_1], menu_x, var_3 );
 				}
 				else
 				{
-					set_up_draw( Static_433, 0.0f, 0.35f, var_16, var_17, var_18, 1.0f, 0, 0 );
-					draw_string( Static_72[var_1], Static_3, var_3 );
+					set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, 1.0f, 0, 0 );
+					draw_string( menu_items_name[var_1], menu_x, var_3 );
 				}
-				if ( ( ( ( ( (Static_123[var_1] == 1 || Static_123[var_1] == 2) || Static_123[var_1] == 7) || Static_123[var_1] == 12) || Static_123[var_1] == 13) || Static_123[var_1] == 14) )
+				if ( ( ( ( ( (menu_items_type[var_1] == 1 || menu_items_type[var_1] == 2) || menu_items_type[var_1] == 7) || menu_items_type[var_1] == 12) || menu_items_type[var_1] == 13) || menu_items_type[var_1] == 14) )
 				{
-					set_up_draw( Static_433, 0.0f, 0.35f, var_16, var_17, var_18, Static_3 + 0.203125f, 1, 0 );
-					if ( (Static_123[var_1] == 2 || Static_123[var_1] == 12) )
+					set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, menu_x + 0.203125f, 1, 0 );
+					if ( (menu_items_type[var_1] == 2 || menu_items_type[var_1] == 12) )
 					{
-						unk_0x51E7A037( "NUMBER" );
-						add_text_component_float( Static_276[var_1], Static_432 );
-						var_26 = unk_0xD12A643A( 1 ) + 0.00859375f;
-						set_up_draw( Static_433, 0.0f, 0.35f, var_16, var_17, var_18, Static_3 + 0.203125f, 1, 0 );
-						draw_float( Static_276[var_1], 0.0f, var_3 );
+						_0x51E7A037( "NUMBER" );
+						add_text_component_float( menu_items_num_val[var_1], custom_float_dp );
+						var_26 = _0xD12A643A( 1 ) + 0.00859375f;
+						set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, menu_x + 0.203125f, 1, 0 );
+						draw_float( menu_items_num_val[var_1], 0.0f, var_3 );
 					}
 					else
 					{
-						if ( (Static_123[var_1] == 13 || Static_123[var_1] == 14) )
+						if ( (menu_items_type[var_1] == 13 || menu_items_type[var_1] == 14) )
 						{
-							unk_0x51E7A037( "ESDOLLA" );
-							unk_0x12929BDF( Static_276[var_1], 1 );
-							var_26 = unk_0xD12A643A( 1 ) + 0.00859375f;
-							set_up_draw( Static_433, 0.0f, 0.35f, var_16, var_17, var_18, Static_3 + 0.203125f, 1, 0 );
-							draw_number_format( Static_276[var_1], 0.0f, var_3 );
+							_0x51E7A037( "ESDOLLA" );
+							_0x12929BDF( menu_items_num_val[var_1], 1 );
+							var_26 = _0xD12A643A( 1 ) + 0.00859375f;
+							set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, menu_x + 0.203125f, 1, 0 );
+							draw_number_format( menu_items_num_val[var_1], 0.0f, var_3 );
 						}
 						else
 						{
-							unk_0x51E7A037( "NUMBER" );
-							add_text_component_integer( Static_276[var_1] );
-							var_26 = unk_0xD12A643A( 1 ) + 0.00859375f;
-							set_up_draw( Static_433, 0.0f, 0.35f, var_16, var_17, var_18, Static_3 + 0.203125f, 1, 0 );
-							draw_number( Static_276[var_1], 0.0f, var_3 );
+							_0x51E7A037( "NUMBER" );
+							add_text_component_integer( menu_items_num_val[var_1] );
+							var_26 = _0xD12A643A( 1 ) + 0.00859375f;
+							set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, menu_x + 0.203125f, 1, 0 );
+							draw_number( menu_items_num_val[var_1], 0.0f, var_3 );
 						}
 					}
-					if ( Static_27 )
+					if ( menu_texture_loaded )
 					{
 						if ( menu_get_current_item() == var_1 )
 						{
@@ -1486,16 +1487,16 @@ void menu_draw()
 							var_25 = 255;
 							//get_hud_colour( 2, &var_22, &var_23, &var_24, &var_25 );
 							var_27 = get_texture_resolution( "CommonMenu", "arrowleft" );
-							draw_sprite( "CommonMenu", "arrowleft", Static_3 - 0.0046875f - var_26 + 0.425f * 0.5f, var_3 - 0.00277776f + Static_22 * 0.5f, var_27 / IntToFloat( var_20 ), var_27.Imm[1] / IntToFloat( var_21 ), 0.0f, var_22, var_23, var_24, var_25 );
+							draw_sprite( "CommonMenu", "arrowleft", menu_x - 0.0046875f - var_26 + 0.425f * 0.5f, var_3 - 0.00277776f + menu_spacing * 0.5f, var_27.x / (float) var_20, var_27.y / (float) var_21 , 0.0f, var_22, var_23, var_24, var_25 );
 							var_27 = get_texture_resolution( "CommonMenu", "arrowright" );
-							draw_sprite( "CommonMenu", "arrowright", Static_3 - 0.0046875f + 0.425f * 0.5f, var_3 - 0.00277776f + Static_22 * 0.5f, var_27 / IntToFloat( var_20 ), var_27.Imm[1] / IntToFloat( var_21 ), 0.0f, var_22, var_23, var_24, var_25 );
+							draw_sprite( "CommonMenu", "arrowright", menu_x - 0.0046875f + 0.425f * 0.5f, var_3 - 0.00277776f + menu_spacing * 0.5f, var_27.x / (float) var_20 , var_27.y / (float) var_21 , 0.0f, var_22, var_23, var_24, var_25 );
 						}
 					}
 				}
-				else if ( Static_123[var_1] == 3 )
+				else if ( menu_items_type[var_1] == 3 )
 				{
-					set_up_draw( Static_433, 0.0f, 0.35f, var_16, var_17, var_18, Static_3 + 0.203125f, 1, 0 );
-					if ( ! (Static_174[var_1] ) )
+					set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, menu_x + 0.203125f, 1, 0 );
+					if ( ! (menu_items_extra_val[var_1] ) )
 					{
 						draw_string( var_8, 0.0f, var_3 );
 					}
@@ -1508,19 +1509,19 @@ void menu_draw()
 		}
 		var_1++;
 	}
-	if ( Static_27 )
+	if ( menu_texture_loaded )
 	{
-		if ( menu_get_count() > Static_24 )
+		if ( menu_get_count() > menu_consts_max )
 		{
 			var_22 = 240;
 			var_23 = 240;
 			var_24 = 240;
 			var_25 = 255;
 			//get_hud_colour( 1, &var_22, &var_23, &var_24, &var_25 );
-			var_31 = Static_24 + 2;
-			var_32 = Static_22 * IntToFloat( var_31 );
-			var_27 = { get_texture_resolution( "CommonMenu", "shop_arrows_upANDdown" ){3} } {3};
-			draw_sprite( "CommonMenu", "shop_arrows_upANDdown", Static_3 - 0.0046875f + 0.225f * 0.5f, var_32 + 0.04999922f + Static_22 * 0.5f, var_27 / IntToFloat( var_20 ), var_27.Imm[1] / IntToFloat( var_21 ), 0.0f, var_22, var_23, var_24, var_25 );
+			var_31 = menu_consts_max + 2;
+			var_32 = menu_spacing * (float) var_31;
+			var_27 = get_texture_resolution( "CommonMenu", "shop_arrows_upANDdown" );
+			draw_sprite( "CommonMenu", "shop_arrows_upANDdown", menu_x - 0.0046875f + 0.225f * 0.5f, var_32 + 0.04999922f + menu_spacing * 0.5f, var_27.x / (float) var_20, var_27.y / (float) var_21, 0.0f, var_22, var_23, var_24, var_25 );
 		}
 	}
 }
@@ -1543,18 +1544,18 @@ void draw_number( int num_val, float x, float y )
 void draw_number_format( int num_val, float x, float y )
 {
 	_set_text_entry( "ESDOLLA" );
-	unk_0x12929BDF( num_val, 1 );
+	_0x12929BDF( num_val, 1 );
 	_draw_text( x, y );
 }
 
 void draw_float( float float_val,  float x, float y )
 {
 	_set_text_entry( "NUMBER" );
-	add_text_component_float( float_val, Static_432 );
+	add_text_component_float( float_val, custom_float_dp );
 	_draw_text( x, y );
 }
 
-void draw_string( char* string_val, float x, float y )
+void draw_string(char* string_val, float x, float y )
 {
 	if ( does_text_label_exist( string_val ) )
 	{
@@ -1563,21 +1564,21 @@ void draw_string( char* string_val, float x, float y )
 	else
 	{
 		_set_text_entry( "STRING" );
-		unk_0x27A244D8( string_val );
+		_add_text_component_string( string_val );
 	}
 	_draw_text( x, y );
 }
 
-void draw_string_gxt( char* gxt, float x, float y )
+void draw_string_gxt(char* gxt, float x, float y )
 {
 	_set_text_entry( gxt );
 	_draw_text( x, y );
 }
 
-void draw_number_gxt( char* gxt, char* string_val, float x, float y )
+void draw_number_gxt(char* gxt, int num_val, float x, float y )
 {
 	_set_text_entry( gxt );
-	add_text_component_integer( string_val );
+	add_text_component_integer( num_val );
 	_draw_text( x, y );
 }
 

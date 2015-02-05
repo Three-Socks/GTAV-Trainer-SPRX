@@ -161,17 +161,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBF974891, 1, player);
 	}
-	void _0x274631fe(Player player, BOOL p1)
+	void _0x274631FE(Player player, BOOL p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x274631FE, 2, player, p1);
 	}
-	void _0x02df7af4(Any p0)
+	void _0x02DF7AF4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x02DF7AF4, 1, p0);
 	}
-	void _0x9cea7458(Any p0)
+	void _0x9CEA7458(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9CEA7458, 1, p0);
@@ -206,17 +206,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD8EB3A44, 3, p0, p1, p2);
 	}
-	void _0x59b5c2a2(Any p0, Any p1)
+	void _0x59B5C2A2(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x59B5C2A2, 2, p0, p1);
 	}
-	void _0x6b34a160(Any p0)
+	void _0x6B34A160(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6B34A160, 1, p0);
 	}
-	void _0xb9fb142f(Any p0)
+	void _0xB9FB142F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB9FB142F, 1, p0);
@@ -226,22 +226,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x85725848, 1, p0);
 	}
-	void _0x3a7e5fb6(Any p0)
+	void _0x3A7E5FB6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3A7E5FB6, 1, p0);
 	}
-	void _0xd15c4b1c(Any p0)
+	void _0xD15C4B1C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD15C4B1C, 1, p0);
 	}
-	void _0xbf6993c7(Any p0)
+	void _0xBF6993C7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBF6993C7, 1, p0);
 	}
-	void _0x47cab814()
+	void _0x47CAB814()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x47CAB814, 0);
@@ -276,12 +276,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x7D80EEAA, 2, p0, p1);
 	}
-	Any _0x8866d9d0(Any p0, Any p1)
+	Any _0x8866D9D0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8866D9D0, 2, p0, p1);
 	}
-	void _0x74d42c03(Any p0, Any p1)
+	void _0x74D42C03(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x74D42C03, 2, p0, p1);
@@ -326,7 +326,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x62A93608, 2, p0, p1);
 	}
-	Any _0x47017c90(Any p0)
+	Any _0x47017C90(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x47017C90, 1, p0);
@@ -431,7 +431,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Player>(0x8DD5B838, 0);
 	}
-	Any _0x4b37333c(Any p0)
+	Any _0x4B37333C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4B37333C, 1, p0);
@@ -441,17 +441,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFDAAEA2B, 1, p0);
 	}
-	void _0x04256c73(Any p0, Any p1)
+	void _0x04256C73(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x04256C73, 2, p0, p1);
 	}
-	void _0x882d3eb3(Any p0, Any p1)
+	void _0x882D3EB3(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x882D3EB3, 2, p0, p1);
 	}
-	Any _0x39aa9fc8()
+	Any _0x39AA9FC8()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x39AA9FC8, 0);
@@ -461,7 +461,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA454DD29, 2, p0, p1);
 	}
-	void _0xaf7afcc4(Any p0)
+	void _0xAF7AFCC4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAF7AFCC4, 1, p0);
@@ -506,7 +506,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x680C90EE, 1, p);
 	}
-	void _0x00563e0d(Any p0, Any p1)
+	void _0x00563E0D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x00563E0D, 2, p0, p1);
@@ -541,12 +541,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x14F52453, 1, p0);
 	}
-	void _0x7e3bfbc5(Any p0)
+	void _0x7E3BFBC5(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7E3BFBC5, 1, p0);
 	}
-	Any _0xa3707dfc(Any p0)
+	Any _0xA3707DFC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA3707DFC, 1, p0);
@@ -596,7 +596,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB0C576CB, 2, p0, p1);
 	}
-	void _0x374f42f0(Any p0, Any p1)
+	void _0x374F42F0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x374F42F0, 2, p0, p1);
@@ -606,7 +606,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x30CB28CB, 2, p0, p1);
 	}
-	void _0xccd937e7(Any p0, Any p1)
+	void _0xCCD937E7(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCCD937E7, 2, p0, p1);
@@ -621,7 +621,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x80C2AB09, 1, p0);
 	}
-	void _0x0751908a(Any p0)
+	void _0x0751908A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0751908A, 1, p0);
@@ -631,27 +631,27 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA7D8BCD3, 1, p0);
 	}
-	void _0x4136829a(Any p0)
+	void _0x4136829A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4136829A, 1, p0);
 	}
-	void _0x6f463f56(Any p0, Any p1, Any p2)
+	void _0x6F463F56(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6F463F56, 3, p0, p1, p2);
 	}
-	void _0xab55d8f3(Any p0, Any p1, Any p2)
+	void _0xAB55D8F3(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAB55D8F3, 3, p0, p1, p2);
 	}
-	void _0xf440c04d(Any p0, Any p1, Any p2)
+	void _0xF440C04D(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF440C04D, 3, p0, p1, p2);
 	}
-	void _0x5fee98a2(Any p0, Any p1)
+	void _0x5FEE98A2(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5FEE98A2, 2, p0, p1);
@@ -671,7 +671,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB71589DA, 2, p, unkTrue);
 	}
-	void _0x9f80f6df(Any p0, Any p1)
+	void _0x9F80F6DF(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9F80F6DF, 2, p0, p1);
@@ -716,22 +716,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFF1BC556, 1, p0);
 	}
-	void _0x5d0fe25b(Any p0)
+	void _0x5D0FE25B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5D0FE25B, 1, p0);
 	}
-	Any _0x46e7e31d(Any p0)
+	Any _0x46E7E31D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x46E7E31D, 1, p0);
 	}
-	Any _0x1e359cc8(Any p0, Any p1)
+	Any _0x1E359CC8(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1E359CC8, 2, p0, p1);
 	}
-	Any _0x8cb53c9f(Any p0, Any p1)
+	Any _0x8CB53C9F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8CB53C9F, 2, p0, p1);
@@ -766,17 +766,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB02C2F39, 2, p0, p1);
 	}
-	void _0xae446344(Any p0, Any p1)
+	void _0xAE446344(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAE446344, 2, p0, p1);
 	}
-	void _0x362e69ad(Any p0, Any p1)
+	void _0x362E69AD(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x362E69AD, 2, p0, p1);
 	}
-	void _0x9f3d577f(Any p0, Any p1)
+	void _0x9F3D577F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9F3D577F, 2, p0, p1);
@@ -786,7 +786,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x823ECA63, 2, p0, p1);
 	}
-	void _0xa16626c7(Any p0, Any p1)
+	void _0xA16626C7(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA16626C7, 2, p0, p1);
@@ -801,22 +801,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x432B0509, 2, p0, p1);
 	}
-	void _0xd79d5d1b(Any p0, Any p1)
+	void _0xD79D5D1B(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD79D5D1B, 2, p0, p1);
 	}
-	void _0x832deb7a(Any p0, Any p1)
+	void _0x832DEB7A(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x832DEB7A, 2, p0, p1);
 	}
-	void _0x14fe9264(Any p0, Any p1, Any p2, Any p3)
+	void _0x14FE9264(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x14FE9264, 4, p0, p1, p2, p3);
 	}
-	void _0xf66e5cdd(Any p0, Any p1, Any p2, Any p3)
+	void _0xF66E5CDD(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF66E5CDD, 4, p0, p1, p2, p3);
@@ -826,12 +826,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x15786DD1, 2, p0, p1);
 	}
-	void _0x8d2d89c4(Any p0, Any p1)
+	void _0x8D2D89C4(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8D2D89C4, 2, p0, p1);
 	}
-	Any _0x1c70b2eb(Any p0, Any p1)
+	Any _0x1C70B2EB(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1C70B2EB, 2, p0, p1);
@@ -846,27 +846,27 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4A701EE1, 1, p0);
 	}
-	void _0xa97c2059(Any p0, Any p1)
+	void _0xA97C2059(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA97C2059, 2, p0, p1);
 	}
-	void _0xa25d767e(Any p0, Any p1)
+	void _0xA25D767E(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA25D767E, 2, p0, p1);
 	}
-	void _0x3d26105f(Any p0, Any p1)
+	void _0x3D26105F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3D26105F, 2, p0, p1);
 	}
-	Any _0x1d371529(Any p0)
+	Any _0x1D371529(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1D371529, 1, p0);
 	}
-	void _0xe30a64dc(Any p0)
+	void _0xE30A64DC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE30A64DC, 1, p0);
@@ -876,47 +876,47 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF1E0CAFC, 2, p0, p1);
 	}
-	void _0xf7a0f00f(Any p0, Any p1)
+	void _0xF7A0F00F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF7A0F00F, 2, p0, p1);
 	}
-	void _0xb8209f16(Any p0)
+	void _0xB8209F16(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB8209F16, 1, p0);
 	}
-	void _0x8d9fd4d1(Any p0)
+	void _0x8D9FD4D1(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8D9FD4D1, 1, p0);
 	}
-	void _0xecd12e60(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7)
+	void _0xECD12E60(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xECD12E60, 8, p0, p1, p2, p3, p4, p5, p6, p7);
 	}
-	void _0x96100ea4()
+	void _0x96100EA4()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x96100EA4, 0);
 	}
-	Any _0x4a01b76a(Any p0)
+	Any _0x4A01B76A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4A01B76A, 1, p0);
 	}
-	Any _0x013b4f72(Any p0)
+	Any _0x013B4F72(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x013B4F72, 1, p0);
 	}
-	void _0x64ddb07d(Any p0, Any p1, Any p2)
+	void _0x64DDB07D(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x64DDB07D, 3, p0, p1, p2);
 	}
-	void _0xa97c2f6c()
+	void _0xA97C2F6C()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA97C2F6C, 0);
@@ -926,23 +926,23 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x9765E71D, 1, p0);
 	}
-	Any _0xfea40b6c(Any p0)
+	Any _0xFEA40B6C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFEA40B6C, 1, p0);
 	}
-	void _0xad8383fa(Any p0, Any p1)
+	void _0xAD8383FA(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAD8383FA, 2, p0, p1);
 	}
-	void _0x9254249d(Any p0, Any p1, Any p2)
+	void _0x9254249D(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9254249D, 3, p0, p1, p2);
 	}
 	// 0xFD60F5AB -- no params/results data
-	void _0x8c6e611d(Any p0)
+	void _0x8C6E611D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8C6E611D, 1, p0);
@@ -953,7 +953,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x3AC90869, 1, e);
 	}
-	Any _0xacfeb3f9(Any p0, Any p1)
+	Any _0xACFEB3F9(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xACFEB3F9, 2, p0, p1);
@@ -1008,17 +1008,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x662A2F41, 1, p0);
 	}
-	Any _0xc0e3aa47(Any p0)
+	Any _0xC0E3AA47(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC0E3AA47, 1, p0);
 	}
-	Vector3 _0xab415c07(Any p0)
+	Vector3 _0xAB415C07(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0xAB415C07, 1, p0);
 	}
-	void _0x58d9775f(Any p0)
+	void _0x58D9775F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x58D9775F, 1, p0);
@@ -1158,22 +1158,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0xC14C9B6B, 1, p0);
 	}
-	Any _0xbc5a9c58(Any p0)
+	Any _0xBC5A9C58(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBC5A9C58, 1, p0);
 	}
-	Any _0xc46f74ac(Any p0)
+	Any _0xC46F74AC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC46F74AC, 1, p0);
 	}
-	Any _0xc69cf43d(Any p0)
+	Any _0xC69CF43D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC69CF43D, 1, p0);
 	}
-	Vector3 _0x7c6339df(Any p0, Any p1)
+	Vector3 _0x7C6339DF(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0x7C6339DF, 2, p0, p1);
@@ -1278,12 +1278,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x4C3C2508, 1, e);
 	}
-	Any _0x0170f68c(Any p0)
+	Any _0x0170F68C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0170F68C, 1, p0);
 	}
-	void _0x40c84a74(Any p0, Any p1)
+	void _0x40C84A74(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x40C84A74, 2, p0, p1);
@@ -1333,7 +1333,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x46BC5B40, 1, e);
 	}
-	Any _0xea127cbc(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0xEA127CBC(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEA127CBC, 5, p0, p1, p2, p3, p4);
@@ -1343,7 +1343,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x00AB7A4A, 1, p0);
 	}
-	void _0x28924e98(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	void _0x28924E98(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x28924E98, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
@@ -1363,12 +1363,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0547417F, 19, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15, p16, p17, p18);
 	}
-	void _0x6909ba59(Any p0)
+	void _0x6909BA59(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6909BA59, 1, p0);
 	}
-	Any _0xe4ecac22(Any p0, Any p1)
+	Any _0xE4ECAC22(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE4ECAC22, 2, p0, p1);
@@ -1393,7 +1393,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x65C16D57, 2, p0, p1);
 	}
-	void _0xd3850671(Any p0, Any p1)
+	void _0xD3850671(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD3850671, 2, p0, p1);
@@ -1408,12 +1408,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x012760AA, 8, p0, p1, p2, p3, p4, p5, p6, p7);
 	}
-	Any _0xeb4cba74(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
+	Any _0xEB4CBA74(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEB4CBA74, 12, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11);
 	}
-	Any _0x7253d5b2(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	Any _0x7253D5B2(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7253D5B2, 6, p0, p1, p2, p3, p4, p5);
@@ -1428,12 +1428,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE27D2FC1, 3, p0, p1, p2);
 	}
-	Any _0x66571ca0(Any p0, Any p1)
+	Any _0x66571CA0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x66571CA0, 2, p0, p1);
 	}
-	Any _0xc41dda62(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0xC41DDA62(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC41DDA62, 5, p0, p1, p2, p3, p4);
@@ -1538,7 +1538,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC52F295B, 2, p0, p1);
 	}
-	Any _0x851687f9(Any p0)
+	Any _0x851687F9(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x851687F9, 1, p0);
@@ -1613,7 +1613,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8A30761C, 1, p0);
 	}
-	void _0xd8ff798a(Any p0, Any p1)
+	void _0xD8FF798A(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD8FF798A, 2, p0, p1);
@@ -1623,7 +1623,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAAC9317B, 2, p0, p1);
 	}
-	void _0xc47f5b91(Any p0, Any p1)
+	void _0xC47F5B91(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC47F5B91, 2, p0, p1);
@@ -1668,12 +1668,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE90005B8, 2, p0, p1);
 	}
-	void _0x44767b31(Any p0, Any p1)
+	void _0x44767B31(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x44767B31, 2, p0, p1);
 	}
-	void _0xe224a6a5(Any p0, Any p1)
+	void _0xE224A6A5(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE224A6A5, 2, p0, p1);
@@ -1695,7 +1695,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8C8A8D6E, 4, p0, p1, p2, p3);
 	}
-	void _0xfc70eec7(Any p0, Any p1)
+	void _0xFC70EEC7(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFC70EEC7, 2, p0, p1);
@@ -1735,7 +1735,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xBADA0093, 1, p0);
 	}
-	Any _0xcbdb7739(Any p0, Any p1)
+	Any _0xCBDB7739(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCBDB7739, 2, p0, p1);
@@ -1770,7 +1770,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x961458F9, 2, p0, p1);
 	}
-	void _0x290421be(Any p0)
+	void _0x290421BE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x290421BE, 1, p0);
@@ -1845,7 +1845,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x07500C79, 3, ped, veh, unk);
 	}
-	void _0x58a80bd5(Any p0, Any p1)
+	void _0x58A80BD5(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x58A80BD5, 2, p0, p1);
@@ -1870,7 +1870,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x99861609, 0);
 	}
-	Any _0x7018be31()
+	Any _0x7018BE31()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7018BE31, 0);
@@ -1885,7 +1885,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAA7F1131, 2, p0, p1);
 	}
-	void _0x6cd58238(Any p0)
+	void _0x6CD58238(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6CD58238, 1, p0);
@@ -1920,12 +1920,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2909ABF0, 2, m1, m2);
 	}
-	void _0xb48c0c04()
+	void _0xB48C0C04()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB48C0C04, 0);
 	}
-	void _0x25ea2aa5(Any p0, Any p1, Any p2)
+	void _0x25EA2AA5(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x25EA2AA5, 3, p0, p1, p2);
@@ -1940,7 +1940,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6F7043A3, 0);
 	}
-	void _0x8c555add()
+	void _0x8C555ADD()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8C555ADD, 0);
@@ -1975,17 +1975,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEB3C4C7E, 1, p0);
 	}
-	void _0xd41c9aed(Any p0, Any p1)
+	void _0xD41C9AED(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD41C9AED, 2, p0, p1);
 	}
-	void _0x30b98369(Any p0)
+	void _0x30B98369(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x30B98369, 1, p0);
 	}
-	void _0x02a080c8(Any p0)
+	void _0x02A080C8(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x02A080C8, 1, p0);
@@ -1995,7 +1995,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6F6FC7E6, 2, p0, p1);
 	}
-	void _0x1572022a(Any p0, Any p1)
+	void _0x1572022A(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1572022A, 2, p0, p1);
@@ -2100,7 +2100,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6E965420, 0);
 	}
-	void _0x0f9a401f(Any p0)
+	void _0x0F9A401F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0F9A401F, 1, p0);
@@ -2110,7 +2110,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x97886238, 0);
 	}
-	void _0xcc9d7f1a(Any p0, Any p1)
+	void _0xCC9D7F1A(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCC9D7F1A, 2, p0, p1);
@@ -2130,7 +2130,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD050F490, 3, p0, p1, p2);
 	}
-	void _0x7da12905(Any p0, Any p1)
+	void _0x7DA12905(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7DA12905, 2, p0, p1);
@@ -2145,12 +2145,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x84FA790D, 1, p0);
 	}
-	void _0xa819680b(Any p0)
+	void _0xA819680B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA819680B, 1, p0);
 	}
-	Any _0xcd71f11b(Any p0)
+	Any _0xCD71F11B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCD71F11B, 1, p0);
@@ -2175,7 +2175,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x7BC5BF3C, 1, p0);
 	}
-	Any _0xb19215f6(Any p0)
+	Any _0xB19215F6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB19215F6, 1, p0);
@@ -2185,7 +2185,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7D4BC475, 1, p0);
 	}
-	Any _0x01f3b035(Any p0)
+	Any _0x01F3B035(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x01F3B035, 1, p0);
@@ -2220,12 +2220,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xEF3B4ED9, 2, p0, p1);
 	}
-	void _0x9a2180ff(Any p0, Any p1)
+	void _0x9A2180FF(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9A2180FF, 2, p0, p1);
 	}
-	void _0xf30658d2(Any p0, Any p1)
+	void _0xF30658D2(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF30658D2, 2, p0, p1);
@@ -2265,12 +2265,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x39D9102F, 2, p0, p1);
 	}
-	void _0xfdf2f7c2(Any p0, Any p1)
+	void _0xFDF2F7C2(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFDF2F7C2, 2, p0, p1);
 	}
-	void _0xe57202a1(Any p0, Any p1)
+	void _0xE57202A1(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE57202A1, 2, p0, p1);
@@ -2300,7 +2300,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0EE13F92, 2, p0, p1);
 	}
-	void _0xd0d8bdbc(Any p0, Any p1, Any p2)
+	void _0xD0D8BDBC(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD0D8BDBC, 3, p0, p1, p2);
@@ -2320,7 +2320,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x876D5363, 2, p0, p1);
 	}
-	Any _0x9678d4ff(Any p0)
+	Any _0x9678D4FF(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9678D4FF, 1, p0);
@@ -2330,7 +2330,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7B820CD5, 2, p0, p1);
 	}
-	void _0x2f0d0973(Any p0, Any p1)
+	void _0x2F0D0973(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2F0D0973, 2, p0, p1);
@@ -2345,7 +2345,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xFE027CB5, 2, p0, p1);
 	}
-	Any _0xccd525e1(Any p0, Any p1)
+	Any _0xCCD525E1(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCCD525E1, 2, p0, p1);
@@ -2405,17 +2405,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCC78999D, 3, p0, p1, p2);
 	}
-	Any _0xacf162e0(Any p0)
+	Any _0xACF162E0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xACF162E0, 1, p0);
 	}
-	Any _0x99968b37(Any p0)
+	Any _0x99968B37(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x99968B37, 1, p0);
 	}
-	Any _0x84adf9eb(Any p0)
+	Any _0x84ADF9EB(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x84ADF9EB, 1, p0);
@@ -2430,12 +2430,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDF6D5D54, 1, p0);
 	}
-	Any _0xef0b78e6(Any p0)
+	Any _0xEF0B78E6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEF0B78E6, 1, p0);
 	}
-	Any _0xfb18cb19(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0xFB18CB19(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFB18CB19, 5, p0, p1, p2, p3, p4);
@@ -2545,7 +2545,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x836D9795, 1, p0);
 	}
-	Any _0xde7442ee(Any p0)
+	Any _0xDE7442EE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDE7442EE, 1, p0);
@@ -2560,7 +2560,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB1E086FF, 4, p0, p1, p2, p3);
 	}
-	void _0x267fcead(Any p0)
+	void _0x267FCEAD(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x267FCEAD, 1, p0);
@@ -2625,7 +2625,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x082EF240, 2, p0, p1);
 	}
-	void _0x373cc405(Any p0, Any p1)
+	void _0x373CC405(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x373CC405, 2, p0, p1);
@@ -2635,7 +2635,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8A251612, 2, p0, p1);
 	}
-	Any _0xc9d098b3(Any p0)
+	Any _0xC9D098B3(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC9D098B3, 1, p0);
@@ -2660,7 +2660,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA7EC79CE, 2, p0, p1);
 	}
-	void _0x397f06e3(Any p0, Any p1)
+	void _0x397F06E3(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x397F06E3, 2, p0, p1);
@@ -2690,12 +2690,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x23441648, 1, b);
 	}
-	void _0x82e548cc(Any p0)
+	void _0x82E548CC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x82E548CC, 1, p0);
 	}
-	void _0xedc31475(Any p0)
+	void _0xEDC31475(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xEDC31475, 1, p0);
@@ -2740,7 +2740,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9208D689, 2, p0, p1);
 	}
-	void _0x7bf61471(Any p0, Any p1)
+	void _0x7BF61471(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7BF61471, 2, p0, p1);
@@ -2795,12 +2795,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC60C9ACD, 1, p0);
 	}
-	void _0xd4c73595(Any p0, Any p1)
+	void _0xD4C73595(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD4C73595, 2, p0, p1);
 	}
-	void _0xaec9163b(Any p0)
+	void _0xAEC9163B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAEC9163B, 1, p0);
@@ -2815,17 +2815,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3C94D88A, 1, p0);
 	}
-	Any _0x3c30b447(Any p0, Any p1, Any p2)
+	Any _0x3C30B447(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3C30B447, 3, p0, p1, p2);
 	}
-	void _0x895e1d67(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0x895E1D67(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x895E1D67, 5, p0, p1, p2, p3, p4);
 	}
-	void _0x5736fb23(Any p0, Any p1)
+	void _0x5736FB23(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5736FB23, 2, p0, p1);
@@ -2845,12 +2845,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x170DA109, 2, p0, p1);
 	}
-	Vector3 _0xc59d4268(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
+	Vector3 _0xC59D4268(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0xC59D4268, 10, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 	}
-	Vector3 _0x5f7789e6(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
+	Vector3 _0x5F7789E6(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0x5F7789E6, 10, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9);
@@ -2875,7 +2875,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x83D9FBE7, 3, p0, p1, p2);
 	}
-	Any _0xc9780b95(Any p0, Any p1)
+	Any _0xC9780B95(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC9780B95, 2, p0, p1);
@@ -2920,12 +2920,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x837BD370, 5, p0, p1, p2, p3, p4);
 	}
-	void _0xc21c8a56(Any p0)
+	void _0xC21C8A56(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC21C8A56, 1, p0);
 	}
-	void _0x5d2fc042(Any p0, Any p1, Any p2)
+	void _0x5D2FC042(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5D2FC042, 3, p0, p1, p2);
@@ -2946,7 +2946,7 @@
 		l_NativeCall.Invoke<Void>(0xD28DBA90, 4, p0, p1, p2, p3);
 	}
 	// GET_PED_HEAD_OVERLAY -- no params/results data
-	Any _0xff43c18d(Any p0)
+	Any _0xFF43C18D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFF43C18D, 1, p0);
@@ -2956,57 +2956,57 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x2B1BD9C5, 1, p0);
 	}
-	void _0x894314a4(Any p0)
+	void _0x894314A4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x894314A4, 1, p0);
 	}
-	void _0x57e5b3f9(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0x57E5B3F9(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x57E5B3F9, 5, p0, p1, p2, p3, p4);
 	}
-	void _0xc6f36292(Any p0)
+	void _0xC6F36292(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC6F36292, 1, p0);
 	}
-	Any _0x211defec(Any p0)
+	Any _0x211DEFEC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x211DEFEC, 1, p0);
 	}
-	Any _0x095d3bd8(Any p0)
+	Any _0x095D3BD8(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x095D3BD8, 1, p0);
 	}
-	void _0x45f3bdfb(Any p0, Any p1, Any p2, Any p3)
+	void _0x45F3BDFB(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x45F3BDFB, 4, p0, p1, p2, p3);
 	}
-	Any _0xc6517d52(Any p0)
+	Any _0xC6517D52(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC6517D52, 1, p0);
 	}
-	void _0x6435f67f(Any p0)
+	void _0x6435F67F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6435F67F, 1, p0);
 	}
-	void _0xc0e23671(Any p0, Any p1, Any p2, Any p3)
+	void _0xC0E23671(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC0E23671, 4, p0, p1, p2, p3);
 	}
-	Any _0x3b0ca391(Any p0)
+	Any _0x3B0CA391(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3B0CA391, 1, p0);
 	}
-	void _0xfd103ba7(Any p0)
+	void _0xFD103BA7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFD103BA7, 1, p0);
@@ -3041,12 +3041,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x922A6653, 2, p0, p1);
 	}
-	void _0x7bcd8991(Any p0)
+	void _0x7BCD8991(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7BCD8991, 1, p0);
 	}
-	void _0x080275ee(Any p0)
+	void _0x080275EE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x080275EE, 1, p0);
@@ -3086,12 +3086,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x85615FD0, 1, p0);
 	}
-	Any _0x18dd76a1(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	Any _0x18DD76A1(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x18DD76A1, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	void _0x6d55b3b3(Any p0, Any p1)
+	void _0x6D55B3B3(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6D55B3B3, 2, p0, p1);
@@ -3161,12 +3161,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x97353375, 1, p0);
 	}
-	void _0x9c8f830d(Any p0, Any p1)
+	void _0x9C8F830D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9C8F830D, 2, p0, p1);
 	}
-	void _0x77cba290(Any p0, Any p1)
+	void _0x77CBA290(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x77CBA290, 2, p0, p1);
@@ -3181,12 +3181,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBD96D8E8, 7, p0, p1, p2, p3, p4, p5, p6);
 	}
-	void _0x40638bdc(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
+	void _0x40638BDC(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x40638BDC, 7, p0, p1, p2, p3, p4, p5, p6);
 	}
-	void _0x4763b2c6(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
+	void _0x4763B2C6(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4763B2C6, 7, p0, p1, p2, p3, p4, p5, p6);
@@ -3206,12 +3206,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0xCB65198D, 2, p0, p1);
 	}
-	void _0xf3b7efbf(Any p0, Any p1)
+	void _0xF3B7EFBF(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF3B7EFBF, 2, p0, p1);
 	}
-	void _0xa0134498(Any p0)
+	void _0xA0134498(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA0134498, 1, p0);
@@ -3246,7 +3246,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4CAD1A4A, 2, p0, p1);
 	}
-	void _0x141cc936(Any p0, Any p1)
+	void _0x141CC936(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x141CC936, 2, p0, p1);
@@ -3256,7 +3256,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC4BC4841, 1, p0);
 	}
-	void _0x1e54db12(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0x1E54DB12(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1E54DB12, 5, p0, p1, p2, p3, p4);
@@ -3266,12 +3266,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x376CE3C0, 6, p0, p1, p2, p3, p4, p5);
 	}
-	void _0x8f3f3a9c(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0x8F3F3A9C(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8F3F3A9C, 5, p0, p1, p2, p3, p4);
 	}
-	void _0xfc13ce80(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	void _0xFC13CE80(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFC13CE80, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
@@ -3291,17 +3291,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF7ADC960, 1, p0);
 	}
-	void _0xf210be69(Any p0, Any p1)
+	void _0xF210BE69(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF210BE69, 2, p0, p1);
 	}
-	void _0x0cb6c4ed(Any p0, Any p1, Any p2)
+	void _0x0CB6C4ED(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0CB6C4ED, 3, p0, p1, p2);
 	}
-	void _0x70aa5b7d(Any p0, Any p1, Any p2)
+	void _0x70AA5B7D(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x70AA5B7D, 3, p0, p1, p2);
@@ -3321,7 +3321,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBDE749F7, 1, p0);
 	}
-	void _0xa993915f(Any p0)
+	void _0xA993915F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA993915F, 1, p0);
@@ -3331,12 +3331,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x76A1DB9F, 2, p0, p1);
 	}
-	void _0x70559ac7(Any p0, Any p1, Any p2)
+	void _0x70559AC7(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x70559AC7, 3, p0, p1, p2);
 	}
-	Any _0x3543019e(Any p0, Any p1)
+	Any _0x3543019E(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3543019E, 2, p0, p1);
@@ -3346,7 +3346,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD4496BF3, 1, p0);
 	}
-	void _0xefd58eb9(Any p0)
+	void _0xEFD58EB9(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xEFD58EB9, 1, p0);
@@ -3401,42 +3401,42 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x195EF5B7, 1, p0);
 	}
-	Any _0x59de73ac(Any p0, Any p1, Any p2, Any p3)
+	Any _0x59DE73AC(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x59DE73AC, 4, p0, p1, p2, p3);
 	}
-	void _0xc08fe5f6(Any p0, Any p1)
+	void _0xC08FE5F6(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC08FE5F6, 2, p0, p1);
 	}
-	Any _0x58c0f6cf(Any p0, Any p1, Any p2, Any p3)
+	Any _0x58C0F6CF(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x58C0F6CF, 4, p0, p1, p2, p3);
 	}
-	Any _0x761f8f48(Any p0, Any p1)
+	Any _0x761F8F48(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x761F8F48, 2, p0, p1);
 	}
-	void _0x033f43fa(Any p0)
+	void _0x033F43FA(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x033F43FA, 1, p0);
 	}
-	void _0x4c684c81(Any p0)
+	void _0x4C684C81(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4C684C81, 1, p0);
 	}
-	Any _0x7b4c3e6f(Any p0, Any p1, Any p2, Any p3)
+	Any _0x7B4C3E6F(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7B4C3E6F, 4, p0, p1, p2, p3);
 	}
-	void _0x5bc276ae(Any p0, Any p1)
+	void _0x5BC276AE(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5BC276AE, 2, p0, p1);
@@ -3466,7 +3466,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA2FDAF27, 3, p0, p1, p2);
 	}
-	void _0xadb2511a(Any p0, Any p1)
+	void _0xADB2511A(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xADB2511A, 2, p0, p1);
@@ -3481,12 +3481,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5720A5DD, 2, p0, p1);
 	}
-	void _0xb7cd0a49(Any p0)
+	void _0xB7CD0A49(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB7CD0A49, 1, p0);
 	}
-	void _0x343b4de0(Any p0, Any p1)
+	void _0x343B4DE0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x343B4DE0, 2, p0, p1);
@@ -3501,17 +3501,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9955BC6F, 2, p0, p1);
 	}
-	void _0x8e5d4eab(Any p0, Any p1)
+	void _0x8E5D4EAB(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8E5D4EAB, 2, p0, p1);
 	}
-	void _0x7b0040a8(Any p0, Any p1)
+	void _0x7B0040A8(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7B0040A8, 2, p0, p1);
 	}
-	void _0x0fda62de(Any p0, Any p1)
+	void _0x0FDA62DE(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0FDA62DE, 2, p0, p1);
@@ -3536,12 +3536,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6DEF6F1C, 2, p0, p1);
 	}
-	void _0xfc942d7c(Any p0, Any p1)
+	void _0xFC942D7C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFC942D7C, 2, p0, p1);
 	}
-	void _0x89eee07b(Any p0, Any p1)
+	void _0x89EEE07B(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x89EEE07B, 2, p0, p1);
@@ -3606,7 +3606,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE9B97A2B, 2, p0, p1);
 	}
-	void _0xff1f6aeb(Any p0, Any p1)
+	void _0xFF1F6AEB(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFF1F6AEB, 2, p0, p1);
@@ -3651,22 +3651,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x0D680D49, 1, p0);
 	}
-	void _0x24a1284e(Any p0)
+	void _0x24A1284E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x24A1284E, 1, p0);
 	}
-	Any _0x8a3a3116(Any p0)
+	Any _0x8A3A3116(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8A3A3116, 1, p0);
 	}
-	Any _0x74eb662d(Any p0)
+	Any _0x74EB662D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x74EB662D, 1, p0);
 	}
-	Any _0xfff149fe(Any p0)
+	Any _0xFFF149FE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFFF149FE, 1, p0);
@@ -3711,7 +3711,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFE2554FC, 2, p0, p1);
 	}
-	void _0x77bb7cb8(Any p0, Any p1)
+	void _0x77BB7CB8(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x77BB7CB8, 2, p0, p1);
@@ -3761,7 +3761,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCFA613FF, 2, p0, p1);
 	}
-	Any _0x139c0875(Any p0)
+	Any _0x139C0875(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x139C0875, 1, p0);
@@ -3771,7 +3771,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x9ADD7B21, 1, p0);
 	}
-	Any _0x9be7c860(Any p0)
+	Any _0x9BE7C860(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9BE7C860, 1, p0);
@@ -3781,7 +3781,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xD044C8AF, 1, p0);
 	}
-	Any _0xafec26a4(Any p0)
+	Any _0xAFEC26A4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xAFEC26A4, 1, p0);
@@ -3796,7 +3796,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xBDD3CE69, 1, p0);
 	}
-	Any _0x3993092b(Any p0)
+	Any _0x3993092B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3993092B, 1, p0);
@@ -3811,7 +3811,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x16F30DF4, 2, p0, p1);
 	}
-	void _0xa6f2c057(Any p0, Any p1)
+	void _0xA6F2C057(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA6F2C057, 2, p0, p1);
@@ -3831,22 +3831,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x533C0651, 2, p0, p1);
 	}
-	void _0x2276de0d(Any p0, Any p1)
+	void _0x2276DE0D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2276DE0D, 2, p0, p1);
 	}
-	void _0x59c52be6(Any p0)
+	void _0x59C52BE6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x59C52BE6, 1, p0);
 	}
-	void _0x1d87ddc1(Any p0, Any p1)
+	void _0x1D87DDC1(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1D87DDC1, 2, p0, p1);
 	}
-	void _0xb52ba5f5(Any p0)
+	void _0xB52BA5F5(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB52BA5F5, 1, p0);
@@ -3856,17 +3856,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xFBD9B050, 4, p0, p1, p2, p3);
 	}
-	void _0x187b9070(Any p0, Any p1, Any p2)
+	void _0x187B9070(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x187B9070, 3, p0, p1, p2);
 	}
-	Any _0x45037b9b(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0x45037B9B(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x45037B9B, 5, p0, p1, p2, p3, p4);
 	}
-	void _0x840d24d3(Any p0)
+	void _0x840D24D3(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x840D24D3, 1, p0);
@@ -3876,7 +3876,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x31C31DAA, 2, p0, p1);
 	}
-	void _0x9194db71(Any p0, Any p1)
+	void _0x9194DB71(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9194DB71, 2, p0, p1);
@@ -3886,7 +3886,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x33248CC1, 1, p0);
 	}
-	Any _0x5b1b70aa(Any p0)
+	Any _0x5B1B70AA(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5B1B70AA, 1, p0);
@@ -3901,7 +3901,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xECD73DB0, 2, p0, p1);
 	}
-	Any _0x74a0f291(Any p0, Any p1)
+	Any _0x74A0F291(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x74A0F291, 2, p0, p1);
@@ -3931,22 +3931,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC70F4A84, 2, p0, p1);
 	}
-	void _0x3b882533(Any p0, Any p1)
+	void _0x3B882533(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3B882533, 2, p0, p1);
 	}
-	void _0x87a0c174(Any p0, Any p1, Any p2, Any p3)
+	void _0x87A0C174(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x87A0C174, 4, p0, p1, p2, p3);
 	}
-	void _0x7bd26837(Any p0, Any p1)
+	void _0x7BD26837(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7BD26837, 2, p0, p1);
 	}
-	void _0x98e29ed0(Any p0, Any p1)
+	void _0x98E29ED0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x98E29ED0, 2, p0, p1);
@@ -3956,7 +3956,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFFDDF8FA, 7, p0, p1, p2, p3, p4, p5, p6);
 	}
-	Any _0xf3876894(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0xF3876894(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF3876894, 5, p0, p1, p2, p3, p4);
@@ -4001,12 +4001,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x47D87A84, 1, p0);
 	}
-	void _0x2de48da1(Any p0, Any p1)
+	void _0x2DE48DA1(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2DE48DA1, 2, p0, p1);
 	}
-	Any _0x72cf2514(Any p0)
+	Any _0x72CF2514(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x72CF2514, 1, p0);
@@ -4021,7 +4021,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x52A1CAB2, 1, p0);
 	}
-	void _0xbf7f9035(Any p0)
+	void _0xBF7F9035(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBF7F9035, 1, p0);
@@ -4061,7 +4061,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4D3325F4, 3, p0, p1, p2);
 	}
-	Any _0xf9fb4b71(Any p0)
+	Any _0xF9FB4B71(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF9FB4B71, 1, p0);
@@ -4071,7 +4071,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x5AE7EDA2, 1, p0);
 	}
-	void set_ped_using_action_mode(Any p0, Any p1, Any p2, Any p3)
+	void set_ped_using_action_mode(Any p0, Any p1, int p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8802F696, 4, p0, p1, p2, p3);
@@ -4086,7 +4086,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFFE2667B, 1, p0);
 	}
-	Any _0x4dd03628(Any p0)
+	Any _0x4DD03628(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4DD03628, 1, p0);
@@ -4121,82 +4121,82 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF48A9155, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	Any _0x10f2c023(Any p0)
+	Any _0x10F2C023(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x10F2C023, 1, p0);
 	}
-	void _0x0dbb2fa7(Any p0)
+	void _0x0DBB2FA7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0DBB2FA7, 1, p0);
 	}
-	Any _0x810158f8()
+	Any _0x810158F8()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x810158F8, 0);
 	}
-	Any _0x05023f8f()
+	Any _0x05023F8F()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x05023F8F, 0);
 	}
-	Any _0xaa39fd6c()
+	Any _0xAA39FD6C()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xAA39FD6C, 0);
 	}
-	void _0xef9142db(Any p0, Any p1)
+	void _0xEF9142DB(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xEF9142DB, 2, p0, p1);
 	}
-	void _0x0688de64(Any p0)
+	void _0x0688DE64(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0688DE64, 1, p0);
 	}
-	void _0x909a1d76(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7)
+	void _0x909A1D76(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x909A1D76, 8, p0, p1, p2, p3, p4, p5, p6, p7);
 	}
-	void _0x4aad0ecb(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
+	void _0x4AAD0ECB(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4AAD0ECB, 10, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 	}
-	void _0x492c9e46()
+	void _0x492C9E46()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x492C9E46, 0);
 	}
-	Any _0x814a28f4()
+	Any _0x814A28F4()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x814A28F4, 0);
 	}
-	Any _0x0b60d2ba()
+	Any _0x0B60D2BA()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0B60D2BA, 0);
 	}
-	Any _0x6b83abdf()
+	Any _0x6B83ABDF()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6B83ABDF, 0);
 	}
-	Any _0xf46b4dc8()
+	Any _0xF46B4DC8()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF46B4DC8, 0);
 	}
-	void _0x36a4ac65(Any p0, Any p1, Any p2, Any p3)
+	void _0x36A4AC65(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x36A4AC65, 4, p0, p1, p2, p3);
 	}
-	void _0xba699ddf(Any p0, Any p1)
+	void _0xBA699DDF(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBA699DDF, 2, p0, p1);
@@ -4206,7 +4206,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6FE5218C, 10, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 	}
-	void _0xfb4000dc(Any p0)
+	void _0xFB4000DC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFB4000DC, 1, p0);
@@ -4246,32 +4246,32 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1D2B5C70, 2, p0, p1);
 	}
-	void _0x2f9550c2(Any p0, Any p1, Any p2)
+	void _0x2F9550C2(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2F9550C2, 3, p0, p1, p2);
 	}
-	void _0x37dbc2ad(Any p0, Any p1)
+	void _0x37DBC2AD(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x37DBC2AD, 2, p0, p1);
 	}
-	void _0xc0f1bc91(Any p0, Any p1, Any p2, Any p3)
+	void _0xC0F1BC91(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC0F1BC91, 4, p0, p1, p2, p3);
 	}
-	Any _0x1a464167(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0x1A464167(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1A464167, 5, p0, p1, p2, p3, p4);
 	}
-	Any _0xd0567d41(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	Any _0xD0567D41(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD0567D41, 6, p0, p1, p2, p3, p4, p5);
 	}
-	void _0x4bbe5e2c(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0x4BBE5E2C(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4BBE5E2C, 5, p0, p1, p2, p3, p4);
@@ -4288,12 +4288,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9803AF60, 1, v);
 	}
-	void _0x8baac437(Any p0, Any p1)
+	void _0x8BAAC437(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8BAAC437, 2, p0, p1);
 	}
-	Any _0xfbde9fd8(Any p0)
+	Any _0xFBDE9FD8(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFBDE9FD8, 1, p0);
@@ -4338,12 +4338,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x87F767F2, 1, p0);
 	}
-	void _0x935a95da(Any p0, Any p1, Any p2, Any p3)
+	void _0x935A95DA(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x935A95DA, 4, p0, p1, p2, p3);
 	}
-	void _0x6c73e45a()
+	void _0x6C73E45A()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6C73E45A, 0);
@@ -4388,12 +4388,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0A2FC08C, 1, p0);
 	}
-	Any _0x838f7bf7(Any p0)
+	Any _0x838F7BF7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x838F7BF7, 1, p0);
 	}
-	Any _0x769e5cf2(Any p0, Any p1)
+	Any _0x769E5CF2(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x769E5CF2, 2, p0, p1);
@@ -4418,7 +4418,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x09462665, 1, p0);
 	}
-	void _0xdae2a2be(Any p0)
+	void _0xDAE2A2BE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDAE2A2BE, 1, p0);
@@ -4463,7 +4463,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x891BA8A4, 2, p0, p1);
 	}
-	void _0xe4ef6514(Any p0, Any p1)
+	void _0xE4EF6514(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE4EF6514, 2, p0, p1);
@@ -4488,12 +4488,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDB8CB8E2, 3, p0, p1, p2);
 	}
-	void _0x811373de(Any p0)
+	void _0x811373DE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x811373DE, 1, p0);
 	}
-	Any _0xa4e69134()
+	Any _0xA4E69134()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA4E69134, 0);
@@ -4548,7 +4548,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x51E1E33D, 1, veh);
 	}
-	Any _0xd7ec8760(Any p0)
+	Any _0xD7EC8760(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD7EC8760, 1, p0);
@@ -4568,7 +4568,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7CE00B29, 1, veh);
 	}
-	Any _0x288ad228(Any p0)
+	Any _0x288AD228(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x288AD228, 1, p0);
@@ -4578,12 +4578,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x37677590, 2, p0, p1);
 	}
-	void _0x54e9ee75(Any p0, Any p1)
+	void _0x54E9EE75(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x54E9EE75, 2, p0, p1);
 	}
-	void _0x4a46e814(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0x4A46E814(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4A46E814, 5, p0, p1, p2, p3, p4);
@@ -4593,17 +4593,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA3906284, 2, p0, p1);
 	}
-	void _0x0ed84792(Any p0, Any p1)
+	void _0x0ED84792(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0ED84792, 2, p0, p1);
 	}
-	void _0xa739012a(Any p0, Any p1)
+	void _0xA739012A(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA739012A, 2, p0, p1);
 	}
-	void _0x66fa450c(Any p0, Any p1)
+	void _0x66FA450C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x66FA450C, 2, p0, p1);
@@ -4648,7 +4648,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x388FDE9A, 2, p0, p1);
 	}
-	Any _0xf7c6792d(Any p0, Any p1)
+	Any _0xF7C6792D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF7C6792D, 2, p0, p1);
@@ -4668,12 +4668,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x69880D14, 2, veh, speed);
 	}
-	void _0xcbc7d3c8(Any p0, Any p1, Any p2, Any p3)
+	void _0xCBC7D3C8(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCBC7D3C8, 4, p0, p1, p2, p3);
 	}
-	void _0x943a6cfc(Any p0, Any p1)
+	void _0x943A6CFC(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x943A6CFC, 2, p0, p1);
@@ -4683,47 +4683,47 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7FB25568, 2, p0, p1);
 	}
-	Any _0x593143b9(Any p0)
+	Any _0x593143B9(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x593143B9, 1, p0);
 	}
-	Any _0x70dd5e25(Any p0)
+	Any _0x70DD5E25(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x70DD5E25, 1, p0);
 	}
-	Any _0xfbf5536a(Any p0, Any p1)
+	Any _0xFBF5536A(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFBF5536A, 2, p0, p1);
 	}
-	void _0x20ab5783(Any p0, Any p1)
+	void _0x20AB5783(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x20AB5783, 2, p0, p1);
 	}
-	void _0x0f11d01f(Any p0)
+	void _0x0F11D01F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0F11D01F, 1, p0);
 	}
-	void _0xae040377(Any p0, Any p1)
+	void _0xAE040377(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAE040377, 2, p0, p1);
 	}
-	void _0x4c0e4031(Any p0, Any p1)
+	void _0x4C0E4031(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4C0E4031, 2, p0, p1);
 	}
-	Any _0x6346b7cc(Any p0)
+	Any _0x6346B7CC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6346B7CC, 1, p0);
 	}
-	void _0xccb41a55(Any p0, Any p1)
+	void _0xCCB41A55(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCCB41A55, 2, p0, p1);
@@ -4788,12 +4788,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6B8E990D, 2, p0, p1);
 	}
-	void _0xcc95c96b(Any p0)
+	void _0xCC95C96B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCC95C96B, 1, p0);
 	}
-	void _0xfda7b6ca(Any p0, Any p1, Any p2, Any p3)
+	void _0xFDA7B6CA(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFDA7B6CA, 4, p0, p1, p2, p3);
@@ -4803,7 +4803,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE8930226, 2, p0, p1);
 	}
-	void _0x4221e435(Any p0, Any p1)
+	void _0x4221E435(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4221E435, 2, p0, p1);
@@ -4838,12 +4838,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2133977F, 3, p0, p1, p2);
 	}
-	void _0x12ac1a16(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
+	void _0x12AC1A16(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x12AC1A16, 12, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11);
 	}
-	void _0x40c4763f(Any p0, Any p1, Any p2)
+	void _0x40C4763F(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x40C4763F, 3, p0, p1, p2);
@@ -4858,12 +4858,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xE142BBCC, 1, p0);
 	}
-	void _0xe74e85ce(Any p0, Any p1)
+	void _0xE74E85CE(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE74E85CE, 2, p0, p1);
 	}
-	void _0x06c47a6f(Any p0)
+	void _0x06C47A6F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x06C47A6F, 1, p0);
@@ -4913,7 +4913,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x68BFDD61, 2, p0, p1);
 	}
-	void _0xd5774fb7(Any p0, Any p1)
+	void _0xD5774FB7(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD5774FB7, 2, p0, p1);
@@ -4968,7 +4968,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD3C05B00, 2, p0, p1);
 	}
-	Vector3 _0xf31973bb(Any p0, Any p1)
+	Vector3 _0xF31973BB(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0xF31973BB, 2, p0, p1);
@@ -4978,7 +4978,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0x7178558D, 3, p0, p1, p2);
 	}
-	Vector3 _0x4d1c15c2(Any p0, Any p1)
+	Vector3 _0x4D1C15C2(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0x4D1C15C2, 2, p0, p1);
@@ -5018,7 +5018,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4E721AD2, 6, p0, p1, p2, p3, p4, p5);
 	}
-	void _0x01b91cd0(Any p0, Any p1)
+	void _0x01B91CD0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x01B91CD0, 2, p0, p1);
@@ -5083,22 +5083,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0C8ABAA4, 4, p0, p1, p2, p3);
 	}
-	void _0x943a58eb(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0x943A58EB(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x943A58EB, 5, p0, p1, p2, p3, p4);
 	}
-	void _0x5c9f477c(Any p0, Any p1, Any p2, Any p3)
+	void _0x5C9F477C(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5C9F477C, 4, p0, p1, p2, p3);
 	}
-	void _0xcd83c393(Any p0, Any p1, Any p2, Any p3)
+	void _0xCD83C393(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCD83C393, 4, p0, p1, p2, p3);
 	}
-	void _0x2ef8435c(Any p0, Any p1)
+	void _0x2EF8435C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2EF8435C, 2, p0, p1);
@@ -5208,7 +5208,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5C7D4EA9, 2, p0, p1);
 	}
-	void _0x1128a45b(Any p0, Any p1, Any p2)
+	void _0x1128A45B(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1128A45B, 3, p0, p1, p2);
@@ -5218,7 +5218,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x64B70B1D, 2, p0, p1);
 	}
-	void _0x486c1280(Any p0, Any p1)
+	void _0x486C1280(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x486C1280, 2, p0, p1);
@@ -5228,12 +5228,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC5D94017, 2, veh, b);
 	}
-	void _0x009ab49e(Any p0, Any p1)
+	void _0x009AB49E(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x009AB49E, 2, p0, p1);
 	}
-	void _0x758c5e2e(Any p0, Any p1)
+	void _0x758C5E2E(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x758C5E2E, 2, p0, p1);
@@ -5248,7 +5248,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2B39128B, 2, p0, p1);
 	}
-	Any _0xdac523bc(Any p0)
+	Any _0xDAC523BC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDAC523BC, 1, p0);
@@ -5338,22 +5338,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x14413319, 2, p0, p1);
 	}
-	void _0xa6d8d7a5(Any p0, Any p1)
+	void _0xA6D8D7A5(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA6D8D7A5, 2, p0, p1);
 	}
-	void _0xacab8ff3(Any p0, Any p1)
+	void _0xACAB8FF3(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xACAB8FF3, 2, p0, p1);
 	}
-	void _0xf0e5c41d(Any p0, Any p1)
+	void _0xF0E5C41D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF0E5C41D, 2, p0, p1);
 	}
-	void _0x2f98b4b7(Any p0, Any p1)
+	void _0x2F98B4B7(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2F98B4B7, 2, p0, p1);
@@ -5373,12 +5373,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x4999E3C3, 2, p0, p1);
 	}
-	void _0x065b92b3(Any p0, Any p1, Any p2)
+	void _0x065B92B3(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x065B92B3, 3, p0, p1, p2);
 	}
-	Any _0xb3a2cc4f(Any p0, Any p1)
+	Any _0xB3A2CC4F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB3A2CC4F, 2, p0, p1);
@@ -5438,42 +5438,42 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDD2920C8, 1, veh);
 	}
-	void _0x88f0f7e7(Any p0, Any p1)
+	void _0x88F0F7E7(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x88F0F7E7, 2, p0, p1);
 	}
-	void _0x90d6ee57(Any p0, Any p1)
+	void _0x90D6EE57(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x90D6EE57, 2, p0, p1);
 	}
-	void _0xc40192b5(Any p0, Any p1)
+	void _0xC40192B5(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC40192B5, 2, p0, p1);
 	}
-	void _0xad3e05f2(Any p0, Any p1)
+	void _0xAD3E05F2(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAD3E05F2, 2, p0, p1);
 	}
-	void _0x1784ba1a(Any p0, Any p1)
+	void _0x1784BA1A(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1784BA1A, 2, p0, p1);
 	}
-	void _0x40c323ae(Any p0, Any p1)
+	void _0x40C323AE(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x40C323AE, 2, p0, p1);
 	}
-	void _0x847f1304(Any p0, Any p1)
+	void _0x847F1304(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x847F1304, 2, p0, p1);
 	}
-	void _0xcbd98ba1(Any p0, Any p1)
+	void _0xCBD98BA1(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCBD98BA1, 2, p0, p1);
@@ -5588,7 +5588,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0DF5ADB3, 4, p0, p1, p2, p3);
 	}
-	void _0x968e5770(Any p0, Any p1)
+	void _0x968E5770(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x968E5770, 2, p0, p1);
@@ -5598,10 +5598,10 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0D1CBC65, 2, p0, p1);
 	}
-	Any get_display_name_from_vehicle_model(Any p0)
+	string get_display_name_from_vehicle_model(Hash p0)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<Any>(0xEC86DF39, 1, p0);
+		return l_NativeCall.Invoke<string>(0xEC86DF39, 1, p0);
 	}
 	Vector3 get_vehicle_deformation_at_pos(Any p0, Any p1, Any p2, Any p3)
 	{
@@ -5628,12 +5628,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xAC4EF23D, 2, p0, p1);
 	}
-	Any _0xbb619744(Any p0)
+	Any _0xBB619744(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBB619744, 1, p0);
 	}
-	Any _0x648e685a(Any p0)
+	Any _0x648E685A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x648E685A, 1, p0);
@@ -5648,17 +5648,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xF4E4C439, 4, p0, p1, p2, p3);
 	}
-	Any _0xf01e2aab(Any p0)
+	Any _0xF01E2AAB(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF01E2AAB, 1, p0);
 	}
-	Any _0xa41bc13d(Any p0)
+	Any _0xA41BC13D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA41BC13D, 1, p0);
 	}
-	Any _0x8a68388f(Any p0)
+	Any _0x8A68388F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8A68388F, 1, p0);
@@ -5678,22 +5678,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x38CC692B, 2, p0, p1);
 	}
-	void _0xc306a9a3(Any p0, Any p1)
+	void _0xC306A9A3(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC306A9A3, 2, p0, p1);
 	}
-	void _0x95a9accb(Any p0, Any p1)
+	void _0x95A9ACCB(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x95A9ACCB, 2, p0, p1);
 	}
-	void _0x24f873fb(Any p0, Any p1)
+	void _0x24F873FB(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x24F873FB, 2, p0, p1);
 	}
-	Any _0xa6f02670(Any p0)
+	Any _0xA6F02670(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA6F02670, 1, p0);
@@ -5733,7 +5733,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9620E9C6, 1, p0);
 	}
-	void _0x88236e22(Any p0, Any p1)
+	void _0x88236E22(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x88236E22, 2, p0, p1);
@@ -5768,22 +5768,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4273A8D3, 3, p0, p1, p2);
 	}
-	void _0xed23c8a3(Any p0, Any p1, Any p2)
+	void _0xED23C8A3(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xED23C8A3, 3, p0, p1, p2);
 	}
-	void _0xb1a52ef7(Any p0, Any p1, Any p2)
+	void _0xB1A52EF7(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB1A52EF7, 3, p0, p1, p2);
 	}
-	void _0xf30c566f(Any p0, Any p1)
+	void _0xF30C566F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF30C566F, 2, p0, p1);
 	}
-	Any _0x34e02fcd(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	Any _0x34E02FCD(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x34E02FCD, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
@@ -5819,17 +5819,17 @@
 		l_NativeCall.Invoke<Void>(0xBA729A25, 2, p0, p1);
 	}
 	// SET_VEHICLE_BRAKE -- no params/results data
-	void _0x37bc6acb()
+	void _0x37BC6ACB()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x37BC6ACB, 0);
 	}
-	Any _0x71d898ef()
+	Any _0x71D898EF()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x71D898EF, 0);
 	}
-	void _0x0b0523b0(Any p0)
+	void _0x0B0523B0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0B0523B0, 1, p0);
@@ -5839,7 +5839,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xAE84D758, 2, p0, p1);
 	}
-	void _0x0b200ce2(Any p0, Any p1)
+	void _0x0B200CE2(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0B200CE2, 2, p0, p1);
@@ -5849,12 +5849,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3FAC3CD4, 2, p0, p1);
 	}
-	void _0x0858678c(Any p0, Any p1)
+	void _0x0858678C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0858678C, 2, p0, p1);
 	}
-	Any _0x7d1a0616(Any p0)
+	Any _0x7D1A0616(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7D1A0616, 1, p0);
@@ -5874,7 +5874,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x00478321, 1, p0);
 	}
-	Any _0x8f291c4a(Any p0)
+	Any _0x8F291C4A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8F291C4A, 1, p0);
@@ -5884,7 +5884,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7EF02883, 1, p0);
 	}
-	Any _0xf3a7293f(Any p0)
+	Any _0xF3A7293F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF3A7293F, 1, p0);
@@ -5899,22 +5899,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x29CB3537, 1, p0);
 	}
-	Any _0x37fba7bc(Any p0)
+	Any _0x37FBA7BC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x37FBA7BC, 1, p0);
 	}
-	Any _0x95bb67eb(Any p0)
+	Any _0x95BB67EB(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x95BB67EB, 1, p0);
 	}
-	Any _0x87c5d271(Any p0)
+	Any _0x87C5D271(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x87C5D271, 1, p0);
 	}
-	Any _0xce67162c(Any p0)
+	Any _0xCE67162C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCE67162C, 1, p0);
@@ -5939,22 +5939,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD08CC1A5, 1, p0);
 	}
-	Any _0xd6685803(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	Any _0xD6685803(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD6685803, 6, p0, p1, p2, p3, p4, p5);
 	}
-	Any _0x0c0332a6(Any p0)
+	Any _0x0C0332A6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0C0332A6, 1, p0);
 	}
-	void _0x6574041d(Any p0)
+	void _0x6574041D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6574041D, 1, p0);
 	}
-	void _0xf8ec5751(Any p0)
+	void _0xF8EC5751(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF8EC5751, 1, p0);
@@ -5969,12 +5969,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE2C0DD8A, 3, p0, p1, p2);
 	}
-	Any _0xab0e79eb(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0xAB0E79EB(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xAB0E79EB, 5, p0, p1, p2, p3, p4);
 	}
-	Any _0xb3eb01ed(Any p0, Any p1)
+	Any _0xB3EB01ED(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB3EB01ED, 2, p0, p1);
@@ -6009,7 +6009,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x64BDAAAD, 2, p0, p1);
 	}
-	Any _0x73722cd9(Any p0, Any p1)
+	Any _0x73722CD9(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x73722CD9, 2, p0, p1);
@@ -6034,18 +6034,18 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9B76BB8E, 3, p0, p1, p2);
 	}
-	Any _0x9a0840fd(Any p0, Any p1)
+	Any _0x9A0840FD(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9A0840FD, 2, p0, p1);
 	}
-	Any _0x9bdc0b49(Any p0)
+	Any _0x9BDC0B49(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9BDC0B49, 1, p0);
 	}
 	// REMOVE_VEHICLE_MOD_KIT -- no params/results data
-	Any _0x112d637a(Any p0)
+	Any _0x112D637A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x112D637A, 1, p0);
@@ -6145,7 +6145,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x13D53892, 1, p0);
 	}
-	Any _0x625c7b66()
+	Any _0x625C7B66()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x625C7B66, 0);
@@ -6155,7 +6155,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x03BC8F1B, 4, p0, p1, p2, p3);
 	}
-	Any _0x749deea2(Any p0)
+	Any _0x749DEEA2(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x749DEEA2, 1, p0);
@@ -6165,52 +6165,52 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7F8C20DD, 1, p0);
 	}
-	Any _0xa0777943(Any p0)
+	Any _0xA0777943(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA0777943, 1, p0);
 	}
-	Any _0xf178390b(Any p0)
+	Any _0xF178390B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF178390B, 1, p0);
 	}
-	void _0xe943b09c(Any p0, Any p1)
+	void _0xE943B09C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE943B09C, 2, p0, p1);
 	}
-	void _0xdf594d8d(Any p0, Any p1)
+	void _0xDF594D8D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDF594D8D, 2, p0, p1);
 	}
-	void _0x4d840fc4(Any p0, Any p1)
+	void _0x4D840FC4(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4D840FC4, 2, p0, p1);
 	}
-	Any _0x5ab26c2b(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
+	Any _0x5AB26C2B(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5AB26C2B, 7, p0, p1, p2, p3, p4, p5, p6);
 	}
-	void _0xef05f807(Any p0)
+	void _0xEF05F807(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xEF05F807, 1, p0);
 	}
-	Any _0xd656e7e5(Any p0)
+	Any _0xD656E7E5(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD656E7E5, 1, p0);
 	}
-	void _0x642da5aa(Any p0, Any p1)
+	void _0x642DA5AA(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x642DA5AA, 2, p0, p1);
 	}
-	void _0x04f5546c(Any p0, Any p1)
+	void _0x04F5546C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x04F5546C, 2, p0, p1);
@@ -6220,7 +6220,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDAA388E8, 2, p0, p1);
 	}
-	void _0xa25ccb8c(Any p0, Any p1)
+	void _0xA25CCB8C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA25CCB8C, 2, p0, p1);
@@ -6230,12 +6230,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x00966934, 2, p0, p1);
 	}
-	void _0x113df5fd(Any p0, Any p1)
+	void _0x113DF5FD(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x113DF5FD, 2, p0, p1);
 	}
-	Any _0x7c8d6464(Any p0)
+	Any _0x7C8D6464(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7C8D6464, 1, p0);
@@ -6245,47 +6245,47 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7E84C45C, 3, p0, p1, p2);
 	}
-	Any _0x7dc6d022(Any p0)
+	Any _0x7DC6D022(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7DC6D022, 1, p0);
 	}
-	void _0xa03e42df(Any p0, Any p1)
+	void _0xA03E42DF(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA03E42DF, 2, p0, p1);
 	}
-	void _0x15d40761(Any p0, Any p1, Any p2)
+	void _0x15D40761(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x15D40761, 3, p0, p1, p2);
 	}
-	void _0x1984f88d(Any p0, Any p1)
+	void _0x1984F88D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1984F88D, 2, p0, p1);
 	}
-	void _0x3fbe904f(Any p0)
+	void _0x3FBE904F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3FBE904F, 1, p0);
 	}
-	void _0xd1b71a25(Any p0)
+	void _0xD1B71A25(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD1B71A25, 1, p0);
 	}
-	Any _0xfeb0c0c8()
+	Any _0xFEB0C0C8()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFEB0C0C8, 0);
 	}
-	void _0x08cd58f9(Any p0, Any p1)
+	void _0x08CD58F9(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x08CD58F9, 2, p0, p1);
 	}
-	void _0x8c4b63e2(Any p0, Any p1)
+	void _0x8C4B63E2(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8C4B63E2, 2, p0, p1);
@@ -6295,42 +6295,42 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x569E5AE3, 2, p0, p1);
 	}
-	void _0x1604c2f5(Any p0, Any p1)
+	void _0x1604C2F5(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1604C2F5, 2, p0, p1);
 	}
-	Any _0x8cdb0c09(Any p0)
+	Any _0x8CDB0C09(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8CDB0C09, 1, p0);
 	}
-	Any _0xabc99e21(Any p0)
+	Any _0xABC99E21(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xABC99E21, 1, p0);
 	}
-	void _0x900c878c(Any p0, Any p1)
+	void _0x900C878C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x900C878C, 2, p0, p1);
 	}
-	void _0xb3200f72(Any p0, Any p1)
+	void _0xB3200F72(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB3200F72, 2, p0, p1);
 	}
-	void _0xbae491c7(Any p0, Any p1)
+	void _0xBAE491C7(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBAE491C7, 2, p0, p1);
 	}
-	void _0xf0e59bc1()
+	void _0xF0E59BC1()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF0E59BC1, 0);
 	}
-	void _0x929801c6(Any p0)
+	void _0x929801C6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x929801C6, 1, p0);
@@ -6340,12 +6340,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2343FFDF, 5, p0, p1, p2, p3, p4);
 	}
-	void _0xe0fc6a32(Any p0, Any p1)
+	void _0xE0FC6A32(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE0FC6A32, 2, p0, p1);
 	}
-	void _0x7d0de7ea(Any p0, Any p1)
+	void _0x7D0DE7EA(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7D0DE7EA, 2, p0, p1);
@@ -6370,57 +6370,57 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x07B2A6DC, 2, veh, b);
 	}
-	void _0xd2b8acbd(Any p0)
+	void _0xD2B8ACBD(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD2B8ACBD, 1, p0);
 	}
-	Any _0xa4a75fcf(Any p0)
+	Any _0xA4A75FCF(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA4A75FCF, 1, p0);
 	}
-	void _0x50f89338(Any p0, Any p1)
+	void _0x50F89338(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x50F89338, 2, p0, p1);
 	}
-	void _0xeb7d7c27(Any p0, Any p1)
+	void _0xEB7D7C27(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xEB7D7C27, 2, p0, p1);
 	}
-	Any _0x5eb00a6a(Any p0)
+	Any _0x5EB00A6A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5EB00A6A, 1, p0);
 	}
-	void _0x081dac12(Any p0, Any p1)
+	void _0x081DAC12(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x081DAC12, 2, p0, p1);
 	}
-	void _0x5bd8d82d(Any p0, Any p1, Any p2)
+	void _0x5BD8D82D(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5BD8D82D, 3, p0, p1, p2);
 	}
-	void _0x450ad03a(Any p0)
+	void _0x450AD03A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x450AD03A, 1, p0);
 	}
-	Any _0xbd085dca(Any p0)
+	Any _0xBD085DCA(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBD085DCA, 1, p0);
 	}
-	Any _0xabbdd5c6(Any p0)
+	Any _0xABBDD5C6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xABBDD5C6, 1, p0);
 	}
-	void _0x9b581de7(Any p0, Any p1)
+	void _0x9B581DE7(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9B581DE7, 2, p0, p1);
@@ -6435,17 +6435,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x70912E42, 2, p0, p1);
 	}
-	void _0xed159ae6(Any p0, Any p1)
+	void _0xED159AE6(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xED159AE6, 2, p0, p1);
 	}
-	Any _0xaf8cb3df(Any p0)
+	Any _0xAF8CB3DF(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xAF8CB3DF, 1, p0);
 	}
-	void _0x45f72495(Any p0)
+	void _0x45F72495(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x45F72495, 1, p0);
@@ -6475,12 +6475,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x607DC9D5, 6, p0, p1, p2, p3, p4, p5);
 	}
-	Any _0xaf769b81(Any p0)
+	Any _0xAF769B81(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xAF769B81, 1, p0);
 	}
-	void _0x4d3c9a99(Any p0)
+	void _0x4D3C9A99(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4D3C9A99, 1, p0);
@@ -6500,7 +6500,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xB2E1E1FB, 1, p0);
 	}
-	void _0x2ec19a8b(Any p0, Any p1)
+	void _0x2EC19A8B(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2EC19A8B, 2, p0, p1);
@@ -6510,12 +6510,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA688B7D1, 4, p0, p1, p2, p3);
 	}
-	void _0x123e5b90(Any p0, Any p1)
+	void _0x123E5B90(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x123E5B90, 2, p0, p1);
 	}
-	void _0xebc225c1(Any p0, Any p1)
+	void _0xEBC225C1(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xEBC225C1, 2, p0, p1);
@@ -6535,37 +6535,37 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDE86447D, 1, p0);
 	}
-	void _0x5130db1e(Any p0, Any p1)
+	void _0x5130DB1E(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5130DB1E, 2, p0, p1);
 	}
-	void _0xb6be07e0(Any p0, Any p1)
+	void _0xB6BE07E0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB6BE07E0, 2, p0, p1);
 	}
-	void _0x4bb5605d(Any p0, Any p1)
+	void _0x4BB5605D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4BB5605D, 2, p0, p1);
 	}
-	void _0x51e0064f(Any p0, Any p1)
+	void _0x51E0064F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x51E0064F, 2, p0, p1);
 	}
-	void _0xaef9611c(Any p0, Any p1)
+	void _0xAEF9611C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAEF9611C, 2, p0, p1);
 	}
-	void _0x585e49b6(Any p0, Any p1)
+	void _0x585E49B6(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x585E49B6, 2, p0, p1);
 	}
-	void _0x6e67fd35(Any p0, Any p1)
+	void _0x6E67FD35(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6E67FD35, 2, p0, p1);
@@ -6585,12 +6585,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x98A10A86, 2, p0, p1);
 	}
-	void _0xbc649c49(Any p0, Any p1)
+	void _0xBC649C49(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBC649C49, 2, p0, p1);
 	}
-	void _0x8dd9aa0c(Any p0)
+	void _0x8DD9AA0C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8DD9AA0C, 1, p0);
@@ -6631,7 +6631,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3F88CD86, 2, p0, p1);
 	}
-	void _0x483c5c88(Any p0, Any p1)
+	void _0x483C5C88(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x483C5C88, 2, p0, p1);
@@ -6651,17 +6651,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x6FC0353D, 6, p0, p1, p2, p3, p4, p5);
 	}
-	Any _0x7db578dd(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	Any _0x7DB578DD(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7DB578DD, 6, p0, p1, p2, p3, p4, p5);
 	}
-	Vector3 _0x87a42a12(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
+	Vector3 _0x87A42A12(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0x87A42A12, 7, p0, p1, p2, p3, p4, p5, p6);
 	}
-	Any _0x65213fc3(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7)
+	Any _0x65213FC3(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x65213FC3, 8, p0, p1, p2, p3, p4, p5, p6, p7);
@@ -6676,12 +6676,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4B44A83D, 6, p0, p1, p2, p3, p4, p5);
 	}
-	void _0x4e0a260b(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7)
+	void _0x4E0A260B(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4E0A260B, 8, p0, p1, p2, p3, p4, p5, p6, p7);
 	}
-	void _0x9d2d778d(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7)
+	void _0x9D2D778D(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9D2D778D, 8, p0, p1, p2, p3, p4, p5, p6, p7);
@@ -6691,22 +6691,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x00253286, 1, p0);
 	}
-	void _0xdf83db47(Any p0, Any p1, Any p2, Any p3)
+	void _0xDF83DB47(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDF83DB47, 4, p0, p1, p2, p3);
 	}
-	Any _0xd42a41c2(Any p0)
+	Any _0xD42A41C2(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD42A41C2, 1, p0);
 	}
-	Any _0xd649b7e1(Any p0)
+	Any _0xD649B7E1(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD649B7E1, 1, p0);
 	}
-	void _0x4f44af21(Any p0, Any p1, Any p2, Any p3)
+	void _0x4F44AF21(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4F44AF21, 4, p0, p1, p2, p3);
@@ -6716,32 +6716,32 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x47531446, 4, p0, p1, p2, p3);
 	}
-	void _0x34883de3(Any p0, Any p1, Any p2, Any p3)
+	void _0x34883DE3(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x34883DE3, 4, p0, p1, p2, p3);
 	}
-	Any _0xb74c3bd7(Any p0)
+	Any _0xB74C3BD7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB74C3BD7, 1, p0);
 	}
-	void _0xb4a9a558(Any p0, Any p1, Any p2, Any p3)
+	void _0xB4A9A558(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB4A9A558, 4, p0, p1, p2, p3);
 	}
-	void _0xece58ae0(Any p0, Any p1)
+	void _0xECE58AE0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xECE58AE0, 2, p0, p1);
 	}
-	void _0xf736227c(Any p0, Any p1)
+	void _0xF736227C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF736227C, 2, p0, p1);
 	}
-	Any _0x5afcd8a1(Any p0)
+	Any _0x5AFCD8A1(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5AFCD8A1, 1, p0);
@@ -6751,22 +6751,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x48659CD7, 1, p0);
 	}
-	void _0x9bf33e41(Any p0)
+	void _0x9BF33E41(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9BF33E41, 1, p0);
 	}
-	void _0xf592ad10()
+	void _0xF592AD10()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF592AD10, 0);
 	}
-	Any _0x17ff9393(Any p0)
+	Any _0x17FF9393(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x17FF9393, 1, p0);
 	}
-	Any _0xe9ae494f(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0xE9AE494F(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE9AE494F, 5, p0, p1, p2, p3, p4);
@@ -6776,7 +6776,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xA8B37DEA, 3, p0, p1, p2);
 	}
-	Any _0xc33ed360(Any p0, Any p1, Any p2, Any p3)
+	Any _0xC33ED360(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC33ED360, 4, p0, p1, p2, p3);
@@ -6786,37 +6786,37 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x41924877, 3, p0, p1, p2);
 	}
-	Any _0x4bd59750(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0x4BD59750(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4BD59750, 5, p0, p1, p2, p3, p4);
 	}
-	Any _0x7b44d659(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0x7B44D659(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7B44D659, 5, p0, p1, p2, p3, p4);
 	}
-	Any _0x142c8f76(Any p0, Any p1, Any p2, Any p3)
+	Any _0x142C8F76(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x142C8F76, 4, p0, p1, p2, p3);
 	}
-	Any _0x95a9ab2b(Any p0, Any p1, Any p2)
+	Any _0x95A9AB2B(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x95A9AB2B, 3, p0, p1, p2);
 	}
-	void _0xa565e27e(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0xA565E27E(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA565E27E, 5, p0, p1, p2, p3, p4);
 	}
-	void _0x43bb7e48(Any p0, Any p1)
+	void _0x43BB7E48(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x43BB7E48, 2, p0, p1);
 	}
-	void _0x6158959e()
+	void _0x6158959E()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6158959E, 0);
@@ -6831,7 +6831,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x73BCFFDC, 12, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11);
 	}
-	void _0x19b17769(Any p0, Any p1)
+	void _0x19B17769(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x19B17769, 2, p0, p1);
@@ -6861,12 +6861,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x50A62C43, 5, p0, p1, p2, p3, p4);
 	}
-	void _0xe3261b35(Any p0)
+	void _0xE3261B35(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE3261B35, 1, p0);
 	}
-	void _0x1e82c2ae(Any p0, Any p1, Any p2)
+	void _0x1E82C2AE(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1E82C2AE, 3, p0, p1, p2);
@@ -6881,42 +6881,42 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xF4FD8AE4, 1, p0);
 	}
-	void _0xf4a1a14a(Any p0, Any p1)
+	void _0xF4A1A14A(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF4A1A14A, 2, p0, p1);
 	}
-	void _0xaf016cc1(Any p0, Any p1)
+	void _0xAF016CC1(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAF016CC1, 2, p0, p1);
 	}
-	void _0x3a68aa46(Any p0, Any p1)
+	void _0x3A68AA46(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3A68AA46, 2, p0, p1);
 	}
-	Any _0xa286de96(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0xA286DE96(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA286DE96, 5, p0, p1, p2, p3, p4);
 	}
-	void _0x21f51560(Any p0, Any p1)
+	void _0x21F51560(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x21F51560, 2, p0, p1);
 	}
-	Any _0xf1b8817a(Any p0)
+	Any _0xF1B8817A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF1B8817A, 1, p0);
 	}
-	Any _0xe08c834d(Any p0)
+	Any _0xE08C834D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE08C834D, 1, p0);
 	}
-	Any _0x020497de(Any p0)
+	Any _0x020497DE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x020497DE, 1, p0);
@@ -6942,7 +6942,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8C886BE5, 6, p0, p1, p2, p3, p4, p5);
 	}
-	Any _0x56a02502(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	Any _0x56A02502(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x56A02502, 6, p0, p1, p2, p3, p4, p5);
@@ -6957,12 +6957,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1D094562, 1, p0);
 	}
-	void _0x7efba039(Any p0, Any p1)
+	void _0x7EFBA039(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7EFBA039, 2, p0, p1);
 	}
-	void _0xa3cdf152(Any p0)
+	void _0xA3CDF152(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA3CDF152, 1, p0);
@@ -7007,7 +7007,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xE0B32108, 1, p0);
 	}
-	Any _0xf139681b(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0xF139681B(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF139681B, 5, p0, p1, p2, p3, p4);
@@ -7017,12 +7017,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAB11267D, 2, p0, p1);
 	}
-	void _0x7fadb4b9(Any p0, Any p1, Any p2)
+	void _0x7FADB4B9(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7FADB4B9, 3, p0, p1, p2);
 	}
-	void _0x3a8f1bf7(Any p0, Any p1)
+	void _0x3A8F1BF7(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3A8F1BF7, 2, p0, p1);
@@ -7032,62 +7032,62 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x77687DC5, 3, p0, p1, p2);
 	}
-	void _0xcbb5f9b6(Any p0, Any p1, Any p2)
+	void _0xCBB5F9B6(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCBB5F9B6, 3, p0, p1, p2);
 	}
-	void _0x276a7807(Any p0, Any p1, Any p2)
+	void _0x276A7807(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x276A7807, 3, p0, p1, p2);
 	}
-	Any _0x000e92dc(Any p0)
+	Any _0x000E92DC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x000E92DC, 1, p0);
 	}
-	void _0x9879ac51(Any p0)
+	void _0x9879AC51(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9879AC51, 1, p0);
 	}
-	void _0xdb18fa01(Any p0)
+	void _0xDB18FA01(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDB18FA01, 1, p0);
 	}
-	void _0xa7e936fd(Any p0, Any p1)
+	void _0xA7E936FD(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA7E936FD, 2, p0, p1);
 	}
-	void _0xb241806c()
+	void _0xB241806C()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB241806C, 0);
 	}
-	void _0xd1baafb7(Any p0)
+	void _0xD1BAAFB7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD1BAAFB7, 1, p0);
 	}
-	void _0x63b02fad(Any p0, Any p1, Any p2, Any p3)
+	void _0x63B02FAD(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x63B02FAD, 4, p0, p1, p2, p3);
 	}
-	void _0x132b6d92(Any p0, Any p1)
+	void _0x132B6D92(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x132B6D92, 2, p0, p1);
 	}
-	Any _0xedd01937(Any p0)
+	Any _0xEDD01937(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEDD01937, 1, p0);
 	}
-	Any _0x6ae36192(Any p0)
+	Any _0x6AE36192(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6AE36192, 1, p0);
@@ -7097,7 +7097,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3DA41C1A, 4, p0, p1, p2, p3);
 	}
-	void _0x2048a7dd(Any p0)
+	void _0x2048A7DD(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2048A7DD, 1, p0);
@@ -7129,7 +7129,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8DCC19C5, 5, p0, p1, p2, p3, p4);
 	}
-	void _0x3aa39be9(Any p0, Any p1)
+	void _0x3AA39BE9(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3AA39BE9, 2, p0, p1);
@@ -7299,7 +7299,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x394B7AC9, 2, p0, p1);
 	}
-	void _0x55e06443(Any p0, Any p1)
+	void _0x55E06443(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x55E06443, 2, p0, p1);
@@ -7319,7 +7319,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDCC5B934, 2, p0, p1);
 	}
-	void _0x2afb14b8(Any p0)
+	void _0x2AFB14B8(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2AFB14B8, 1, p0);
@@ -7339,7 +7339,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF91DF93B, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	void _0x094b75ef(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
+	void _0x094B75EF(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x094B75EF, 12, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11);
@@ -7349,7 +7349,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5AB552C6, 11, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10);
 	}
-	void _0x3ddeb0e6(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12, Any p13, Any p14, Any p15)
+	void _0x3DDEB0E6(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12, Any p13, Any p14, Any p15)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3DDEB0E6, 16, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15);
@@ -7389,7 +7389,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x095D61A4, 4, p0, p1, p2, p3);
 	}
-	void _0x1582162c(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7)
+	void _0x1582162C(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1582162C, 8, p0, p1, p2, p3, p4, p5, p6, p7);
@@ -7455,7 +7455,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB2477B23, 2, p0, p1);
 	}
-	Any _0xafa914ef(Any p0)
+	Any _0xAFA914EF(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xAFA914EF, 1, p0);
@@ -7475,12 +7475,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFD517CE3, 8, p0, p1, p2, p3, p4, p5, p6, p7);
 	}
-	void _0x67e73525(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	void _0x67E73525(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x67E73525, 6, p0, p1, p2, p3, p4, p5);
 	}
-	Any _0x249eb4eb(Any p0)
+	Any _0x249EB4EB(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x249EB4EB, 1, p0);
@@ -7581,12 +7581,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0CB415EE, 7, p0, p1, p2, p3, p4, p5, p6);
 	}
-	void _0x2a83083f(Any p0, Any p1, Any p2)
+	void _0x2A83083F(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2A83083F, 3, p0, p1, p2);
 	}
-	void _0x04fd3ee7(Any p0, Any p1)
+	void _0x04FD3EE7(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x04FD3EE7, 2, p0, p1);
@@ -7631,27 +7631,27 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDA6A6FC1, 6, p0, p1, p2, p3, p4, p5);
 	}
-	void _0x9b76f7e6(Any p0)
+	void _0x9B76F7E6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9B76F7E6, 1, p0);
 	}
-	Any _0xb23f46e6(Any p0)
+	Any _0xB23F46E6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB23F46E6, 1, p0);
 	}
-	Any _0x500d9244(Any p0)
+	Any _0x500D9244(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x500D9244, 1, p0);
 	}
-	void _0x98713c68(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	void _0x98713C68(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x98713C68, 6, p0, p1, p2, p3, p4, p5);
 	}
-	Any _0x291e938c(Any p0)
+	Any _0x291E938C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x291E938C, 1, p0);
@@ -7761,12 +7761,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0776888B, 1, p0);
 	}
-	Any _0x29f97a71(Any p0, Any p1, Any p2)
+	Any _0x29F97A71(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x29F97A71, 3, p0, p1, p2);
 	}
-	Vector3 _0xc6b6ccc1(Any p0)
+	Vector3 _0xC6B6CCC1(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0xC6B6CCC1, 1, p0);
@@ -7846,7 +7846,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7FDF6131, 2, p0, p1);
 	}
-	void _0x59c5fad7(Any p0, Any p1)
+	void _0x59C5FAD7(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x59C5FAD7, 2, p0, p1);
@@ -7897,7 +7897,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xFA7F5047, 5, p0, p1, p2, p3, p4);
 	}
-	Any _0x0fb138a5(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	Any _0x0FB138A5(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0FB138A5, 6, p0, p1, p2, p3, p4, p5);
@@ -7907,12 +7907,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x697FC008, 5, p0, p1, p2, p3, p4);
 	}
-	Any _0x9be9c691(Any p0)
+	Any _0x9BE9C691(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9BE9C691, 1, p0);
 	}
-	void _0x1984a5d1(Any p0, Any p1, Any p2)
+	void _0x1984A5D1(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1984A5D1, 3, p0, p1, p2);
@@ -7932,7 +7932,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x116997B1, 2, p0, p1);
 	}
-	void _0xbf55025d()
+	void _0xBF55025D()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBF55025D, 0);
@@ -7957,7 +7957,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDB18E5DE, 2, p0, p1);
 	}
-	void _0xf58fdeb4()
+	void _0xF58FDEB4()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF58FDEB4, 0);
@@ -8117,7 +8117,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAFABFB5D, 1, p0);
 	}
-	Any _0x87125f5d(Any p0)
+	Any _0x87125F5D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x87125F5D, 1, p0);
@@ -8127,7 +8127,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x624530B0, 1, p0);
 	}
-	Any _0xf5f9b71e(Any p0, Any p1)
+	Any _0xF5F9B71E(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF5F9B71E, 2, p0, p1);
@@ -8137,12 +8137,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x19266913, 3, p0, p1, p2);
 	}
-	Any _0xc765633a(Any p0, Any p1)
+	Any _0xC765633A(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC765633A, 2, p0, p1);
 	}
-	Any _0xc4cd35af(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0xC4CD35AF(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC4CD35AF, 5, p0, p1, p2, p3, p4);
@@ -8172,7 +8172,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF867F747, 4, p0, p1, p2, p3);
 	}
-	Any _0xe8422ac4(Any p0, Any p1)
+	Any _0xE8422AC4(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE8422AC4, 2, p0, p1);
@@ -8202,7 +8202,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1BBB2CAC, 1, p0);
 	}
-	void _0x4dfd5fec(Any p0, Any p1, Any p2, Any p3)
+	void _0x4DFD5FEC(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4DFD5FEC, 4, p0, p1, p2, p3);
@@ -8242,17 +8242,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB3CEC06F, 1, p0);
 	}
-	Any _0x79b067af(Any p0)
+	Any _0x79B067AF(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x79B067AF, 1, p0);
 	}
-	void _0x01caafcc(Any p0, Any p1)
+	void _0x01CAAFCC(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x01CAAFCC, 2, p0, p1);
 	}
-	void _0x8fb923ec(Any p0)
+	void _0x8FB923EC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8FB923EC, 1, p0);
@@ -8307,72 +8307,72 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCAD2EF77, 3, p0, p1, p2);
 	}
-	void _0x6f5d215f(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	void _0x6F5D215F(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6F5D215F, 6, p0, p1, p2, p3, p4, p5);
 	}
-	void _0x71a5c5db(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12)
+	void _0x71A5C5DB(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x71A5C5DB, 13, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12);
 	}
-	Any _0x902656eb(Any p0)
+	Any _0x902656EB(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x902656EB, 1, p0);
 	}
-	Any _0x92fdbae6(Any p0)
+	Any _0x92FDBAE6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x92FDBAE6, 1, p0);
 	}
-	Any _0x885724de(Any p0, Any p1)
+	Any _0x885724DE(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x885724DE, 2, p0, p1);
 	}
-	Any _0x96c0277b(Any p0)
+	Any _0x96C0277B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x96C0277B, 1, p0);
 	}
-	void _0xa79be783(Any p0, Any p1, Any p2)
+	void _0xA79BE783(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA79BE783, 3, p0, p1, p2);
 	}
-	void _0xf3538041(Any p0, Any p1, Any p2)
+	void _0xF3538041(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF3538041, 3, p0, p1, p2);
 	}
-	Any _0x1ebb6f3d(Any p0, Any p1)
+	Any _0x1EBB6F3D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1EBB6F3D, 2, p0, p1);
 	}
-	Any _0x72fa5ef2(Any p0, Any p1)
+	Any _0x72FA5EF2(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x72FA5EF2, 2, p0, p1);
 	}
-	Any _0xe9daf877(Any p0)
+	Any _0xE9DAF877(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE9DAF877, 1, p0);
 	}
-	Any _0xd21639a8(Any p0)
+	Any _0xD21639A8(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD21639A8, 1, p0);
 	}
-	Any _0xe76a2353(Any p0)
+	Any _0xE76A2353(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE76A2353, 1, p0);
 	}
-	Any _0xdd616893(Any p0)
+	Any _0xDD616893(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDD616893, 1, p0);
@@ -8407,22 +8407,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4F217E7B, 10, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 	}
-	void _0x4d210467(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	void _0x4D210467(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4D210467, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	void _0xf65f0f4f(Any p0, Any p1)
+	void _0xF65F0F4F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF65F0F4F, 2, p0, p1);
 	}
-	void _0x1683fe66(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10)
+	void _0x1683FE66(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1683FE66, 11, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10);
 	}
-	void _0x6345ec80(Any p0, Any p1, Any p2, Any p3)
+	void _0x6345EC80(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6345EC80, 4, p0, p1, p2, p3);
@@ -8453,12 +8453,12 @@
 		return l_NativeCall.Invoke<BOOL>(0x511CE741, 1, p0);
 	}
 
-	Any _0x4e9ca30a()
+	Any _0x4E9CA30A()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4E9CA30A, 0);
 	}
-	Any _0x11a178b8(Any p0)
+	Any _0x11A178B8(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x11A178B8, 1, p0);
@@ -8493,22 +8493,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x794CC92C, 0);
 	}
-	void _0x8b2de971(Any p0)
+	void _0x8B2DE971(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8B2DE971, 1, p0);
 	}
-	void _0xe77199f7(Any p0)
+	void _0xE77199F7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE77199F7, 1, p0);
 	}
-	Any _0xa8171e9e()
+	Any _0xA8171E9E()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA8171E9E, 0);
 	}
-	Any _0x353e8056()
+	Any _0x353E8056()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x353E8056, 0);
@@ -8538,7 +8538,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x361E9EAC, 1, p0);
 	}
-	void _0x386f0d25(Any p0, Any p1)
+	void _0x386F0D25(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x386F0D25, 2, p0, p1);
@@ -8553,12 +8553,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6AB757D8, 0);
 	}
-	void _0x9a5c1d56(Any p0, Any p1, Any p2)
+	void _0x9A5C1D56(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9A5C1D56, 3, p0, p1, p2);
 	}
-	void _0x5ca74040(Any p0, Any p1, Any p2)
+	void _0x5CA74040(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5CA74040, 3, p0, p1, p2);
@@ -8573,72 +8573,72 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7740EA4E, 0);
 	}
-	void _0x625181dc(Any p0)
+	void _0x625181DC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x625181DC, 1, p0);
 	}
-	void _0xbebbfdc8(Any p0)
+	void _0xBEBBFDC8(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBEBBFDC8, 1, p0);
 	}
-	void _0x6926ab03(Any p0)
+	void _0x6926AB03(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6926AB03, 1, p0);
 	}
-	void _0xd447439d(Any p0)
+	void _0xD447439D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD447439D, 1, p0);
 	}
-	void _0x584e9c59(Any p0)
+	void _0x584E9C59(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x584E9C59, 1, p0);
 	}
-	void _0x5656d578(Any p0)
+	void _0x5656D578(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5656D578, 1, p0);
 	}
-	void _0x0de40c28(Any p0)
+	void _0x0DE40C28(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0DE40C28, 1, p0);
 	}
-	void _0x98c9138b(Any p0)
+	void _0x98C9138B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x98C9138B, 1, p0);
 	}
-	void _0xfb1a9cde(Any p0)
+	void _0xFB1A9CDE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFB1A9CDE, 1, p0);
 	}
-	void _0x1c0cae89(Any p0)
+	void _0x1C0CAE89(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1C0CAE89, 1, p0);
 	}
-	void _0x4671ac2e(Any p0)
+	void _0x4671AC2E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4671AC2E, 1, p0);
 	}
-	void _0xda02f415(Any p0)
+	void _0xDA02F415(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDA02F415, 1, p0);
 	}
-	void _0x5f3ddec0(Any p0)
+	void _0x5F3DDEC0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5F3DDEC0, 1, p0);
 	}
-	void _0x63a89684(Any p0)
+	void _0x63A89684(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x63A89684, 1, p0);
@@ -8678,32 +8678,32 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1B09184F, 0);
 	}
-	void _0xdf38165e()
+	void _0xDF38165E()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDF38165E, 0);
 	}
-	void _0x8727a4c5(Any p0)
+	void _0x8727A4C5(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8727A4C5, 1, p0);
 	}
-	void _0x96b2fd08(Any p0)
+	void _0x96B2FD08(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x96B2FD08, 1, p0);
 	}
-	void _0xed88fc61(Any p0, Any p1)
+	void _0xED88FC61(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xED88FC61, 2, p0, p1);
 	}
-	void _0xc9fa6e07(Any p0, Any p1)
+	void _0xC9FA6E07(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC9FA6E07, 2, p0, p1);
 	}
-	void _0x2d7787bc()
+	void _0x2D7787BC()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2D7787BC, 0);
@@ -8738,7 +8738,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xA1BFD5E0, 4, x, y, z, pZ);
 	}
-	Any _0x64d91ced(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0x64D91CED(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x64D91CED, 5, p0, p1, p2, p3, p4);
@@ -8783,17 +8783,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD209D52B, 2, p0, p1);
 	}
-	Any _0x89459f0a(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
+	Any _0x89459F0A(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x89459F0A, 10, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 	}
-	Vector3 _0xcaecf37e(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
+	Vector3 _0xCAECF37E(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0xCAECF37E, 10, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 	}
-	Any _0xc6cc812c(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12)
+	Any _0xC6CC812C(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC6CC812C, 13, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12);
@@ -8813,7 +8813,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x98EFF6F1, 1, str);
 	}
-	void _0x87b92190(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12)
+	void _0x87B92190(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x87B92190, 13, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12);
@@ -8873,7 +8873,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF5CCF164, 1, p0);
 	}
-	Any _0x39771f21()
+	Any _0x39771F21()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x39771F21, 0);
@@ -8883,12 +8883,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xEC2A0ECF, 1, p0);
 	}
-	void _0x75b06b5a(Any p0)
+	void _0x75B06B5A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x75B06B5A, 1, p0);
 	}
-	Any _0x2569c9a7()
+	Any _0x2569C9A7()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2569C9A7, 0);
@@ -8923,7 +8923,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0A280324, 2, p0, p1);
 	}
-	void _0x296574ae(Any p0)
+	void _0x296574AE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x296574AE, 1, p0);
@@ -8933,12 +8933,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDA13A4B6, 1, p0);
 	}
-	void _0xc9f6f0bc(Any p0)
+	void _0xC9F6F0BC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC9F6F0BC, 1, p0);
 	}
-	void _0xcb074b9d(Any p0)
+	void _0xCB074B9D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCB074B9D, 1, p0);
@@ -8968,7 +8968,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x47436C12, 8, p0, p1, p2, p3, p4, p5, p6, p7);
 	}
-	Any _0xc4d71ab4(Any p0, Any p1, Any p2, Any p3)
+	Any _0xC4D71AB4(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC4D71AB4, 4, p0, p1, p2, p3);
@@ -8978,7 +8978,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x54C44B1A, 0);
 	}
-	Any _0xa8546914()
+	Any _0xA8546914()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA8546914, 0);
@@ -8993,7 +8993,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x78350773, 0);
 	}
-	void _0x5a45b11a()
+	void _0x5A45B11A()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5A45B11A, 0);
@@ -9003,7 +9003,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x17F4F44D, 2, p0, p1);
 	}
-	void _0x81216ee0(Any p0)
+	void _0x81216EE0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x81216EE0, 1, p0);
@@ -9013,27 +9013,27 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCB570185, 0);
 	}
-	Any _0xc58250f1()
+	Any _0xC58250F1()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC58250F1, 0);
 	}
-	Any _0x50c39926()
+	Any _0x50C39926()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x50C39926, 0);
 	}
-	Any _0x710e5d1e()
+	Any _0x710E5D1E()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x710E5D1E, 0);
 	}
-	Any _0xc7bd1af0()
+	Any _0xC7BD1AF0()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC7BD1AF0, 0);
 	}
-	Any _0x22be2423(Any p0)
+	Any _0x22BE2423(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x22BE2423, 1, p0);
@@ -9043,17 +9043,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC47DFF02, 0);
 	}
-	Any _0xf62b3c48()
+	Any _0xF62B3C48()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF62B3C48, 0);
 	}
-	Any _0x3589452b()
+	Any _0x3589452B()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3589452B, 0);
 	}
-	Any _0x144aaf22()
+	Any _0x144AAF22()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x144AAF22, 0);
@@ -9068,7 +9068,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCB7415AC, 13, x1, y1, z1, x2, y2, z2, unk1, unk2, weaponBullet, shooter, unk3, unk4, unk5);
 	}
-	void _0x52accb7b(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12, Any p13)
+	void _0x52ACCB7B(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12, Any p13)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x52ACCB7B, 14, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13);
@@ -9093,7 +9093,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x20AB0B6B, 1, p0);
 	}
-	void _0x082ba6f2(Any p0)
+	void _0x082BA6F2(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x082BA6F2, 1, p0);
@@ -9123,7 +9123,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x761BE00B, 0);
 	}
-	Any _0xbaf17315()
+	Any _0xBAF17315()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBAF17315, 0);
@@ -9173,22 +9173,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xD1AE2681, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	Any _0xbe81f1e2(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	Any _0xBE81F1E2(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBE81F1E2, 6, p0, p1, p2, p3, p4, p5);
 	}
-	Any _0x1a40454b(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	Any _0x1A40454B(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1A40454B, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	Any _0x6bde5ce4(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0x6BDE5CE4(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6BDE5CE4, 5, p0, p1, p2, p3, p4);
 	}
-	Any _0x507bc6f7(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	Any _0x507BC6F7(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x507BC6F7, 6, p0, p1, p2, p3, p4, p5);
@@ -9298,7 +9298,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x644C9FA4, 1, p0);
 	}
-	void _0x3c806a2d(Any p0)
+	void _0x3C806A2D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3C806A2D, 1, p0);
@@ -9308,12 +9308,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xF477D0B1, 0);
 	}
-	Any _0x021636ee()
+	Any _0x021636EE()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x021636EE, 0);
 	}
-	Any _0x006f9ba2()
+	Any _0x006F9BA2()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x006F9BA2, 0);
@@ -9338,17 +9338,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD06F1720, 1, p0);
 	}
-	Any _0xff6191e1(Any p0, Any p1)
+	Any _0xFF6191E1(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFF6191E1, 2, p0, p1);
 	}
-	void _0x721b2492(Any p0)
+	void _0x721B2492(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x721B2492, 1, p0);
 	}
-	void _0xe202879d(Any p0)
+	void _0xE202879D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE202879D, 1, p0);
@@ -9383,7 +9383,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3B1C07C8, 0);
 	}
-	Any _0x9ef0bc64(Any p0)
+	Any _0x9EF0BC64(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9EF0BC64, 1, p0);
@@ -9393,7 +9393,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB930956F, 2, p0, p1);
 	}
-	void _0x9b38374a(Any p0, Any p1)
+	void _0x9B38374A(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9B38374A, 2, p0, p1);
@@ -9413,27 +9413,27 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x284352C4, 2, p0, p1);
 	}
-	void _0xe2089749(Any p0, Any p1)
+	void _0xE2089749(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE2089749, 2, p0, p1);
 	}
-	void _0xf91b8c33(Any p0, Any p1)
+	void _0xF91B8C33(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF91B8C33, 2, p0, p1);
 	}
-	void _0x74e8fad9(Any p0, Any p1)
+	void _0x74E8FAD9(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x74E8FAD9, 2, p0, p1);
 	}
-	void _0x6b4335dd(Any p0, Any p1)
+	void _0x6B4335DD(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6B4335DD, 2, p0, p1);
 	}
-	void _0xfb45728e(Any p0, Any p1, Any p2)
+	void _0xFB45728E(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFB45728E, 3, p0, p1, p2);
@@ -9443,7 +9443,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC2624A28, 0);
 	}
-	void _0x893a342c(Any p0, Any p1, Any p2)
+	void _0x893A342C(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x893A342C, 3, p0, p1, p2);
@@ -9453,17 +9453,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0CAD8217, 0);
 	}
-	void _0x0b710a51(Any p0, Any p1)
+	void _0x0B710A51(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0B710A51, 2, p0, p1);
 	}
-	void _0xe0f0684f(Any p0, Any p1)
+	void _0xE0F0684F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE0F0684F, 2, p0, p1);
 	}
-	Any _0x3ce5bf6b(Any p0)
+	Any _0x3CE5BF6B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3CE5BF6B, 1, p0);
@@ -9488,12 +9488,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x31FD0BA4, 1, p0);
 	}
-	void _0x0242d88e(Any p0, Any p1, Any p2)
+	void _0x0242D88E(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0242D88E, 3, p0, p1, p2);
 	}
-	void _0x1f38102e(Any p0, Any p1)
+	void _0x1F38102E(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1F38102E, 2, p0, p1);
@@ -9503,12 +9503,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x71AEFD77, 8, p0, p1, p2, p3, p4, p5, p6, p7);
 	}
-	Any _0x42bf09b3(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	Any _0x42BF09B3(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x42BF09B3, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	void _0xfbdbe374(Any p0, Any p1)
+	void _0xFBDBE374(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFBDBE374, 2, p0, p1);
@@ -9523,32 +9523,32 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x04A947BA, 1, p0);
 	}
-	void _0xc20a7d2b(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	void _0xC20A7D2B(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC20A7D2B, 6, p0, p1, p2, p3, p4, p5);
 	}
-	Any _0x8501e727(Any p0)
+	Any _0x8501E727(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8501E727, 1, p0);
 	}
-	Any _0x1a332d2d(Any p0)
+	Any _0x1A332D2D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1A332D2D, 1, p0);
 	}
-	void _0x0c8865df(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	void _0x0C8865DF(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0C8865DF, 6, p0, p1, p2, p3, p4, p5);
 	}
-	void _0x49f977a9(Any p0, Any p1, Any p2)
+	void _0x49F977A9(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x49F977A9, 3, p0, p1, p2);
 	}
-	void _0x6f009e33(Any p0, Any p1, Any p2)
+	void _0x6F009E33(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6F009E33, 3, p0, p1, p2);
@@ -9578,7 +9578,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1C996BCD, 2, p0, p1);
 	}
-	Any _0xf557baf9(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
+	Any _0xF557BAF9(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF557BAF9, 7, p0, p1, p2, p3, p4, p5, p6);
@@ -9593,32 +9593,32 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9A17F835, 0);
 	}
-	void _0xe0c9307e()
+	void _0xE0C9307E()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE0C9307E, 0);
 	}
-	void _0xa0d8c749(Any p0, Any p1)
+	void _0xA0D8C749(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA0D8C749, 2, p0, p1);
 	}
-	void _0x24a4e0b2(Any p0, Any p1, Any p2)
+	void _0x24A4E0B2(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x24A4E0B2, 3, p0, p1, p2);
 	}
-	void _0x66c3c59c()
+	void _0x66C3C59C()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x66C3C59C, 0);
 	}
-	void _0xd9660339(Any p0)
+	void _0xD9660339(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD9660339, 1, p0);
 	}
-	void _0xd2688412(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
+	void _0xD2688412(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD2688412, 12, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11);
@@ -9639,17 +9639,17 @@
 		return l_NativeCall.Invoke<Any>(0x44828FB3, 0);
 	}
 	// 0x196444BB -- no params/results data
-	void _0x3301ea47(Any p0)
+	void _0x3301EA47(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3301EA47, 1, p0);
 	}
-	void _0x42b484ed(Any p0, Any p1)
+	void _0x42B484ED(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x42B484ED, 2, p0, p1);
 	}
-	void _0x8f60366e(Any p0, Any p1)
+	void _0x8F60366E(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8F60366E, 2, p0, p1);
@@ -9674,42 +9674,42 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x86745EF3, 1, p);
 	}
-	Any _0xc3c10fcc()
+	Any _0xC3C10FCC()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC3C10FCC, 0);
 	}
-	void _0x054ec103()
+	void _0x054EC103()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x054EC103, 0);
 	}
-	Any _0x46b5a15c()
+	Any _0x46B5A15C()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x46B5A15C, 0);
 	}
-	void _0x5d209f25()
+	void _0x5D209F25()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5D209F25, 0);
 	}
-	void _0x2d33f15a(Any p0, Any p1, Any p2, Any p3)
+	void _0x2D33F15A(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2D33F15A, 4, p0, p1, p2, p3);
 	}
-	void _0xdf99925c()
+	void _0xDF99925C()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDF99925C, 0);
 	}
-	void _0xa27f4472(Any p0, Any p1, Any p2, Any p3)
+	void _0xA27F4472(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA27F4472, 4, p0, p1, p2, p3);
 	}
-	Any _0x07ff553f(Any p0, Any p1, Any p2)
+	Any _0x07FF553F(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x07FF553F, 3, p0, p1, p2);
@@ -9735,7 +9735,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x4ED1400A, 0);
 	}
-	Any _0x16fb88b5()
+	Any _0x16FB88B5()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x16FB88B5, 0);
@@ -9755,12 +9755,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF8D5EB86, 3, p0, p1, p2);
 	}
-	void _0x73c6f979(Any p0, Any p1, Any p2, Any p3)
+	void _0x73C6F979(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x73C6F979, 4, p0, p1, p2, p3);
 	}
-	void _0x88203dda(Any p0, Any p1)
+	void _0x88203DDA(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x88203DDA, 2, p0, p1);
@@ -9770,7 +9770,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAD7BB191, 10, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 	}
-	void _0x1193ed6e(Any p0)
+	void _0x1193ED6E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1193ED6E, 1, p0);
@@ -9800,7 +9800,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA170261B, 0);
 	}
-	Any _0x336f3d35()
+	Any _0x336F3D35()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x336F3D35, 0);
@@ -9845,12 +9845,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF3A67AF3, 3, p0, p1, p2);
 	}
-	Any _0xb58b8ff3(Any p0)
+	Any _0xB58B8FF3(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB58B8FF3, 1, p0);
 	}
-	void _0x789d8c6c(Any p0)
+	void _0x789D8C6C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x789D8C6C, 1, p0);
@@ -9910,7 +9910,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x22F865E5, 0);
 	}
-	void _0xa58bbf4f()
+	void _0xA58BBF4F()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA58BBF4F, 0);
@@ -9955,7 +9955,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2576F610, 1, p0);
 	}
-	Any _0xd064d4dc(Any p0)
+	Any _0xD064D4DC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD064D4DC, 1, p0);
@@ -9975,7 +9975,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9A083B7E, 2, p0, p1);
 	}
-	void _0x62d026be(Any p0, Any p1)
+	void _0x62D026BE(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x62D026BE, 2, p0, p1);
@@ -9985,22 +9985,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xE85AEC2E, 1, p0);
 	}
-	void _0x5c57b85d(Any p0, Any p1, Any p2)
+	void _0x5C57B85D(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5C57B85D, 3, p0, p1, p2);
 	}
-	void _0x444180db(Any p0, Any p1, Any p2)
+	void _0x444180DB(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x444180DB, 3, p0, p1, p2);
 	}
-	void _0x8386ae28(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0x8386AE28(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8386AE28, 5, p0, p1, p2, p3, p4);
 	}
-	void _0xa1a1402e(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	void _0xA1A1402E(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA1A1402E, 6, p0, p1, p2, p3, p4, p5);
@@ -10030,12 +10030,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6096504C, 0);
 	}
-	void _0x59a3a17d(Any p0)
+	void _0x59A3A17D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x59A3A17D, 1, p0);
 	}
-	void _0x0e387bfe(Any p0)
+	void _0x0E387BFE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0E387BFE, 1, p0);
@@ -10065,7 +10065,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x2B74A6D6, 1, p0);
 	}
-	Any _0x8bd5f11e(Any p0, Any p1, Any p2)
+	Any _0x8BD5F11E(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8BD5F11E, 3, p0, p1, p2);
@@ -10080,12 +10080,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD2EA77A3, 2, p0, p1);
 	}
-	void _0x498849f3(Any p0, Any p1, Any p2)
+	void _0x498849F3(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x498849F3, 3, p0, p1, p2);
 	}
-	Any _0x0cbaf2ef(Any p0)
+	Any _0x0CBAF2EF(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0CBAF2EF, 1, p0);
@@ -10130,12 +10130,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xCF29097B, 0);
 	}
-	void _0x53db6994()
+	void _0x53DB6994()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x53DB6994, 0);
 	}
-	void _0xd70ecc80()
+	void _0xD70ECC80()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD70ECC80, 0);
@@ -10150,7 +10150,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE391F55F, 2, p0, p1);
 	}
-	void _0x7abb89d2(Any p0)
+	void _0x7ABB89D2(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7ABB89D2, 1, p0);
@@ -10235,7 +10235,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8D9EDD99, 2, p0, p1);
 	}
-	Any _0xcba99f4a(Any p0)
+	Any _0xCBA99F4A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCBA99F4A, 1, p0);
@@ -10245,12 +10245,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x990085F0, 1, p0);
 	}
-	Any _0x46b0c696()
+	Any _0x46B0C696()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x46B0C696, 0);
 	}
-	Any _0x2a3e5e8b()
+	Any _0x2A3E5E8B()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2A3E5E8B, 0);
@@ -10260,17 +10260,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6F812CAB, 2, p0, p1);
 	}
-	void _0x128c3873(Any p0, Any p1, Any p2)
+	void _0x128C3873(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x128C3873, 3, p0, p1, p2);
 	}
-	void _0x1d766976(Any p0)
+	void _0x1D766976(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1D766976, 1, p0);
 	}
-	Any _0xcc91fcf5()
+	Any _0xCC91FCF5()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCC91FCF5, 0);
@@ -10280,17 +10280,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xECA1512F, 1, p0);
 	}
-	void _0xb1ff7137(Any p0, Any p1)
+	void _0xB1FF7137(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB1FF7137, 2, p0, p1);
 	}
-	void _0xc8b514e2(Any p0)
+	void _0xC8B514E2(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC8B514E2, 1, p0);
 	}
-	void _0xbe998184(Any p0, Any p1)
+	void _0xBE998184(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBE998184, 2, p0, p1);
@@ -10367,12 +10367,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x01D6EABE, 1, p0);
 	}
-	void _0x3c395aee(Any p0)
+	void _0x3C395AEE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3C395AEE, 1, p0);
 	}
-	void _0x8ce63fa1(Any p0, Any p1)
+	void _0x8CE63FA1(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8CE63FA1, 2, p0, p1);
@@ -10442,7 +10442,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x77182D58, 2, p0, p1);
 	}
-	void _0xde8ba3cd(Any p0)
+	void _0xDE8BA3CD(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDE8BA3CD, 1, p0);
@@ -10457,7 +10457,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x271A9766, 2, p0, p1);
 	}
-	void _0x2f0a16d1(Any p0, Any p1)
+	void _0x2F0A16D1(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2F0A16D1, 2, p0, p1);
@@ -10467,37 +10467,37 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC6BC16F3, 2, p0, p1);
 	}
-	void _0x33b0b007(Any p0, Any p1)
+	void _0x33B0B007(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x33B0B007, 2, p0, p1);
 	}
-	void _0x1c0c5e4c(Any p0, Any p1, Any p2)
+	void _0x1C0C5E4C(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1C0C5E4C, 3, p0, p1, p2);
 	}
-	Any _0x6e660d3f(Any p0)
+	Any _0x6E660D3F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6E660D3F, 1, p0);
 	}
-	void _0x23be6432(Any p0, Any p1)
+	void _0x23BE6432(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x23BE6432, 2, p0, p1);
 	}
-	void _0xe81fac68(Any p0, Any p1)
+	void _0xE81FAC68(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE81FAC68, 2, p0, p1);
 	}
-	void _0x9365e042(Any p0, Any p1)
+	void _0x9365E042(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9365E042, 2, p0, p1);
 	}
-	void _0x2a60a90e(Any p0, Any p1)
+	void _0x2A60A90E(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2A60A90E, 2, p0, p1);
@@ -10507,12 +10507,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x072F15F2, 2, p0, p1);
 	}
-	void _0x934be749(Any p0, Any p1)
+	void _0x934BE749(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x934BE749, 2, p0, p1);
 	}
-	void _0xe61110a2(Any p0, Any p1)
+	void _0xE61110A2(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE61110A2, 2, p0, p1);
@@ -10527,7 +10527,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBA2CF407, 2, p0, p1);
 	}
-	void _0x563b635d(Any p0, Any p1)
+	void _0x563B635D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x563B635D, 2, p0, p1);
@@ -10552,12 +10552,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x939982A1, 0);
 	}
-	Any _0xcbe09aec()
+	Any _0xCBE09AEC()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCBE09AEC, 0);
 	}
-	void _0xd2858d8a(Any p0)
+	void _0xD2858D8A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD2858D8A, 1, p0);
@@ -10587,17 +10587,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x19BB3CE8, 3, p0, p1, p2);
 	}
-	void _0xe812925d(Any p0)
+	void _0xE812925D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE812925D, 1, p0);
 	}
-	void _0x2bc93264(Any p0, Any p1, Any p2)
+	void _0x2BC93264(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2BC93264, 3, p0, p1, p2);
 	}
-	void _0x308ed0ec(Any p0, Any p1)
+	void _0x308ED0EC(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x308ED0EC, 2, p0, p1);
@@ -10622,7 +10622,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB6094948, 1, p0);
 	}
-	Any _0x2705c4d5()
+	Any _0x2705C4D5()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2705C4D5, 0);
@@ -10632,27 +10632,27 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD633C809, 0);
 	}
-	void _0x53fc3fec(Any p0, Any p1, Any p2, Any p3)
+	void _0x53FC3FEC(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x53FC3FEC, 4, p0, p1, p2, p3);
 	}
-	void _0xe6b033bf()
+	void _0xE6B033BF()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE6B033BF, 0);
 	}
-	void _0x95050cad(Any p0, Any p1)
+	void _0x95050CAD(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x95050CAD, 2, p0, p1);
 	}
-	void _0xe64f97a0(Any p0, Any p1)
+	void _0xE64F97A0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE64F97A0, 2, p0, p1);
 	}
-	void _0xd87af337()
+	void _0xD87AF337()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD87AF337, 0);
@@ -10687,7 +10687,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE84ABC19, 1, p0);
 	}
-	Any _0xfd4b5b3b(Any p0)
+	Any _0xFD4B5B3B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFD4B5B3B, 1, p0);
@@ -10697,17 +10697,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDF720C86, 1, p0);
 	}
-	void _0xc307d531(Any p0, Any p1)
+	void _0xC307D531(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC307D531, 2, p0, p1);
 	}
-	void _0x13eb5861(Any p0)
+	void _0x13EB5861(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x13EB5861, 1, p0);
 	}
-	void _0x7bed1872(Any p0, Any p1)
+	void _0x7BED1872(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7BED1872, 2, p0, p1);
@@ -10737,52 +10737,52 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xADEED2B4, 1, p0);
 	}
-	void _0x55a21772(Any p0, Any p1, Any p2, Any p3)
+	void _0x55A21772(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x55A21772, 4, p0, p1, p2, p3);
 	}
-	void _0xa17f9ab0(Any p0, Any p1)
+	void _0xA17F9AB0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA17F9AB0, 2, p0, p1);
 	}
-	void _0x62b43677(Any p0)
+	void _0x62B43677(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x62B43677, 1, p0);
 	}
-	void _0x8ad670ec(Any p0, Any p1)
+	void _0x8AD670EC(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8AD670EC, 2, p0, p1);
 	}
-	void _0xd24b4d0c(Any p0)
+	void _0xD24B4D0C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD24B4D0C, 1, p0);
 	}
-	void _0x7262b5ba()
+	void _0x7262B5BA()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7262B5BA, 0);
 	}
-	Any _0x93a44a1f()
+	Any _0x93A44A1F()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x93A44A1F, 0);
 	}
-	void _0x13777a0b(Any p0)
+	void _0x13777A0B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x13777A0B, 1, p0);
 	}
-	void _0x1134f68b()
+	void _0x1134F68B()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1134F68B, 0);
 	}
-	void _0xe0047bfd(Any p0)
+	void _0xE0047BFD(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE0047BFD, 1, p0);
@@ -10793,7 +10793,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB5977853, 2, p0, p1);
 	}
-	void _0xd98f656a(Any p0, Any p1, Any p2)
+	void _0xD98F656A(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD98F656A, 3, p0, p1, p2);
@@ -10813,24 +10813,24 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x3C5619F2, 1, p0);
 	}
-	void _0x25a2cabc(Any p0)
+	void _0x25A2CABC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x25A2CABC, 1, p0);
 	}
-	Any _0xdd8878e9()
+	Any _0xDD8878E9()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDD8878E9, 0);
 	}
-	Any _0x7b93cdaa(Any p0)
+	Any _0x7B93CDAA(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7B93CDAA, 1, p0);
 	}
 	// 0xCAB087F0 -- no params/results data
 	// SET_CUTSCENE_ENTITY_MODEL -- no params/results data
-	void _0x47db08a9(Any p0, Any p1, Any p2)
+	void _0x47DB08A9(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x47DB08A9, 3, p0, p1, p2);
@@ -10900,7 +10900,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1D09ABC7, 2, p0, p1);
 	}
-	Any _0x5ae68ae6()
+	Any _0x5AE68AE6()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5AE68AE6, 0);
@@ -10935,7 +10935,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xEDAE6C02, 1, p0);
 	}
-	void _0x35721a08(Any p0)
+	void _0x35721A08(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x35721A08, 1, p0);
@@ -10945,22 +10945,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD19EF0DD, 4, p0, p1, p2, p3);
 	}
-	void _0x8338da1d(Any p0)
+	void _0x8338DA1D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8338DA1D, 1, p0);
 	}
-	void _0x04377c10(Any p0)
+	void _0x04377C10(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x04377C10, 1, p0);
 	}
-	Any _0xdbd88708()
+	Any _0xDBD88708()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDBD88708, 0);
 	}
-	void _0x28d54a7f(Any p0)
+	void _0x28D54A7F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x28D54A7F, 1, p0);
@@ -10975,7 +10975,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6AF994A1, 5, p0, p1, p2, p3, p4);
 	}
-	void _0x1e7da95e(Any p0, Any p1, Any p2)
+	void _0x1E7DA95E(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1E7DA95E, 3, p0, p1, p2);
@@ -10985,12 +10985,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x58E67409, 2, p0, p1);
 	}
-	void _0x22e9a9de(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0x22E9A9DE(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x22E9A9DE, 5, p0, p1, p2, p3, p4);
 	}
-	Any _0x4315a7c5()
+	Any _0x4315A7C5()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4315A7C5, 0);
@@ -11041,32 +11041,32 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5C644614, 1, p0);
 	}
-	void _0xe645e162(Any p0, Any p1)
+	void _0xE645E162(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE645E162, 2, p0, p1);
 	}
-	void _0xd79803b5(Any p0, Any p1)
+	void _0xD79803B5(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD79803B5, 2, p0, p1);
 	}
-	void _0x1f6b4b13(Any p0)
+	void _0x1F6B4B13(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1F6B4B13, 1, p0);
 	}
-	void _0x0e9529cc(Any p0)
+	void _0x0E9529CC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0E9529CC, 1, p0);
 	}
-	Any _0x4ff3d3f5()
+	Any _0x4FF3D3F5()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4FF3D3F5, 0);
 	}
-	void _0x617dc75d()
+	void _0x617DC75D()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x617DC75D, 0);
@@ -11081,7 +11081,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA2A73564, 2, p0, p1);
 	}
-	void _0x3ada414e(Any p0)
+	void _0x3ADA414E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3ADA414E, 1, p0);
@@ -11096,12 +11096,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xE1EF6450, 1, p0);
 	}
-	Any _0x96525b06(Any p0, Any p1, Any p2, Any p3)
+	Any _0x96525B06(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x96525B06, 4, p0, p1, p2, p3);
 	}
-	Any _0x7762249c(Any p0, Any p1, Any p2)
+	Any _0x7762249C(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7762249C, 3, p0, p1, p2);
@@ -11111,17 +11111,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7ED33DC1, 3, p0, p1, p2);
 	}
-	void _0xc80a5ddf(Any p0, Any p1)
+	void _0xC80A5DDF(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC80A5DDF, 2, p0, p1);
 	}
-	void _0xdba768a1(Any p0, Any p1)
+	void _0xDBA768A1(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDBA768A1, 2, p0, p1);
 	}
-	Any _0x39a3cc6f(Any p0, Any p1)
+	Any _0x39A3CC6F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x39A3CC6F, 2, p0, p1);
@@ -11131,7 +11131,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9A29ACE6, 1, p0);
 	}
-	void _0x1f375b4c(Any p0)
+	void _0x1F375B4C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1F375B4C, 1, p0);
@@ -11156,7 +11156,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x18B17C80, 1, p0);
 	}
-	void _0x5ef9c5c2(Any p0)
+	void _0x5EF9C5C2(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5EF9C5C2, 1, p0);
@@ -11168,7 +11168,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x74337969, 5, p0, p1, p2, p3, p4);
 	}
-	void _0xd3c08183(Any p0, Any p1, Any p2)
+	void _0xD3C08183(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD3C08183, 3, p0, p1, p2);
@@ -11308,7 +11308,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAD6C2B8F, 5, p0, p1, p2, p3, p4);
 	}
-	void _0x8306c256(Any p0, Any p1)
+	void _0x8306C256(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8306C256, 2, p0, p1);
@@ -11318,7 +11318,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFD6E0D67, 2, p0, p1);
 	}
-	void _0x8bbf2950()
+	void _0x8BBF2950()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8BBF2950, 0);
@@ -11363,12 +11363,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5435F6A5, 1, p0);
 	}
-	void _0x0c74f9af(Any p0, Any p1)
+	void _0x0C74F9AF(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0C74F9AF, 2, p0, p1);
 	}
-	void _0xe1a0b2f1(Any p0, Any p1)
+	void _0xE1A0B2F1(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE1A0B2F1, 2, p0, p1);
@@ -11393,12 +11393,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x30510511, 4, p0, p1, p2, p3);
 	}
-	void _0xba6c085b(Any p0, Any p1, Any p2, Any p3)
+	void _0xBA6C085B(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBA6C085B, 4, p0, p1, p2, p3);
 	}
-	void _0xb4737f03(Any p0, Any p1, Any p2)
+	void _0xB4737F03(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB4737F03, 3, p0, p1, p2);
@@ -11423,7 +11423,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3E91FC8A, 2, p0, p1);
 	}
-	void _0x15e141ce(Any p0, Any p1)
+	void _0x15E141CE(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x15E141CE, 2, p0, p1);
@@ -11433,12 +11433,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF8AEB6BD, 1, p0);
 	}
-	void _0x21d275da(Any p0, Any p1, Any p2, Any p3)
+	void _0x21D275DA(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x21D275DA, 4, p0, p1, p2, p3);
 	}
-	void _0xa3bd9e94(Any p0, Any p1, Any p2)
+	void _0xA3BD9E94(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA3BD9E94, 3, p0, p1, p2);
@@ -11453,7 +11453,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x633179E6, 4, p0, p1, p2, p3);
 	}
-	void _0xc90b2ddc(Any p0, Any p1, Any p2)
+	void _0xC90B2DDC(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC90B2DDC, 3, p0, p1, p2);
@@ -11498,22 +11498,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x40D0EB87, 2, p0, p1);
 	}
-	void _0x2b0f05cd(Any p0, Any p1)
+	void _0x2B0F05CD(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2B0F05CD, 2, p0, p1);
 	}
-	void _0xcb75bd9c(Any p0, Any p1, Any p2, Any p3)
+	void _0xCB75BD9C(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCB75BD9C, 4, p0, p1, p2, p3);
 	}
-	Any _0x6aefe6a5()
+	Any _0x6AEFE6A5()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6AEFE6A5, 0);
 	}
-	void _0x26fcfb96(Any p0)
+	void _0x26FCFB96(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x26FCFB96, 1, p0);
@@ -11548,27 +11548,27 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xE905BC7E, 1, p0);
 	}
-	void _0x56f9ed27(Any p0, Any p1, Any p2, Any p3)
+	void _0x56F9ED27(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x56F9ED27, 4, p0, p1, p2, p3);
 	}
-	void _0x71570dba(Any p0, Any p1)
+	void _0x71570DBA(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x71570DBA, 2, p0, p1);
 	}
-	void _0x60b345de(Any p0, Any p1, Any p2, Any p3)
+	void _0x60B345DE(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x60B345DE, 4, p0, p1, p2, p3);
 	}
-	void _0x44473efc(Any p0)
+	void _0x44473EFC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x44473EFC, 1, p0);
 	}
-	Any _0xda931d65(Any p0)
+	Any _0xDA931D65(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDA931D65, 1, p0);
@@ -11623,12 +11623,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4D6B3BFA, 0);
 	}
-	void _0xa6e73135(Any p0)
+	void _0xA6E73135(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA6E73135, 1, p0);
 	}
-	void _0x1126e37c(Any p0)
+	void _0x1126E37C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1126E37C, 1, p0);
@@ -11673,7 +11673,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFD569E4E, 1, p0);
 	}
-	void _0x7d3007a2(Any p0)
+	void _0x7D3007A2(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7D3007A2, 1, p0);
@@ -11683,22 +11683,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x0EF276DA, 0);
 	}
-	Any _0xc0b00c20()
+	Any _0xC0B00C20()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC0B00C20, 0);
 	}
-	Any _0x60c23785()
+	Any _0x60C23785()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x60C23785, 0);
 	}
-	void _0x20bff6e5(Any p0)
+	void _0x20BFF6E5(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x20BFF6E5, 1, p0);
 	}
-	void _0xa61ff9ac()
+	void _0xA61FF9AC()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA61FF9AC, 0);
@@ -11708,17 +11708,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x33C83F17, 0);
 	}
-	void _0x2701a9ad(Any p0)
+	void _0x2701A9AD(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2701A9AD, 1, p0);
 	}
-	void _0xc4736ed3(Any p0)
+	void _0xC4736ED3(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC4736ED3, 1, p0);
 	}
-	void _0x6b0e9d57()
+	void _0x6B0E9D57()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6B0E9D57, 0);
@@ -11738,22 +11738,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1425F6AC, 2, p0, p1);
 	}
-	void _0x8dc53629(Any p0, Any p1)
+	void _0x8DC53629(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8DC53629, 2, p0, p1);
 	}
-	void _0x1f9de6e4()
+	void _0x1F9DE6E4()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1F9DE6E4, 0);
 	}
-	void _0x749909ac(Any p0, Any p1)
+	void _0x749909AC(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x749909AC, 2, p0, p1);
 	}
-	void _0xfa3a16e7(Any p0, Any p1)
+	void _0xFA3A16E7(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFA3A16E7, 2, p0, p1);
@@ -11763,7 +11763,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x77340650, 2, p0, p1);
 	}
-	void _0x4b22c5cb(Any p0, Any p1)
+	void _0x4B22C5CB(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4B22C5CB, 2, p0, p1);
@@ -11788,7 +11788,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x8DD49B77, 0);
 	}
-	void _0x9db5d391(Any p0)
+	void _0x9DB5D391(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9DB5D391, 1, p0);
@@ -11818,12 +11818,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC4FBBBD3, 1, p0);
 	}
-	Any _0xf3b148a6(Any p0)
+	Any _0xF3B148A6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF3B148A6, 1, p0);
 	}
-	void _0x1debcb45(Any p0, Any p1)
+	void _0x1DEBCB45(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1DEBCB45, 2, p0, p1);
@@ -11833,7 +11833,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xC24B4F6F, 0);
 	}
-	Any _0x8f320de4()
+	Any _0x8F320DE4()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8F320DE4, 0);
@@ -11843,7 +11843,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xD6280468, 0);
 	}
-	void _0x1baa7182()
+	void _0x1BAA7182()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1BAA7182, 0);
@@ -11853,87 +11853,87 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x33951005, 0);
 	}
-	void _0x9f4af763(Any p0)
+	void _0x9F4AF763(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9F4AF763, 1, p0);
 	}
-	void _0x68ba0730(Any p0, Any p1)
+	void _0x68BA0730(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x68BA0730, 2, p0, p1);
 	}
-	void _0x2f29f0d5(Any p0, Any p1)
+	void _0x2F29F0D5(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2F29F0D5, 2, p0, p1);
 	}
-	void _0x76dac96c(Any p0, Any p1)
+	void _0x76DAC96C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x76DAC96C, 2, p0, p1);
 	}
-	void _0x0e21069d(Any p0)
+	void _0x0E21069D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0E21069D, 1, p0);
 	}
-	void _0x71e9c63e(Any p0)
+	void _0x71E9C63E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x71E9C63E, 1, p0);
 	}
-	void _0xd1eebc45(Any p0)
+	void _0xD1EEBC45(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD1EEBC45, 1, p0);
 	}
-	Vector3 _0x9c84bda0()
+	Vector3 _0x9C84BDA0()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0x9C84BDA0, 0);
 	}
-	Vector3 _0x1ffbefc5(Any p0)
+	Vector3 _0x1FFBEFC5(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0x1FFBEFC5, 1, p0);
 	}
-	Vector3 _0xacadf916(Any p0, Any p1)
+	Vector3 _0xACADF916(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0xACADF916, 2, p0, p1);
 	}
-	Any _0x721b763b()
+	Any _0x721B763B()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x721B763B, 0);
 	}
-	Any _0x23e3f106(Any p0)
+	Any _0x23E3F106(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x23E3F106, 1, p0);
 	}
-	Any _0x457ae195()
+	Any _0x457AE195()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x457AE195, 0);
 	}
-	Any _0x46cb3a49()
+	Any _0x46CB3A49()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x46CB3A49, 0);
 	}
-	Any _0x19297a7a()
+	Any _0x19297A7A()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x19297A7A, 0);
 	}
-	Any _0xf24777ca()
+	Any _0xF24777CA()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF24777CA, 0);
 	}
-	Any _0x38992e83()
+	Any _0x38992E83()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x38992E83, 0);
@@ -11968,7 +11968,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1BC28B7B, 1, p0);
 	}
-	void _0xcafee798(Any p0)
+	void _0xCAFEE798(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCAFEE798, 1, p0);
@@ -11978,22 +11978,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x96FD173B, 1, p0);
 	}
-	void _0x72e8cd3a(Any p0)
+	void _0x72E8CD3A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x72E8CD3A, 1, p0);
 	}
-	void _0x79472ae3(Any p0)
+	void _0x79472AE3(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x79472AE3, 1, p0);
 	}
-	void _0xfc7464a0(Any p0)
+	void _0xFC7464A0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFC7464A0, 1, p0);
 	}
-	void _0x3554aa0e(Any p0)
+	void _0x3554AA0E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3554AA0E, 1, p0);
@@ -12033,27 +12033,27 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x71C12904, 1, p0);
 	}
-	void _0x5ac6dac9()
+	void _0x5AC6DAC9()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5AC6DAC9, 0);
 	}
-	void _0x837f8581()
+	void _0x837F8581()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x837F8581, 0);
 	}
-	void _0x65dde8af()
+	void _0x65DDE8AF()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x65DDE8AF, 0);
 	}
-	void _0xd75cdd75()
+	void _0xD75CDD75()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD75CDD75, 0);
 	}
-	Any _0x96a07066()
+	Any _0x96A07066()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x96A07066, 0);
@@ -12073,17 +12073,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD78358C5, 1, p0);
 	}
-	void _0xfbb85e02(Any p0)
+	void _0xFBB85E02(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFBB85E02, 1, p0);
 	}
-	void _0x4938c82f()
+	void _0x4938C82F()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4938C82F, 0);
 	}
-	Any _0x2939d0b6(Any p0, Any p1, Any p2)
+	Any _0x2939D0B6(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2939D0B6, 3, p0, p1, p2);
@@ -12093,12 +12093,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2009E747, 1, p0);
 	}
-	void _0xaa2b89e0()
+	void _0xAA2B89E0()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAA2B89E0, 0);
 	}
-	Any _0x6739ad55()
+	Any _0x6739AD55()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6739AD55, 0);
@@ -12108,22 +12108,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF07D603D, 1, p0);
 	}
-	void _0x067ba6f5(Any p0)
+	void _0x067BA6F5(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x067BA6F5, 1, p0);
 	}
-	Any _0xfd99be2b(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	Any _0xFD99BE2B(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFD99BE2B, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	void _0xe206c450()
+	void _0xE206C450()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE206C450, 0);
 	}
-	void _0xb06ccd38(Any p0)
+	void _0xB06CCD38(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB06CCD38, 1, p0);
@@ -12134,7 +12134,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE3438955, 1, p0);
 	}
-	Any _0x324fa47a(Any p0)
+	Any _0x324FA47A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x324FA47A, 1, p0);
@@ -12164,7 +12164,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xB0237302, 3, ped, pWeapon, b);
 	}
-	Any _0x5d73cd20(Any p0)
+	Any _0x5D73CD20(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5D73CD20, 1, p0);
@@ -12199,7 +12199,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x43D2FA82, 3, p0, p1, p2);
 	}
-	Any _0x02a32cb0(Any p0)
+	Any _0x02A32CB0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x02A32CB0, 1, p0);
@@ -12229,7 +12229,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9CB8D278, 3, p0, p1, p2);
 	}
-	void _0x5a5e3b67(Any p0, Any p1)
+	void _0x5A5E3B67(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5A5E3B67, 2, p0, p1);
@@ -12334,7 +12334,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2386A307, 2, p0, p1);
 	}
-	void _0xd6460ea2(Any p0)
+	void _0xD6460EA2(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD6460EA2, 1, p0);
@@ -12354,7 +12354,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8A256D0A, 3, p0, p1, p2);
 	}
-	Any _0x8ddd0b5b(Any p0, Any p1)
+	Any _0x8DDD0B5B(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8DDD0B5B, 2, p0, p1);
@@ -12374,12 +12374,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA5F89919, 2, p0, p1);
 	}
-	Any _0x3612110d(Any p0)
+	Any _0x3612110D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3612110D, 1, p0);
 	}
-	Any _0xb2b2bbaa(Any p0)
+	Any _0xB2B2BBAA(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB2B2BBAA, 1, p0);
@@ -12409,7 +12409,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x7565FB19, 3, p0, p1, p2);
 	}
-	Any _0x82eeaf0f(Any p0)
+	Any _0x82EEAF0F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x82EEAF0F, 1, p0);
@@ -12459,7 +12459,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x639AF3EF, 2, p0, p1);
 	}
-	Any _0xb1817baa(Any p0, Any p1)
+	Any _0xB1817BAA(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB1817BAA, 2, p0, p1);
@@ -12509,22 +12509,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8D515E66, 1, p0);
 	}
-	void _0xb4f44c6e(Any p0, Any p1, Any p2)
+	void _0xB4F44C6E(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB4F44C6E, 3, p0, p1, p2);
 	}
-	Any _0xec2e5304(Any p0, Any p1)
+	Any _0xEC2E5304(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEC2E5304, 2, p0, p1);
 	}
-	void _0xe3bd00f9(Any p0)
+	void _0xE3BD00F9(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE3BD00F9, 1, p0);
 	}
-	Any _0xbaf7bfbe(Any p0)
+	Any _0xBAF7BFBE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBAF7BFBE, 1, p0);
@@ -12534,7 +12534,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x76876154, 1, p0);
 	}
-	Any _0xb0127ea7(Any p0)
+	Any _0xB0127EA7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB0127EA7, 1, p0);
@@ -12549,7 +12549,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x013AFC13, 1, p0);
 	}
-	void _0x64646f1d(Any p0)
+	void _0x64646F1D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x64646F1D, 1, p0);
@@ -12636,7 +12636,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFFF1B500, 1, model);
 	}
-	void _0x48ceb6b4(Any p0)
+	void _0x48CEB6B4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x48CEB6B4, 1, p0);
@@ -12646,7 +12646,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x62BFDB37, 1, model);
 	}
-	void _0x939243fb(Any p0, Any p1)
+	void _0x939243FB(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x939243FB, 2, p0, p1);
@@ -12671,7 +12671,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xFFFC85D4, 1, model);
 	}
-	void _0x0b7e0f0a()
+	void _0x0B7E0F0A()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0B7E0F0A, 0);
@@ -12816,7 +12816,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x34D91E7A, 0);
 	}
-	void _0x14680a60(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	void _0x14680A60(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x14680A60, 6, p0, p1, p2, p3, p4, p5);
@@ -12831,17 +12831,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xB456D707, 1, p0);
 	}
-	void _0x403cd434(Any p0, Any p1)
+	void _0x403CD434(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x403CD434, 2, p0, p1);
 	}
-	void _0xa07baeb9(Any p0)
+	void _0xA07BAEB9(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA07BAEB9, 1, p0);
 	}
-	Any _0x10b6ab36(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	Any _0x10B6AB36(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x10B6AB36, 6, p0, p1, p2, p3, p4, p5);
@@ -12851,22 +12851,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x72344191, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	Any _0xc0157255(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
+	Any _0xC0157255(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC0157255, 7, p0, p1, p2, p3, p4, p5, p6);
 	}
-	void _0xe80f8abe(Any p0)
+	void _0xE80F8ABE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE80F8ABE, 1, p0);
 	}
-	Any _0x1b3521f4(Any p0)
+	Any _0x1B3521F4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1B3521F4, 1, p0);
 	}
-	Any _0x42cfe9c0(Any p0)
+	Any _0x42CFE9C0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x42CFE9C0, 1, p0);
@@ -12881,7 +12881,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDF9C38B6, 8, p0, p1, p2, p3, p4, p5, p6, p7);
 	}
-	Any _0xfa037feb(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0xFA037FEB(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFA037FEB, 5, p0, p1, p2, p3, p4);
@@ -12901,7 +12901,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x3ECD839F, 0);
 	}
-	Any _0xeaa51103()
+	Any _0xEAA51103()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEAA51103, 0);
@@ -12941,62 +12941,62 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9B7BA38F, 0);
 	}
-	void _0xf0bd420d(Any p0)
+	void _0xF0BD420D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF0BD420D, 1, p0);
 	}
-	Any _0x02ba7ac2()
+	Any _0x02BA7AC2()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x02BA7AC2, 0);
 	}
-	void _0x47352e14(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	void _0x47352E14(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x47352E14, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	void _0x279077b0(Any p0)
+	void _0x279077B0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x279077B0, 1, p0);
 	}
-	void _0x55cb21f9()
+	void _0x55CB21F9()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x55CB21F9, 0);
 	}
-	void _0x1084f2f4()
+	void _0x1084F2F4()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1084F2F4, 0);
 	}
-	void _0x5b1e995d()
+	void _0x5B1E995D()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5B1E995D, 0);
 	}
-	void _0x4b4b9a13()
+	void _0x4B4B9A13()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4B4B9A13, 0);
 	}
-	Any _0x408f7148()
+	Any _0x408F7148()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x408F7148, 0);
 	}
-	void _0xfb4d062d(Any p0, Any p1, Any p2)
+	void _0xFB4D062D(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFB4D062D, 3, p0, p1, p2);
 	}
-	void _0x2349373b(Any p0)
+	void _0x2349373B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2349373B, 1, p0);
 	}
-	Any _0x74c16879()
+	Any _0x74C16879()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x74C16879, 0);
@@ -13006,7 +13006,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x569847E3, 0);
 	}
-	Any _0xc7a3d279()
+	Any _0xC7A3D279()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC7A3D279, 0);
@@ -13016,52 +13016,52 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x90F64284, 0);
 	}
-	Any _0x7154b6fd()
+	Any _0x7154B6FD()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7154B6FD, 0);
 	}
-	void _0xe5612c1a(Any p0)
+	void _0xE5612C1A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE5612C1A, 1, p0);
 	}
-	void _0x9cd6a451(Any p0, Any p1, Any p2, Any p3)
+	void _0x9CD6A451(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9CD6A451, 4, p0, p1, p2, p3);
 	}
-	void _0x4267da87()
+	void _0x4267DA87()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4267DA87, 0);
 	}
-	void _0x9fa4af99(Any p0)
+	void _0x9FA4AF99(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9FA4AF99, 1, p0);
 	}
-	void _0x9ef0a9cf(Any p0, Any p1)
+	void _0x9EF0A9CF(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9EF0A9CF, 2, p0, p1);
 	}
-	void _0xf2cdd6a8()
+	void _0xF2CDD6A8()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF2CDD6A8, 0);
 	}
-	Any _0x17b0a1cd()
+	Any _0x17B0A1CD()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x17B0A1CD, 0);
 	}
-	void _0x3da7aa5d()
+	void _0x3DA7AA5D()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3DA7AA5D, 0);
 	}
-	Any _0xdab4bac0()
+	Any _0xDAB4BAC0()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDAB4BAC0, 0);
@@ -13091,22 +13091,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x30F8A487, 1, p0);
 	}
-	void _0x814d0752(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	void _0x814D0752(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x814D0752, 6, p0, p1, p2, p3, p4, p5);
 	}
-	void _0x62f02485(Any p0, Any p1, Any p2, Any p3)
+	void _0x62F02485(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x62F02485, 4, p0, p1, p2, p3);
 	}
-	void _0xa6459caa(Any p0)
+	void _0xA6459CAA(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA6459CAA, 1, p0);
 	}
-	void _0xf8f515e4(Any p0)
+	void _0xF8F515E4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF8F515E4, 1, p0);
@@ -13121,28 +13121,28 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7CAC6FA0, 0);
 	}
-	void _0xe243b2af()
+	void _0xE243B2AF()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE243B2AF, 0);
 	}
-	void _0x897a510f()
+	void _0x897A510F()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x897A510F, 0);
 	}
 	// 0x81043F00 -- no params/results data
-	Any _0xc0e83320(Any p0)
+	Any _0xC0E83320(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC0E83320, 1, p0);
 	}
-	void _0x1c576388(Any p0)
+	void _0x1C576388(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1C576388, 1, p0);
 	}
-	Any _0x3e9c4cbe()
+	Any _0x3E9C4CBE()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3E9C4CBE, 0);
@@ -13178,17 +13178,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x78D7A5A0, 1, tid);
 	}
-	Any _0xbe7acd89(Any p0)
+	Any _0xBE7ACD89(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBE7ACD89, 1, p0);
 	}
-	void _0xbb4e2f66()
+	void _0xBB4E2F66()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBB4E2F66, 0);
 	}
-	Any _0x1e28b28f()
+	Any _0x1E28B28F()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1E28B28F, 0);
@@ -13203,7 +13203,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3CD9CBB7, 0);
 	}
-	Any _0x029d3841(Hash script)
+	Any _0x029D3841(Hash script)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x029D3841, 1, script);
@@ -13213,7 +13213,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA40FD5D9, 0);
 	}
-	Any _0x2bee1f45()
+	Any _0x2BEE1F45()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2BEE1F45, 0);
@@ -13253,19 +13253,19 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC8055034, 1, p0);
 	}
-	void _0xb03bccdf()
+	void _0xB03BCCDF()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB03BCCDF, 0);
 	}
 	// 0xCDC9D654 -- no params/results data
 
-	void _0xcb7c8994(Any p0)
+	void _0xCB7C8994(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCB7C8994, 1, p0);
 	}
-	void _0x903f5ee4(Any p0)
+	void _0x903F5EE4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x903F5EE4, 1, p0);
@@ -13275,212 +13275,212 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x94119534, 0);
 	}
-	void _0x71077fbd()
+	void _0x71077FBD()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x71077FBD, 0);
 	}
-	Any _0xb8b3a5d0()
+	Any _0xB8B3A5D0()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB8B3A5D0, 0);
 	}
-	void _0xa7c8594b(Any p0)
+	void _0xA7C8594B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA7C8594B, 1, p0);
 	}
-	void _0x1da7e41a(Any p0)
+	void _0x1DA7E41A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1DA7E41A, 1, p0);
 	}
-	void _0x1e63088a()
+	void _0x1E63088A()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1E63088A, 0);
 	}
-	void _0x5205c6f5()
+	void _0x5205C6F5()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5205C6F5, 0);
 	}
-	void _0xeca8acb9(Any p0)
+	void _0xECA8ACB9(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xECA8ACB9, 1, p0);
 	}
-	void _0x520fcb6d()
+	void _0x520FCB6D()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x520FCB6D, 0);
 	}
-	void _0xc8bab2f2()
+	void _0xC8BAB2F2()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC8BAB2F2, 0);
 	}
-	void _0x4d0449c6()
+	void _0x4D0449C6()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4D0449C6, 0);
 	}
-	void _0xd3f40140()
+	void _0xD3F40140()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD3F40140, 0);
 	}
-	Any _0xc5223796()
+	Any _0xC5223796()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC5223796, 0);
 	}
-	void _0x709b4bcb()
+	void _0x709B4BCB()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x709B4BCB, 0);
 	}
-	void _0x4a4a40a4()
+	void _0x4A4A40A4()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4A4A40A4, 0);
 	}
-	Any _0x294405d4()
+	Any _0x294405D4()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x294405D4, 0);
 	}
-	void _0xf881ab87()
+	void _0xF881AB87()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF881AB87, 0);
 	}
-	void _0x1d6859ca()
+	void _0x1D6859CA()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1D6859CA, 0);
 	}
-	void _0xcf14d7f2(Any p0, Any p1, Any p2, Any p3)
+	void _0xCF14D7F2(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCF14D7F2, 4, p0, p1, p2, p3);
 	}
-	void _0x24a97af8(Any p0)
+	void _0x24A97AF8(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x24A97AF8, 1, p0);
 	}
-	void _0x44018edb(Any p0)
+	void _0x44018EDB(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x44018EDB, 1, p0);
 	}
-	void _0xa4524b23()
+	void _0xA4524B23()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA4524B23, 0);
 	}
-	void _0xafa1148b()
+	void _0xAFA1148B()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAFA1148B, 0);
 	}
-	void _0x3cd4307c()
+	void _0x3CD4307C()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3CD4307C, 0);
 	}
-	void _0x574ee85c(Any p0)
+	void _0x574EE85C(char* p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x574EE85C, 1, p0);
 	}
-	Any _0xed130fa1(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
+	Any _0xED130FA1(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xED130FA1, 7, p0, p1, p2, p3, p4, p5, p6);
 	}
-	Any _0xe7e3c98b(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	Any _0xE7E3C98B(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE7E3C98B, 6, p0, p1, p2, p3, p4, p5);
 	}
-	Any _0x0eb382b7(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
+	Any _0x0EB382B7(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0EB382B7, 7, p0, p1, p2, p3, p4, p5, p6);
 	}
-	Any _0x08f7af78(Any p0, Any p1)
+	Any _0x08F7AF78(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x08F7AF78, 2, p0, p1);
 	}
-	Any _0x57b8d0d4(Any p0, Any p1)
+	Any _0x57B8D0D4(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x57B8D0D4, 2, p0, p1);
 	}
-	Any _0x02ded2b8(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0x02DED2B8(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x02DED2B8, 5, p0, p1, p2, p3, p4);
 	}
-	Any _0xa9ccef66(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
+	Any _0xA9CCEF66(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA9CCEF66, 10, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 	}
-	Any _0x88b9b909(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10)
+	Any _0x88B9B909(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x88B9B909, 11, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10);
 	}
-	Any _0xe05e7052(Any p0, Any p1, Any p2)
+	Any _0xE05E7052(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE05E7052, 3, p0, p1, p2);
 	}
-	Any _0x4fa43ba4(Any p0, Any p1, Any p2, Any p3)
+	Any _0x4FA43BA4(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4FA43BA4, 4, p0, p1, p2, p3);
 	}
-	Any _0x8c90d22f(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	Any _0x8C90D22F(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8C90D22F, 6, p0, p1, p2, p3, p4, p5);
 	}
-	Any _0x8e319ab8(Any p0, Any p1)
+	Any _0x8E319AB8(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8E319AB8, 2, p0, p1);
 	}
-	Any _0x76fb0f21(Any p0, Any p1, Any p2, Any p3)
+	Any _0x76FB0F21(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x76FB0F21, 4, p0, p1, p2, p3);
 	}
-	Any _0x5e93fbfa(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	Any _0x5E93FBFA(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5E93FBFA, 6, p0, p1, p2, p3, p4, p5);
 	}
-	void _0xf42c43c7(Any p0)
+	void _0xF42C43C7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF42C43C7, 1, p0);
 	}
-	void _0x38f82261(Any p0, Any p1)
+	void _0x38F82261(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x38F82261, 2, p0, p1);
 	}
-	void _0xdd524a11(Any p0)
+	void _0xDD524A11(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDD524A11, 1, p0);
 	}
-	Any _0x672efb45()
+	Any _0x672EFB45()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x672EFB45, 0);
@@ -13495,107 +13495,107 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6F8350CE, 2, float_int(x), float_int(y));
 	}
-	void _0x51e7a037(Any p0)
+	void _0x51E7A037(char* p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x51E7A037, 1, p0);
 	}
-	Any _0xd12a643a(Any p0)
+	Any _0xD12A643A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD12A643A, 1, p0);
 	}
-	void _0x94b82066(char* gxtEntry)
+	void _0x94B82066(char* gxtEntry)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x94B82066, 1, gxtEntry);
 	}
-	int _0xaa318785(float x, float y)
+	int _0xAA318785(float x, float y)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<int>(0xAA318785, 2, x, y);
 	}
-	void _0xb245fc10(Any p0)
+	void _0xB245FC10(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB245FC10, 1, p0);
 	}
-	void _0xb59b530d(Any p0, Any p1, Any p2, Any p3)
+	void _0xB59B530D(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB59B530D, 4, p0, p1, p2, p3);
 	}
-	void _0x00e20f2d(Any p0)
+	void _0x00E20F2D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x00E20F2D, 1, p0);
 	}
-	Any _0xf63a13ec(Any p0)
+	Any _0xF63A13EC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF63A13EC, 1, p0);
 	}
-	void _0xf4c211f6(Any p0)
+	void _0xF4C211F6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF4C211F6, 1, p0);
 	}
-	void _0xe8e59820(Any p0)
+	void _0xE8E59820(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE8E59820, 1, p0);
 	}
-	void _0x0e103475(Any p0)
+	void _0x0E103475(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0E103475, 1, p0);
 	}
-	void _0x2944a6c5(Any p0)
+	void _0x2944A6C5(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2944A6C5, 1, p0);
 	}
-	void _0x550665ae(Any p0)
+	void _0x550665AE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x550665AE, 1, p0);
 	}
-	void _0x67785af2()
+	void _0x67785AF2()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x67785AF2, 0);
 	}
-	void _0xbf855650(Any p0)
+	void _0xBF855650(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBF855650, 1, p0);
 	}
-	void _0x6e7fda1c(Any p0)
+	void _0x6E7FDA1C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6E7FDA1C, 1, p0);
 	}
-	void add_text_component_integer(Any p0)
+	void add_text_component_integer(int p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFE272A57, 1, p0);
 	}
-	void add_text_component_float(Any p0, Any p1)
+	void add_text_component_float(float float_val, uint dp)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x24D78013, 2, p0, p1);
+		l_NativeCall.Invoke<Void>(0x24D78013, 2, float_int(float_val), dp);
 	}
-	void _0xdce05406(Any p0)
+	void _0xDCE05406(char* p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDCE05406, 1, p0);
 	}
-	void _0x150e03b6(Any p0)
+	void _0x150E03B6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x150E03B6, 1, p0);
 	}
-	void _0x5de98f0a(Any p0)
+	void _0x5DE98F0A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5DE98F0A, 1, p0);
@@ -13610,47 +13610,47 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x135B3CD0, 2, p0, p1);
 	}
-	void _0x12929bdf(Any p0, Any p1)
+	void _0x12929BDF(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x12929BDF, 2, p0, p1);
 	}
-	void _0x65e1d404(Any p0, Any p1)
+	void _0x65E1D404(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x65E1D404, 2, p0, p1);
 	}
-	void _0xc736999e(Any p0)
+	void _0xC736999E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC736999E, 1, p0);
 	}
-	void _0x0829a799(Any p0)
+	void _0x0829A799(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0829A799, 1, p0);
 	}
-	void _0x6f1a1901(Any p0)
+	void _0x6F1A1901(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6F1A1901, 1, p0);
 	}
-	Any _0x34a396ee(Any p0, Any p1, Any p2)
+	Any _0x34A396EE(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x34A396EE, 3, p0, p1, p2);
 	}
-	Any _0x0183a66c(Any p0, Any p1, Any p2, Any p3)
+	Any _0x0183A66C(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0183A66C, 4, p0, p1, p2, p3);
 	}
-	Any _0xfa6373bb(Any p0, Any p1, Any p2)
+	Any _0xFA6373BB(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFA6373BB, 3, p0, p1, p2);
 	}
-	Any _0x95c4b5ad(Any p0)
+	Any _0x95C4B5AD(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x95C4B5AD, 1, p0);
@@ -13730,7 +13730,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x99379D55, 1, p0);
 	}
-	Any _0x7dbc0764(Any p0)
+	Any _0x7DBC0764(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7DBC0764, 1, p0);
@@ -13760,12 +13760,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD10E4E31, 1, p0);
 	}
-	void _0xc380ac85()
+	void _0xC380AC85()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC380AC85, 0);
 	}
-	void _0xc47ab1b0()
+	void _0xC47AB1B0()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC47AB1B0, 0);
@@ -13800,7 +13800,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB58B25BD, 1, p0);
 	}
-	void _0x9854485f(Any p0)
+	void _0x9854485F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9854485F, 1, p0);
@@ -13815,17 +13815,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2A50D1A6, 1, p0);
 	}
-	void _0x25ec28c0(Any p0, Any p1)
+	void _0x25EC28C0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x25EC28C0, 2, p0, p1);
 	}
-	void _0x09cf1ce5(Any p0)
+	void _0x09CF1CE5(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x09CF1CE5, 1, p0);
 	}
-	void _0xe8d3a910()
+	void _0xE8D3A910()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE8D3A910, 0);
@@ -13835,12 +13835,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x63F66A0B, 5, p0, p1, p2, p3, p4);
 	}
-	void _0x0e41e45c(Any p0, Any p1, Any p2, Any p3)
+	void _0x0E41E45C(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0E41E45C, 4, p0, p1, p2, p3);
 	}
-	void _0x6be3aca8(Any p0, Any p1, Any p2, Any p3)
+	void _0x6BE3ACA8(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6BE3ACA8, 4, p0, p1, p2, p3);
@@ -13860,7 +13860,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x629F866B, 1, p0);
 	}
-	float _0x3330175b(float x, float y)
+	float _0x3330175B(float x, float y)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<float>(0x3330175B, 2, x, y);
@@ -13885,7 +13885,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x45B60520, 1, b);
 	}
-	void _0x68cdfa60(Any p0)
+	void _0x68CDFA60(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x68CDFA60, 1, p0);
@@ -13980,7 +13980,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x4B3C9CA9, 0);
 	}
-	Any _0x812cbe0e()
+	Any _0x812CBE0E()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x812CBE0E, 0);
@@ -13995,7 +13995,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x3E50AE92, 0);
 	}
-	Any _0x87871ce0()
+	Any _0x87871CE0()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x87871CE0, 0);
@@ -14070,12 +14070,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC6F43D0E, 3, p0, p1, p2);
 	}
-	void _0xbf25e7b2(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0xBF25E7B2(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBF25E7B2, 5, p0, p1, p2, p3, p4);
 	}
-	void _0xe7e1e32b(Any p0)
+	void _0xE7E1E32B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE7E1E32B, 1, p0);
@@ -14170,7 +14170,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x258CBA3A, 1, p0);
 	}
-	Any _0x3e47f357(Any p0)
+	Any _0x3E47F357(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3E47F357, 1, p0);
@@ -14200,12 +14200,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFFD7476C, 0);
 	}
-	Any _0xc5eb849a()
+	Any _0xC5EB849A()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC5EB849A, 0);
 	}
-	void _0xa2caab4f(Any p0)
+	void _0xA2CAAB4F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA2CAAB4F, 1, p0);
@@ -14275,47 +14275,47 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0B6D610D, 1, p0);
 	}
-	void _0x1d99f676(Any p0, Any p1)
+	void _0x1D99F676(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1D99F676, 2, p0, p1);
 	}
-	void _0x3dcf0092(Any p0, Any p1)
+	void _0x3DCF0092(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3DCF0092, 2, p0, p1);
 	}
-	void _0xd1c3d71b(Any p0, Any p1)
+	void _0xD1C3D71B(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD1C3D71B, 2, p0, p1);
 	}
-	void _0x8de82c15(Any p0, Any p1)
+	void _0x8DE82C15(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8DE82C15, 2, p0, p1);
 	}
-	void _0x4c8f02b4(Any p0, Any p1)
+	void _0x4C8F02B4(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4C8F02B4, 2, p0, p1);
 	}
-	void _0xabbe1e45(Any p0, Any p1)
+	void _0xABBE1E45(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xABBE1E45, 2, p0, p1);
 	}
-	void _0x6aa6a1cc(Any p0, Any p1)
+	void _0x6AA6A1CC(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6AA6A1CC, 2, p0, p1);
 	}
-	void _0xc575f0bc(Any p0, Any p1)
+	void _0xC575F0BC(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC575F0BC, 2, p0, p1);
 	}
-	void _0x40e25db8(Any p0, Any p1)
+	void _0x40E25DB8(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x40E25DB8, 2, p0, p1);
@@ -14330,7 +14330,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB3496E1B, 0);
 	}
-	void _0x62babf2c()
+	void _0x62BABF2C()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x62BABF2C, 0);
@@ -14360,7 +14360,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFF545AD8, 2, p0, p1);
 	}
-	void _0x41b0d022(Any p0)
+	void _0x41B0D022(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x41B0D022, 1, p0);
@@ -14390,32 +14390,32 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x39ABB10E, 0);
 	}
-	void _0x54e75c7d(Any p0, Any p1)
+	void _0x54E75C7D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x54E75C7D, 2, p0, p1);
 	}
-	Any _0x199ded14()
+	Any _0x199DED14()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x199DED14, 0);
 	}
-	void _0x1a4318f7()
+	void _0x1A4318F7()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1A4318F7, 0);
 	}
-	void _0xce36e3fe()
+	void _0xCE36E3FE()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCE36E3FE, 0);
 	}
-	void _0x334efd46()
+	void _0x334EFD46()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x334EFD46, 0);
 	}
-	void _0x8a292aa3()
+	void _0x8A292AA3()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8A292AA3, 0);
@@ -14425,7 +14425,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF016E08F, 1, p0);
 	}
-	Any _0xb6507ad9()
+	Any _0xB6507AD9()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB6507AD9, 0);
@@ -14456,17 +14456,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB75D4AD2, 0);
 	}
-	void _0x5476b9fd(Any p0)
+	void _0x5476B9FD(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5476B9FD, 1, p0);
 	}
-	void _0xf4f3c796()
+	void _0xF4F3C796()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF4F3C796, 0);
 	}
-	void _0x7bffe82f()
+	void _0x7BFFE82F()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7BFFE82F, 0);
@@ -14501,27 +14501,27 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x18E3360A, 2, p0, p1);
 	}
-	void _0x1effb02a(Any p0)
+	void _0x1EFFB02A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1EFFB02A, 1, p0);
 	}
-	void _0xb26fed2b()
+	void _0xB26FED2B()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB26FED2B, 0);
 	}
-	Any _0x22e9f555()
+	Any _0x22E9F555()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x22E9F555, 0);
 	}
-	void _0x83b608a0(Any p0)
+	void _0x83B608A0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x83B608A0, 1, p0);
 	}
-	void _0xe70d1f43(Any p0)
+	void _0xE70D1F43(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE70D1F43, 1, p0);
@@ -14536,7 +14536,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x056AFCE6, 0);
 	}
-	void _0xfb9babf5(Any p0)
+	void _0xFB9BABF5(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFB9BABF5, 1, p0);
@@ -14546,42 +14546,42 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x40C59829, 0);
 	}
-	void _0x7f93799b(Any p0, Any p1, Any p2)
+	void _0x7F93799B(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7F93799B, 3, p0, p1, p2);
 	}
-	void _0xeebdfe55(Any p0, Any p1, Any p2)
+	void _0xEEBDFE55(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xEEBDFE55, 3, p0, p1, p2);
 	}
-	void _0xda0af00e(Any p0, Any p1, Any p2)
+	void _0xDA0AF00E(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDA0AF00E, 3, p0, p1, p2);
 	}
-	void _0xcf2e3e24()
+	void _0xCF2E3E24()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCF2E3E24, 0);
 	}
-	void _0xc3dcbedb(Any p0, Any p1, Any p2)
+	void _0xC3DCBEDB(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC3DCBEDB, 3, p0, p1, p2);
 	}
-	void _0xfe485135(Any p0, Any p1, Any p2)
+	void _0xFE485135(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFE485135, 3, p0, p1, p2);
 	}
-	void _0xe87cbe4c(Any p0)
+	void _0xE87CBE4C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE87CBE4C, 1, p0);
 	}
-	void _0x0d9969e4()
+	void _0x0D9969E4()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0D9969E4, 0);
@@ -14616,17 +14616,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x68DCAE10, 2, p0, p1);
 	}
-	void _0x8d9a1734(Any p0, Any p1)
+	void _0x8D9A1734(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8D9A1734, 2, p0, p1);
 	}
-	void _0x407c47ff(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0x407C47FF(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x407C47FF, 5, p0, p1, p2, p3, p4);
 	}
-	void _0xd2161e77(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	void _0xD2161E77(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD2161E77, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
@@ -14636,37 +14636,37 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA41C3B62, 1, p0);
 	}
-	void _0x02f5f1d1(Any p0)
+	void _0x02F5F1D1(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x02F5F1D1, 1, p0);
 	}
-	void _0xd8d77733(Any p0)
+	void _0xD8D77733(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD8D77733, 1, p0);
 	}
-	float _0xa4098acc()
+	float _0xA4098ACC()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<float>(0xA4098ACC, 0);
 	}
-	Any _0x65b705f6(Any p0, Any p1, Any p2)
+	Any _0x65B705F6(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x65B705F6, 3, p0, p1, p2);
 	}
-	void _0xe010f081(Any p0, Any p1, Any p2)
+	void _0xE010F081(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE010F081, 3, p0, p1, p2);
 	}
-	void _0x5133a750(Any p0)
+	void _0x5133A750(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5133A750, 1, p0);
 	}
-	void _0x20fd3e87()
+	void _0x20FD3E87()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x20FD3E87, 0);
@@ -14691,27 +14691,27 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5E8E6F54, 0);
 	}
-	void _0x0308edf6(Any p0)
+	void _0x0308EDF6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0308EDF6, 1, p0);
 	}
-	void _0x7fb6fb2a(Any p0, Any p1, Any p2)
+	void _0x7FB6FB2A(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7FB6FB2A, 3, p0, p1, p2);
 	}
-	void _0xf07d8cef(Any p0)
+	void _0xF07D8CEF(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF07D8CEF, 1, p0);
 	}
-	void _0x827f14de(Any p0)
+	void _0x827F14DE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x827F14DE, 1, p0);
 	}
-	void _0x08eb83d2(Any p0, Any p1)
+	void _0x08EB83D2(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x08EB83D2, 2, p0, p1);
@@ -14731,7 +14731,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x31ABA127, 1, p0);
 	}
-	Any _0xe8c8e535(Any p0)
+	Any _0xE8C8E535(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE8C8E535, 1, p0);
@@ -14747,7 +14747,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x95E1546E, 1, p0);
 	}
-	void _0x52746fe1()
+	void _0x52746FE1()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x52746FE1, 0);
@@ -14772,38 +14772,38 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0x080DCED6, 1, p0);
 	}
-	void _0x5bbcc934()
+	void _0x5BBCC934()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5BBCC934, 0);
 	}
-	Any _0xfe9a39f8(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0xFE9A39F8(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFE9A39F8, 5, p0, p1, p2, p3, p4);
 	}
-	void _0x10de5150()
+	void _0x10DE5150()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x10DE5150, 0);
 	}
-	void _0x67649ee0()
+	void _0x67649EE0()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x67649EE0, 0);
 	}
-	Any _0x9d2c94fa()
+	Any _0x9D2C94FA()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9D2C94FA, 0);
 	}
 	// 0xDFA36277 -- no params/results data
-	Any _0x45472fd5(Any p0)
+	Any _0x45472FD5(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x45472FD5, 1, p0);
 	}
-	void _0x198f32d7(Any p0, Any p1, Any p2)
+	void _0x198F32D7(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x198F32D7, 3, p0, p1, p2);
@@ -14813,12 +14813,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x93045157, 4, p0, p1, p2, p3);
 	}
-	void _0x18b012b7(Any p0, Any p1, Any p2, Any p3)
+	void _0x18B012B7(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x18B012B7, 4, p0, p1, p2, p3);
 	}
-	void _0x97852a82(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	void _0x97852A82(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x97852A82, 6, p0, p1, p2, p3, p4, p5);
@@ -14828,23 +14828,23 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB181F88F, 2, p0, p1);
 	}
-	void _0xc969f2d0(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	void _0xC969F2D0(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC969F2D0, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	Any _0xefd2564a()
+	Any _0xEFD2564A()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEFD2564A, 0);
 	}
-	Any _0xf5cd2aa4(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	Any _0xF5CD2AA4(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF5CD2AA4, 6, p0, p1, p2, p3, p4, p5);
 	}
 	// 0x1A83A1B9 -- no params/results data
-	void _0x3d081fe4(Any p0)
+	void _0x3D081FE4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3D081FE4, 1, p0);
@@ -14859,62 +14859,62 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x63959059, 1, p0);
 	}
-	void _0xd41df479(Any p0, Any p1, Any p2)
+	void _0xD41DF479(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD41DF479, 3, p0, p1, p2);
 	}
-	void _0x767ded29(Any p0, Any p1)
+	void _0x767DED29(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x767DED29, 2, p0, p1);
 	}
-	void _0xe1bc7485(Any p0, Any p1)
+	void _0xE1BC7485(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE1BC7485, 2, p0, p1);
 	}
-	void _0xb01a5434(Any p0, Any p1)
+	void _0xB01A5434(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB01A5434, 2, p0, p1);
 	}
-	void _0x7e3aa40a(Any p0, Any p1, Any p2)
+	void _0x7E3AA40A(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7E3AA40A, 3, p0, p1, p2);
 	}
-	void _0x5777ec77(Any p0, Any p1)
+	void _0x5777EC77(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5777EC77, 2, p0, p1);
 	}
-	void _0xf4418611(Any p0, Any p1, Any p2)
+	void _0xF4418611(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF4418611, 3, p0, p1, p2);
 	}
-	void _0x0ebb003f(Any p0, Any p1)
+	void _0x0EBB003F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0EBB003F, 2, p0, p1);
 	}
-	void _0x627a559b(Any p0, Any p1)
+	void _0x627A559B(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x627A559B, 2, p0, p1);
 	}
-	Any _0xf11414c4(Any p0)
+	Any _0xF11414C4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF11414C4, 1, p0);
 	}
-	void _0x939218ab(Any p0, Any p1)
+	void _0x939218AB(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x939218AB, 2, p0, p1);
 	}
-	Any _0xab5b7c18()
+	Any _0xAB5B7C18()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xAB5B7C18, 0);
@@ -14924,7 +14924,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x42A55B14, 0);
 	}
-	Any _0xd217ee7e(Any p0)
+	Any _0xD217EE7E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD217EE7E, 1, p0);
@@ -14934,7 +14934,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBE699BDE, 8, p0, p1, p2, p3, p4, p5, p6, p7);
 	}
-	void _0x2db9eab5(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	void _0x2DB9EAB5(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2DB9EAB5, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
@@ -14944,37 +14944,37 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x749929D3, 10, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 	}
-	Any _0x94c834ad()
+	Any _0x94C834AD()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x94C834AD, 0);
 	}
-	void _0xe4fd20d8(Any p0)
+	void _0xE4FD20D8(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE4FD20D8, 1, p0);
 	}
-	void _0x13e7a5a9(Any p0)
+	void _0x13E7A5A9(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x13E7A5A9, 1, p0);
 	}
-	Any _0x786ca0a2(Any p0, Any p1, Any p2)
+	Any _0x786CA0A2(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x786CA0A2, 3, p0, p1, p2);
 	}
-	void _0xcbec9369()
+	void _0xCBEC9369()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCBEC9369, 0);
 	}
-	Any _0x3f4afb13()
+	Any _0x3F4AFB13()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3F4AFB13, 0);
 	}
-	void _0x801d0d86()
+	void _0x801D0D86()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x801D0D86, 0);
@@ -14989,7 +14989,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB07DAF98, 2, p0, p1);
 	}
-	Any _0x33d6868f()
+	Any _0x33D6868F()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x33D6868F, 0);
@@ -15004,12 +15004,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD86A029E, 0);
 	}
-	void _0x7f349900()
+	void _0x7F349900()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7F349900, 0);
 	}
-	void _0x630cd8ee()
+	void _0x630CD8EE()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x630CD8EE, 0);
@@ -15034,22 +15034,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x3C4CF4D9, 0);
 	}
-	void _0x2dfd35c7(Any p0)
+	void _0x2DFD35C7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2DFD35C7, 1, p0);
 	}
-	void _0x0a89336c(Any p0)
+	void _0x0A89336C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0A89336C, 1, p0);
 	}
-	void _0xc84be309()
+	void _0xC84BE309()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC84BE309, 0);
 	}
-	void _0x9fe8fd5e(Any p0)
+	void _0x9FE8FD5E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9FE8FD5E, 1, p0);
@@ -15059,12 +15059,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0029046E, 1, p0);
 	}
-	Any _0xc51bc42f(Any p0)
+	Any _0xC51BC42F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC51BC42F, 1, p0);
 	}
-	Any _0x016d7af9()
+	Any _0x016D7AF9()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x016D7AF9, 0);
@@ -15074,47 +15074,47 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x15B24768, 1, p0);
 	}
-	void _0x6c67131a(Any p0, Any p1, Any p2)
+	void _0x6C67131A(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6C67131A, 3, p0, p1, p2);
 	}
-	void _0x11d09737(Any p0)
+	void _0x11D09737(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x11D09737, 1, p0);
 	}
-	Any _0xd3bf3abd()
+	Any _0xD3BF3ABD()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD3BF3ABD, 0);
 	}
-	void _0xc06b763d()
+	void _0xC06B763D()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC06B763D, 0);
 	}
-	void _0xb9392ce7()
+	void _0xB9392CE7()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB9392CE7, 0);
 	}
-	Any _0x92dafa78()
+	Any _0x92DAFA78()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x92DAFA78, 0);
 	}
-	Any _0x22ca9f2a()
+	Any _0x22CA9F2A()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x22CA9F2A, 0);
 	}
-	Any _0xda7951a2()
+	Any _0xDA7951A2()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDA7951A2, 0);
 	}
-	Any _0x7d95afff()
+	Any _0x7D95AFFF()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7D95AFFF, 0);
@@ -15124,22 +15124,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x96863460, 0);
 	}
-	void _0x8543aac8(Any p0, Any p1)
+	void _0x8543AAC8(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8543AAC8, 2, p0, p1);
 	}
-	void _0x6025aa2f(Any p0, Any p1, Any p2)
+	void _0x6025AA2F(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6025AA2F, 3, p0, p1, p2);
 	}
-	void _0x30d72a4b(Any p0, Any p1)
+	void _0x30D72A4B(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x30D72A4B, 2, p0, p1);
 	}
-	Any _0x46794eb2(Any p0, Any p1, Any p2)
+	Any _0x46794EB2(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x46794EB2, 3, p0, p1, p2);
@@ -15149,17 +15149,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4370999E, 2, p0, p1);
 	}
-	Any _0xd6cc4766(Any p0, Any p1, Any p2, Any p3)
+	Any _0xD6CC4766(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD6CC4766, 4, p0, p1, p2, p3);
 	}
-	Any _0x51972b04(Any p0, Any p1)
+	Any _0x51972B04(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x51972B04, 2, p0, p1);
 	}
-	Any _0xd43bb56d(Any p0, Any p1)
+	Any _0xD43BB56D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD43BB56D, 2, p0, p1);
@@ -15175,27 +15175,27 @@
 		l_NativeCall.Invoke<Void>(0x2AD2C9CE, 2, p0, p1);
 	}
 	// 0x92593632 -- no params/results data
-	void _0x127310eb(Any p0)
+	void _0x127310EB(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x127310EB, 1, p0);
 	}
-	void _0x8f45d327(Any p0)
+	void _0x8F45D327(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8F45D327, 1, p0);
 	}
-	void _0x19fcbbb2()
+	void _0x19FCBBB2()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x19FCBBB2, 0);
 	}
-	Any _0x850690ff()
+	Any _0x850690FF()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x850690FF, 0);
 	}
-	Any _0x9d4934f4()
+	Any _0x9D4934F4()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9D4934F4, 0);
@@ -15205,32 +15205,32 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x57218529, 0);
 	}
-	void _0x5f86aa39()
+	void _0x5F86AA39()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5F86AA39, 0);
 	}
-	void _0x7ad67c95(Any p0)
+	void _0x7AD67C95(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7AD67C95, 1, p0);
 	}
-	Any _0xd4da14ef()
+	Any _0xD4DA14EF()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD4DA14EF, 0);
 	}
-	void _0x96c4c4dd(Any p0, Any p1)
+	void _0x96C4C4DD(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x96C4C4DD, 2, p0, p1);
 	}
-	Any _0x3be1257f(Any p0)
+	Any _0x3BE1257F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3BE1257F, 1, p0);
 	}
-	void _0xd8e31b1a(Any p0, Any p1)
+	void _0xD8E31B1A(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD8E31B1A, 2, p0, p1);
@@ -15240,12 +15240,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x872C2CFB, 2, p0, p1);
 	}
-	void _0xffdf46f0(Any p0, Any p1)
+	void _0xFFDF46F0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFFDF46F0, 2, p0, p1);
 	}
-	void _0xf9dc2af7(Any p0, Any p1)
+	void _0xF9DC2AF7(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF9DC2AF7, 2, p0, p1);
@@ -15255,7 +15255,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x06349065, 1, p0);
 	}
-	Any _0xca52cf43(Any p0)
+	Any _0xCA52CF43(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCA52CF43, 1, p0);
@@ -15306,57 +15306,57 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xABD19253, 13, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12);
 	}
-	Any _0xba9ad458()
+	Any _0xBA9AD458()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBA9AD458, 0);
 	}
-	Any _0xadbba287()
+	Any _0xADBBA287()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xADBBA287, 0);
 	}
-	void _0x9e553002()
+	void _0x9E553002()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9E553002, 0);
 	}
-	Any _0x83c846a0(Any p0)
+	Any _0x83C846A0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x83C846A0, 1, p0);
 	}
-	Any _0x5a59a24a(Any p0)
+	Any _0x5A59A24A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5A59A24A, 1, p0);
 	}
-	Any _0x56c1e488(Any p0)
+	Any _0x56C1E488(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x56C1E488, 1, p0);
 	}
-	Any _0x226b08ea(Any p0)
+	Any _0x226B08EA(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x226B08EA, 1, p0);
 	}
-	Any _0x1f3cadb0()
+	Any _0x1F3CADB0()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1F3CADB0, 0);
 	}
-	Any _0xa9dc8558()
+	Any _0xA9DC8558()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA9DC8558, 0);
 	}
-	void _0x88eaf398()
+	void _0x88EAF398()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x88EAF398, 0);
 	}
-	Any _0x47b0c137()
+	Any _0x47B0C137()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x47B0C137, 0);
@@ -15366,37 +15366,37 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x65376C9B, 0);
 	}
-	void _0x9cba682a()
+	void _0x9CBA682A()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9CBA682A, 0);
 	}
-	Any _0x3b15d33c(Any p0)
+	Any _0x3B15D33C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3B15D33C, 1, p0);
 	}
-	Any _0xec5d0317()
+	Any _0xEC5D0317()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEC5D0317, 0);
 	}
-	Any _0x25d569eb(Any p0)
+	Any _0x25D569EB(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x25D569EB, 1, p0);
 	}
-	Any _0xcfcdc518(Any p0)
+	Any _0xCFCDC518(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCFCDC518, 1, p0);
 	}
-	void _0x108f36cc()
+	void _0x108F36CC()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x108F36CC, 0);
 	}
-	void _0xe9f2b68f(Any p0, Any p1)
+	void _0xE9F2B68F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE9F2B68F, 2, p0, p1);
@@ -15406,42 +15406,42 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x727AA63F, 0);
 	}
-	Any _0x239272bd()
+	Any _0x239272BD()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x239272BD, 0);
 	}
-	Any _0x21dbf0c9()
+	Any _0x21DBF0C9()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x21DBF0C9, 0);
 	}
-	Any _0x199fabf0(Any p0)
+	Any _0x199FABF0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x199FABF0, 1, p0);
 	}
-	Any _0x596b900d(Any p0)
+	Any _0x596B900D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x596B900D, 1, p0);
 	}
-	void _0xc9ef81ed()
+	void _0xC9EF81ED()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC9EF81ED, 0);
 	}
-	Any _0x9d84554c(Any p0)
+	Any _0x9D84554C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9D84554C, 1, p0);
 	}
-	Any _0x9c106ad9(Any p0)
+	Any _0x9C106AD9(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9C106AD9, 1, p0);
 	}
-	Any _0x762e5c5f(Any p0)
+	Any _0x762E5C5F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x762E5C5F, 1, p0);
@@ -15456,7 +15456,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBDBC410C, 14, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13);
 	}
-	void _0x32bf9598(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12, Any p13, Any p14)
+	void _0x32BF9598(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12, Any p13, Any p14)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x32BF9598, 15, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14);
@@ -15476,7 +15476,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF541B690, 13, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12);
 	}
-	void _0x80151ccf(Any p0, Any p1)
+	void _0x80151CCF(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x80151CCF, 2, p0, p1);
@@ -15491,17 +15491,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xEF9C8CB3, 5, p0, p1, p2, p3, p4);
 	}
-	void _0xa5456dbb(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0xA5456DBB(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA5456DBB, 5, p0, p1, p2, p3, p4);
 	}
-	void _0x20eabd0f(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
+	void _0x20EABD0F(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x20EABD0F, 7, p0, p1, p2, p3, p4, p5, p6);
 	}
-	void _0x1e3a3126(Any p0)
+	void _0x1E3A3126(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1E3A3126, 1, p0);
@@ -15511,27 +15511,27 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB66CF3CA, 1, p0);
 	}
-	void _0x932fdb81(Any p0)
+	void _0x932FDB81(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x932FDB81, 1, p0);
 	}
-	void _0x7e946e87(Any p0)
+	void _0x7E946E87(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7E946E87, 1, p0);
 	}
-	void request_streamed_texture_dict(Any p0, Any p1)
+	void request_streamed_texture_dict(char* p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4C9B035F, 2, p0, p1);
 	}
-	BOOL has_streamed_texture_dict_loaded(Any p0)
+	BOOL has_streamed_texture_dict_loaded(char* p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x3F436EEF, 1, p0);
 	}
-	void set_streamed_texture_dict_as_no_longer_needed(Any p0)
+	void set_streamed_texture_dict_as_no_longer_needed(char* p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF07DDA38, 1, p0);
@@ -15541,40 +15541,40 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDD2BFC77, 8, float_int(x1), float_int(y1), float_int(x2), float_int(y2), r, g, b, a);
 	}
-	void _0xf8fbcc25(Any p0)
+	void _0xF8FBCC25(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF8FBCC25, 1, p0);
 	}
-	void _0xadf81d24(Any p0)
+	void _0xADF81D24(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xADF81D24, 1, p0);
 	}
-	void _0x228a2598(Any p0, Any p1)
+	void _0x228A2598(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x228A2598, 2, p0, p1);
 	}
-	void _0x3fe33bd6()
+	void _0x3FE33BD6()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3FE33BD6, 0);
 	}
-	void _0x76c641e4(Any p0, Any p1, Any p2, Any p3)
+	void _0x76C641E4(float p0, float p1, float p2, float p3)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x76C641E4, 4, p0, p1, p2, p3);
+		l_NativeCall.Invoke<Void>(0x76C641E4, 4, float_int(p0), float_int(p1), float_int(p2), float_int(p3));
 	}
-	Any _0x3f0d1a6f()
+	Any _0x3F0D1A6F()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3F0D1A6F, 0);
 	}
-	void draw_sprite(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10)
+	void draw_sprite(char* p0, char* p1, float p2, float p3, float p4, float p5, float p6, uint r, uint g, uint b, uint a)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x1FEC16B0, 11, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10);
+		l_NativeCall.Invoke<Void>(0x1FEC16B0, 11, p0, p1, float_int(p2), float_int(p3), float_int(p4), float_int(p5), float_int(p6), r, g, b, a);
 	}
 	Any add_entity_icon(Any p0, Any p1)
 	{
@@ -15601,7 +15601,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1D61FACC, 2, p0, p1);
 	}
-	void _0x7722f545(Any p0, Any p1)
+	void _0x7722F545(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7722F545, 2, p0, p1);
@@ -15616,7 +15616,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x857DF02F, 5, p0, p1, p2, p3, p4);
 	}
-	void _0x173f2eb3(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0x173F2EB3(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x173F2EB3, 5, p0, p1, p2, p3, p4);
@@ -15651,7 +15651,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4FA5501D, 1, p0);
 	}
-	Any _0x9d5d9b38(Any p0)
+	Any _0x9D5D9B38(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9D5D9B38, 1, p0);
@@ -15686,17 +15686,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x046B62D9, 1, p0);
 	}
-	Any _0x1f950e4b(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0x1F950E4B(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1F950E4B, 5, p0, p1, p2, p3, p4);
 	}
-	Vector3 get_texture_resolution(Any p0, Any p1)
+	Vector3 get_texture_resolution(char* p0, char* p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0x096DAA4D, 2, p0, p1);
 	}
-	void _0x455f1084(Any p0)
+	void _0x455F1084(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x455F1084, 1, p0);
@@ -15706,7 +15706,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7E55A1EE, 5, p0, p1, p2, p3, p4);
 	}
-	void _0x0dcc0b8b()
+	void _0x0DCC0B8B()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0DCC0B8B, 0);
@@ -15731,107 +15731,107 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x14AC675F, 1, p0);
 	}
-	void _0x48f16186()
+	void _0x48F16186()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x48F16186, 0);
 	}
-	void _0x13d4abc0(Any p0)
+	void _0x13D4ABC0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x13D4ABC0, 1, p0);
 	}
-	void _0xd2157428(Any p0)
+	void _0xD2157428(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD2157428, 1, p0);
 	}
-	void _0xc07c64c9(Any p0)
+	void _0xC07C64C9(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC07C64C9, 1, p0);
 	}
-	void _0xfe903d0f(Any p0)
+	void _0xFE903D0F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFE903D0F, 1, p0);
 	}
-	void _0xde10ba1f(Any p0)
+	void _0xDE10BA1F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDE10BA1F, 1, p0);
 	}
-	void _0x9f470be3(Any p0)
+	void _0x9F470BE3(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9F470BE3, 1, p0);
 	}
-	void _0x4a124267(Any p0)
+	void _0x4A124267(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4A124267, 1, p0);
 	}
-	void _0xb19b2764(Any p0)
+	void _0xB19B2764(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB19B2764, 1, p0);
 	}
-	void _0x342fa2b4(Any p0)
+	void _0x342FA2B4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x342FA2B4, 1, p0);
 	}
-	void _0x5d3bffc9(Any p0)
+	void _0x5D3BFFC9(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5D3BFFC9, 1, p0);
 	}
-	void _0xd9653728(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	void _0xD9653728(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD9653728, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	void _0x72ba8a14(Any p0, Any p1, Any p2)
+	void _0x72BA8A14(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x72BA8A14, 3, p0, p1, p2);
 	}
-	void _0x804f444c(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
+	void _0x804F444C(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x804F444C, 12, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11);
 	}
-	void _0xbb1a1294(Any p0, Any p1)
+	void _0xBB1A1294(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBB1A1294, 2, p0, p1);
 	}
-	void _0x1a1a72ef(Any p0)
+	void _0x1A1A72EF(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1A1A72EF, 1, p0);
 	}
-	void _0x3bb12b75(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	void _0x3BB12B75(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3BB12B75, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	void _0x4ea70fb4(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0x4EA70FB4(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4EA70FB4, 5, p0, p1, p2, p3, p4);
 	}
-	void _0x0d830dc7(Any p0)
+	void _0x0D830DC7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0D830DC7, 1, p0);
 	}
-	Any _0xa08b46ad()
+	Any _0xA08B46AD()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA08B46AD, 0);
 	}
-	Vector3 _0xecd470f0(Any p0)
+	Vector3 _0xECD470F0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0xECD470F0, 1, p0);
@@ -15841,7 +15841,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x74D4995C, 1, p0);
 	}
-	Any _0x1fe547f2()
+	Any _0x1FE547F2()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1FE547F2, 0);
@@ -15851,32 +15851,32 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x310E9B67, 0);
 	}
-	void _0x654f0287(Any p0, Any p1)
+	void _0x654F0287(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x654F0287, 2, p0, p1);
 	}
-	void _0xf6b837f0(Any p0)
+	void _0xF6B837F0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF6B837F0, 1, p0);
 	}
-	Any _0xd906a3a9()
+	Any _0xD906A3A9()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD906A3A9, 0);
 	}
-	void _0xd34a6cba(Any p0)
+	void _0xD34A6CBA(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD34A6CBA, 1, p0);
 	}
-	void _0xd8cc7221(Any p0)
+	void _0xD8CC7221(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD8CC7221, 1, p0);
 	}
-	Any _0x5604b890(Any p0)
+	Any _0x5604B890(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5604B890, 1, p0);
@@ -15886,7 +15886,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x46617502, 1, p0);
 	}
-	void _0xdb7aecda()
+	void _0xDB7AECDA()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDB7AECDA, 0);
@@ -15896,42 +15896,42 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xEA432A94, 0);
 	}
-	Any _0x926b8734()
+	Any _0x926B8734()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x926B8734, 0);
 	}
-	void _0x30ade541(Any p0)
+	void _0x30ADE541(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x30ADE541, 1, p0);
 	}
-	void _0x0113eae4()
+	void _0x0113EAE4()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0113EAE4, 0);
 	}
-	void _0xdcba251b()
+	void _0xDCBA251B()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDCBA251B, 0);
 	}
-	void _0x513d444b(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	void _0x513D444B(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x513D444B, 6, p0, p1, p2, p3, p4, p5);
 	}
-	Any _0xb2410eab(Any p0)
+	Any _0xB2410EAB(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB2410EAB, 1, p0);
 	}
-	Any _0x5ab94128()
+	Any _0x5AB94128()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5AB94128, 0);
 	}
-	Any _0xd63fcb3e(Any p0, Any p1)
+	Any _0xD63FCB3E(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD63FCB3E, 2, p0, p1);
@@ -15972,7 +15972,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0D06FF62, 12, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11);
 	}
-	Any _0x110752b2(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
+	Any _0x110752B2(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x110752B2, 12, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11);
@@ -16027,7 +16027,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x099B8B49, 2, p0, p1);
 	}
-	void _0x233de879(Any p0, Any p1)
+	void _0x233DE879(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x233DE879, 2, p0, p1);
@@ -16037,17 +16037,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x19EC0001, 1, p0);
 	}
-	void _0x6b125a02(Any p0, Any p1)
+	void _0x6B125A02(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6B125A02, 2, p0, p1);
 	}
-	void _0xd938dee0(Any p0)
+	void _0xD938DEE0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD938DEE0, 1, p0);
 	}
-	void _0xd6844637()
+	void _0xD6844637()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD6844637, 0);
@@ -16062,32 +16062,32 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC61C75E9, 1, p0);
 	}
-	void _0xce8b8748(Any p0)
+	void _0xCE8B8748(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCE8B8748, 1, p0);
 	}
-	void _0xc1ad5ddf(Any p0)
+	void _0xC1AD5DDF(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC1AD5DDF, 1, p0);
 	}
-	void _0x3968e915(Any p0)
+	void _0x3968E915(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3968E915, 1, p0);
 	}
-	void _0x64ba4648(Any p0)
+	void _0x64BA4648(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x64BA4648, 1, p0);
 	}
-	void _0x8be3d47f(Any p0)
+	void _0x8BE3D47F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8BE3D47F, 1, p0);
 	}
-	void _0xe3880f5a(Any p0)
+	void _0xE3880F5A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE3880F5A, 1, p0);
@@ -16137,12 +16137,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1259DF42, 6, p0, p1, p2, p3, p4, p5);
 	}
-	void _0xe3938b0b(Any p0)
+	void _0xE3938B0B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE3938B0B, 1, p0);
 	}
-	void _0xbaec6add(Any p0, Any p1, Any p2, Any p3)
+	void _0xBAEC6ADD(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBAEC6ADD, 4, p0, p1, p2, p3);
@@ -16167,32 +16167,32 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x054448EF, 1, p0);
 	}
-	void _0xeab6417c()
+	void _0xEAB6417C()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xEAB6417C, 0);
 	}
-	void _0xc2703b88()
+	void _0xC2703B88()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC2703B88, 0);
 	}
-	void _0xa706e84d()
+	void _0xA706E84D()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA706E84D, 0);
 	}
-	Any _0x242c6a04(Any p0, Any p1, Any p2, Any p3)
+	Any _0x242C6A04(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x242C6A04, 4, p0, p1, p2, p3);
 	}
-	void _0x335695cf(Any p0, Any p1, Any p2)
+	void _0x335695CF(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x335695CF, 3, p0, p1, p2);
 	}
-	void _0x7b786555(Any p0)
+	void _0x7B786555(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7B786555, 1, p0);
@@ -16207,47 +16207,47 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x12077738, 13, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12);
 	}
-	void _0x667046a8(Any p0)
+	void _0x667046A8(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x667046A8, 1, p0);
 	}
-	Any _0x4f4d76e8(Any p0)
+	Any _0x4F4D76E8(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4F4D76E8, 1, p0);
 	}
-	Any _0x6d58f73b(Any p0)
+	Any _0x6D58F73B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6D58F73B, 1, p0);
 	}
-	void _0x9babcba4(Any p0)
+	void _0x9BABCBA4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9BABCBA4, 1, p0);
 	}
-	void _0xfdf6d8da(Any p0)
+	void _0xFDF6D8DA(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFDF6D8DA, 1, p0);
 	}
-	void _0x2056a015(Any p0)
+	void _0x2056A015(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2056A015, 1, p0);
 	}
-	void _0x0f486429(Any p0)
+	void _0x0F486429(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0F486429, 1, p0);
 	}
-	void _0xd87cc710(Any p0)
+	void _0xD87CC710(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD87CC710, 1, p0);
 	}
-	void _0xe29ee145()
+	void _0xE29EE145()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE29EE145, 0);
@@ -16257,7 +16257,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7CFAE36F, 1, p0);
 	}
-	void _0x60f72371(Any p0)
+	void _0x60F72371(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x60F72371, 1, p0);
@@ -16277,7 +16277,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBB2BA72A, 2, p0, p1);
 	}
-	void _0x56345f6b(Any p0)
+	void _0x56345F6B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x56345F6B, 1, p0);
@@ -16292,7 +16292,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x594FEEC4, 0);
 	}
-	Any _0x03c44e4b()
+	Any _0x03C44E4B()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x03C44E4B, 0);
@@ -16307,67 +16307,67 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x79D7D235, 0);
 	}
-	void _0x85ba15a4(Any p0)
+	void _0x85BA15A4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x85BA15A4, 1, p0);
 	}
-	void _0x9559bb38(Any p0)
+	void _0x9559BB38(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9559BB38, 1, p0);
 	}
-	void _0x554ba16e(Any p0)
+	void _0x554BA16E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x554BA16E, 1, p0);
 	}
-	void _0xe8f538b5(Any p0, Any p1)
+	void _0xE8F538B5(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE8F538B5, 2, p0, p1);
 	}
-	void _0x805bab08(Any p0)
+	void _0x805BAB08(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x805BAB08, 1, p0);
 	}
-	void _0x908a335e(Any p0)
+	void _0x908A335E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x908A335E, 1, p0);
 	}
-	void _0x6776720a()
+	void _0x6776720A()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6776720A, 0);
 	}
-	Any request_scaleform_movie(Any p0)
+	Scaleform request_scaleform_movie(char* p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC67E3DCB, 1, p0);
 	}
-	Any _0x7cc8057d(Any p0)
+	Any _0x7CC8057D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7CC8057D, 1, p0);
 	}
-	BOOL has_scaleform_movie_loaded(Any p0)
+	BOOL has_scaleform_movie_loaded(Scaleform p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xDDFB6448, 1, p0);
 	}
-	Any _0x1dfe8d8a(Any p0)
+	Any _0x1DFE8D8A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1DFE8D8A, 1, p0);
 	}
-	void set_scaleform_movie_as_no_longer_needed(Any p0)
+	void set_scaleform_movie_as_no_longer_needed(Scaleform* p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5FED3BA1, 1, p0);
 	}
-	void _0x18c9de8d(Any p0, Any p1)
+	void _0x18C9DE8D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x18C9DE8D, 2, p0, p1);
@@ -16377,82 +16377,82 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x48DA6A58, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	void _0x7b48e696(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0x7B48E696(Scaleform p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7B48E696, 5, p0, p1, p2, p3, p4);
 	}
-	void _0x9c59fc06(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	void _0x9C59FC06(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9C59FC06, 6, p0, p1, p2, p3, p4, p5);
 	}
-	void _0xc4f63a89(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12, Any p13)
+	void _0xC4F63A89(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12, Any p13)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC4F63A89, 14, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13);
 	}
-	void _0x899933c8(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12, Any p13)
+	void _0x899933C8(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12, Any p13)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x899933C8, 14, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13);
 	}
-	void _0x7ab77b57(Any p0, Any p1)
+	void _0x7AB77B57(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7AB77B57, 2, p0, p1);
 	}
-	void _0x557eda1d(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
+	void _0x557EDA1D(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x557EDA1D, 7, p0, p1, p2, p3, p4, p5, p6);
 	}
-	void _0x91a7fceb(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
+	void _0x91A7FCEB(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x91A7FCEB, 7, p0, p1, p2, p3, p4, p5, p6);
 	}
-	void _0x6eaf56de(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
+	void _0x6EAF56DE(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6EAF56DE, 12, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11);
 	}
-	Any _0x5d66ce1e(Any p0, Any p1)
+	Any _0x5D66CE1E(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5D66CE1E, 2, p0, p1);
 	}
-	Any _0x215abbe8(Any p0, Any p1)
+	Any _0x215ABBE8(Scaleform p0, char* p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x215ABBE8, 2, p0, p1);
 	}
-	Any _0xf6015178(Any p0)
+	Any _0xF6015178(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF6015178, 1, p0);
 	}
-	Any _0x5e219b67(Any p0)
+	Any _0x5E219B67(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5E219B67, 1, p0);
 	}
-	void _0x02dbf2d7()
+	void _0x02DBF2D7()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x02DBF2D7, 0);
 	}
-	Any _0x2f38b526()
+	Any _0x2F38B526()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2F38B526, 0);
 	}
-	Any _0x5cd7c3c0(Any p0)
+	Any _0x5CD7C3C0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5CD7C3C0, 1, p0);
 	}
-	Any _0x2cfb0e6d(Any p0)
+	Any _0x2CFB0E6D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2CFB0E6D, 1, p0);
@@ -16462,67 +16462,67 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x516862EB, 1, p0);
 	}
-	void _0x716777cb(Any p0)
+	void _0x716777CB(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x716777CB, 1, p0);
 	}
-	void _0x9a01ffda(Any p0)
+	void _0x9A01FFDA(float p0)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x9A01FFDA, 1, p0);
+		l_NativeCall.Invoke<Void>(0x9A01FFDA, 1, float_int(p0));
 	}
-	void _0x0d4ae8cb(Any p0)
+	void _0x0D4AE8CB(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0D4AE8CB, 1, p0);
 	}
-	void _0x3ac9cb55(Any p0)
+	void _0x3AC9CB55(char* p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3AC9CB55, 1, p0);
 	}
-	void _0x386ce0b8()
+	void _0x386CE0B8()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x386CE0B8, 0);
 	}
-	void _0x2e80db52()
+	void _0x2E80DB52()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2E80DB52, 0);
 	}
-	void _0x4daad55b(Any p0)
+	void _0x4DAAD55B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4DAAD55B, 1, p0);
 	}
-	void _0xccbf0334(Any p0)
+	void _0xCCBF0334(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCCBF0334, 1, p0);
 	}
-	void _0x83a9811d(Any p0)
+	void _0x83A9811D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x83A9811D, 1, p0);
 	}
-	void _0x7af85862(Any p0)
+	void _0x7AF85862(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7AF85862, 1, p0);
 	}
-	Any _0x79b43255(Any p0)
+	Any _0x79B43255(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x79B43255, 1, p0);
 	}
-	void _0x03d87600(Any p0)
+	void _0x03D87600(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x03D87600, 1, p0);
 	}
-	Any _0xe9183d3a(Any p0)
+	Any _0xE9183D3A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE9183D3A, 1, p0);
@@ -16552,32 +16552,32 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8129EF89, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	void _0xb262de67(Any p0, Any p1, Any p2)
+	void _0xB262DE67(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB262DE67, 3, p0, p1, p2);
 	}
-	void _0x78c4dcbe(Any p0, Any p1, Any p2)
+	void _0x78C4DCBE(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x78C4DCBE, 3, p0, p1, p2);
 	}
-	void _0xcbe7068f(Any p0)
+	void _0xCBE7068F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCBE7068F, 1, p0);
 	}
-	Any _0x4d1eb0fb(Any p0)
+	Any _0x4D1EB0FB(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4D1EB0FB, 1, p0);
 	}
-	void _0x796de696(Any p0)
+	void _0x796DE696(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x796DE696, 1, p0);
 	}
-	void _0xd99ec000(Any p0)
+	void _0xD99EC000(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD99EC000, 1, p0);
@@ -16587,73 +16587,73 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC2DEBA3D, 1, p0);
 	}
-	Any _0xe40a0f1a()
+	Any _0xE40A0F1A()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE40A0F1A, 0);
 	}
-	Any _0x2e7d9b98(Any p0)
+	Any _0x2E7D9B98(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2E7D9B98, 1, p0);
 	}
-	Any _0x9a0e3bfe(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	Any _0x9A0E3BFE(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9A0E3BFE, 6, p0, p1, p2, p3, p4, p5);
 	}
-	Any _0x6bbde6cd(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	Any _0x6BBDE6CD(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6BBDE6CD, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	void _0x431aa036()
+	void _0x431AA036()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x431AA036, 0);
 	}
-	void _0x24a7a7f6(Any p0)
+	void _0x24A7A7F6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x24A7A7F6, 1, p0);
 	}
-	void _0xa1cb6c94(Any p0)
+	void _0xA1CB6C94(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA1CB6C94, 1, p0);
 	}
-	void _0x3b637aa7(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12)
+	void _0x3B637AA7(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3B637AA7, 13, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12);
 	}
-	void _0xdf552973(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
+	void _0xDF552973(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDF552973, 12, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11);
 	}
-	void _0x1d980479(Any p0, Any p1, Any p2)
+	void _0x1D980479(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1D980479, 3, p0, p1, p2);
 	}
-	void _0x06bb5cda(Any p0)
+	void _0x06BB5CDA(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x06BB5CDA, 1, p0);
 	}
-	Any _0x089d5921(Any p0)
+	Any _0x089D5921(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x089D5921, 1, p0);
 	}
-	void _0x4e6d875b()
+	void _0x4E6D875B()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4E6D875B, 0);
 	}
 
-	Any _0x84bdd475(Any p0)
+	Any _0x84BDD475(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x84BDD475, 1, p0);
@@ -16668,7 +16668,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE10A7CA4, 3, p0, p1, p2);
 	}
-	void _0xc62406a6(Any p0)
+	void _0xC62406A6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC62406A6, 1, p0);
@@ -16683,7 +16683,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC3FD3822, 0);
 	}
-	Any _0xa3407ca3()
+	Any _0xA3407CA3()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA3407CA3, 0);
@@ -16693,38 +16693,38 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2F171B94, 1, p0);
 	}
-	Any _0x7a299c13(Any p0)
+	Any _0x7A299C13(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7A299C13, 1, p0);
 	}
-	Any _0x0bf0f4b2(Any p0)
+	Any _0x0BF0F4B2(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0BF0F4B2, 1, p0);
 	}
-	Any _0xce6b62b5(Any p0)
+	Any _0xCE6B62B5(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCE6B62B5, 1, p0);
 	}
-	void _0xce7a2411(Any p0)
+	void _0xCE7A2411(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCE7A2411, 1, p0);
 	}
-	Any _0x22804c20(Any p0)
+	Any _0x22804C20(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x22804C20, 1, p0);
 	}
 	// 0x174B3AAC -- no params/results data
-	void _0x395d18b1(Any p0)
+	void _0x395D18B1(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x395D18B1, 1, p0);
 	}
-	Any _0xed7000c8()
+	Any _0xED7000C8()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xED7000C8, 0);
@@ -16732,7 +16732,7 @@
 	// 0x61801DA5 -- no params/results data
 	// 0x1E06DF87 -- no params/results data
 	// 0x6B9CA7C1 -- no params/results data
-	Any _0x099fcc86()
+	Any _0x099FCC86()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x099FCC86, 0);
@@ -16752,7 +16752,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x55D79DFB, 3, p0, p1, p2);
 	}
-	Any _0xc1224aa7(Any p0, Any p1, Any p2)
+	Any _0xC1224AA7(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC1224AA7, 3, p0, p1, p2);
@@ -16822,12 +16822,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE2E8B6BA, 1, p0);
 	}
-	Any _0x1544b29f(Any p0)
+	Any _0x1544B29F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1544B29F, 1, p0);
 	}
-	Any _0x3507d253(Any p0, Any p1)
+	Any _0x3507D253(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3507D253, 2, p0, p1);
@@ -16837,77 +16837,77 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDFC5F71E, 2, p0, p1);
 	}
-	Any _0x46f21343()
+	Any _0x46F21343()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x46F21343, 0);
 	}
-	Any _0x02f283ce()
+	Any _0x02F283CE()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x02F283CE, 0);
 	}
-	Any _0xc4110917(Any p0, Any p1, Any p2)
+	Any _0xC4110917(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC4110917, 3, p0, p1, p2);
 	}
-	void _0x343b27e2(Any p0)
+	void _0x343B27E2(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x343B27E2, 1, p0);
 	}
-	void _0xe3247582(Any p0)
+	void _0xE3247582(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE3247582, 1, p0);
 	}
-	Any _0xfd66a429(Any p0)
+	Any _0xFD66A429(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFD66A429, 1, p0);
 	}
-	Any _0x9b431236(Any p0)
+	Any _0x9B431236(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9B431236, 1, p0);
 	}
-	Any _0x347b4436(Any p0)
+	Any _0x347B4436(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x347B4436, 1, p0);
 	}
-	Any _0x2c1d6c31(Any p0)
+	Any _0x2C1D6C31(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2C1D6C31, 1, p0);
 	}
-	Any _0xdfc25d66(Any p0)
+	Any _0xDFC25D66(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDFC25D66, 1, p0);
 	}
-	Any _0xca160bcc(Any p0)
+	Any _0xCA160BCC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCA160BCC, 1, p0);
 	}
-	Any _0xb5bf87b2(Any p0, Any p1, Any p2, Any p3)
+	Any _0xB5BF87B2(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB5BF87B2, 4, p0, p1, p2, p3);
 	}
-	Any _0x1f938864(Any p0, Any p1, Any p2, Any p3)
+	Any _0x1F938864(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1F938864, 4, p0, p1, p2, p3);
 	}
-	Any _0x3f8e893b(Any p0, Any p1, Any p2, Any p3)
+	Any _0x3F8E893B(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3F8E893B, 4, p0, p1, p2, p3);
 	}
-	Any _0xfb93c5a2(Any p0, Any p1, Any p2, Any p3)
+	Any _0xFB93C5A2(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFB93C5A2, 4, p0, p1, p2, p3);
@@ -16952,12 +16952,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCDC52280, 4, p0, p1, p2, p3);
 	}
-	void _0xac2c7c63(Any p0, Any p1, Any p2, Any p3)
+	void _0xAC2C7C63(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAC2C7C63, 4, p0, p1, p2, p3);
 	}
-	void _0x413539bc(Any p0, Any p1, Any p2, Any p3)
+	void _0x413539BC(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x413539BC, 4, p0, p1, p2, p3);
@@ -16972,7 +16972,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x036B42BD, 16, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13, p14, p15);
 	}
-	Any _0x489e27e7(Any p0, Any p1)
+	Any _0x489E27E7(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x489E27E7, 2, p0, p1);
@@ -16992,37 +16992,37 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA4746384, 5, p0, p1, p2, p3, p4);
 	}
-	void _0x6602ced6(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	void _0x6602CED6(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6602CED6, 6, p0, p1, p2, p3, p4, p5);
 	}
-	void _0x759e0ec9(Any p0, Any p1, Any p2, Any p3)
+	void _0x759E0EC9(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x759E0EC9, 4, p0, p1, p2, p3);
 	}
-	void _0x62073df7(Any p0, Any p1, Any p2, Any p3)
+	void _0x62073DF7(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x62073DF7, 4, p0, p1, p2, p3);
 	}
-	void _0x30558cfd(Any p0, Any p1, Any p2)
+	void _0x30558CFD(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x30558CFD, 3, p0, p1, p2);
 	}
-	void _0x06ce3692(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
+	void _0x06CE3692(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x06CE3692, 10, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 	}
-	void _0x8d5c7b37(Any p0)
+	void _0x8D5C7B37(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8D5C7B37, 1, p0);
 	}
-	void _0x37d152bb(Any p0, Any p1)
+	void _0x37D152BB(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x37D152BB, 2, p0, p1);
@@ -17092,7 +17092,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEEB8BF5C, 3, p0, p1, p2);
 	}
-	Any _0x1789437b()
+	Any _0x1789437B()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1789437B, 0);
@@ -17137,32 +17137,32 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC678B29F, 3, p0, p1, p2);
 	}
-	Any _0x9bec3401(Any p0, Any p1, Any p2)
+	Any _0x9BEC3401(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9BEC3401, 3, p0, p1, p2);
 	}
-	Any _0xc977d6e2(Any p0)
+	Any _0xC977D6E2(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC977D6E2, 1, p0);
 	}
-	void _0xf2db6a82()
+	void _0xF2DB6A82()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF2DB6A82, 0);
 	}
-	Any _0x766a74fe(Any p0, Any p1)
+	Any _0x766A74FE(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x766A74FE, 2, p0, p1);
 	}
-	Any _0x6b90e730(Any p0, Any p1)
+	Any _0x6B90E730(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6B90E730, 2, p0, p1);
 	}
-	Any _0x509a286f(Any p0, Any p1)
+	Any _0x509A286F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x509A286F, 2, p0, p1);
@@ -17172,12 +17172,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5F9DF634, 1, p0);
 	}
-	void _0x7524e27b(Any p0, Any p1, Any p2)
+	void _0x7524E27B(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7524E27B, 3, p0, p1, p2);
 	}
-	void _0x1c5ccc3a(Any p0, Any p1, Any p2)
+	void _0x1C5CCC3A(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1C5CCC3A, 3, p0, p1, p2);
@@ -17192,7 +17192,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x87F498C1, 0);
 	}
-	void _0x88ae9667(Any p0)
+	void _0x88AE9667(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x88AE9667, 1, p0);
@@ -17207,7 +17207,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEDF02302, 1, p0);
 	}
-	Any _0xce7cb520(Any p0)
+	Any _0xCE7CB520(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCE7CB520, 1, p0);
@@ -17217,73 +17217,73 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA11289EC, 3, p0, p1, p2);
 	}
-	void _0x4ac39c6c(Any p0, Any p1, Any p2)
+	void _0x4AC39C6C(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4AC39C6C, 3, p0, p1, p2);
 	}
-	void _0x3e69e7c3(Any p0, Any p1, Any p2)
+	void _0x3E69E7C3(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3E69E7C3, 3, p0, p1, p2);
 	}
-	void _0x2ffd2fa5(Any p0, Any p1, Any p2, Any p3)
+	void _0x2FFD2FA5(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2FFD2FA5, 4, p0, p1, p2, p3);
 	}
-	Any _0x23d70c39()
+	Any _0x23D70C39()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x23D70C39, 0);
 	}
-	void _0x0ad43306()
+	void _0x0AD43306()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0AD43306, 0);
 	}
-	void _0xc7de5c30()
+	void _0xC7DE5C30()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC7DE5C30, 0);
 	}
-	void _0xa3dac790(Any p0)
+	void _0xA3DAC790(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA3DAC790, 1, p0);
 	}
-	void _0x726fae66(Any p0)
+	void _0x726FAE66(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x726FAE66, 1, p0);
 	}
-	void _0x4c39cf10(Any p0, Any p1)
+	void _0x4C39CF10(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4C39CF10, 2, p0, p1);
 	}
-	void _0x2180ae13(Any p0, Any p1)
+	void _0x2180AE13(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2180AE13, 2, p0, p1);
 	}
-	void _0xee292b91(Any p0, Any p1)
+	void _0xEE292B91(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xEE292B91, 2, p0, p1);
 	}
-	void _0xa063cabd()
+	void _0xA063CABD()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA063CABD, 0);
 	}
 	// 0x472A6511 -- no params/results data
-	Any _0x62c19a3d(Any p0, Any p1)
+	Any _0x62C19A3D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x62C19A3D, 2, p0, p1);
 	}
-	void _0x3b4ef322()
+	void _0x3B4EF322()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3B4EF322, 0);
@@ -17324,22 +17324,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFBD13FAD, 1, p0);
 	}
-	void _0x19b27825()
+	void _0x19B27825()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x19B27825, 0);
 	}
-	void _0xf3a3ab08()
+	void _0xF3A3AB08()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF3A3AB08, 0);
 	}
-	void _0x949fe53e(Any p0)
+	void _0x949FE53E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x949FE53E, 1, p0);
 	}
-	void _0x29ce8baa(Any p0)
+	void _0x29CE8BAA(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x29CE8BAA, 1, p0);
@@ -17395,17 +17395,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x234C1AE9, 2, p0, p1);
 	}
-	void _0x4479b304(Any p0)
+	void _0x4479B304(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4479B304, 1, p0);
 	}
-	void _0xc273bb4d(Any p0)
+	void _0xC273BB4D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC273BB4D, 1, p0);
 	}
-	void _0x66dcd9d2(Any p0)
+	void _0x66DCD9D2(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x66DCD9D2, 1, p0);
@@ -17481,7 +17481,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xED97B202, 0);
 	}
-	Any _0xd368ba15()
+	Any _0xD368BA15()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD368BA15, 0);
@@ -17496,7 +17496,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x84A3918D, 0);
 	}
-	Any _0x784d550b()
+	Any _0x784D550B()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x784D550B, 0);
@@ -17517,7 +17517,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB02D6124, 1, b);
 	}
-	void _0x57b8da7c(int h, int m, int s)
+	void _0x57B8DA7C(int h, int m, int s)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x57B8DA7C, 3, h, m, s);
@@ -17567,7 +17567,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB8BECF15, 0);
 	}
-	Any _0x3b74095c()
+	Any _0x3B74095C()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3B74095C, 0);
@@ -17658,12 +17658,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE38E252D, 2, p0, p1);
 	}
-	Any _0xee4b1219(Any p0)
+	Any _0xEE4B1219(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEE4B1219, 1, p0);
 	}
-	Any _0x56737a3c(Any p0)
+	Any _0x56737A3C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x56737A3C, 1, p0);
@@ -17678,17 +17678,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC66E28C3, 1, p0);
 	}
-	void _0xd6a3b458(Any p0)
+	void _0xD6A3B458(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD6A3B458, 1, p0);
 	}
-	Any _0x86e80a17(Any p0, Any p1, Any p2, Any p3)
+	Any _0x86E80A17(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x86E80A17, 4, p0, p1, p2, p3);
 	}
-	Any _0x2cda5012(Any p0, Any p1, Any p2, Any p3)
+	Any _0x2CDA5012(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2CDA5012, 4, p0, p1, p2, p3);
@@ -17703,12 +17703,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9DB5D209, 7, p0, p1, p2, p3, p4, p5, p6);
 	}
-	void _0x3c5085e4(Any p0)
+	void _0x3C5085E4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3C5085E4, 1, p0);
 	}
-	void _0xd0f51299(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
+	void _0xD0F51299(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD0F51299, 7, p0, p1, p2, p3, p4, p5, p6);
@@ -17738,7 +17738,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB72CF194, 1, p0);
 	}
-	void _0x90df7a4c(Any p0)
+	void _0x90DF7A4C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x90DF7A4C, 1, p0);
@@ -17748,17 +17748,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x720B8073, 6, p0, p1, p2, p3, p4, p5);
 	}
-	Any _0x4b770634()
+	Any _0x4B770634()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4B770634, 0);
 	}
-	Any _0x286f82cc()
+	Any _0x286F82CC()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x286F82CC, 0);
 	}
-	Any _0xf6422f9a(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0xF6422F9A(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF6422F9A, 5, p0, p1, p2, p3, p4);
@@ -17808,27 +17808,27 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x098602B0, 1, p0);
 	}
-	Any _0x4b67d7ee(Any p0)
+	Any _0x4B67D7EE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4B67D7EE, 1, p0);
 	}
-	Any _0x3fe8c5a0(Any p0, Any p1)
+	Any _0x3FE8C5A0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3FE8C5A0, 2, p0, p1);
 	}
-	Any _0x3ed21c90(Any p0, Any p1, Any p2, Any p3)
+	Any _0x3ED21C90(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3ED21C90, 4, p0, p1, p2, p3);
 	}
-	Any _0xa07c5b7d(Any p0, Any p1)
+	Any _0xA07C5B7D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA07C5B7D, 2, p0, p1);
 	}
-	Any _0x76751dd4(Any p0, Any p1, Any p2, Any p3)
+	Any _0x76751DD4(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x76751DD4, 4, p0, p1, p2, p3);
@@ -17874,7 +17874,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5DE226A5, 2, p0, p1);
 	}
-	Any _0xc49343bb(Any p0, Any p1)
+	Any _0xC49343BB(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC49343BB, 2, p0, p1);
@@ -17899,22 +17899,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x66FF4FAA, 2, p0, p1);
 	}
-	Any _0xf2a65a4c(Any p0, Any p1)
+	Any _0xF2A65A4C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF2A65A4C, 2, p0, p1);
 	}
-	Any _0x0e8ef929(Any p0)
+	Any _0x0E8EF929(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0E8EF929, 1, p0);
 	}
-	Any _0x3551727a(Any p0, Any p1, Any p2)
+	Any _0x3551727A(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3551727A, 3, p0, p1, p2);
 	}
-	Any _0x3ee71f6a(Any p0, Any p1, Any p2)
+	Any _0x3EE71F6A(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3EE71F6A, 3, p0, p1, p2);
@@ -17929,7 +17929,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8F75657E, 1, p0);
 	}
-	void _0x7d65eb6e(Any p0, Any p1)
+	void _0x7D65EB6E(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7D65EB6E, 2, p0, p1);
@@ -17979,95 +17979,95 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFC2F119F, 1, p0);
 	}
-	Any _0xd2c80b2e(Any p0)
+	Any _0xD2C80B2E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD2C80B2E, 1, p0);
 	}
-	Any _0xbbfc9050(Any p0)
+	Any _0xBBFC9050(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBBFC9050, 1, p0);
 	}
-	void _0x42140ff9()
+	void _0x42140FF9()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x42140FF9, 0);
 	}
-	void _0x2cede6c5(Any p0)
+	void _0x2CEDE6C5(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2CEDE6C5, 1, p0);
 	}
 
-	void _0x621388ff(Any p0)
+	void _0x621388FF(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x621388FF, 1, p0);
 	}
-	void _0x5b39d0ac()
+	void _0x5B39D0AC()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5B39D0AC, 0);
 	}
-	Any _0xb41064a4(Any p0)
+	Any _0xB41064A4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB41064A4, 1, p0);
 	}
 	// 0x01393D16 -- no params/results data
 	// 0x2A9411DA -- no params/results data
-	Any _0x9db63cff(Any p0)
+	Any _0x9DB63CFF(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9DB63CFF, 1, p0);
 	}
-	Any _0xf09157b0(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
+	Any _0xF09157B0(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF09157B0, 7, p0, p1, p2, p3, p4, p5, p6);
 	}
-	Any _0xd96860fc(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0xD96860FC(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD96860FC, 5, p0, p1, p2, p3, p4);
 	}
-	Any _0x459f2683(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
+	Any _0x459F2683(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x459F2683, 7, p0, p1, p2, p3, p4, p5, p6);
 	}
-	Any _0xdbb83e2b(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0xDBB83E2B(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDBB83E2B, 5, p0, p1, p2, p3, p4);
 	}
-	Any _0xbb6321bd(Any p0, Any p1, Any p2)
+	Any _0xBB6321BD(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBB6321BD, 3, p0, p1, p2);
 	}
-	Any _0xe8d56da2(Any p0)
+	Any _0xE8D56DA2(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE8D56DA2, 1, p0);
 	}
-	Any _0xcb6a351e(Any p0, Any p1)
+	Any _0xCB6A351E(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCB6A351E, 2, p0, p1);
 	}
-	Any _0xa4d1b30e(Any p0)
+	Any _0xA4D1B30E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA4D1B30E, 1, p0);
 	}
-	Any _0xb8515b2f(Any p0)
+	Any _0xB8515B2F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB8515B2F, 1, p0);
 	}
-	Any _0x660c468e(Any p0)
+	Any _0x660C468E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x660C468E, 1, p0);
@@ -18082,12 +18082,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDEF31B0A, 0);
 	}
-	void _0x4e03f632()
+	void _0x4E03F632()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4E03F632, 0);
 	}
-	void _0xf11f956f()
+	void _0xF11F956F()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF11F956F, 0);
@@ -18097,132 +18097,132 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x86DDF9C2, 0);
 	}
-	Any _0x768cbb35(Any p0)
+	Any _0x768CBB35(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x768CBB35, 1, p0);
 	}
-	Any _0x0b4087f7(Any p0)
+	Any _0x0B4087F7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0B4087F7, 1, p0);
 	}
-	Any _0x5dcd0796()
+	Any _0x5DCD0796()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5DCD0796, 0);
 	}
-	void _0x9b29d99b(Any p0, Any p1, Any p2)
+	void _0x9B29D99B(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9B29D99B, 3, p0, p1, p2);
 	}
-	void _0xefcf554a(Any p0, Any p1, Any p2)
+	void _0xEFCF554A(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xEFCF554A, 3, p0, p1, p2);
 	}
-	void _0xe972cacf(Any p0, Any p1, Any p2)
+	void _0xE972CACF(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE972CACF, 3, p0, p1, p2);
 	}
-	void _0xd437615c(Any p0, Any p1, Any p2)
+	void _0xD437615C(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD437615C, 3, p0, p1, p2);
 	}
-	void _0x75fc6c3c(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0x75FC6C3C(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x75FC6C3C, 5, p0, p1, p2, p3, p4);
 	}
-	Any _0x96a8e05f(Any p0, Any p1)
+	Any _0x96A8E05F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x96A8E05F, 2, p0, p1);
 	}
-	Any _0x03939b8d(Any p0, Any p1)
+	Any _0x03939B8D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x03939B8D, 2, p0, p1);
 	}
-	Any _0x8876c872(Any p0, Any p1)
+	Any _0x8876C872(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8876C872, 2, p0, p1);
 	}
-	Any _0xa6c68693(Any p0, Any p1)
+	Any _0xA6C68693(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA6C68693, 2, p0, p1);
 	}
-	Any _0xa92c1af4(Any p0, Any p1)
+	Any _0xA92C1AF4(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA92C1AF4, 2, p0, p1);
 	}
-	Any _0x942160ec(Any p0, Any p1)
+	Any _0x942160EC(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x942160EC, 2, p0, p1);
 	}
-	Vector3 _0xe84a127a(Any p0, Any p1)
+	Vector3 _0xE84A127A(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0xE84A127A, 2, p0, p1);
 	}
-	Any _0xc9c13d8d(Any p0, Any p1)
+	Any _0xC9C13D8D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC9C13D8D, 2, p0, p1);
 	}
-	Any _0x1f2f7d00(Any p0, Any p1)
+	Any _0x1F2F7D00(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1F2F7D00, 2, p0, p1);
 	}
-	Any _0x2678342a(Any p0, Any p1)
+	Any _0x2678342A(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2678342A, 2, p0, p1);
 	}
-	void _0x08174b90(Any p0, Any p1)
+	void _0x08174B90(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x08174B90, 2, p0, p1);
 	}
-	void _0xf29c0b36(Any p0, Any p1)
+	void _0xF29C0B36(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF29C0B36, 2, p0, p1);
 	}
-	void _0xe4302123(Any p0, Any p1)
+	void _0xE4302123(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE4302123, 2, p0, p1);
 	}
-	void _0xf3c01350(Any p0, Any p1)
+	void _0xF3C01350(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF3C01350, 2, p0, p1);
 	}
-	void _0x16f464b6(Any p0, Any p1, Any p2, Any p3)
+	void _0x16F464B6(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x16F464B6, 4, p0, p1, p2, p3);
 	}
-	Any _0xc174c71b(Any p0)
+	Any _0xC174C71B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC174C71B, 1, p0);
 	}
-	Any _0xa2e5f921(Any p0, Any p1)
+	Any _0xA2E5F921(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA2E5F921, 2, p0, p1);
 	}
-	Any _0xbb120cfc(Any p0, Any p1)
+	Any _0xBB120CFC(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBB120CFC, 2, p0, p1);
@@ -18237,17 +18237,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x93F985A6, 2, p0, p1);
 	}
-	Vector3 _0x80e3da55(Any p0, Any p1)
+	Vector3 _0x80E3DA55(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0x80E3DA55, 2, p0, p1);
 	}
-	Any _0xece81278(Any p0, Any p1)
+	Any _0xECE81278(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xECE81278, 2, p0, p1);
 	}
-	Any _0xa8a21766(Any p0)
+	Any _0xA8A21766(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA8A21766, 1, p0);
@@ -18303,7 +18303,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x27EE0D67, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	void _0xcf358946(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	void _0xCF358946(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCF358946, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
@@ -18323,7 +18323,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x0128FED9, 8, p0, p1, p2, p3, p4, p5, p6, p7);
 	}
-	Any _0xaec0d176(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7)
+	Any _0xAEC0D176(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xAEC0D176, 8, p0, p1, p2, p3, p4, p5, p6, p7);
@@ -18339,12 +18339,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x07ABD94D, 2, p0, p1);
 	}
-	void _0x57506ea6(Any p0, Any p1)
+	void _0x57506EA6(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x57506EA6, 2, p0, p1);
 	}
-	void _0x62a3161d(Any p0, Any p1)
+	void _0x62A3161D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x62A3161D, 2, p0, p1);
@@ -18374,17 +18374,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x64DF6282, 1, p0);
 	}
-	void _0xa0ce89c8()
+	void _0xA0CE89C8()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA0CE89C8, 0);
 	}
-	void _0x4cc674b5()
+	void _0x4CC674B5()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4CC674B5, 0);
 	}
-	void _0xa0fdcb82(Any p0)
+	void _0xA0FDCB82(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA0FDCB82, 1, p0);
@@ -18400,7 +18400,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC9018181, 3, p0, p1, p2);
 	}
-	Any _0x8ec68304(Any p0)
+	Any _0x8EC68304(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8EC68304, 1, p0);
@@ -18425,17 +18425,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB2FB5C4C, 1, p0);
 	}
-	void _0x3f0a3680(Any p0, Any p1)
+	void _0x3F0A3680(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3F0A3680, 2, p0, p1);
 	}
-	void _0x7a72a24e(Any p0)
+	void _0x7A72A24E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7A72A24E, 1, p0);
 	}
-	Any _0xb5c5c99b(Any p0, Any p1, Any p2)
+	Any _0xB5C5C99B(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB5C5C99B, 3, p0, p1, p2);
@@ -18461,7 +18461,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x66E4A3AC, 1, p0);
 	}
-	void _0x51523b8c(Any p0, Any p1)
+	void _0x51523B8C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x51523B8C, 2, p0, p1);
@@ -18501,22 +18501,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3E720BEE, 2, p0, p1);
 	}
-	void _0xeaf291a0(Any p0)
+	void _0xEAF291A0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xEAF291A0, 1, p0);
 	}
-	void _0x80db77a7(Any p0, Any p1)
+	void _0x80DB77A7(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x80DB77A7, 2, p0, p1);
 	}
-	void _0xc67d5cf6(Any p0, Any p1)
+	void _0xC67D5CF6(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC67D5CF6, 2, p0, p1);
 	}
-	Any _0x7a18bb9c(Any p0)
+	Any _0x7A18BB9C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7A18BB9C, 1, p0);
@@ -18531,27 +18531,27 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0x84374452, 2, p0, p1);
 	}
-	void _0x5187bed3(Any p0)
+	void _0x5187BED3(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5187BED3, 1, p0);
 	}
-	void _0x46826b53(Any p0)
+	void _0x46826B53(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x46826B53, 1, p0);
 	}
-	void _0xfc0db4c3(Any p0)
+	void _0xFC0DB4C3(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFC0DB4C3, 1, p0);
 	}
-	void _0x2eedb18f(Any p0)
+	void _0x2EEDB18F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2EEDB18F, 1, p0);
 	}
-	void _0x43e92628(Any p0)
+	void _0x43E92628(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x43E92628, 1, p0);
@@ -18561,7 +18561,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBA97CE91, 0);
 	}
-	Any _0x5fdc1047()
+	Any _0x5FDC1047()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5FDC1047, 0);
@@ -18571,27 +18571,27 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x584463E0, 0);
 	}
-	Any _0x67522e25(Any p0)
+	Any _0x67522E25(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x67522E25, 1, p0);
 	}
-	void _0x106ba127(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12, Any p13)
+	void _0x106BA127(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12, Any p13)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x106BA127, 14, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12, p13);
 	}
-	void _0x7c6f7668(Any p0, Any p1, Any p2)
+	void _0x7C6F7668(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7C6F7668, 3, p0, p1, p2);
 	}
-	void _0x686672dd(Any p0, Any p1)
+	void _0x686672DD(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x686672DD, 2, p0, p1);
 	}
-	Any _0xfd309dc8(Any p0)
+	Any _0xFD309DC8(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFD309DC8, 1, p0);
@@ -18606,7 +18606,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC8A423A3, 2, p0, p1);
 	}
-	void _0xa2a5c9fe(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
+	void _0xA2A5C9FE(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA2A5C9FE, 7, p0, p1, p2, p3, p4, p5, p6);
@@ -18621,17 +18621,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x031711B8, 1, p0);
 	}
-	void _0x59910ab2(Any p0, Any p1, Any p2, Any p3)
+	void _0x59910AB2(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x59910AB2, 4, p0, p1, p2, p3);
 	}
-	Vector3 _0x49a11f0d(Any p0)
+	Vector3 _0x49A11F0D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Vector3>(0x49A11F0D, 1, p0);
 	}
-	void _0xa5b55421(Any p0)
+	void _0xA5B55421(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA5B55421, 1, p0);
@@ -18646,7 +18646,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xEE77C326, 2, p0, p1);
 	}
-	void _0x97269dc8(Any p0, Any p1)
+	void _0x97269DC8(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x97269DC8, 2, p0, p1);
@@ -18662,17 +18662,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x262017F8, 4, x, y, z, h);
 	}
-	Any _0xaa4ae00c(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
+	Any _0xAA4AE00C(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xAA4AE00C, 7, p0, p1, p2, p3, p4, p5, p6);
 	}
-	Any _0x4a962d55(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7)
+	Any _0x4A962D55(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4A962D55, 8, p0, p1, p2, p3, p4, p5, p6, p7);
 	}
-	Any _0x4c71d143(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0x4C71D143(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4C71D143, 5, p0, p1, p2, p3, p4);
@@ -18683,47 +18683,47 @@
 		l_NativeCall.Invoke<Void>(0xC49E005A, 4, p0, p1, p2, p3);
 	}
 
-	Any _0xefaf4ba6(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	Any _0xEFAF4BA6(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEFAF4BA6, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	Any _0x8251485d(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	Any _0x8251485D(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8251485D, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	Any _0xceead94b(Any p0, Any p1, Any p2)
+	Any _0xCEEAD94B(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCEEAD94B, 3, p0, p1, p2);
 	}
-	Any _0x249bc876(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12)
+	Any _0x249BC876(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x249BC876, 13, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12);
 	}
-	Any _0x13bc46c0(Any p0, Any p1, Any p2)
+	Any _0x13BC46C0(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x13BC46C0, 3, p0, p1, p2);
 	}
-	Any _0x591ea833(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
+	Any _0x591EA833(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x591EA833, 10, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 	}
-	Any _0x4559460a(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
+	Any _0x4559460A(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4559460A, 10, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9);
 	}
-	Any _0xf3c2875a(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0xF3C2875A(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF3C2875A, 5, p0, p1, p2, p3, p4);
 	}
-	Any _0x4301e10c(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	Any _0x4301E10C(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4301E10C, 6, p0, p1, p2, p3, p4, p5);
@@ -18739,7 +18739,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6E5BDCE2, 0);
 	}
-	Any _0x3fb40673()
+	Any _0x3FB40673()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3FB40673, 0);
@@ -18749,12 +18749,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC7FF5AFC, 0);
 	}
-	Any _0x66ec713f()
+	Any _0x66EC713F()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x66EC713F, 0);
 	}
-	Any _0x358d1d77()
+	Any _0x358D1D77()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x358D1D77, 0);
@@ -18775,37 +18775,37 @@
 		return l_NativeCall.Invoke<Any>(0xEF63BFDF, 0);
 	}
 	// 0x484AE841 -- no params/results data
-	Any _0x1f88819d(Any p0)
+	Any _0x1F88819D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1F88819D, 1, p0);
 	}
-	Any _0x2d817a5e(Any p0)
+	Any _0x2D817A5E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2D817A5E, 1, p0);
 	}
-	Any _0xbb54aa3d(Any p0, Any p1, Any p2)
+	Any _0xBB54AA3D(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBB54AA3D, 3, p0, p1, p2);
 	}
-	Any _0xa79e5b05(Any p0, Any p1, Any p2)
+	Any _0xA79E5B05(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA79E5B05, 3, p0, p1, p2);
 	}
-	Any _0xeb864288()
+	Any _0xEB864288()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEB864288, 0);
 	}
-	Any _0xab07cbbe()
+	Any _0xAB07CBBE()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xAB07CBBE, 0);
 	}
-	Any _0x60e1fedf()
+	Any _0x60E1FEDF()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x60E1FEDF, 0);
@@ -18815,12 +18815,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x87D79A04, 0);
 	}
-	Any _0xa520b982(Any p0)
+	Any _0xA520B982(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA520B982, 1, p0);
 	}
-	Any _0x05518c0f()
+	Any _0x05518C0F()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x05518C0F, 0);
@@ -18835,17 +18835,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x543CD2BE, 6, p0, p1, p2, p3, p4, p5);
 	}
-	Any _0x4e53202a(Any p0, Any p1, Any p2, Any p3)
+	Any _0x4E53202A(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4E53202A, 4, p0, p1, p2, p3);
 	}
-	Any _0xd7624e6b(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0xD7624E6B(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD7624E6B, 5, p0, p1, p2, p3, p4);
 	}
-	Any _0x3f75cc38(Any p0, Any p1, Any p2, Any p3)
+	Any _0x3F75CC38(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3F75CC38, 4, p0, p1, p2, p3);
@@ -18855,7 +18855,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6716460F, 3, p0, p1, p2);
 	}
-	Any _0x8ac9ea19(Any p0, Any p1)
+	Any _0x8AC9EA19(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8AC9EA19, 2, p0, p1);
@@ -18875,79 +18875,79 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1E20138A, 1, p0);
 	}
-	Any _0x8a559d26(Any p0)
+	Any _0x8A559D26(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8A559D26, 1, p0);
 	}
-	void _0x3c3e2ab6(Any p0)
+	void _0x3C3E2AB6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3C3E2AB6, 1, p0);
 	}
-	void _0x5f29a7e0(Any p0, Any p1)
+	void _0x5F29A7E0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5F29A7E0, 2, p0, p1);
 	}
-	void _0x5be529f7(Any p0)
+	void _0x5BE529F7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5BE529F7, 1, p0);
 	}
-	void _0x454c7b67(Any p0)
+	void _0x454C7B67(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x454C7B67, 1, p0);
 	}
 	// 0x1AFD9335 -- no params/results data
 	// 0xB503AEC7 -- no params/results data
-	void _0xe5961511(Any p0)
+	void _0xE5961511(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE5961511, 1, p0);
 	}
-	void _0xae396263(Any p0)
+	void _0xAE396263(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAE396263, 1, p0);
 	}
-	void _0x913fd7d6(Any p0)
+	void _0x913FD7D6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x913FD7D6, 1, p0);
 	}
-	void _0xb3d9a67f(Any p0)
+	void _0xB3D9A67F(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB3D9A67F, 1, p0);
 	}
-	void _0x57f9bc83()
+	void _0x57F9BC83()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x57F9BC83, 0);
 	}
-	void _0xf3768f90(Any p0)
+	void _0xF3768F90(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF3768F90, 1, p0);
 	}
-	void _0x74e8c53e(Any p0, Any p1, Any p2)
+	void _0x74E8C53E(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x74E8C53E, 3, p0, p1, p2);
 	}
-	void _0x959e43a3(Any p0)
+	void _0x959E43A3(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x959E43A3, 1, p0);
 	}
-	Any _0x7771ab83(Any p0)
+	Any _0x7771AB83(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7771AB83, 1, p0);
 	}
-	Any _0xa13045d4(Any p0, Any p1, Any p2, Any p3)
+	Any _0xA13045D4(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA13045D4, 4, p0, p1, p2, p3);
@@ -18957,7 +18957,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA6DAA79F, 0);
 	}
-	Any _0xbedc4503()
+	Any _0xBEDC4503()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBEDC4503, 0);
@@ -18977,12 +18977,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6AA9A154, 0);
 	}
-	Any _0x42bd0780(Any p0)
+	Any _0x42BD0780(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x42BD0780, 1, p0);
 	}
-	Any _0xbeb98840()
+	Any _0xBEB98840()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBEB98840, 0);
@@ -18992,17 +18992,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x08029970, 0);
 	}
-	Any _0xc871e745()
+	Any _0xC871E745()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC871E745, 0);
 	}
-	Any _0xb5abc4b4(Any p0, Any p1)
+	Any _0xB5ABC4B4(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB5ABC4B4, 2, p0, p1);
 	}
-	void _0x3f7edbbd()
+	void _0x3F7EDBBD()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3F7EDBBD, 0);
@@ -19022,17 +19022,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0C207D6E, 0);
 	}
-	Any _0xfbbac350()
+	Any _0xFBBAC350()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFBBAC350, 0);
 	}
-	Any _0x0907a6bf()
+	Any _0x0907A6BF()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0907A6BF, 0);
 	}
-	Any _0x6a0bea60()
+	Any _0x6A0BEA60()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6A0BEA60, 0);
@@ -19042,7 +19042,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE9C6B3FD, 1, p0);
 	}
-	Any _0x3ea9d44c()
+	Any _0x3EA9D44C()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3EA9D44C, 0);
@@ -19057,27 +19057,27 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD156FD1A, 1, p0);
 	}
-	void _0x32b7a076()
+	void _0x32B7A076()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x32B7A076, 0);
 	}
-	void _0x0fce995d(Any p0)
+	void _0x0FCE995D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0FCE995D, 1, p0);
 	}
-	void _0xa639dca2(Any p0)
+	void _0xA639DCA2(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA639DCA2, 1, p0);
 	}
-	Any _0x70ed476a()
+	Any _0x70ED476A()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x70ED476A, 0);
 	}
-	void _0x50507bed()
+	void _0x50507BED()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x50507BED, 0);
@@ -19123,17 +19123,17 @@
 		return l_NativeCall.Invoke<Any>(0xE1FCCDBA, 0);
 	}
 	// NETWORK_IS_UNLOCKED -- no params/results data
-	void _0xe6eef8af(Any p0)
+	void _0xE6EEF8AF(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE6EEF8AF, 1, p0);
 	}
-	void _0x6bb93227(Any p0, Any p1)
+	void _0x6BB93227(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6BB93227, 2, p0, p1);
 	}
-	Any _0xe642f2fd()
+	Any _0xE642F2FD()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE642F2FD, 0);
@@ -19148,7 +19148,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE566C7DA, 0);
 	}
-	void _0x9dfd89e6(Any p0)
+	void _0x9DFD89E6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9DFD89E6, 1, p0);
@@ -19158,17 +19158,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x075321B5, 2, p0, p1);
 	}
-	void _0x6efc2fd0(Any p0)
+	void _0x6EFC2FD0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6EFC2FD0, 1, p0);
 	}
-	Any _0x60aa4aa1()
+	Any _0x60AA4AA1()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x60AA4AA1, 0);
 	}
-	Any _0x132ca01e()
+	Any _0x132CA01E()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x132CA01E, 0);
@@ -19208,7 +19208,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x146764FB, 6, p0, p1, p2, p3, p4, p5);
 	}
-	Any _0x2ff65c0b(Any p0, Any p1, Any p2, Any p3)
+	Any _0x2FF65C0B(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2FF65C0B, 4, p0, p1, p2, p3);
@@ -19238,7 +19238,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE3570BA2, 0);
 	}
-	void _0xb59d74ca()
+	void _0xB59D74CA()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB59D74CA, 0);
@@ -19274,12 +19274,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x31F19263, 2, p0, p1);
 	}
-	void _0xcee79711(Any p0, Any p1)
+	void _0xCEE79711(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCEE79711, 2, p0, p1);
 	}
-	void _0xe0c28db5(Any p0, Any p1, Any p2)
+	void _0xE0C28DB5(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE0C28DB5, 3, p0, p1, p2);
@@ -19324,32 +19324,32 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA357A2C6, 0);
 	}
-	void _0xc71e607b()
+	void _0xC71E607B()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC71E607B, 0);
 	}
-	void _0x82d32d07()
+	void _0x82D32D07()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x82D32D07, 0);
 	}
-	Any _0xc901aa9f()
+	Any _0xC901AA9F()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC901AA9F, 0);
 	}
-	void _0xcca9c022(Any p0)
+	void _0xCCA9C022(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCCA9C022, 1, p0);
 	}
-	void _0x1e5f6aef(Any p0, Any p1)
+	void _0x1E5F6AEF(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1E5F6AEF, 2, p0, p1);
 	}
-	void _0x0532ddd2(Any p0)
+	void _0x0532DDD2(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0532DDD2, 1, p0);
@@ -19359,7 +19359,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4ABD1E59, 1, p0);
 	}
-	Any _0xcdebcce7(Any p0)
+	Any _0xCDEBCCE7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCDEBCCE7, 1, p0);
@@ -19384,32 +19384,32 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x577DAA8A, 0);
 	}
-	Any _0x54739cdb()
+	Any _0x54739CDB()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x54739CDB, 0);
 	}
-	void _0x18f03afd(Any p0)
+	void _0x18F03AFD(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x18F03AFD, 1, p0);
 	}
-	Any _0x8b99b72b(Any p0, Any p1, Any p2, Any p3)
+	Any _0x8B99B72B(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8B99B72B, 4, p0, p1, p2, p3);
 	}
-	Any _0x877c0e1c(Any p0, Any p1, Any p2, Any p3)
+	Any _0x877C0E1C(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x877C0E1C, 4, p0, p1, p2, p3);
 	}
-	Any _0x5e832444(Any p0)
+	Any _0x5E832444(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5E832444, 1, p0);
 	}
-	Any _0x3fda00f3()
+	Any _0x3FDA00F3()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3FDA00F3, 0);
@@ -19419,17 +19419,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE5DA4CED, 1, p0);
 	}
-	Any _0x93c665fa(Any p0)
+	Any _0x93C665FA(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x93C665FA, 1, p0);
 	}
-	Any _0xd50df46c(Any p0)
+	Any _0xD50DF46C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD50DF46C, 1, p0);
 	}
-	Any _0x19ec65d9(Any p0)
+	Any _0x19EC65D9(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x19EC65D9, 1, p0);
@@ -19439,33 +19439,33 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB2451429, 2, p0, p1);
 	}
-	Any _0xa4302183(Any p0)
+	Any _0xA4302183(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA4302183, 1, p0);
 	}
-	Any _0x51b2d848(Any p0)
+	Any _0x51B2D848(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x51B2D848, 1, p0);
 	}
-	Any _0x4677c656(Any p0)
+	Any _0x4677C656(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4677C656, 1, p0);
 	}
-	Any _0xf5e3401c(Any p0)
+	Any _0xF5E3401C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF5E3401C, 1, p0);
 	}
-	Any _0x7d593b4c(Any p0)
+	Any _0x7D593B4C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7D593B4C, 1, p0);
 	}
 	// NETWORK_REMOVE_ALL_INVITES -- no params/results data
-	void _0x9773f36a()
+	void _0x9773F36A()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9773F36A, 0);
@@ -19475,12 +19475,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFDE84CB7, 1, p0);
 	}
-	void _0xf7134e73()
+	void _0xF7134E73()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF7134E73, 0);
 	}
-	void _0xc47352e7()
+	void _0xC47352E7()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC47352E7, 0);
@@ -19505,7 +19505,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFD95899E, 1, p0);
 	}
-	void _0x0808d4cc(Any p0, Any p1)
+	void _0x0808D4CC(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0808D4CC, 2, p0, p1);
@@ -19525,22 +19525,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF49C1533, 1, p0);
 	}
-	Any _0x08dc74f2()
+	Any _0x08DC74F2()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x08DC74F2, 0);
 	}
-	Any _0xa812b6cb()
+	Any _0xA812B6CB()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA812B6CB, 0);
 	}
-	Any _0xf30e5814(Any p0, Any p1)
+	Any _0xF30E5814(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF30E5814, 2, p0, p1);
 	}
-	Any _0xc6609191()
+	Any _0xC6609191()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC6609191, 0);
@@ -19565,33 +19565,33 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA51DC214, 0);
 	}
-	Any _0x1720aba6()
+	Any _0x1720ABA6()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1720ABA6, 0);
 	}
-	Any _0xa19708e3()
+	Any _0xA19708E3()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA19708E3, 0);
 	}
-	Any _0xf9a51b92(Any p0, Any p1, Any p2)
+	Any _0xF9A51B92(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF9A51B92, 3, p0, p1, p2);
 	}
-	Any _0xb6f7e208(Any p0, Any p1)
+	Any _0xB6F7E208(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB6F7E208, 2, p0, p1);
 	}
 	// 0x1EE2F612 -- no params/results data
-	Any _0x4c2c6b6a(Any p0, Any p1, Any p2)
+	Any _0x4C2C6B6A(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4C2C6B6A, 3, p0, p1, p2);
 	}
-	void _0x4818acd0(Any p0, Any p1)
+	void _0x4818ACD0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4818ACD0, 2, p0, p1);
@@ -19606,12 +19606,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD9BF6549, 0);
 	}
-	Any _0xccd8c02d()
+	Any _0xCCD8C02D()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCCD8C02D, 0);
 	}
-	Any _0x3e25a3c5()
+	Any _0x3E25A3C5()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3E25A3C5, 0);
@@ -19631,12 +19631,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBE3D32B4, 2, p0, p1);
 	}
-	void _0xa71a1d2a()
+	void _0xA71A1D2A()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA71A1D2A, 0);
 	}
-	Any _0x0b739f53()
+	Any _0x0B739F53()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0B739F53, 0);
@@ -19651,7 +19651,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC4D91094, 1, p0);
 	}
-	Any _0x40dbf464(Any p0)
+	Any _0x40DBF464(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x40DBF464, 1, p0);
@@ -19666,7 +19666,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x168EE2C2, 1, p0);
 	}
-	Any _0xf4f13b06()
+	Any _0xF4F13B06()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF4F13B06, 0);
@@ -19711,27 +19711,27 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4A65250C, 4, p0, p1, p2, p3);
 	}
-	Any _0x8f7d9f46(Any p0, Any p1, Any p2)
+	Any _0x8F7D9F46(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8F7D9F46, 3, p0, p1, p2);
 	}
-	Any _0xdb8b5d71()
+	Any _0xDB8B5D71()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDB8B5D71, 0);
 	}
-	Any _0xcea55f4c(Any p0, Any p1, Any p2)
+	Any _0xCEA55F4C(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCEA55F4C, 3, p0, p1, p2);
 	}
-	void _0x8dcfe77d()
+	void _0x8DCFE77D()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8DCFE77D, 0);
 	}
-	void _0x331d9a27()
+	void _0x331D9A27()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x331D9A27, 0);
@@ -19756,7 +19756,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4FCA6436, 2, p0, p1);
 	}
-	Any _0x28a45454(Any p0, Any p1, Any p2)
+	Any _0x28A45454(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x28A45454, 3, p0, p1, p2);
@@ -19781,17 +19781,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8DE13B36, 0);
 	}
-	void _0x8d27280e(Any p0, Any p1)
+	void _0x8D27280E(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8D27280E, 2, p0, p1);
 	}
-	void _0xb72f086d(Any p0)
+	void _0xB72F086D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB72F086D, 1, p0);
 	}
-	Any _0xeda68956(Any p0)
+	Any _0xEDA68956(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEDA68956, 1, p0);
@@ -19806,7 +19806,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5B912C3F, 1, p0);
 	}
-	Any _0xd7f934f4(Any p0)
+	Any _0xD7F934F4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD7F934F4, 1, p0);
@@ -19816,7 +19816,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x813353ED, 1, p0);
 	}
-	void _0x31a630a4(Any p0)
+	void _0x31A630A4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x31A630A4, 1, p0);
@@ -19986,7 +19986,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCE48F260, 1, p0);
 	}
-	Any _0x4ec0d983(Any p0, Any p1)
+	Any _0x4EC0D983(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4EC0D983, 2, p0, p1);
@@ -19996,7 +19996,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF6659045, 1, p0);
 	}
-	Any _0xd265b049(Any p0)
+	Any _0xD265B049(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD265B049, 1, p0);
@@ -20071,7 +20071,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x009E68F3, 0);
 	}
-	Any _0x5c0ab2a9(Any p0)
+	Any _0x5C0AB2A9(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5C0AB2A9, 1, p0);
@@ -20081,7 +20081,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA7DC5657, 0);
 	}
-	void _0x5c05b7e1(Any p0)
+	void _0x5C05B7E1(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5C05B7E1, 1, p0);
@@ -20111,17 +20111,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x001B4046, 1, p0);
 	}
-	Any _0x7685b333(Any p0)
+	Any _0x7685B333(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7685B333, 1, p0);
 	}
-	Any _0x3fdcc8d7(Any p0)
+	Any _0x3FDCC8D7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3FDCC8D7, 1, p0);
 	}
-	Any _0xd19b312c(Any p0)
+	Any _0xD19B312C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD19B312C, 1, p0);
@@ -20181,7 +20181,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8011247F, 1, p0);
 	}
-	void _0xcab21090(Any p0)
+	void _0xCAB21090(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCAB21090, 1, p0);
@@ -20191,7 +20191,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3813019A, 1, p0);
 	}
-	void _0xc8cc9e75(Any p0, Any p1)
+	void _0xC8CC9E75(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC8CC9E75, 2, p0, p1);
@@ -20201,37 +20201,37 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA0FD42D3, 1, p0);
 	}
-	void _0xc9dda85b(Any p0)
+	void _0xC9DDA85B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC9DDA85B, 1, p0);
 	}
-	void _0xd33aff79(Any p0)
+	void _0xD33AFF79(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD33AFF79, 1, p0);
 	}
-	void _0x4ffefe43(Any p0)
+	void _0x4FFEFE43(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4FFEFE43, 1, p0);
 	}
-	void _0x74ee2d8b(Any p0, Any p1)
+	void _0x74EE2D8B(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x74EE2D8B, 2, p0, p1);
 	}
-	void _0x2f98b405(Any p0)
+	void _0x2F98B405(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2F98B405, 1, p0);
 	}
-	void _0x95f1c60d(Any p0, Any p1)
+	void _0x95F1C60D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x95F1C60D, 2, p0, p1);
 	}
-	void _0x6bee48aa(Any p0, Any p1)
+	void _0x6BEE48AA(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x6BEE48AA, 2, p0, p1);
@@ -20241,7 +20241,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3974879F, 1, p0);
 	}
-	void _0x9ecf722a()
+	void _0x9ECF722A()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9ECF722A, 0);
@@ -20251,22 +20251,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF1E84832, 3, p0, p1, p2);
 	}
-	void _0x7f9b9052()
+	void _0x7F9B9052()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7F9B9052, 0);
 	}
-	void _0x7bbea8cf(Any p0)
+	void _0x7BBEA8CF(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7BBEA8CF, 1, p0);
 	}
-	void _0xe797a4b6(Any p0)
+	void _0xE797A4B6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE797A4B6, 1, p0);
 	}
-	void _0x92268bb5(Any p0, Any p1, Any p2)
+	void _0x92268BB5(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x92268BB5, 3, p0, p1, p2);
@@ -20286,22 +20286,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x932A6CED, 4, p0, p1, p2, p3);
 	}
-	void _0x017e6777(Any p0, Any p1)
+	void _0x017E6777(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x017E6777, 2, p0, p1);
 	}
-	void _0xbe6a30c3(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	void _0xBE6A30C3(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBE6A30C3, 6, p0, p1, p2, p3, p4, p5);
 	}
-	void _0x22e03ad0(Any p0, Any p1)
+	void _0x22E03AD0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x22E03AD0, 2, p0, p1);
 	}
-	Any _0xf5f4bd95()
+	Any _0xF5F4BD95()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF5F4BD95, 0);
@@ -20316,22 +20316,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6EE4A282, 3, p0, p1, p2);
 	}
-	Any _0x54e79e9c(Any p0, Any p1)
+	Any _0x54E79E9C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x54E79E9C, 2, p0, p1);
 	}
-	void _0xf633805a(Any p0, Any p1, Any p2)
+	void _0xF633805A(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF633805A, 3, p0, p1, p2);
 	}
-	Any _0x807b3450()
+	Any _0x807B3450()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x807B3450, 0);
 	}
-	Any _0x3369dd1f(Any p0, Any p1)
+	Any _0x3369DD1F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3369DD1F, 2, p0, p1);
@@ -20346,7 +20346,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1FDB590F, 1, p0);
 	}
-	Any _0x83ed8e08()
+	Any _0x83ED8E08()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x83ED8E08, 0);
@@ -20376,22 +20376,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x79C916C5, 1, p0);
 	}
-	Any _0xbda90bac(Any p0, Any p1)
+	Any _0xBDA90BAC(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBDA90BAC, 2, p0, p1);
 	}
-	Any _0x8e952b12(Any p0, Any p1)
+	Any _0x8E952B12(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8E952B12, 2, p0, p1);
 	}
-	Any _0x966c90fd()
+	Any _0x966C90FD()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x966C90FD, 0);
 	}
-	Any _0xba672146(Any p0, Any p1)
+	Any _0xBA672146(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBA672146, 2, p0, p1);
@@ -20406,7 +20406,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x68D486B2, 2, p0, p1);
 	}
-	void _0x4d15fdb1(Any p0, Any p1, Any p2)
+	void _0x4D15FDB1(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x4D15FDB1, 3, p0, p1, p2);
@@ -20416,7 +20416,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDE8C0DB8, 2, p0, p1);
 	}
-	void _0x09cbc4b0(Any p0, Any p1)
+	void _0x09CBC4B0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x09CBC4B0, 2, p0, p1);
@@ -20426,12 +20426,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x199E75EF, 3, p0, p1, p2);
 	}
-	void _0x00ae4e17(Any p0, Any p1)
+	void _0x00AE4E17(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x00AE4E17, 2, p0, p1);
 	}
-	Any _0xea5176c0(Any p0)
+	Any _0xEA5176C0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEA5176C0, 1, p0);
@@ -20566,12 +20566,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA9A308F3, 1, p0);
 	}
-	Any _0x603fa104(Any p0)
+	Any _0x603FA104(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x603FA104, 1, p0);
 	}
-	Any _0xd8fec4f8(Any p0)
+	Any _0xD8FEC4F8(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD8FEC4F8, 1, p0);
@@ -20581,22 +20581,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x20527695, 1, p0);
 	}
-	Any _0x8687e285()
+	Any _0x8687E285()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8687E285, 0);
 	}
-	Any _0x744ac008()
+	Any _0x744AC008()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x744AC008, 0);
 	}
-	Any _0xc3a12135()
+	Any _0xC3A12135()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC3A12135, 0);
 	}
-	Any _0x6a036061()
+	Any _0x6A036061()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6A036061, 0);
@@ -20606,7 +20606,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x998103C2, 0);
 	}
-	Any _0x98aa48e5()
+	Any _0x98AA48E5()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x98AA48E5, 0);
@@ -20616,17 +20616,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2E079AE6, 2, p0, p1);
 	}
-	Any _0x50ef8fc6(Any p0, Any p1)
+	Any _0x50EF8FC6(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x50EF8FC6, 2, p0, p1);
 	}
-	Any _0xbbb6df61(Any p0, Any p1)
+	Any _0xBBB6DF61(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBBB6DF61, 2, p0, p1);
 	}
-	Any _0x8b4d1c06(Any p0, Any p1)
+	Any _0x8B4D1C06(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8B4D1C06, 2, p0, p1);
@@ -20636,7 +20636,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5666A837, 2, p0, p1);
 	}
-	Any _0xf2fdf2e0()
+	Any _0xF2FDF2E0()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF2FDF2E0, 0);
@@ -20646,12 +20646,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5C4C8458, 2, p0, p1);
 	}
-	void _0x54058f5f(Any p0, Any p1, Any p2)
+	void _0x54058F5F(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x54058F5F, 3, p0, p1, p2);
 	}
-	void _0xa7e36020(Any p0)
+	void _0xA7E36020(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA7E36020, 1, p0);
@@ -20706,7 +20706,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x10DD636C, 7, p0, p1, p2, p3, p4, p5, p6);
 	}
-	void _0xbffe8b5c(Any p0, Any p1, Any p2)
+	void _0xBFFE8B5C(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBFFE8B5C, 3, p0, p1, p2);
@@ -20726,32 +20726,32 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x97B1CDF6, 1, p0);
 	}
-	Any _0x16aed87b(Any p0)
+	Any _0x16AED87B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x16AED87B, 1, p0);
 	}
-	Any _0x0679ce71(Any p0, Any p1)
+	Any _0x0679CE71(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0679CE71, 2, p0, p1);
 	}
-	Any _0xc62e77b3(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
+	Any _0xC62E77B3(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC62E77B3, 9, p0, p1, p2, p3, p4, p5, p6, p7, p8);
 	}
-	Any _0x74d6b13c(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
+	Any _0x74D6B13C(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x74D6B13C, 12, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11);
 	}
-	Any _0x90700c7d(Any p0)
+	Any _0x90700C7D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x90700C7D, 1, p0);
 	}
-	void _0x44bfb619()
+	void _0x44BFB619()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x44BFB619, 0);
@@ -20761,17 +20761,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDDFE9FBC, 3, p0, p1, p2);
 	}
-	Any _0x03287fd2(Any p0)
+	Any _0x03287FD2(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x03287FD2, 1, p0);
 	}
-	void _0x408a9436()
+	void _0x408A9436()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x408A9436, 0);
 	}
-	void _0xffb2ada1(Any p0, Any p1)
+	void _0xFFB2ADA1(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFFB2ADA1, 2, p0, p1);
@@ -20786,32 +20786,32 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x34DD7B28, 0);
 	}
-	Any _0x755a2b3e()
+	Any _0x755A2B3E()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x755A2B3E, 0);
 	}
-	Any _0xa003c40b()
+	Any _0xA003C40B()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA003C40B, 0);
 	}
-	Any _0x5e1020cc(Any p0)
+	Any _0x5E1020CC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5E1020CC, 1, p0);
 	}
-	Any _0xe66a0b40(Any p0, Any p1)
+	Any _0xE66A0B40(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE66A0B40, 2, p0, p1);
 	}
-	void _0x72052db3(Any p0, Any p1)
+	void _0x72052DB3(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x72052DB3, 2, p0, p1);
 	}
-	Any _0xb0313590(Any p0)
+	Any _0xB0313590(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB0313590, 1, p0);
@@ -20821,7 +20821,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC077BCD6, 3, p0, p1, p2);
 	}
-	void _0xc4aeaf49()
+	void _0xC4AEAF49()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC4AEAF49, 0);
@@ -20841,27 +20841,27 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x69956127, 1, p0);
 	}
-	Any _0xcb1cd6d3(Any p0)
+	Any _0xCB1CD6D3(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCB1CD6D3, 1, p0);
 	}
-	Any _0xc6d53aa0(Any p0)
+	Any _0xC6D53AA0(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC6D53AA0, 1, p0);
 	}
-	void _0x155465ee(Any p0, Any p1)
+	void _0x155465EE(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x155465EE, 2, p0, p1);
 	}
-	void _0xd760cad5()
+	void _0xD760CAD5()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD760CAD5, 0);
 	}
-	Any _0x231cfd12()
+	Any _0x231CFD12()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x231CFD12, 0);
@@ -20871,17 +20871,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9FCE9C9A, 2, p0, p1);
 	}
-	Any _0xe4b3726a(Any p0, Any p1, Any p2)
+	Any _0xE4B3726A(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE4B3726A, 3, p0, p1, p2);
 	}
-	Any _0x41e8912a(Any p0, Any p1, Any p2)
+	Any _0x41E8912A(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x41E8912A, 3, p0, p1, p2);
 	}
-	Any _0x8a04e1fe(Any p0, Any p1)
+	Any _0x8A04E1FE(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8A04E1FE, 2, p0, p1);
@@ -20889,7 +20889,7 @@
 	// 0x05265449 -- no params/results data
 	// 0x83B1E50D -- no params/results data
 	// 0x9ED9FD04 -- no params/results data
-	Any _0x053bb329()
+	Any _0x053BB329()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x053BB329, 0);
@@ -20899,22 +20899,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3914463F, 0);
 	}
-	Any _0x17cbc608()
+	Any _0x17CBC608()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x17CBC608, 0);
 	}
-	Any _0xbfaa349b(Any p0)
+	Any _0xBFAA349B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBFAA349B, 1, p0);
 	}
-	Any _0xbeb7281a(Any p0, Any p1)
+	Any _0xBEB7281A(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBEB7281A, 2, p0, p1);
 	}
-	Any _0x1877d451(Any p0, Any p1)
+	Any _0x1877D451(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1877D451, 2, p0, p1);
@@ -20924,7 +20924,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0E1B38AE, 4, p0, p1, p2, p3);
 	}
-	void _0x644141c5(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0x644141C5(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x644141C5, 5, p0, p1, p2, p3, p4);
@@ -20935,37 +20935,37 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5A74E873, 1, p0);
 	}
-	void _0x38bc35c8()
+	void _0x38BC35C8()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x38BC35C8, 0);
 	}
-	Any _0x965ea007()
+	Any _0x965EA007()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x965EA007, 0);
 	}
-	Any _0xeefc8a55()
+	Any _0xEEFC8A55()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEEFC8A55, 0);
 	}
-	void _0x866d1b67(Any p0)
+	void _0x866D1B67(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x866D1B67, 1, p0);
 	}
-	Any _0xed4a272f()
+	Any _0xED4A272F()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xED4A272F, 0);
 	}
-	Any _0x4acf110c(Any p0)
+	Any _0x4ACF110C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4ACF110C, 1, p0);
 	}
-	Any _0x1aa3a0d5(Any p0)
+	Any _0x1AA3A0D5(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1AA3A0D5, 1, p0);
@@ -20975,22 +20975,22 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x37877757, 1, p0);
 	}
-	Any _0x1cf89da5(Any p0)
+	Any _0x1CF89DA5(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1CF89DA5, 1, p0);
 	}
-	Any _0x16e53875(Any p0, Any p1)
+	Any _0x16E53875(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x16E53875, 2, p0, p1);
 	}
-	void _0x365c50ee(Any p0, Any p1)
+	void _0x365C50EE(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x365C50EE, 2, p0, p1);
 	}
-	Any _0x25e2dba9()
+	Any _0x25E2DBA9()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x25E2DBA9, 0);
@@ -21000,32 +21000,32 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC1F6443B, 1, p0);
 	}
-	Any _0x1fdc75dc(Any p0)
+	Any _0x1FDC75DC(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1FDC75DC, 1, p0);
 	}
-	void _0xca7a0a49()
+	void _0xCA7A0A49()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCA7A0A49, 0);
 	}
-	Any _0x44a58b0a(Any p0)
+	Any _0x44A58B0A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x44A58B0A, 1, p0);
 	}
-	Any _0xd32fa11f()
+	Any _0xD32FA11F()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD32FA11F, 0);
 	}
-	void _0xa7fa70ae()
+	void _0xA7FA70AE()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA7FA70AE, 0);
 	}
-	Any _0x70f6d3ad()
+	Any _0x70F6D3AD()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x70F6D3AD, 0);
@@ -21035,87 +21035,87 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB9B3B4D9, 3, p0, p1, p2);
 	}
-	Any _0x2b7b57b3(Any p0)
+	Any _0x2B7B57B3(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2B7B57B3, 1, p0);
 	}
-	Any _0xbaf52dd8(Any p0)
+	Any _0xBAF52DD8(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBAF52DD8, 1, p0);
 	}
-	Any _0x9b9afff1(Any p0)
+	Any _0x9B9AFFF1(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9B9AFFF1, 1, p0);
 	}
-	Any _0x08243b79(Any p0, Any p1)
+	Any _0x08243B79(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x08243B79, 2, p0, p1);
 	}
-	Any _0x798d6c27()
+	Any _0x798D6C27()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x798D6C27, 0);
 	}
-	Any _0xe69e8d0d()
+	Any _0xE69E8D0D()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE69E8D0D, 0);
 	}
-	Any _0x742075fe()
+	Any _0x742075FE()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x742075FE, 0);
 	}
-	Any _0xce569932()
+	Any _0xCE569932()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCE569932, 0);
 	}
-	Any _0x82146be9()
+	Any _0x82146BE9()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x82146BE9, 0);
 	}
-	void _0x133ff2d5()
+	void _0x133FF2D5()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x133FF2D5, 0);
 	}
-	Any _0x4609d596(Any p0, Any p1, Any p2)
+	Any _0x4609D596(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4609D596, 3, p0, p1, p2);
 	}
-	Any _0x4c2c0d1f(Any p0, Any p1, Any p2)
+	Any _0x4C2C0D1F(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4C2C0D1F, 3, p0, p1, p2);
 	}
-	Any _0x6b99acfd(Any p0, Any p1, Any p2)
+	Any _0x6B99ACFD(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6B99ACFD, 3, p0, p1, p2);
 	}
-	Any _0xa4351c31(Any p0, Any p1, Any p2)
+	Any _0xA4351C31(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA4351C31, 3, p0, p1, p2);
 	}
-	Any _0x9efbd5d1(Any p0, Any p1, Any p2)
+	Any _0x9EFBD5D1(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9EFBD5D1, 3, p0, p1, p2);
 	}
-	Any _0xa6d8b798(Any p0, Any p1, Any p2, Any p3)
+	Any _0xA6D8B798(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA6D8B798, 4, p0, p1, p2, p3);
 	}
-	Any _0x67e74842(Any p0, Any p1, Any p2, Any p3)
+	Any _0x67E74842(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x67E74842, 4, p0, p1, p2, p3);
@@ -21130,27 +21130,27 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x22C33603, 3, p0, p1, p2);
 	}
-	Any _0x37f5bd93(Any p0, Any p1, Any p2)
+	Any _0x37F5BD93(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x37F5BD93, 3, p0, p1, p2);
 	}
-	Any _0x1cfb3f51(Any p0, Any p1, Any p2)
+	Any _0x1CFB3F51(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1CFB3F51, 3, p0, p1, p2);
 	}
-	Any _0x87d1e6bd(Any p0, Any p1, Any p2)
+	Any _0x87D1E6BD(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x87D1E6BD, 3, p0, p1, p2);
 	}
-	void _0x021d5a94()
+	void _0x021D5A94()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x021D5A94, 0);
 	}
-	Any _0x4908a514()
+	Any _0x4908A514()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4908A514, 0);
@@ -21160,133 +21160,133 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x50296140, 0);
 	}
-	Any _0x3970b0da()
+	Any _0x3970B0DA()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3970B0DA, 0);
 	}
-	Any _0xc1487110()
+	Any _0xC1487110()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC1487110, 0);
 	}
-	Any _0xcc2356e3()
+	Any _0xCC2356E3()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCC2356E3, 0);
 	}
-	Any _0x2de69817()
+	Any _0x2DE69817()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2DE69817, 0);
 	}
-	Any _0x81bd8d3b()
+	Any _0x81BD8D3B()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x81BD8D3B, 0);
 	}
-	Any _0x8e1d8f78()
+	Any _0x8E1D8F78()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8E1D8F78, 0);
 	}
-	void _0x0d35dd93()
+	void _0x0D35DD93()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0D35DD93, 0);
 	}
-	Any _0x8f3137e6(Any p0)
+	Any _0x8F3137E6(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8F3137E6, 1, p0);
 	}
-	Any _0xb9137ba7(Any p0)
+	Any _0xB9137BA7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB9137BA7, 1, p0);
 	}
-	Any _0x5e8a7559(Any p0)
+	Any _0x5E8A7559(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5E8A7559, 1, p0);
 	}
-	Any _0x331aeabf(Any p0)
+	Any _0x331AEABF(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x331AEABF, 1, p0);
 	}
-	Any _0xa5a0c695(Any p0)
+	Any _0xA5A0C695(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA5A0C695, 1, p0);
 	}
-	Any _0x0303ec6e(Any p0)
+	Any _0x0303EC6E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0303EC6E, 1, p0);
 	}
-	Any _0x91534c6e(Any p0)
+	Any _0x91534C6E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x91534C6E, 1, p0);
 	}
-	Any _0x744a9ea5(Any p0, Any p1)
+	Any _0x744A9EA5(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x744A9EA5, 2, p0, p1);
 	}
-	void _0xa19a238d(Any p0, Any p1)
+	void _0xA19A238D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA19A238D, 2, p0, p1);
 	}
-	Any _0xff7d44e6(Any p0, Any p1)
+	Any _0xFF7D44E6(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFF7D44E6, 2, p0, p1);
 	}
-	Any _0xa2c5bd9d(Any p0)
+	Any _0xA2C5BD9D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA2C5BD9D, 1, p0);
 	}
 	// 0xF6E62C83 -- no params/results data
-	Any _0xa850dde1(Any p0)
+	Any _0xA850DDE1(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA850DDE1, 1, p0);
 	}
-	Any _0x8f6754ae(Any p0)
+	Any _0x8F6754AE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8F6754AE, 1, p0);
 	}
-	Any _0x1e34953f(Any p0, Any p1)
+	Any _0x1E34953F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1E34953F, 2, p0, p1);
 	}
-	Any _0x771fe190(Any p0, Any p1)
+	Any _0x771FE190(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x771FE190, 2, p0, p1);
 	}
-	Any _0x3276d9d3(Any p0, Any p1)
+	Any _0x3276D9D3(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3276D9D3, 2, p0, p1);
 	}
-	Any _0x41a0fb02(Any p0, Any p1)
+	Any _0x41A0FB02(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x41A0FB02, 2, p0, p1);
 	}
-	Any _0x11dc0f27(Any p0)
+	Any _0x11DC0F27(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x11DC0F27, 1, p0);
 	}
-	Any _0x0deb3f5a(Any p0)
+	Any _0x0DEB3F5A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0DEB3F5A, 1, p0);
@@ -21296,167 +21296,167 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x84315226, 2, p0, p1);
 	}
-	Any _0x38fc2eeb(Any p0, Any p1, Any p2, Any p3, Any p4)
+	Any _0x38FC2EEB(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x38FC2EEB, 5, p0, p1, p2, p3, p4);
 	}
-	Any _0x899e468d(Any p0, Any p1, Any p2)
+	Any _0x899E468D(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x899E468D, 3, p0, p1, p2);
 	}
-	Any _0x1c4f9fdb(Any p0)
+	Any _0x1C4F9FDB(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1C4F9FDB, 1, p0);
 	}
-	Any _0xa69ae16c(Any p0)
+	Any _0xA69AE16C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA69AE16C, 1, p0);
 	}
-	Any _0xf50bc67a(Any p0)
+	Any _0xF50BC67A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF50BC67A, 1, p0);
 	}
-	Any _0xb3bbd241(Any p0)
+	Any _0xB3BBD241(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB3BBD241, 1, p0);
 	}
-	Any _0x70a2845c(Any p0, Any p1)
+	Any _0x70A2845C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x70A2845C, 2, p0, p1);
 	}
-	Any _0x346b506c(Any p0)
+	Any _0x346B506C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x346B506C, 1, p0);
 	}
-	void _0x0095db71()
+	void _0x0095DB71()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0095DB71, 0);
 	}
-	Any _0xad334b40(Any p0, Any p1, Any p2)
+	Any _0xAD334B40(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xAD334B40, 3, p0, p1, p2);
 	}
-	Any _0x980d45d7(Any p0, Any p1, Any p2)
+	Any _0x980D45D7(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x980D45D7, 3, p0, p1, p2);
 	}
-	Any _0x48ccc328(Any p0, Any p1, Any p2)
+	Any _0x48CCC328(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x48CCC328, 3, p0, p1, p2);
 	}
-	Any _0x983d1b97(Any p0, Any p1, Any p2)
+	Any _0x983D1B97(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x983D1B97, 3, p0, p1, p2);
 	}
-	Any _0x8e664efd()
+	Any _0x8E664EFD()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8E664EFD, 0);
 	}
-	Any _0x611e0be2()
+	Any _0x611E0BE2()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x611E0BE2, 0);
 	}
-	Any _0xf0211ac1()
+	Any _0xF0211AC1()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF0211AC1, 0);
 	}
-	Any _0x1f0dd8af()
+	Any _0x1F0DD8AF()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1F0DD8AF, 0);
 	}
-	Any _0x094852b0()
+	Any _0x094852B0()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x094852B0, 0);
 	}
-	void _0x405eca16()
+	void _0x405ECA16()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x405ECA16, 0);
 	}
-	Any _0x9567392b(Any p0, Any p1)
+	Any _0x9567392B(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9567392B, 2, p0, p1);
 	}
-	Any _0xf79fff3c()
+	Any _0xF79FFF3C()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF79FFF3C, 0);
 	}
-	Any _0xa7f3f82b()
+	Any _0xA7F3F82B()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA7F3F82B, 0);
 	}
-	void _0x0d4f845d(Any p0)
+	void _0x0D4F845D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0D4F845D, 1, p0);
 	}
-	void _0xe13c1f7f()
+	void _0xE13C1F7F()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE13C1F7F, 0);
 	}
-	void _0x213c6d36(Any p0)
+	void _0x213C6D36(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x213C6D36, 1, p0);
 	}
-	void _0x511e6f50(Any p0)
+	void _0x511E6F50(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x511E6F50, 1, p0);
 	}
-	Any _0x774f349d(Any p0)
+	Any _0x774F349D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x774F349D, 1, p0);
 	}
-	Any _0x30b51753(Any p0, Any p1, Any p2)
+	Any _0x30B51753(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x30B51753, 3, p0, p1, p2);
 	}
-	Any _0x02dad93f()
+	Any _0x02DAD93F()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x02DAD93F, 0);
 	}
-	Any _0x2d947814(Any p0)
+	Any _0x2D947814(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2D947814, 1, p0);
 	}
-	Any _0x37a28c26()
+	Any _0x37A28C26()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x37A28C26, 0);
 	}
-	Any _0x11e8b5cd()
+	Any _0x11E8B5CD()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x11E8B5CD, 0);
 	}
-	Any _0x429aeab3()
+	Any _0x429AEAB3()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x429AEAB3, 0);
@@ -21466,12 +21466,12 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xAD546CC3, 4, p0, p1, p2, p3);
 	}
-	Any _0x1856d008(Any p0, Any p1, Any p2)
+	Any _0x1856D008(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1856D008, 3, p0, p1, p2);
 	}
-	Any _0x68c9af69(Any p0, Any p1, Any p2)
+	Any _0x68C9AF69(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x68C9AF69, 3, p0, p1, p2);
@@ -21481,7 +21481,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xEE8D9E70, 1, p0);
 	}
-	Any _0xe4547765(Any p0)
+	Any _0xE4547765(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE4547765, 1, p0);
@@ -21491,54 +21491,54 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA40EF65A, 1, p0);
 	}
-	Any _0x03225ba3(Any p0)
+	Any _0x03225BA3(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x03225BA3, 1, p0);
 	}
-	Any _0x4debc227()
+	Any _0x4DEBC227()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4DEBC227, 0);
 	}
-	Any _0x0ca1167f()
+	Any _0x0CA1167F()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0CA1167F, 0);
 	}
-	Any _0x424c6e27()
+	Any _0x424C6E27()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x424C6E27, 0);
 	}
-	Any _0xd3bbe42f()
+	Any _0xD3BBE42F()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD3BBE42F, 0);
 	}
-	Any _0xbdbb5948()
+	Any _0xBDBB5948()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBDBB5948, 0);
 	}
-	Any _0x97287d68()
+	Any _0x97287D68()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x97287D68, 0);
 	}
-	Any _0xc6ea802e()
+	Any _0xC6EA802E()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC6EA802E, 0);
 	}
 	// 0x20EEBE9C -- no params/results data
-	void _0x273c6180()
+	void _0x273C6180()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x273C6180, 0);
 	}
 	// 0xB82E9346 -- no params/results data
-	void _0x371bba08()
+	void _0x371BBA08()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x371BBA08, 0);
@@ -21592,27 +21592,27 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x3401FC96, 3, p0, p1, p2);
 	}
-	Any _0x8b755993(Any p0)
+	Any _0x8B755993(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8B755993, 1, p0);
 	}
-	Any _0x8f266745(Any p0)
+	Any _0x8F266745(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8F266745, 1, p0);
 	}
-	Any _0x531e4892(Any p0)
+	Any _0x531E4892(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x531E4892, 1, p0);
 	}
-	Any _0xb96c7abe(Any p0)
+	Any _0xB96C7ABE(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xB96C7ABE, 1, p0);
 	}
-	void _0x66da9935(Any p0)
+	void _0x66DA9935(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x66DA9935, 1, p0);
@@ -21622,22 +21622,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA9F7E9C3, 1, p0);
 	}
-	Any _0x63f093a6()
+	Any _0x63F093A6()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x63F093A6, 0);
 	}
-	void _0x19f0c471(Any p0)
+	void _0x19F0C471(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x19F0C471, 1, p0);
 	}
-	void _0x07c92f21(Any p0, Any p1, Any p2, Any p3)
+	void _0x07C92F21(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x07C92F21, 4, p0, p1, p2, p3);
 	}
-	Any _0xe3802533(Any p0)
+	Any _0xE3802533(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE3802533, 1, p0);
@@ -21648,22 +21648,22 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x70A0ED62, 1, p0);
 	}
-	void _0x30b3ec0a(Any p0)
+	void _0x30B3EC0A(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x30B3EC0A, 1, p0);
 	}
-	void _0xc7a825eb(Any p0)
+	void _0xC7A825EB(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC7A825EB, 1, p0);
 	}
-	void _0xed618da9(Any p0, Any p1)
+	void _0xED618DA9(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xED618DA9, 2, p0, p1);
 	}
-	void _0xeaf04923(Any p0)
+	void _0xEAF04923(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xEAF04923, 1, p0);
@@ -21678,12 +21678,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0B6997FC, 2, p0, p1);
 	}
-	void _0x2befb6c4(Any p0, Any p1, Any p2)
+	void _0x2BEFB6C4(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2BEFB6C4, 3, p0, p1, p2);
 	}
-	void _0xf11fc458(Any p0, Any p1)
+	void _0xF11FC458(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF11FC458, 2, p0, p1);
@@ -21698,12 +21698,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9BE4F7E1, 2, p0, p1);
 	}
-	void _0x866004a8(Any p0)
+	void _0x866004A8(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x866004A8, 1, p0);
 	}
-	void _0xcc068380(Any p0)
+	void _0xCC068380(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xCC068380, 1, p0);
@@ -21725,17 +21725,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1F3DB3E3, 2, p0, p1);
 	}
-	void _0xbe70849b(Any p0, Any p1)
+	void _0xBE70849B(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xBE70849B, 2, p0, p1);
 	}
-	void _0x451a2644(Any p0, Any p1)
+	void _0x451A2644(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x451A2644, 2, p0, p1);
 	}
-	void _0x224a3488(Any p0, Any p1, Any p2)
+	void _0x224A3488(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x224A3488, 3, p0, p1, p2);
@@ -21745,7 +21745,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF8A07513, 3, p0, p1, p2);
 	}
-	void _0x8957038e(Any p0, Any p1, Any p2)
+	void _0x8957038E(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8957038E, 3, p0, p1, p2);
@@ -21760,12 +21760,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x40470683, 2, p0, p1);
 	}
-	void _0x2ad2ec51(Any p0, Any p1, Any p2)
+	void _0x2AD2EC51(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2AD2EC51, 3, p0, p1, p2);
 	}
-	void _0x047547d4(Any p0, Any p1)
+	void _0x047547D4(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x047547D4, 2, p0, p1);
@@ -21800,7 +21800,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB241CABD, 2, p0, p1);
 	}
-	void _0xde7d398c(Any p0, Any p1)
+	void _0xDE7D398C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDE7D398C, 2, p0, p1);
@@ -21810,27 +21810,27 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x87BD1D11, 1, p0);
 	}
-	void _0xe792c4a5(Any p0, Any p1)
+	void _0xE792C4A5(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE792C4A5, 2, p0, p1);
 	}
-	void _0xe6aaa0d5(Any p0, Any p1)
+	void _0xE6AAA0D5(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE6AAA0D5, 2, p0, p1);
 	}
-	void _0x99cf02c4(Any p0, Any p1)
+	void _0x99CF02C4(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x99CF02C4, 2, p0, p1);
 	}
-	void _0x20ddcf2f(Any p0, Any p1)
+	void _0x20DDCF2F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x20DDCF2F, 2, p0, p1);
 	}
-	void _0x2f7836e2(Any p0, Any p1)
+	void _0x2F7836E2(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2F7836E2, 2, p0, p1);
@@ -21855,18 +21855,18 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1B3803B1, 2, p0, p1);
 	}
-	void _0x7e97c92c(Any p0, Any p1)
+	void _0x7E97C92C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7E97C92C, 2, p0, p1);
 	}
 	// NETWORK_SPENT_BANK_INTEREST -- no params/results data
-	void _0x78436d07(Any p0, Any p1, Any p2)
+	void _0x78436D07(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x78436D07, 3, p0, p1, p2);
 	}
-	void _0x5aee2fc1(Any p0, Any p1, Any p2)
+	void _0x5AEE2FC1(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5AEE2FC1, 3, p0, p1, p2);
@@ -21876,17 +21876,17 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x54198922, 3, p0, p1, p2);
 	}
-	Any _0x16184fb5()
+	Any _0x16184FB5()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x16184FB5, 0);
 	}
-	Any _0x4f5b781c(Any p0)
+	Any _0x4F5B781C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4F5B781C, 1, p0);
 	}
-	Any _0xadf8f882()
+	Any _0xADF8F882()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xADF8F882, 0);
@@ -21896,7 +21896,7 @@
 	// 0xC1A11435 -- no params/results data
 	// 0xAA7EA3BD -- no params/results data
 	// 0x7D4FD28C -- no params/results data
-	Any _0x0ea2188c(Any p0, Any p1)
+	Any _0x0EA2188C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x0EA2188C, 2, p0, p1);
@@ -21912,12 +21912,12 @@
 	}
 	// 0xA9021211 -- no params/results data
 
-	Any _0x71d0cf3e(Any p0)
+	Any _0x71D0CF3E(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x71D0CF3E, 1, p0);
 	}
-	Any _0x2e9d628c(Any p0, Any p1, Any p2)
+	Any _0x2E9D628C(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2E9D628C, 3, p0, p1, p2);
@@ -21932,12 +21932,12 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF5659E50, 1, p0);
 	}
-	Any _0xc937ff3d(Any p0, Any p1, Any p2, Any p3)
+	Any _0xC937FF3D(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC937FF3D, 4, p0, p1, p2, p3);
 	}
-	Any _0x594e862c(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
+	Any _0x594E862C(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x594E862C, 6, p0, p1, p2, p3, p4, p5);
@@ -21962,29 +21962,29 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDB0A7A58, 2, p0, p1);
 	}
-	Any _0xc8a4bf12(Any p0, Any p1, Any p2, Any p3)
+	Any _0xC8A4BF12(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC8A4BF12, 4, p0, p1, p2, p3);
 	}
-	Any _0x7d876dc0(Any p0, Any p1, Any p2, Any p3)
+	Any _0x7D876DC0(Any p0, Any p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7D876DC0, 4, p0, p1, p2, p3);
 	}
-	Any _0x159751b4(Any p0)
+	Any _0x159751B4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x159751B4, 1, p0);
 	}
 	// 0x69E2F5BB -- no params/results data
-	void _0xe4ff7103(Any p0, Any p1, Any p2, Any p3, Any p4)
+	void _0xE4FF7103(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xE4FF7103, 5, p0, p1, p2, p3, p4);
 	}
 	// 0xB84DCC79 -- no params/results data
-	Any _0xce70f183(Any p0)
+	Any _0xCE70F183(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCE70F183, 1, p0);
@@ -21996,14 +21996,14 @@
 		l_NativeCall.Invoke<Void>(0x382C70BE, 5, p0, p1, p2, p3, p4);
 	}
 	// GET_FORCED_PROP -- no params/results data
-	Any _0x8e2c7fd5(Any p0, Any p1, Any p2)
+	Any _0x8E2C7FD5(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8E2C7FD5, 3, p0, p1, p2);
 	}
 	// 0xA79BC686 -- no params/results data
 	// 0x1900628D -- no params/results data
-	Any _0x1ecd23e7(Any p0, Any p1)
+	Any _0x1ECD23E7(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1ECD23E7, 2, p0, p1);
@@ -22023,7 +22023,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x99EE4570, 2, p0, p1);
 	}
-	Any _0x8eaf9cf6()
+	Any _0x8EAF9CF6()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8EAF9CF6, 0);
@@ -22043,7 +22043,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xAB12738C, 1, p0);
 	}
-	Any _0x2b757e6c()
+	Any _0x2B757E6C()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2B757E6C, 0);
@@ -22053,7 +22053,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD88EC8EA, 2, p0, p1);
 	}
-	Any _0x476b23a9(Any p0)
+	Any _0x476B23A9(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x476B23A9, 1, p0);
@@ -22078,24 +22078,24 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x1F321943, 1, p0);
 	}
-	Any _0x881b1fdb()
+	Any _0x881B1FDB()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x881B1FDB, 0);
 	}
 	// 0x11427401 -- no params/results data
 	// 0x3BD3F458 -- no params/results data
-	Any _0xf79a97f5()
+	Any _0xF79A97F5()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xF79A97F5, 0);
 	}
-	Any _0x517b601b()
+	Any _0x517B601B()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x517B601B, 0);
 	}
-	Any _0x6087c10c(Any p0, Any p1)
+	Any _0x6087C10C(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6087C10C, 2, p0, p1);
@@ -22219,73 +22219,73 @@
 		l_NativeCall.Invoke<Void>(0xA66AAE8F, 1, p0);
 	}
 
-	Any _0xbbaeef94(Any p0, Any p1, Any p2)
+	Any _0xBBAEEF94(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xBBAEEF94, 3, p0, p1, p2);
 	}
-	Any _0x8e101f5c(Any p0, Any p1, Any p2)
+	Any _0x8E101F5C(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8E101F5C, 3, p0, p1, p2);
 	}
-	Any _0xdb718b21(Any p0, Any p1, Any p2)
+	Any _0xDB718B21(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDB718B21, 3, p0, p1, p2);
 	}
-	Any _0xdbce51e0(Any p0, Any p1)
+	Any _0xDBCE51E0(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDBCE51E0, 2, p0, p1);
 	}
-	Any _0xddde59b5(Any p0, Any p1)
+	Any _0xDDDE59B5(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDDDE59B5, 2, p0, p1);
 	}
-	Any _0x74ef9c40(Any p0, Any p1)
+	Any _0x74EF9C40(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x74EF9C40, 2, p0, p1);
 	}
-	Any _0xe0e2640b(Any p0, Any p1)
+	Any _0xE0E2640B(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE0E2640B, 2, p0, p1);
 	}
-	void _0x68bd42a9(Any p0, Any p1)
+	void _0x68BD42A9(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x68BD42A9, 2, p0, p1);
 	}
-	Any _0x7cf0971d(Any p0, Any p1)
+	Any _0x7CF0971D(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x7CF0971D, 2, p0, p1);
 	}
-	void _0x7f3f1c02()
+	void _0x7F3F1C02()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7F3F1C02, 0);
 	}
 
-	Any _0x6be5df29()
+	Any _0x6BE5DF29()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6BE5DF29, 0);
 	}
-	Any _0x5ecf955d(Any p0)
+	Any _0x5ECF955D(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x5ECF955D, 1, p0);
 	}
-	Any _0xd1ed1d48(Any p0)
+	Any _0xD1ED1D48(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD1ED1D48, 1, p0);
 	}
-	Any _0x19ee0ccb(Any p0)
+	Any _0x19EE0CCB(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x19EE0CCB, 1, p0);
@@ -22305,17 +22305,17 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x15607620, 3, p0, p1, p2);
 	}
-	Any _0xebe420a4(Any p0)
+	Any _0xEBE420A4(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xEBE420A4, 1, p0);
 	}
-	Any _0x2c959af9(Any p0)
+	Any _0x2C959AF9(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x2C959AF9, 1, p0);
 	}
-	void _0x0b9a3512(Any p0)
+	void _0x0B9A3512(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x0B9A3512, 1, p0);
@@ -22330,43 +22330,43 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x88CA3BFC, 2, p0, p1);
 	}
-	Any _0xcabd136a(Any p0, Any p1, Any p2)
+	Any _0xCABD136A(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCABD136A, 3, p0, p1, p2);
 	}
-	Any _0x628f489b(Any p0)
+	Any _0x628F489B(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x628F489B, 1, p0);
 	}
-	Any _0xab3346b5(Any p0, Any p1)
+	Any _0xAB3346B5(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xAB3346B5, 2, p0, p1);
 	}
-	void _0x2fb9f53c(Any p0)
+	void _0x2FB9F53C(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x2FB9F53C, 1, p0);
 	}
-	Any _0x6c5738ab()
+	Any _0x6C5738AB()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x6C5738AB, 0);
 	}
-	Any _0x468668f0()
+	Any _0x468668F0()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x468668F0, 0);
 	}
-	Any _0x90c74343(Any p0, Any p1)
+	Any _0x90C74343(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x90C74343, 2, p0, p1);
 	}
 	// 0x94BF0D35 -- no params/results data
-	Any _0x3ace6d6b(Any p0, Any p1)
+	Any _0x3ACE6D6B(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3ACE6D6B, 2, p0, p1);
@@ -22374,14 +22374,14 @@
 	// 0x85488C49 -- no params/results data
 	// 0x467F4CAA -- no params/results data
 	// 0xEB2D93B3 -- no params/results data
-	Any _0x579b4510(Any p0, Any p1)
+	Any _0x579B4510(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x579B4510, 2, p0, p1);
 	}
 	// 0xF8BDA989 -- no params/results data
 	// 0x515AF67C -- no params/results data
-	Any _0xdf45b2a7(Any p0)
+	Any _0xDF45B2A7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDF45B2A7, 1, p0);
@@ -22389,32 +22389,32 @@
 	// 0x2AE35169 -- no params/results data
 	// 0x2C2B0C46 -- no params/results data
 	// 0xFC50151C -- no params/results data
-	Any _0xdf084a6b(Any p0, Any p1)
+	Any _0xDF084A6B(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xDF084A6B, 2, p0, p1);
 	}
-	Any _0xffed3676(Any p0)
+	Any _0xFFED3676(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFFED3676, 1, p0);
 	}
-	Any _0xa796d7a7(Any p0)
+	Any _0xA796D7A7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA796D7A7, 1, p0);
 	}
-	Any _0x09497f31(Any p0)
+	Any _0x09497F31(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x09497F31, 1, p0);
 	}
-	Any _0x4d8a6521(Any p0)
+	Any _0x4D8A6521(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4D8A6521, 1, p0);
 	}
-	Any _0xc96456ba()
+	Any _0xC96456BA()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xC96456BA, 0);
@@ -22425,7 +22425,7 @@
 	// 0x37DD48B5 -- no params/results data
 	// 0xF929F61D -- no params/results data
 	// 0x0572EB5E -- no params/results data
-	Any _0x8e7aeeb7(Any p0)
+	Any _0x8E7AEEB7(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8E7AEEB7, 1, p0);
@@ -22435,91 +22435,91 @@
 	// 0x92452C0E -- no params/results data
 	// 0xBBA8D34D -- no params/results data
 	// 0xB21288FA -- no params/results data
-	Any _0xe778b2a7(Any p0, Any p1, Any p2)
+	Any _0xE778B2A7(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE778B2A7, 3, p0, p1, p2);
 	}
 	// 0x7E24BD6E -- no params/results data
-	Any _0xce7d50a8(Any p0, Any p1, Any p2)
+	Any _0xCE7D50A8(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xCE7D50A8, 3, p0, p1, p2);
 	}
-	Any _0xd26cca46(Any p0, Any p1)
+	Any _0xD26CCA46(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD26CCA46, 2, p0, p1);
 	}
-	Any _0xa3efe4a1(Any p0)
+	Any _0xA3EFE4A1(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA3EFE4A1, 1, p0);
 	}
-	Any _0x24d84334(Any p0)
+	Any _0x24D84334(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x24D84334, 1, p0);
 	}
-	Any _0x8a023024(Any p0, Any p1)
+	Any _0x8A023024(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8A023024, 2, p0, p1);
 	}
-	Any _0x1c65b038()
+	Any _0x1C65B038()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x1C65B038, 0);
 	}
-	Any _0x4d4c37b3()
+	Any _0x4D4C37B3()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x4D4C37B3, 0);
 	}
-	Any _0xaed95a6f(Any p0, Any p1)
+	Any _0xAED95A6F(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xAED95A6F, 2, p0, p1);
 	}
 	// 0xF1D464E5 -- no params/results data
 	// 0xEFB078AA -- no params/results data
-	void _0x486867e6()
+	void _0x486867E6()
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x486867E6, 0);
 	}
 
-	Any _0x106c8317()
+	Any _0x106C8317()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x106C8317, 0);
 	}
-	Any _0xd87f3a9e()
+	Any _0xD87F3A9E()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xD87F3A9E, 0);
 	}
-	void _0xc0b971ea(Any p0)
+	void _0xC0B971EA(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC0B971EA, 1, p0);
 	}
-	Any _0x94bcac7c()
+	Any _0x94BCAC7C()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x94BCAC7C, 0);
 	}
-	void _0x7d90eee5(Any p0)
+	void _0x7D90EEE5(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7D90EEE5, 1, p0);
 	}
-	void _0x5c350d78(Any p0)
+	void _0x5C350D78(Any p0)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5C350D78, 1, p0);
 	}
-	Any _0x9451efe7()
+	Any _0x9451EFE7()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9451EFE7, 0);

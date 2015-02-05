@@ -42,7 +42,7 @@
 
 //#include "ThreadArray.h"
 
-
+#include "menu_base.h"
 
 #include <cstdlib>
 #include <string.h>
@@ -51,5 +51,15 @@ static void* malloc(uint32_t a_uiSize) { return std::malloc(a_uiSize); }
 static void free(void* a_Addr) { std::free(a_Addr); }
 
 extern int float_int(float f);
+
+void menu_set();
+void trainer_level_0();
+void trainer_level_1();
+void trainer_level_2();
+void trainer_main_action_level_1();
+void trainer_main_2_action_level_2();
+void trainer_main_3_action_level_2();
+void menu_action();
+void project_close();
 
 #endif
