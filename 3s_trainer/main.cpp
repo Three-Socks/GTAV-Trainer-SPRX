@@ -97,7 +97,7 @@ void trainer_catch_load_button_press()
 				clear_ped_tasks_immediately(player_ped_id());
 			}
 			menu_set_open_state(true);
-			menu_items_set = 0;
+			menu_items_set = false;
 			menu_clean();
 			menu_just_opened = 1;
 			menu_play_sound("SELECT");
@@ -108,7 +108,7 @@ void trainer_catch_load_button_press()
 
 void menu_set()
 {
-	menu_items_set = 1;
+	menu_items_set = true;
 	trainer_level_0();
 }
 
@@ -121,15 +121,15 @@ void trainer_level_0()
 		menu_addItem( "Main 1" );
 		menu_addItem( "Main 2" );
 		menu_addItem( "Main 3" );
-		return;
+		break;
 		
 		case 1:
 		trainer_level_1();
-		return;
+		break;
 		
 		case 2:
 		trainer_level_2();
-		return;
+		break;
 		
 	}
 }
@@ -150,21 +150,21 @@ void trainer_level_1()
 			menu_addItem_action( "Main 1 Sub" );
 			menu_addItem_action( "Main 1 Sub" );
 		}
-		return;
+		break;
 		
 		case 1:
 		menu_set_title( "Main 2 Sub" );
 		menu_addItem( "Main 2 Sub" );
 		menu_addItem( "Main 2 Sub" );
 		menu_addItem( "Main 2 Sub" );
-		return;
+		break;
 		
 		case 2:
 		menu_set_title( "Main 3 Sub" );
 		menu_addItem( "Main 3 Sub" );
 		menu_addItem( "Main 3 Sub" );
 		menu_addItem( "Main 3 Sub" );
-		return;
+		break;
 		
 	}
 }
@@ -185,7 +185,7 @@ void trainer_level_2()
 			menu_addItem_action( "Main 2 Sub 2" );
 			menu_addItem_action( "Main 2 Sub 2" );
 		}
-		return;
+		break;
 		
 		case 2:
 		if ( menu_get_action_mode() )
@@ -199,7 +199,7 @@ void trainer_level_2()
 			menu_addItem_action( "Main 3 Sub 3" );
 			menu_addItem_action( "Main 3 Sub 3" );
 		}
-		return;
+		break;
 		
 	}
 }
@@ -210,15 +210,15 @@ void trainer_main_action_level_1()
 	{
 		case 0:
 		menu_msg( "Main 1 Sub Option 1 action" );
-		return;
+		break;
 		
 		case 1:
 		menu_msg( "Main 1 Sub Option 2 action" );
-		return;
+		break;
 		
 		case 2:
 		menu_msg( "Main 1 Sub Option 3 action" );
-		return;
+		break;
 		
 	}
 }
@@ -229,15 +229,15 @@ void trainer_main_2_action_level_2()
 	{
 		case 0:
 		menu_msg( "Main 2 Sub 2 Option 1 action" );
-		return;
+		break;
 		
 		case 1:
 		menu_msg( "Main 2 Sub 2 Option 2 action" );
-		return;
+		break;
 		
 		case 2:
 		menu_msg( "Main 2 Sub 2 Option 3 action" );
-		return;
+		break;
 		
 	}
 }
@@ -248,15 +248,15 @@ void trainer_main_3_action_level_2()
 	{
 		case 0:
 		menu_msg( "Main 3 Sub 2 Option 1 action" );
-		return;
+		break;
 		
 		case 1:
 		menu_msg( "Main 3 Sub 2 Option 2 action" );
-		return;
+		break;
 		
 		case 2:
 		menu_msg( "Main 3 Sub 2 Option 3 action" );
-		return;
+		break;
 		
 	}
 }
@@ -365,8 +365,8 @@ void hook_func()
 			trainer_catch_button_press();
 		}
 		menu_action();
-		menu_set_frontend();
-		if ( ! (menu_items_set ) )
+		//menu_set_frontend();
+		if ( !menu_items_set )
 		{
 			menu_set();
 			if ( menu_get_action_mode() == 0 )
@@ -378,7 +378,7 @@ void hook_func()
 				}
 			}
 		}
-		menu_draw_frontend();
+		//menu_draw_frontend();
 		menu_draw_window();
 		menu_draw();
 		menu_load_sprite();
@@ -388,6 +388,9 @@ void hook_func()
 
 void MainThread(uint64_t)
 {
+	menu_setup();
+	trainer_setup();
+
 	for (;;)
 	{
 		Sleep(1);
@@ -404,7 +407,7 @@ extern "C" int EntryPoint()
 {
 	HookNative(0x1B9BF28, (int)hook_func);
 	//HookNative(0x01B96E40, (int)hook_func);
-	if(sys_ppu_thread_create(&g_MainThreadID, MainThread, 0, 1000, 2048, 0, "GTA V Mod Menu") != CELL_OK)
+	if(sys_ppu_thread_create(&g_MainThreadID, MainThread, 0, 1000, 2048, 0, "3s_trainer") != CELL_OK)
 	{
 		printf("Unable to create the Thread !");
 	}

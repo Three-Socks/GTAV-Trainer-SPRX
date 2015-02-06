@@ -42,6 +42,7 @@
 
 //#include "ThreadArray.h"
 
+#include "globals.h"
 #include "menu_base.h"
 
 #include <cstdlib>

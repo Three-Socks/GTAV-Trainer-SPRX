@@ -20,6 +20,7 @@
     <ClCompile Include="memory.cpp" />
     <ClCompile Include="printf.cpp" />
     <ClCompile Include="menu_base.cpp" />
+    <ClCompile Include="globals.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ScriptMachine\NativeArg.h">
@@ -37,5 +38,6 @@
     <ClInclude Include="main.h" />
     <ClInclude Include="memory.h" />
     <ClInclude Include="menu_base.h" />
+    <ClInclude Include="globals.h" />
   </ItemGroup>
 </Project>

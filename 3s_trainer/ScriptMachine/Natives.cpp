@@ -1,6 +1,5 @@
 #include "..\main.h"
 
-
 	Ped get_player_ped(Player player)
 	{
 		NativeCall l_NativeCall;
@@ -13580,7 +13579,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xFE272A57, 1, p0);
 	}
-	void add_text_component_float(float float_val, uint dp)
+	void add_text_component_float(float float_val, int dp)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x24D78013, 2, float_int(float_val), dp);
@@ -15571,7 +15570,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x3F0D1A6F, 0);
 	}
-	void draw_sprite(char* p0, char* p1, float p2, float p3, float p4, float p5, float p6, uint r, uint g, uint b, uint a)
+	void draw_sprite(char* p0, char* p1, float p2, float p3, float p4, float p5, float p6, int r, int g, int b, int a)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x1FEC16B0, 11, p0, p1, float_int(p2), float_int(p3), float_int(p4), float_int(p5), float_int(p6), r, g, b, a);

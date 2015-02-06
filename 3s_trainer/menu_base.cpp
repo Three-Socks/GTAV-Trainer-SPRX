@@ -1,6 +1,6 @@
 #include "main.h"
 
-uint menu_get_current_item()
+int menu_get_current_item()
 {
 	return menu_item_highlighted;
 }
@@ -24,22 +24,22 @@ void menu_set_open_state( bool state )
 	menu_hidden = state;
 }
 
-uint menu_get_action_mode()
+int menu_get_action_mode()
 {
 	return menu_action_mode;
 }
 
-void menu_set_action_mode( uint action_mode )
+void menu_set_action_mode( int action_mode )
 {
 	menu_action_mode = action_mode;
 }
 
-uint menu_get_sub_action_mode()
+int menu_get_sub_action_mode()
 {
 	return menu_sub_action_mode;
 }
 
-void menu_set_sub_action_mode( uint sub_action_mode )
+void menu_set_sub_action_mode( int sub_action_mode )
 {
 	menu_sub_action_mode = sub_action_mode;
 }
@@ -54,17 +54,17 @@ void menu_set_continue_action( bool state )
 	menu_continue_action = state;
 }
 
-uint menu_get_current_level()
+int menu_get_current_level()
 {
 	return menu_level;
 }
 
-uint menu_get_last_selected( uint menu_level )
+int menu_get_last_selected( int menu_level )
 {
 	return last_selected[menu_level];
 }
 
-int menu_get_stored_data( uint menu_item )
+int menu_get_stored_data( int menu_item )
 {
 	return menu_stored_data[menu_item];
 }
@@ -91,12 +91,12 @@ void menu_set_bool_strings(char* bool_string_off, char* bool_string_on )
 	custom_bool_string_on = bool_string_on;
 }
 
-void menu_set_float_dp( uint float_dp )
+void menu_set_float_dp( int float_dp )
 {
 	custom_float_dp = float_dp;
 }
 
-void menu_set_font( uint font )
+void menu_set_font( int font )
 {
 	custom_font = font;
 }
@@ -113,7 +113,7 @@ void menu_set_sfx( bool state )
 
 void menu_addItem(char* menu_item_string )
 {
-	if ( ! (menu_get_action_mode() ) )
+	if ( !menu_get_action_mode() )
 	{
 		menu_count = menu_get_count() + 1;
 		menu_items_name[menu_get_count()] = menu_item_string;
@@ -194,7 +194,7 @@ void menu_add_number( int num_val )
 	}
 }
 
-void menu_set_number( uint menu_item, int num_val )
+void menu_set_number( int menu_item, int num_val )
 {
 	menu_items_num_val[menu_item] = num_val;
 }
@@ -204,7 +204,7 @@ int menu_get_current_number()
 	return menu_items_num_val[menu_get_current_item()];
 }
 
-int menu_get_number( uint menu_item )
+int menu_get_number( int menu_item )
 {
 	return menu_items_num_val[menu_item];
 }
@@ -247,12 +247,12 @@ void menu_set_current_bool( bool state )
 	menu_items_extra_val[menu_get_current_item()] = state;
 }
 
-void menu_set_bool( uint menu_item, bool state )
+void menu_set_bool( int menu_item, bool state )
 {
 	menu_items_extra_val[menu_item] = state;
 }
 
-void menu_toggle_bool( uint menu_item )
+void menu_toggle_bool( int menu_item )
 {
 	menu_items_extra_val[menu_item] = !menu_get_current_bool();
 	return;
@@ -269,7 +269,7 @@ bool menu_get_current_bool()
 	return menu_items_extra_val[menu_get_current_item()];
 }
 
-bool menu_get_bool( uint menu_item )
+bool menu_get_bool( int menu_item )
 {
 	return menu_items_extra_val[menu_item];
 }
@@ -284,7 +284,7 @@ void menu_addItem_gxt_veh_hash( int hash )
 	}
 }
 
-/*void menu_addItem_keyboard( char* menu_item_string, const char* string_val, uint keyboard_len )
+/*void menu_addItem_keyboard( char* menu_item_string, const char* string_val, int keyboard_len )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
@@ -296,7 +296,7 @@ void menu_addItem_gxt_veh_hash( int hash )
 	}
 }
 
-void menu_addItem_number_keyboard( int int_val, int min, int max, uint keyboard_len )
+void menu_addItem_number_keyboard( int int_val, int min, int max, int keyboard_len )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
@@ -308,7 +308,7 @@ void menu_addItem_number_keyboard( int int_val, int min, int max, uint keyboard_
 	}
 }
 
-void menu_addItem_number_format_keyboard( float float_val, int min, int max, uint keyboard_len )
+void menu_addItem_number_format_keyboard( float float_val, int min, int max, int keyboard_len )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
@@ -320,7 +320,7 @@ void menu_addItem_number_format_keyboard( float float_val, int min, int max, uin
 	}
 }
 
-void menu_addItem_float_keyboard( float float_val, float min, float max, uint keyboard_len )
+void menu_addItem_float_keyboard( float float_val, float min, float max, int keyboard_len )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
@@ -350,7 +350,7 @@ void menu_add_extra( int extra_val )
 	}
 }
 
-int menu_get_extra( uint menu_item )
+int menu_get_extra( int menu_item )
 {
 	return menu_items_extra_val[menu_item];
 }
@@ -373,7 +373,7 @@ void menu_add_action()
 	}
 }
 
-void menu_addItem_frontend( uint button_id, char* string_val )
+void menu_addItem_frontend( int button_id, char* string_val )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
@@ -383,7 +383,7 @@ void menu_addItem_frontend( uint button_id, char* string_val )
 	}
 }
 
-void menu_set_catch_button_id( uint catch_id )
+void menu_set_catch_button_id( int catch_id )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
@@ -391,14 +391,14 @@ void menu_set_catch_button_id( uint catch_id )
 	}
 }
 
-uint menu_get_catch_button_id()
+int menu_get_catch_button_id()
 {
 	return menu_catch_button_id;
 }
 
 void menu_draw_frontend_hook()
 {
-	uint i = frontend_count;
+	int i = frontend_count;
 	if ( ( ( (menu_items_type[menu_get_current_item()] == 6 || menu_items_type[menu_get_current_item()] == 7) || menu_items_type[menu_get_current_item()] == 12) || menu_items_type[menu_get_current_item()] == 14) )
 	{
 		i++;
@@ -413,7 +413,7 @@ void menu_draw_frontend_hook()
 	}
 }
 
-void menu_add_frontend( uint frontend_id, uint button_id, char* string_val )
+void menu_add_frontend( int frontend_id, int button_id, char* string_val )
 {
 	_0x215ABBE8( instructional_buttons, "SET_DATA_SLOT" );
 	_0x716777CB( frontend_id );
@@ -448,7 +448,7 @@ void menu_setup()
 	menu_load_hold_pressed = 0;
 	menu_level = 0;
 	menu_set_title( "" );
-	menu_items_set = 0;
+	menu_items_set = false;
 	press_counter = 2;
 	press_counter_timesby = 1;
 	menu_start_y = 0.0527f;
@@ -667,8 +667,8 @@ void menu_shutdown()
 void menu_catch_button_press()
 {
 	int catch_button_menu_count;
-	uint catch_start_scolling;
-	uint i;
+	int catch_start_scolling;
+	int i;
 	//float float_change;
 	catch_button_menu_count = menu_get_count();
 	catch_start_scolling = catch_button_menu_count - menu_start_scrolling;
@@ -861,7 +861,7 @@ void menu_catch_select_button_press()
 			menu_play_sound( "SELECT" );
 			if ( menu_items_action[menu_get_current_item()] != 1 )
 			{
-				menu_items_set = 0;
+				menu_items_set = false;
 				last_selected[menu_get_current_level()] = menu_get_current_item();
 				menu_item_highlighted = 0;
 				menu_clean();
@@ -878,7 +878,7 @@ void menu_catch_select_button_press()
 		if ( menu_get_current_level() != 0 )
 		{
 			menu_play_sound( "BACK" );
-			menu_items_set = 0;
+			menu_items_set = false;
 			menu_level = menu_get_current_level() - 1;
 			menu_clean();
 		}
@@ -1051,7 +1051,7 @@ void menu_error_2_strings_gxt( char* string_val, char* gxt, int menu_level_back 
 
 void menu_error_back( int menu_level_back )
 {
-	menu_items_set = 0;
+	menu_items_set = false;
 	frontend_items_set = 0;
 	menu_clean();
 	menu_level = menu_get_current_level() - menu_level_back;
@@ -1068,8 +1068,8 @@ void menu_frontend_clean()
 
 void menu_clean()
 {
-	uint clean_index;
-	uint clean_menu_count;
+	int clean_index;
+	int clean_menu_count;
 	clean_index = 0;
 	clean_menu_count = menu_get_count() + 1;
 	while ( clean_index < clean_menu_count )
@@ -1095,11 +1095,11 @@ void menu_clean()
 
 void menu_draw_window()
 {
-	uint win_r;
-	uint win_g;
-	uint win_b;
-	uint win_a;
-	uint win_menu_count;
+	int win_r;
+	int win_g;
+	int win_b;
+	int win_a;
+	int win_menu_count;
 	float win_size;
 	_0x228A2598( 76, 84 );
 	_0x76C641E4( -0.05f, -0.05f, 0.0f, 0.0f );
@@ -1130,7 +1130,7 @@ void menu_draw_rect(float rect_x, float rect_y, float rect_size_x, float rect_si
 	draw_rect(rect_x + rect_size_x * 0.5f, rect_y + rect_size_y * 0.5f, rect_size_x, rect_size_y, rect_r, rect_g, rect_b, rect_a);
 }
 
-void menu_do_hold_pressed( uint button_id )
+void menu_do_hold_pressed( int button_id )
 {
 	if ( is_disabled_control_pressed( 2, button_id ) )
 	{
@@ -1151,7 +1151,7 @@ void menu_do_hold_pressed( uint button_id )
 	}
 }
 
-bool menu_is_hold_pressed( uint button_id )
+bool menu_is_hold_pressed( int button_id )
 {
 	if ( press_counter > 5 )
 	{
@@ -1336,31 +1336,31 @@ void menu_draw_gxt_number2_add( int item_id, float cur_menu_y )
 
 void menu_draw()
 {
-	uint var_1;
+	int var_1;
 	float var_2;
 	float var_3;
 	float var_4;
 	float var_5;
 	float var_6;
-	uint var_7;
+	int var_7;
 	char* var_8;
 	char* var_9;
-	uint var_10;
-	uint var_11;
-	uint var_12;
-	uint var_13;
-	uint var_14;
-	uint var_15;
-	uint var_16;
-	uint var_17;
-	uint var_18;
-	//uint var_19;
-	uint var_20;
-	uint var_21;
-	uint var_22;
-	uint var_23;
-	uint var_24;
-	uint var_25;
+	int var_10;
+	int var_11;
+	int var_12;
+	int var_13;
+	int var_14;
+	int var_15;
+	int var_16;
+	int var_17;
+	int var_18;
+	//int var_19;
+	int var_20;
+	int var_21;
+	int var_22;
+	int var_23;
+	int var_24;
+	int var_25;
 	float var_26;
 	Vector3 var_27;
 	int var_31;
@@ -1582,7 +1582,7 @@ void draw_number_gxt(char* gxt, int num_val, float x, float y )
 	_draw_text( x, y );
 }
 
-void set_up_draw( uint font, float scale1, float scale2, uint r, uint g, uint b, float wrap, bool right, bool centre )
+void set_up_draw( int font, float scale1, float scale2, int r, int g, int b, float wrap, bool right, bool centre )
 {
 	set_text_font( font );
 	set_text_scale( scale1, scale2 );
