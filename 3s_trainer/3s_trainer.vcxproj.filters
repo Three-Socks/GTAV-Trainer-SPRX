@@ -12,9 +12,6 @@
     <ClCompile Include="ScriptMachine\Natives.cpp">
       <Filter>ScriptMachine</Filter>
     </ClCompile>
-    <ClCompile Include="ScriptMachine\scrThread.cpp">
-      <Filter>ScriptMachine</Filter>
-    </ClCompile>
     <ClCompile Include="libc.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="memory.cpp" />
@@ -30,9 +27,6 @@
       <Filter>ScriptMachine</Filter>
     </ClInclude>
     <ClInclude Include="ScriptMachine\Natives.h">
-      <Filter>ScriptMachine</Filter>
-    </ClInclude>
-    <ClInclude Include="ScriptMachine\scrThread.h">
       <Filter>ScriptMachine</Filter>
     </ClInclude>
     <ClInclude Include="main.h" />

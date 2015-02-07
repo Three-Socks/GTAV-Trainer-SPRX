@@ -1,15 +1,17 @@
 #include "main.h"
 
-#define Sleep(milliseconds)		sys_timer_usleep(milliseconds * 1000)
-typedef void* PVOID;
-
-SYS_MODULE_INFO("3s_trainer", 0, 1, 1);
+SYS_MODULE_INFO("gtav_3s_trainer", 0, 1, 1);
 SYS_MODULE_START(EntryPoint);
 
 SYS_LIB_DECLARE_WITH_STUB(LIBNAME, SYS_LIB_AUTO_EXPORT, STUBNAME);
 SYS_LIB_EXPORT(FakeExportFunction, LIBNAME);
 
 sys_ppu_thread_t	g_MainThreadID;
+
+int float_int(float f)
+{
+	return *(int*)&f;
+}
 
 int Memcpy(PVOID destination, const PVOID source, size_t size)
 {
@@ -28,11 +30,6 @@ void HookNative(int native, int Destination)
 	Memcpy((void*)native, FuncBytes, 4);
 }
 
-int float_int(float f)
-{
-	return *(int*)&f;
-}
-
 void trainer_loop_checks()
 {
 	if ( is_player_playing( player_id() ) )
@@ -41,7 +38,6 @@ void trainer_loop_checks()
 		{
 		}
 	}
-	return;
 }
 
 void trainer_load_pressed()
@@ -407,7 +403,7 @@ extern "C" int EntryPoint()
 {
 	HookNative(0x1B9BF28, (int)hook_func);
 	//HookNative(0x01B96E40, (int)hook_func);
-	if(sys_ppu_thread_create(&g_MainThreadID, MainThread, 0, 1000, 2048, 0, "3s_trainer") != CELL_OK)
+	if(sys_ppu_thread_create(&g_MainThreadID, MainThread, 0, 1000, 2048, 0, "gtav_3s_trainer") != CELL_OK)
 	{
 		printf("Unable to create the Thread !");
 	}

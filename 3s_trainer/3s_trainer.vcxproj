@@ -19,7 +19,6 @@
     <ClCompile Include="printf.cpp" />
     <ClCompile Include="ScriptMachine\NativeArg.cpp" />
     <ClCompile Include="ScriptMachine\Natives.cpp" />
-    <ClCompile Include="ScriptMachine\scrThread.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="globals.h" />
@@ -29,7 +28,6 @@
     <ClInclude Include="ScriptMachine\NativeArg.h" />
     <ClInclude Include="ScriptMachine\NativeCall.h" />
     <ClInclude Include="ScriptMachine\Natives.h" />
-    <ClInclude Include="ScriptMachine\scrThread.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D3226A14-6579-4F34-8CCF-9CBDAD562F85}</ProjectGuid>
@@ -39,6 +37,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|PS3'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <PlatformToolset>SNC</PlatformToolset>
+    <NoTocRestore>NoTocRestore1</NoTocRestore>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|PS3'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
@@ -65,7 +64,8 @@
     </ClCompile>
     <Link>
       <DataStripping>StripFuncs</DataStripping>
-      <InfoStripping>None</InfoStripping>
+      <InfoStripping>StripSymsAndDebug</InfoStripping>
+      <AdditionalOptions>--compress-output %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|PS3'">

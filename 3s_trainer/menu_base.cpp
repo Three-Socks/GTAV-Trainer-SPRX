@@ -373,6 +373,16 @@ void menu_add_action()
 	}
 }
 
+/*void menu_addItem_callback(char* menu_item_string, void* callback_func)
+{
+	if (!menu_get_action_mode())
+	{
+		menu_count = menu_get_count() + 1;
+		menu_items_name[menu_get_count()] = menu_item_string;
+		menu_items_action[menu_get_count()] = callback_func;
+	}
+}*/
+
 void menu_addItem_frontend( int button_id, char* string_val )
 {
 	if ( ! (menu_get_action_mode() ) )
@@ -399,11 +409,11 @@ int menu_get_catch_button_id()
 void menu_draw_frontend_hook()
 {
 	int i = frontend_count;
-	if ( ( ( (menu_items_type[menu_get_current_item()] == 6 || menu_items_type[menu_get_current_item()] == 7) || menu_items_type[menu_get_current_item()] == 12) || menu_items_type[menu_get_current_item()] == 14) )
+	if ( menu_items_type[menu_get_current_item()] == 6 || menu_items_type[menu_get_current_item()] == 7 || menu_items_type[menu_get_current_item()] == 12 || menu_items_type[menu_get_current_item()] == 14 )
 	{
 		i++;
 		menu_add_frontend( i, 32, "Edit With Keyboard" );
-		if ( (menu_items_type[menu_get_current_item()] == 2 || menu_items_type[menu_get_current_item()] == 12) )
+		if ( menu_items_type[menu_get_current_item()] == 2 || menu_items_type[menu_get_current_item()] == 12 )
 		{
 			i++;
 			menu_add_frontend( i, 36, "Increment Faster (Hold)" );
@@ -669,7 +679,7 @@ void menu_catch_button_press()
 	int catch_button_menu_count;
 	int catch_start_scolling;
 	int i;
-	//float float_change;
+	float float_change;
 	catch_button_menu_count = menu_get_count();
 	catch_start_scolling = catch_button_menu_count - menu_start_scrolling;
 	if ( menu_down_pressed( 1 ) )
@@ -736,7 +746,7 @@ void menu_catch_button_press()
 	}
 	else if ( menu_left_pressed( 1 ) )
 	{
-		if ( ( ( (menu_items_type[menu_get_current_item()] == 1 || menu_items_type[menu_get_current_item()] == 7) || menu_items_type[menu_get_current_item()] == 13) || menu_items_type[menu_get_current_item()] == 14) )
+		if ( menu_items_type[menu_get_current_item()] == 1 || menu_items_type[menu_get_current_item()] == 7 || menu_items_type[menu_get_current_item()] == 13 || menu_items_type[menu_get_current_item()] == 14 )
 		{
 			//if ( menu_items_num_val[menu_get_current_item()] != menu_items_float_val[menu_get_current_item()] )
 			//{
@@ -750,32 +760,25 @@ void menu_catch_button_press()
 		}
 		else
 		{
-			if ( (menu_items_type[menu_get_current_item()] == 2 || menu_items_type[menu_get_current_item()] == 12) )
+			if ( menu_items_type[menu_get_current_item()] == 2 || menu_items_type[menu_get_current_item()] == 12 )
 			{
-				/*if ( (IntToFloat( menu_items_float_val[menu_get_current_item()] ) <= IntToFloat( menu_items_num_val[menu_get_current_item()] ) || IntToFloat( menu_items_float_val[menu_get_current_item()] ) < 0.0f) )
+				float_change = 0.010f;
+				if ( is_control_pressed( 2, 178 ) )
 				{
-					float_change = 0.010f;
-					if ( is_control_pressed( 2, 178 ) )
-					{
-						float_change = 0.001f;
-					}
-					if ( is_control_pressed( 2, 179 ) )
-					{
-						float_change = 0.100f;
-					}
-					menu_items_num_val[menu_get_current_item()] -= float_change;
+					float_change = 0.001f;
 				}
-				else
+				if ( is_control_pressed( 2, 179 ) )
 				{
-					menu_items_num_val[menu_get_current_item()] = menu_items_extra_val[menu_get_current_item()];
+					float_change = 0.100f;
 				}
-				menu_play_sound( "NAV_LEFT_RIGHT" );*/
+				menu_items_float_val[menu_get_current_item()] -= float_change;
+				menu_play_sound( "NAV_LEFT_RIGHT" );
 			}
 		}
 	}
 	else if ( menu_right_pressed( 1 ) )
 	{
-		if ( ( ( (menu_items_type[menu_get_current_item()] == 1 || menu_items_type[menu_get_current_item()] == 7) || menu_items_type[menu_get_current_item()] == 13) || menu_items_type[menu_get_current_item()] == 14) )
+		if ( menu_items_type[menu_get_current_item()] == 1 || menu_items_type[menu_get_current_item()] == 7 || menu_items_type[menu_get_current_item()] == 13 || menu_items_type[menu_get_current_item()] == 14 )
 		{
 			//if ( menu_items_extra_val[menu_get_current_item()] != menu_items_num_val[menu_get_current_item()] )
 			//{
@@ -789,26 +792,19 @@ void menu_catch_button_press()
 		}
 		else
 		{
-			if ( (menu_items_type[menu_get_current_item()] == 2 || menu_items_type[menu_get_current_item()] == 12) )
+			if ( menu_items_type[menu_get_current_item()] == 2 || menu_items_type[menu_get_current_item()] == 12 )
 			{
-				/*if ( IntToFloat( menu_items_num_val[menu_get_current_item()] ) <= IntToFloat( menu_items_extra_val[menu_get_current_item()] - 0.010f ) )
+				float_change = 0.010f;
+				if ( is_control_pressed( 2, 178 ) )
 				{
-					float_change = 0.010f;
-					if ( is_control_pressed( 2, 178 ) )
-					{
-						float_change = 0.001f;
-					}
-					if ( is_control_pressed( 2, 179 ) )
-					{
-						float_change = 0.100f;
-					}
-					menu_items_num_val[menu_get_current_item()] += float_change;
+					float_change = 0.001f;
 				}
-				else
+				if ( is_control_pressed( 2, 179 ) )
 				{
-					menu_items_num_val[menu_get_current_item()] = menu_items_float_val[menu_get_current_item()];
+					float_change = 0.100f;
 				}
-				menu_play_sound( "NAV_LEFT_RIGHT" );*/
+				menu_items_float_val[menu_get_current_item()] += float_change;
+				menu_play_sound( "NAV_LEFT_RIGHT" );
 			}
 		}
 	}
@@ -1165,7 +1161,7 @@ bool menu_is_hold_pressed( int button_id )
 
 bool menu_up_pressed( bool do_hold )
 {
-	if ( (is_disabled_control_just_pressed( 2, 162 ) || menu_is_hold_pressed( 162 )) )
+	if ( is_disabled_control_just_pressed( 2, 162 ) || menu_is_hold_pressed( 162 ) )
 	{
 		reset_counter = 1;
 		return 1;
@@ -1179,7 +1175,7 @@ bool menu_up_pressed( bool do_hold )
 
 bool menu_down_pressed( bool do_hold )
 {
-	if ( (is_disabled_control_just_pressed( 2, 161 ) || menu_is_hold_pressed( 161 )) )
+	if ( is_disabled_control_just_pressed( 2, 161 ) || menu_is_hold_pressed( 161 ) )
 	{
 		reset_counter = 1;
 		return 1;
@@ -1193,7 +1189,7 @@ bool menu_down_pressed( bool do_hold )
 
 bool menu_left_pressed( bool do_hold )
 {
-	if ( (is_disabled_control_just_pressed( 2, 163 ) || menu_is_hold_pressed( 163 )) )
+	if ( is_disabled_control_just_pressed( 2, 163 ) || menu_is_hold_pressed( 163 ) )
 	{
 		reset_counter = 1;
 		return 1;
@@ -1207,7 +1203,7 @@ bool menu_left_pressed( bool do_hold )
 
 bool menu_right_pressed( bool do_hold )
 {
-	if ( (is_disabled_control_just_pressed( 2, 164 ) || menu_is_hold_pressed( 164 )) )
+	if ( is_disabled_control_just_pressed( 2, 164 ) || menu_is_hold_pressed( 164 ) )
 	{
 		reset_counter = 1;
 		return 1;
@@ -1447,20 +1443,20 @@ void menu_draw()
 					set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, 1.0f, 0, 0 );
 					draw_string( menu_items_name[var_1], menu_x, var_3 );
 				}
-				if ( ( ( ( ( (menu_items_type[var_1] == 1 || menu_items_type[var_1] == 2) || menu_items_type[var_1] == 7) || menu_items_type[var_1] == 12) || menu_items_type[var_1] == 13) || menu_items_type[var_1] == 14) )
+				if ( menu_items_type[var_1] == 1 || menu_items_type[var_1] == 2 || menu_items_type[var_1] == 7 || menu_items_type[var_1] == 12 || menu_items_type[var_1] == 13 || menu_items_type[var_1] == 14 )
 				{
 					set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, menu_x + 0.203125f, 1, 0 );
-					if ( (menu_items_type[var_1] == 2 || menu_items_type[var_1] == 12) )
+					if ( menu_items_type[var_1] == 2 || menu_items_type[var_1] == 12 )
 					{
 						_0x51E7A037( "NUMBER" );
 						add_text_component_float( menu_items_num_val[var_1], custom_float_dp );
 						var_26 = _0xD12A643A( 1 ) + 0.00859375f;
 						set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, menu_x + 0.203125f, 1, 0 );
-						draw_float( menu_items_num_val[var_1], 0.0f, var_3 );
+						draw_float( menu_items_float_val[var_1], 0.0f, var_3 );
 					}
 					else
 					{
-						if ( (menu_items_type[var_1] == 13 || menu_items_type[var_1] == 14) )
+						if ( menu_items_type[var_1] == 13 || menu_items_type[var_1] == 14 )
 						{
 							_0x51E7A037( "ESDOLLA" );
 							_0x12929BDF( menu_items_num_val[var_1], 1 );

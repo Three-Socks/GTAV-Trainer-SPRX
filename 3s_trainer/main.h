@@ -37,10 +37,6 @@
 #include "ScriptMachine\Natives.h"
 #include "ScriptMachine\NativeArg.h"
 #include "ScriptMachine\NativeCall.h"
-//#include "ScriptMachine\scrThread.h"
-
-
-//#include "ThreadArray.h"
 
 #include "globals.h"
 #include "menu_base.h"
@@ -48,19 +44,35 @@
 #include <cstdlib>
 #include <string.h>
 
+#define Sleep(milliseconds)		sys_timer_usleep(milliseconds * 1000)
+typedef void* PVOID;
+
 static void* malloc(uint32_t a_uiSize) { return std::malloc(a_uiSize); }
 static void free(void* a_Addr) { std::free(a_Addr); }
 
 extern int float_int(float f);
 
-void menu_set();
-void trainer_level_0();
-void trainer_level_1();
-void trainer_level_2();
-void trainer_main_action_level_1();
-void trainer_main_2_action_level_2();
-void trainer_main_3_action_level_2();
-void menu_action();
-void project_close();
+extern int Memcpy(PVOID destination, const PVOID source, size_t size);
+extern void HookNative(int native, int Destination);
+
+extern void trainer_loop_checks();
+extern void trainer_load_pressed();
+extern void trainer_catch_load_button_press();
+
+extern void menu_set();
+extern void trainer_level_0();
+extern void trainer_level_1();
+extern void trainer_level_2();
+extern void trainer_main_action_level_1();
+extern void trainer_main_2_action_level_2();
+extern void trainer_main_3_action_level_2();
+extern void menu_action();
+extern void trainer_catch_button_press();
+extern void trainer_setup();
+extern void project_close();
+extern void hook_func();
+extern void MainThread(uint64_t);
+extern "C" int FakeExportFunction();
+extern "C" int EntryPoint();
 
 #endif

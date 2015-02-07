@@ -53,6 +53,7 @@ void menu_add_extra( int extra_val );
 int menu_get_extra( int menu_item );
 void menu_addItem_action( char* menu_item_string );
 void menu_add_action();
+//void menu_addItem_callback( char* menu_item_string, function callback_func );
 void menu_addItem_frontend( int button_id, char* string_val );
 void menu_set_catch_button_id( int catch_id );
 int menu_get_catch_button_id();
