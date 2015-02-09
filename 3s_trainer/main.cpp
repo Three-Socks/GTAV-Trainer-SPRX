@@ -135,17 +135,10 @@ void trainer_level_1()
 	switch( menu_get_last_selected( 0 ) )
 	{
 		case 0:
-		if ( menu_get_action_mode() )
-		{
-			trainer_main_action_level_1();
-		}
-		else
-		{
 			menu_set_title( "Main 1 Sub" );
-			menu_addItem_action( "Main 1 Sub" );
-			menu_addItem_action( "Main 1 Sub" );
-			menu_addItem_action( "Main 1 Sub" );
-		}
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
 		break;
 		
 		case 1:
@@ -165,41 +158,6 @@ void trainer_level_1()
 	}
 }
 
-void trainer_level_2()
-{
-	switch( menu_get_last_selected( 0 ) )
-	{
-		case 1:
-		if ( menu_get_action_mode() )
-		{
-			trainer_main_2_action_level_2();
-		}
-		else
-		{
-			menu_set_title( "Main 2 Sub 2" );
-			menu_addItem_action( "Main 2 Sub 2" );
-			menu_addItem_action( "Main 2 Sub 2" );
-			menu_addItem_action( "Main 2 Sub 2" );
-		}
-		break;
-		
-		case 2:
-		if ( menu_get_action_mode() )
-		{
-			trainer_main_3_action_level_2();
-		}
-		else
-		{
-			menu_set_title( "Main 3 Sub 3" );
-			menu_addItem_action( "Main 3 Sub 3" );
-			menu_addItem_action( "Main 3 Sub 3" );
-			menu_addItem_action( "Main 3 Sub 3" );
-		}
-		break;
-		
-	}
-}
-
 void trainer_main_action_level_1()
 {
 	switch( menu_get_current_item() )
@@ -214,6 +172,27 @@ void trainer_main_action_level_1()
 		
 		case 2:
 		menu_msg( "Main 1 Sub Option 3 action" );
+		break;
+		
+	}
+}
+
+void trainer_level_2()
+{
+	switch( menu_get_last_selected( 0 ) )
+	{
+		case 1:
+			menu_set_title( "Main 2 Sub 2" );
+			menu_addItem_callback( "Main 2 Sub 2", &trainer_main_2_action_level_2);
+			menu_addItem_callback( "Main 2 Sub 2", &trainer_main_2_action_level_2);
+			menu_addItem_callback( "Main 2 Sub 2", &trainer_main_2_action_level_2);
+		break;
+		
+		case 2:
+			menu_set_title( "Main 3 Sub 3" );
+			menu_addItem_callback( "Main 3 Sub 3", &trainer_main_3_action_level_2);
+			menu_addItem_callback( "Main 3 Sub 3", &trainer_main_3_action_level_2);
+			menu_addItem_callback( "Main 3 Sub 3", &trainer_main_3_action_level_2);
 		break;
 		
 	}
@@ -254,82 +233,6 @@ void trainer_main_3_action_level_2()
 		menu_msg( "Main 3 Sub 2 Option 3 action" );
 		break;
 		
-	}
-}
-
-void menu_action()
-{
-	if ( menu_get_action_mode() == 1 )
-	{
-		menu_set();
-		if ( menu_get_continue_action() )
-		{
-			menu_set_action_mode( 1 );
-			menu_set_continue_action( 0 );
-		}
-		else
-		{
-			menu_set_action_mode( 0 );
-		}
-	}
-	else if ( menu_get_action_mode() == 2 )
-	{
-		menu_set_action_mode( 0 );
-		menu_shutdown();
-	}
-	else if ( menu_get_action_mode() == 3 )
-	{
-		menu_set_action_mode( 0 );
-		/*
-		if ( menu_items_type[menu_get_current_item()] == 6 )
-		{
-			if ( menu_keyboard( "HTX_ENTER" ) )
-			{
-				if ( ! (is_string_null_or_empty( get_onscreen_keyboard_result() ) ) )
-				{
-					if ( get_length_of_literal_string( get_onscreen_keyboard_result() ) <= 16 )
-					{
-						menu_set_number( menu_get_current_item(), get_onscreen_keyboard_result() );
-						menu_set_action_mode( 1 );
-					}
-				}
-			}
-		}
-		else
-		{
-			if ( (Static_123[menu_get_current_item()] == 7 || Static_123[menu_get_current_item()] == 14) )
-			{
-				if ( menu_keyboard( "CELL_221" ) )
-				{
-					if ( ! (is_string_null_or_empty( get_onscreen_keyboard_result() ) ) )
-					{
-						StringCopyTo( &var_1, get_onscreen_keyboard_result(), 16 );
-						if ( string_to_int( &var_1, &var_11 ) )
-						{
-							if ( var_11 > menu_get_current_extra() )
-							{
-								var_11 = menu_get_current_extra();
-							}
-							menu_set_number( menu_get_current_item(), var_11 );
-						}
-					}
-				}
-			}
-			else if ( Static_123[menu_get_current_item()] == 12 )
-			{
-				if ( menu_keyboard( "CELL_221" ) )
-				{
-					if ( ! (is_string_null_or_empty( get_onscreen_keyboard_result() ) ) )
-					{
-						StringCopyTo( &var_1, get_onscreen_keyboard_result(), 16 );
-						if ( string_to_int( &var_1, &var_11 ) )
-						{
-							menu_set_number( menu_get_current_item(), to_float( var_11 ) );
-						}
-					}
-				}
-			}
-		}*/
 	}
 }
 

@@ -553,17 +553,17 @@
 	void set_air_drag_multiplier_for_players_vehicle(Player p, float m)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0xF20F72E5, 2, p, m);
+		l_NativeCall.Invoke<Void>(0xF20F72E5, 2, p, float_int(m));
 	}
 	void _set_swim_speed_multiplier(Player p, float m)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0xB986FF47, 2, p, m);
+		l_NativeCall.Invoke<Void>(0xB986FF47, 2, p, float_int(m));
 	}
 	void _set_move_speed_multiplier(Player p, float m)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x825423C2, 2, p, m);
+		l_NativeCall.Invoke<Void>(0x825423C2, 2, p, float_int(m));
 	}
 	Any get_time_since_last_arrest()
 	{
@@ -1050,17 +1050,17 @@
 	float get_entity_forward_x(Entity e)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<float>(0x49FAE914, 1, e);
+		return l_NativeCall.Invoke<float>(0x49FAE914, 1, float_int(e));
 	}
 	float get_entity_forward_y(Entity e)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<float>(0x9E2F917C, 1, e);
+		return l_NativeCall.Invoke<float>(0x9E2F917C, 1, float_int(e));
 	}
 	float get_entity_heading(Entity e)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<float>(0x972CC383, 1, e);
+		return l_NativeCall.Invoke<float>(0x972CC383, 1, float_int(e));
 	}
 	int get_entity_health(Entity e)
 	{
@@ -1105,7 +1105,7 @@
 	Vector3 get_offset_from_entity_in_world_coords(Entity e, float x, float y, float z)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<Vector3>(0xABCF043A, 4, e, x, y, z);
+		return l_NativeCall.Invoke<Vector3>(0xABCF043A, 4, e, float_int(x), float_int(y), float_int(z));
 	}
 	Any get_entity_pitch(Any p0)
 	{
@@ -1140,7 +1140,7 @@
 	float get_entity_speed(Entity e)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<float>(0x9E1E4798, 1, e);
+		return l_NativeCall.Invoke<float>(0x9E1E4798, 1, float_int(e));
 	}
 	Vector3 get_entity_speed_vector(Any p0, Any p1)
 	{
@@ -1495,12 +1495,12 @@
 	void set_entity_coords(Entity e, float x, float y, float z, BOOL b1, BOOL b2, BOOL b3, BOOL b4)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0xDF70B41B, 8, e, x, y, z, b1, b2, b3, b4);
+		l_NativeCall.Invoke<Void>(0xDF70B41B, 8, e, float_int(x), float_int(y), float_int(z), b1, b2, b3, b4);
 	}
 	void set_entity_coords_no_offset(Entity e, float x, float y, float z, BOOL b1, BOOL b2, BOOL b3)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x4C83DE8D, 7, e, x, y, z, b1, b2, b3);
+		l_NativeCall.Invoke<Void>(0x4C83DE8D, 7, e, float_int(x), float_int(y), float_int(z), b1, b2, b3);
 	}
 	void set_entity_dynamic(Any p0, Any p1)
 	{
@@ -1510,7 +1510,7 @@
 	void set_entity_heading(Entity e, float heading)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0xE0FF064D, 2, e, heading);
+		l_NativeCall.Invoke<Void>(0xE0FF064D, 2, e, float_int(heading));
 	}
 	void set_entity_health(Entity e, int health)
 	{
@@ -1912,12 +1912,12 @@
 	void set_ped_density_multiplier_this_frame(float m)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x039C82BB, 1, m);
+		l_NativeCall.Invoke<Void>(0x039C82BB, 1, float_int(m));
 	}
 	void set_scenario_ped_density_multiplier_this_frame(float m1, float m2)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x2909ABF0, 2, m1, m2);
+		l_NativeCall.Invoke<Void>(0x2909ABF0, 2, float_int(m1), float_int(m2));
 	}
 	void _0xB48C0C04()
 	{
@@ -4280,7 +4280,7 @@
 	Vehicle create_vehicle(Hash model, float x, float y, float z, float r, BOOL b1, BOOL b2)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<Vehicle>(0xDD75460A, 7, model, x, y, z, r, b1, b2);
+		return l_NativeCall.Invoke<Vehicle>(0xDD75460A, 7, model, float_int(x), float_int(y), float_int(z), r, b1, b2);
 	}
 	void delete_vehicle(Vehicle *v)
 	{
@@ -4665,7 +4665,7 @@
 	void set_vehicle_forward_speed(Vehicle veh, float speed)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x69880D14, 2, veh, speed);
+		l_NativeCall.Invoke<Void>(0x69880D14, 2, veh, float_int(speed));
 	}
 	void _0xCBC7D3C8(Any p0, Any p1, Any p2, Any p3)
 	{
@@ -8645,12 +8645,12 @@
 	void set_wind(float f)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0xC6294698, 1, f);
+		l_NativeCall.Invoke<Void>(0xC6294698, 1, float_int(f));
 	}
 	void set_wind_speed(float speed)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x45705F94, 1, speed);
+		l_NativeCall.Invoke<Void>(0x45705F94, 1, float_int(speed));
 	}
 	float get_wind_speed()
 	{
@@ -8660,7 +8660,7 @@
 	void set_wind_direction(float f)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x381AEEE9, 1, f);
+		l_NativeCall.Invoke<Void>(0x381AEEE9, 1, float_int(f));
 	}
 	Vector3 get_wind_direction()
 	{
@@ -8735,7 +8735,7 @@
 	BOOL get_ground_z_for_3d_coord(float x, float y, float z, float *pZ)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<BOOL>(0xA1BFD5E0, 4, x, y, z, pZ);
+		return l_NativeCall.Invoke<BOOL>(0xA1BFD5E0, 4, float_int(x), float_int(y), float_int(z), pZ);
 	}
 	Any _0x64D91CED(Any p0, Any p1, Any p2, Any p3, Any p4)
 	{
@@ -9065,7 +9065,7 @@
 	void shoot_single_bullet_between_coords(float x1, float y1, float z1, float x2, float y2, float z2, int unk1, BOOL unk2, Hash weaponBullet, Ped shooter, BOOL unk3, BOOL unk4, float unk5)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0xCB7415AC, 13, x1, y1, z1, x2, y2, z2, unk1, unk2, weaponBullet, shooter, unk3, unk4, unk5);
+		l_NativeCall.Invoke<Void>(0xCB7415AC, 13, float_int(x1), float_int(y1), float_int(z1), float_int(x2), float_int(y2), float_int(z2), unk1, unk2, weaponBullet, shooter, unk3, unk4, float_int(unk5));
 	}
 	void _0x52ACCB7B(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12, Any p13)
 	{
@@ -9252,15 +9252,15 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x8E71E00F, 1, p0);
 	}
-	BOOL is_string_null_or_empty(Any p0)
+	BOOL is_string_null_or_empty(string p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x42E9F2CA, 1, p0);
 	}
-	Any string_to_int(Any p0, Any p1)
+	int string_to_int(char** string_val, int* num_val)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<Any>(0x590A8160, 2, p0, p1);
+		return l_NativeCall.Invoke<int>(0x590A8160, 2, string_val, num_val);
 	}
 	void set_bits_in_range(Any p0, Any p1, Any p2, Any p3)
 	{
@@ -9622,7 +9622,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xD2688412, 12, p0, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11);
 	}
-	void display_onscreen_keyboard(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7)
+	void display_onscreen_keyboard(int p0, string p1, string p2, string p3, string p4, string p5, string p6, int p7)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xAD99F2CE, 8, p0, p1, p2, p3, p4, p5, p6, p7);
@@ -9632,10 +9632,10 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x23D0A1CE, 0);
 	}
-	Any get_onscreen_keyboard_result()
+	string get_onscreen_keyboard_result()
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<Any>(0x44828FB3, 0);
+		return l_NativeCall.Invoke<string>(0x44828FB3, 0);
 	}
 	// 0x196444BB -- no params/results data
 	void _0x3301EA47(Any p0)
@@ -11270,12 +11270,12 @@
 	void set_cam_rot(Cam cam, float x, float y, float z, int mode)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0xEE38B3C1, 5, cam, x, y, z, mode);
+		l_NativeCall.Invoke<Void>(0xEE38B3C1, 5, cam, float_int(x), float_int(y), float_int(z), mode);
 	}
 	void set_cam_fov(Cam cam, float val)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0xD3D5D74F, 2, cam, val);
+		l_NativeCall.Invoke<Void>(0xD3D5D74F, 2, cam, float_int(val));
 	}
 	void set_cam_near_clip(Any p0, Any p1)
 	{
@@ -11330,7 +11330,7 @@
 	void attach_cam_to_ped_bone(Cam cam, Ped p, int boneId, float x, float y, float z, BOOL unk)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x506BB35C, 7, cam, p, boneId, x, y, z, unk);
+		l_NativeCall.Invoke<Void>(0x506BB35C, 7, cam, p, boneId, float_int(x), float_int(y), float_int(z), unk);
 	}
 	void detach_cam(Any p0)
 	{
@@ -12608,7 +12608,7 @@
 	void load_scene(float x, float y, float z)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0xB72403F5, 3, x, y, z);
+		l_NativeCall.Invoke<Void>(0xB72403F5, 3, float_int(x), float_int(y), float_int(z));
 	}
 	Any network_update_load_scene()
 	{
@@ -13207,10 +13207,10 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x029D3841, 1, script);
 	}
-	Any get_this_script_name()
+	string GET_THIS_SCRIPT_NAME()
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<Any>(0xA40FD5D9, 0);
+		return l_NativeCall.Invoke<string>(0xA40FD5D9, 0);
 	}
 	Any _0x2BEE1F45()
 	{
@@ -13512,7 +13512,7 @@
 	int _0xAA318785(float x, float y)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<int>(0xAA318785, 2, x, y);
+		return l_NativeCall.Invoke<int>(0xAA318785, 2, float_int(x), float_int(y));
 	}
 	void _0xB245FC10(Any p0)
 	{
@@ -13724,7 +13724,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xA4CA7BE5, 1, p0);
 	}
-	Any get_length_of_literal_string(Any p0)
+	Any get_length_of_literal_string(string p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x99379D55, 1, p0);
@@ -13862,7 +13862,7 @@
 	float _0x3330175B(float x, float y)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<float>(0x3330175B, 2, x, y);
+		return l_NativeCall.Invoke<float>(0x3330175B, 2, float_int(x), float_int(y));
 	}
 	void set_text_scale(float x, float y)
 	{
@@ -14347,7 +14347,7 @@
 	void set_new_waypoint(float a_fX, float a_fY)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x8444E1F0, 2, a_fX, a_fY);
+		l_NativeCall.Invoke<Void>(0x8444E1F0, 2, float_int(a_fX), float_int(a_fY));
 	}
 	void set_blip_bright(Any p0, Any p1)
 	{
@@ -18654,12 +18654,12 @@
 	BOOL get_water_height(float x, float y, float z, float *h)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<BOOL>(0xD864E17C, 4, x, y, z, h);
+		return l_NativeCall.Invoke<BOOL>(0xD864E17C, 4, float_int(x), float_int(y), float_int(z), h);
 	}
 	BOOL get_water_height_no_waves(float x, float y, float z, float *h)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<BOOL>(0x262017F8, 4, x, y, z, h);
+		return l_NativeCall.Invoke<BOOL>(0x262017F8, 4, float_int(x), float_int(y), float_int(z), h);
 	}
 	Any _0xAA4AE00C(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6)
 	{

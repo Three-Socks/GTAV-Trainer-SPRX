@@ -51,9 +51,7 @@ char* menu_get_current_keyboard();*/
 int menu_get_current_extra();
 void menu_add_extra( int extra_val );
 int menu_get_extra( int menu_item );
-void menu_addItem_action( char* menu_item_string );
-void menu_add_action();
-//void menu_addItem_callback( char* menu_item_string, function callback_func );
+void menu_addItem_callback(char* menu_item_string, CallbackType action_func);
 void menu_addItem_frontend( int button_id, char* string_val );
 void menu_set_catch_button_id( int catch_id );
 int menu_get_catch_button_id();
@@ -61,6 +59,7 @@ void menu_draw_frontend_hook();
 void menu_add_frontend( int frontend_id, int button_id, char* string_val );
 void menu_setup();
 void menu_modify_game_state();
+void menu_action();
 void menu_reverse_game_state();
 void menu_shutdown();
 void menu_catch_button_press();

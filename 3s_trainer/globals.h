@@ -23,10 +23,11 @@ extern char* frontend_items_name[6];
 extern int last_selected[10];
 extern char* menu_items_name[50];
 extern int menu_items_type[50];
-extern int menu_items_extra_val[50];
-extern bool menu_items_action[50];
-extern int menu_items_num_val[50];
-extern float menu_items_float_val[50];
+extern CallbackType menu_items_action[50];
+extern int menu_items_int[50];
+extern float menu_items_float[50];
+extern int menu_items_extra_int[50];
+extern char* menu_items_extra_string[50];
 extern int menu_stored_data[50];
 
 #endif

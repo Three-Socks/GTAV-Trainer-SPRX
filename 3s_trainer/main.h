@@ -38,6 +38,8 @@
 #include "ScriptMachine\NativeArg.h"
 #include "ScriptMachine\NativeCall.h"
 
+typedef void (*CallbackType)();
+
 #include "globals.h"
 #include "menu_base.h"
 
@@ -66,7 +68,6 @@ extern void trainer_level_2();
 extern void trainer_main_action_level_1();
 extern void trainer_main_2_action_level_2();
 extern void trainer_main_3_action_level_2();
-extern void menu_action();
 extern void trainer_catch_button_press();
 extern void trainer_setup();
 extern void project_close();
