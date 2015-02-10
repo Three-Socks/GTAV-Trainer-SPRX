@@ -139,6 +139,33 @@ void trainer_level_1()
 			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
 			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
 			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub Sroll", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub Sroll", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub Sroll", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub Sroll", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
 		break;
 		
 		case 1:
@@ -146,6 +173,9 @@ void trainer_level_1()
 		menu_addItem( "Main 2 Sub" );
 		menu_addItem( "Main 2 Sub" );
 		menu_addItem( "Main 2 Sub" );
+		menu_addItem_callback( "Main 1 num Sub", &trainer_main_action_level_1);
+		menu_addItem_number(12345);
+
 		break;
 		
 		case 2:
@@ -153,9 +183,18 @@ void trainer_level_1()
 		menu_addItem( "Main 3 Sub" );
 		menu_addItem( "Main 3 Sub" );
 		menu_addItem( "Main 3 Sub" );
+		menu_addItem_callback( "Main 3 bool Sub", &trainer_toggle_bool);
+		menu_addItem_bool(1);
+		menu_addItem_callback( "Main 3 float Sub", &trainer_main_action_level_1);
+		menu_addItem_float(1234.5678f);
 		break;
 		
 	}
+}
+
+void trainer_toggle_bool()
+{
+	menu_toggle_current_bool();
 }
 
 void trainer_main_action_level_1()
@@ -186,6 +225,9 @@ void trainer_level_2()
 			menu_addItem_callback( "Main 2 Sub 2", &trainer_main_2_action_level_2);
 			menu_addItem_callback( "Main 2 Sub 2", &trainer_main_2_action_level_2);
 			menu_addItem_callback( "Main 2 Sub 2", &trainer_main_2_action_level_2);
+
+			menu_addItem_callback( "Main 2 keyboard Sub 2", &trainer_main_2_action_level_2);
+			menu_addItem_keyboard("", 15);
 		break;
 		
 		case 2:
@@ -193,6 +235,13 @@ void trainer_level_2()
 			menu_addItem_callback( "Main 3 Sub 3", &trainer_main_3_action_level_2);
 			menu_addItem_callback( "Main 3 Sub 3", &trainer_main_3_action_level_2);
 			menu_addItem_callback( "Main 3 Sub 3", &trainer_main_3_action_level_2);
+
+			menu_addItem_callback( "Main 2 number keyboard Sub 2", &trainer_main_2_action_level_2);
+			menu_addItem_number_keyboard(0, 15);
+
+			menu_addItem_callback( "Main 2 float keyboard Sub 2", &trainer_main_2_action_level_2);
+			menu_addItem_float_keyboard(0.0f, 15);
+
 		break;
 		
 	}

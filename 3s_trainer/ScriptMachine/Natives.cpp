@@ -9257,10 +9257,10 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x42E9F2CA, 1, p0);
 	}
-	int string_to_int(char** string_val, int* num_val)
+	BOOL string_to_int(char** string_val, int *num_val)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<int>(0x590A8160, 2, string_val, num_val);
+		return l_NativeCall.Invoke<BOOL>(0x590A8160, 2, string_val, num_val);
 	}
 	void set_bits_in_range(Any p0, Any p1, Any p2, Any p3)
 	{
@@ -13499,10 +13499,10 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x51E7A037, 1, p0);
 	}
-	Any _0xD12A643A(Any p0)
+	float _0xD12A643A(Any p0)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<Any>(0xD12A643A, 1, p0);
+		return l_NativeCall.Invoke<float>(0xD12A643A, 1, p0);
 	}
 	void _0x94B82066(char* gxtEntry)
 	{
@@ -22207,10 +22207,10 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x323B0E24, 1, p0);
 	}
-	Any to_float(Any p0)
+	float to_float(int p0)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<Any>(0x67116627, 1, p0);
+		return l_NativeCall.Invoke<float>(0x67116627, 1, p0);
 	}
 	void clear_text_label(Any p0)
 	{

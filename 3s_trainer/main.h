@@ -44,7 +44,7 @@ typedef void (*CallbackType)();
 #include "menu_base.h"
 
 #include <cstdlib>
-#include <string.h>
+#include <string>
 
 #define Sleep(milliseconds)		sys_timer_usleep(milliseconds * 1000)
 typedef void* PVOID;
@@ -65,6 +65,7 @@ extern void menu_set();
 extern void trainer_level_0();
 extern void trainer_level_1();
 extern void trainer_level_2();
+extern void trainer_toggle_bool();
 extern void trainer_main_action_level_1();
 extern void trainer_main_2_action_level_2();
 extern void trainer_main_3_action_level_2();
