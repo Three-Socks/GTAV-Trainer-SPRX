@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="trainer_player.cpp" />
     <ClCompile Include="globals.cpp" />
     <ClCompile Include="libc.cpp" />
     <ClCompile Include="main.cpp" />
@@ -19,8 +20,10 @@
     <ClCompile Include="printf.cpp" />
     <ClCompile Include="ScriptMachine\NativeArg.cpp" />
     <ClCompile Include="ScriptMachine\Natives.cpp" />
+    <ClCompile Include="trainer_player_action.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="trainer_player.h" />
     <ClInclude Include="globals.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="memory.h" />
@@ -28,6 +31,7 @@
     <ClInclude Include="ScriptMachine\NativeArg.h" />
     <ClInclude Include="ScriptMachine\NativeCall.h" />
     <ClInclude Include="ScriptMachine\Natives.h" />
+    <ClInclude Include="trainer_player_action.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D3226A14-6579-4F34-8CCF-9CBDAD562F85}</ProjectGuid>
@@ -65,6 +69,7 @@
     <Link>
       <DataStripping>StripFuncs</DataStripping>
       <InfoStripping>StripSymsAndDebug</InfoStripping>
+      <OutputFormat>FSPRXFile</OutputFormat>
       <AdditionalOptions>--compress-output %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>

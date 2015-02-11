@@ -110,13 +110,16 @@ void menu_set()
 
 void trainer_level_0()
 {
-	menu_set_title( "Menu Title" );
-	switch( menu_get_current_level() )
+	menu_set_title("Three-Socks Trainer 1.7 SPRX");
+	switch(menu_get_current_level())
 	{
 		case 0:
-		menu_addItem( "Main 1" );
-		menu_addItem( "Main 2" );
-		menu_addItem( "Main 3" );
+		menu_addItem("Player");
+		menu_addItem("Vehicle");
+		menu_addItem("World Settings");
+		menu_addItem("Teleport");
+		menu_addItem("Object");
+		menu_addItem("Network");
 		break;
 		
 		case 1:
@@ -127,159 +130,46 @@ void trainer_level_0()
 		trainer_level_2();
 		break;
 		
+		case 3:
+		trainer_level_3();
+		break;
+		
 	}
 }
 
 void trainer_level_1()
 {
-	switch( menu_get_last_selected( 0 ) )
+	switch(menu_get_last_selected(0))
 	{
 		case 0:
-			menu_set_title( "Main 1 Sub" );
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub Sroll", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub Sroll", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub Sroll", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub Sroll", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
-			menu_addItem_callback( "Main 1 Sub", &trainer_main_action_level_1);
+			trainer_player_level_1();
 		break;
-		
-		case 1:
-		menu_set_title( "Main 2 Sub" );
-		menu_addItem( "Main 2 Sub" );
-		menu_addItem( "Main 2 Sub" );
-		menu_addItem( "Main 2 Sub" );
-		menu_addItem_callback( "Main 1 num Sub", &trainer_main_action_level_1);
-		menu_addItem_number(12345);
-
-		break;
-		
-		case 2:
-		menu_set_title( "Main 3 Sub" );
-		menu_addItem( "Main 3 Sub" );
-		menu_addItem( "Main 3 Sub" );
-		menu_addItem( "Main 3 Sub" );
-		menu_addItem_callback( "Main 3 bool Sub", &trainer_toggle_bool);
-		menu_addItem_bool(1);
-		menu_addItem_callback( "Main 3 float Sub", &trainer_main_action_level_1);
-		menu_addItem_float(1234.5678f);
-		break;
-		
-	}
-}
-
-void trainer_toggle_bool()
-{
-	menu_toggle_current_bool();
-}
-
-void trainer_main_action_level_1()
-{
-	switch( menu_get_current_item() )
-	{
-		case 0:
-		menu_msg( "Main 1 Sub Option 1 action" );
-		break;
-		
-		case 1:
-		menu_msg( "Main 1 Sub Option 2 action" );
-		break;
-		
-		case 2:
-		menu_msg( "Main 1 Sub Option 3 action" );
-		break;
-		
 	}
 }
 
 void trainer_level_2()
 {
-	switch( menu_get_last_selected( 0 ) )
+	switch(menu_get_last_selected(0))
 	{
-		case 1:
-			menu_set_title( "Main 2 Sub 2" );
-			menu_addItem_callback( "Main 2 Sub 2", &trainer_main_2_action_level_2);
-			menu_addItem_callback( "Main 2 Sub 2", &trainer_main_2_action_level_2);
-			menu_addItem_callback( "Main 2 Sub 2", &trainer_main_2_action_level_2);
-
-			menu_addItem_callback( "Main 2 keyboard Sub 2", &trainer_main_2_action_level_2);
-			menu_addItem_keyboard("", 15);
+		case 0:
+			trainer_player_level_2();
 		break;
 		
-		case 2:
-			menu_set_title( "Main 3 Sub 3" );
-			menu_addItem_callback( "Main 3 Sub 3", &trainer_main_3_action_level_2);
-			menu_addItem_callback( "Main 3 Sub 3", &trainer_main_3_action_level_2);
-			menu_addItem_callback( "Main 3 Sub 3", &trainer_main_3_action_level_2);
-
-			menu_addItem_callback( "Main 2 number keyboard Sub 2", &trainer_main_2_action_level_2);
-			menu_addItem_number_keyboard(0, 15);
-
-			menu_addItem_callback( "Main 2 float keyboard Sub 2", &trainer_main_2_action_level_2);
-			menu_addItem_float_keyboard(0.0f, 15);
-
+		case 1:
 		break;
 		
 	}
 }
 
-void trainer_main_2_action_level_2()
+void trainer_level_3()
 {
-	switch( menu_get_current_item() )
+	switch(menu_get_last_selected(0))
 	{
 		case 0:
-		menu_msg( "Main 2 Sub 2 Option 1 action" );
+			trainer_player_level_3();
 		break;
 		
 		case 1:
-		menu_msg( "Main 2 Sub 2 Option 2 action" );
-		break;
-		
-		case 2:
-		menu_msg( "Main 2 Sub 2 Option 3 action" );
-		break;
-		
-	}
-}
-
-void trainer_main_3_action_level_2()
-{
-	switch( menu_get_current_item() )
-	{
-		case 0:
-		menu_msg( "Main 3 Sub 2 Option 1 action" );
-		break;
-		
-		case 1:
-		menu_msg( "Main 3 Sub 2 Option 2 action" );
-		break;
-		
-		case 2:
-		menu_msg( "Main 3 Sub 2 Option 3 action" );
 		break;
 		
 	}

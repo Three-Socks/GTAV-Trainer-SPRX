@@ -43,6 +43,9 @@ typedef void (*CallbackType)();
 #include "globals.h"
 #include "menu_base.h"
 
+#include "trainer_player.h"
+#include "trainer_player_action.h"
+
 #include <cstdlib>
 #include <string>
 
@@ -65,6 +68,7 @@ extern void menu_set();
 extern void trainer_level_0();
 extern void trainer_level_1();
 extern void trainer_level_2();
+extern void trainer_level_3();
 extern void trainer_toggle_bool();
 extern void trainer_main_action_level_1();
 extern void trainer_main_2_action_level_2();

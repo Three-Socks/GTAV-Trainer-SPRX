@@ -180,10 +180,10 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xA3D675ED, 2, p0, p1);
 	}
-	void set_wanted_level_multiplier(Any p0)
+	void set_wanted_level_multiplier(float p0)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x1359292F, 1, p0);
+		l_NativeCall.Invoke<Void>(0x1359292F, 1, float_int(p0));
 	}
 	void set_wanted_level_difficulty(Any p0, Any p1)
 	{
@@ -665,7 +665,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x8C7E68C1, 3, p0, p1, p2);
 	}
-	void _recharge_special_ability(Player p, BOOL unkTrue)
+	void special_ability_fill_meter(Player p, BOOL unkTrue)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xB71589DA, 2, p, unkTrue);
@@ -820,10 +820,10 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xF66E5CDD, 4, p0, p1, p2, p3);
 	}
-	void set_player_noise_multiplier(Any p0, Any p1)
+	void set_player_noise_multiplier(Any p0, float p1)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x15786DD1, 2, p0, p1);
+		l_NativeCall.Invoke<Void>(0x15786DD1, 2, p0, float_int(p1));
 	}
 	void _0x8D2D89C4(Any p0, Any p1)
 	{
@@ -2234,10 +2234,10 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x43709044, 1, p0);
 	}
-	void set_ped_seeing_range(Any p0, Any p1)
+	void set_ped_seeing_range(Any p0, float p1)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x4BD72FE8, 2, p0, p1);
+		l_NativeCall.Invoke<Void>(0x4BD72FE8, 2, p0, float_int(p1));
 	}
 	void set_ped_hearing_range(Any p0, Any p1)
 	{
@@ -2324,10 +2324,10 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x9678D4FF, 1, p0);
 	}
-	void set_group_separation_range(Any p0, Any p1)
+	void set_group_separation_range(Any p0, float p1)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x7B820CD5, 2, p0, p1);
+		l_NativeCall.Invoke<Void>(0x7B820CD5, 2, p0, float_int(p1));
 	}
 	void _0x2F0D0973(Any p0, Any p1)
 	{
@@ -2459,7 +2459,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x994B8C2D, 3, p0, p1, p2);
 	}
-	Any add_relationship_group(Any p0, Any p1)
+	Any add_relationship_group(string p0, Hash *p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8B635546, 2, p0, p1);
@@ -2494,10 +2494,10 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x7FDDC0A6, 2, p0, p1);
 	}
-	void set_ped_to_inform_respected_friends(Any p0, Any p1, Any p2)
+	void set_ped_to_inform_respected_friends(Any p0, float p1, Any p2)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0xD78AC46C, 3, p0, p1, p2);
+		l_NativeCall.Invoke<Void>(0xD78AC46C, 3, p0, float_int(p1), p2);
 	}
 	BOOL is_ped_responding_to_event(Any p0, Any p1)
 	{
@@ -2554,10 +2554,10 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x08FAC739, 2, p0, p1);
 	}
-	void set_group_formation_spacing(Any p0, Any p1, Any p2, Any p3)
+	void set_group_formation_spacing(Any p0, float p1, Any p2, Any p3)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0xB1E086FF, 4, p0, p1, p2, p3);
+		l_NativeCall.Invoke<Void>(0xB1E086FF, 4, p0, float_int(p1), p2, p3);
 	}
 	void _0x267FCEAD(Any p0)
 	{
@@ -7971,10 +7971,10 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xDF099E18, 6, p0, p1, p2, p3, p4, p5);
 	}
-	void task_combat_hated_targets_around_ped(Any p0, Any p1, Any p2)
+	void task_combat_hated_targets_around_ped(Any p0, float p1, Any p2)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x2E7064E4, 3, p0, p1, p2);
+		l_NativeCall.Invoke<Void>(0x2E7064E4, 3, p0, float_int(p1), p2);
 	}
 	void task_combat_hated_targets_around_ped_timed(Any p0, Any p1, Any p2, Any p3)
 	{
@@ -8810,7 +8810,7 @@
 	Hash get_hash_key(char* str)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<Any>(0x98EFF6F1, 1, str);
+		return l_NativeCall.Invoke<Hash>(0x98EFF6F1, 1, str);
 	}
 	void _0x87B92190(Any p0, Any p1, Any p2, Any p3, Any p4, Any p5, Any p6, Any p7, Any p8, Any p9, Any p10, Any p11, Any p12)
 	{
@@ -12228,7 +12228,7 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9CB8D278, 3, p0, p1, p2);
 	}
-	void _0x5A5E3B67(Any p0, Any p1)
+	void set_ped_infinite_ammo_clip(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x5A5E3B67, 2, p0, p1);
@@ -19091,10 +19091,10 @@
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0xC692F86A, 0);
 	}
-	Any network_is_game_in_progress()
+	BOOL network_is_game_in_progress()
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<Any>(0x09B88E3E, 0);
+		return l_NativeCall.Invoke<BOOL>(0x09B88E3E, 0);
 	}
 	Any network_is_session_active()
 	{

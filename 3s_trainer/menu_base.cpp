@@ -64,6 +64,11 @@ int menu_get_last_selected( int menu_level )
 	return last_selected[menu_level];
 }
 
+int menu_get_current_stored_data()
+{
+	return menu_stored_data[menu_get_current_item()];
+}
+
 int menu_get_stored_data( int menu_item )
 {
 	return menu_stored_data[menu_item];
@@ -71,9 +76,23 @@ int menu_get_stored_data( int menu_item )
 
 void menu_set_stored_data( int store_data )
 {
-	if ( ! (menu_get_action_mode() ) )
-	{
+	if (!menu_get_action_mode())
 		menu_stored_data[menu_get_count()] = store_data;
+}
+
+void menu_clean_stored_data()
+{
+	if (!menu_get_action_mode())
+	{
+		int clean_stored_index;
+		int clean_stored_count;
+		clean_stored_index = 0;
+		clean_stored_count = menu_get_count() + 1;
+		while ( clean_stored_index < clean_stored_count )
+		{
+			menu_stored_data[clean_stored_index] = 0;
+			clean_stored_index++;
+		}
 	}
 }
 
@@ -164,21 +183,23 @@ void menu_addItem_gxt_number( char* gxt, int num_val )
 	}
 }
 
-void menu_addItem_number(int num_val)
+void menu_addItem_number(int num_val, int max)
 {
 	if (!menu_get_action_mode())
 	{
 		menu_items_type[menu_get_count()] = 1;
 		menu_items_int[menu_get_count()] = num_val;
+		menu_items_extra_int[menu_get_count()] = max;
 	}
 }
 
-void menu_addItem_number_format( int num_val )
+void menu_addItem_number_format( int num_val, int max )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
 		menu_items_type[menu_get_count()] = 13;
 		menu_items_int[menu_get_count()] = num_val;
+		menu_items_extra_int[menu_get_count()] = max;
 	}
 }
 
@@ -233,6 +254,11 @@ void menu_addItem_float( float float_val)
 		menu_items_type[menu_get_count()] = 2;
 		menu_items_float[menu_get_count()] = float_val;
 	}
+}
+
+float menu_get_current_float()
+{
+	return menu_items_float[menu_get_current_item()];
 }
 
 void menu_add_data_2( int data_2 )
@@ -309,12 +335,13 @@ void menu_addItem_keyboard(char* string_val, int keyboard_len)
 	}
 }
 
-void menu_addItem_number_keyboard(int int_val, int keyboard_len)
+void menu_addItem_number_keyboard(int int_val, int max, int keyboard_len)
 {
 	if (!menu_get_action_mode())
 	{
 		menu_items_type[menu_get_count()] = 7;
 		menu_items_int[menu_get_count()] = int_val;
+		menu_items_extra_int[menu_get_count()] = max;
 		menu_keyboard_custom_length = keyboard_len;
 	}
 }
@@ -351,10 +378,8 @@ int menu_get_current_extra()
 
 void menu_add_extra( int extra_val )
 {
-	if ( ! (menu_get_action_mode() ) )
-	{
+	if (!menu_get_action_mode())
 		menu_items_extra_int[menu_get_count()] = extra_val;
-	}
 }
 
 int menu_get_extra( int menu_item )
@@ -369,6 +394,22 @@ void menu_addItem_callback(char* menu_item_string, CallbackType action_func)
 		menu_count = menu_get_count() + 1;
 		menu_items_name[menu_get_count()] = menu_item_string;
 		menu_items_action[menu_get_count()] = action_func;
+	}
+}
+
+void menu_add_callback_all(CallbackType action_func)
+{
+	if (!menu_get_action_mode())
+	{
+		int callback_all_index;
+		int callback_all_count;
+		callback_all_index = 0;
+		callback_all_count = menu_get_count() + 1;
+		while ( callback_all_index < callback_all_count )
+		{
+			menu_items_action[callback_all_index] = action_func;
+			callback_all_index++;
+		}
 	}
 }
 
@@ -843,14 +884,10 @@ void menu_catch_button_press()
 	{
 		if ( menu_items_type[menu_get_current_item()] == 1 || menu_items_type[menu_get_current_item()] == 7 || menu_items_type[menu_get_current_item()] == 13 || menu_items_type[menu_get_current_item()] == 14 )
 		{
-			//if ( menu_items_extra_int[menu_get_current_item()] != menu_items_int[menu_get_current_item()] )
-			//{
+			if ( menu_items_extra_int[menu_get_current_item()] != menu_items_int[menu_get_current_item()] )
 				menu_items_int[menu_get_current_item()]++;
-			//}
-			//else
-			//{
-			//	menu_items_int[menu_get_current_item()] = menu_items_float[menu_get_current_item()];
-			//}
+			else
+				menu_items_int[menu_get_current_item()] = 0;
 			menu_play_sound( "NAV_LEFT_RIGHT" );
 		}
 		else
