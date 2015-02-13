@@ -21,6 +21,8 @@
     <ClCompile Include="ScriptMachine\NativeArg.cpp" />
     <ClCompile Include="ScriptMachine\Natives.cpp" />
     <ClCompile Include="trainer_player_action.cpp" />
+    <ClCompile Include="trainer_vehicle.cpp" />
+    <ClCompile Include="trainer_vehicle_action.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="trainer_player.h" />
@@ -32,6 +34,8 @@
     <ClInclude Include="ScriptMachine\NativeCall.h" />
     <ClInclude Include="ScriptMachine\Natives.h" />
     <ClInclude Include="trainer_player_action.h" />
+    <ClInclude Include="trainer_vehicle.h" />
+    <ClInclude Include="trainer_vehicle_action.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D3226A14-6579-4F34-8CCF-9CBDAD562F85}</ProjectGuid>
@@ -63,12 +67,12 @@
       <PreprocessorDefinitions>_DEBUG;__CELL_ASSERT__;%(PreprocessorDefinitions);</PreprocessorDefinitions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <OptimizationLevel>Level2</OptimizationLevel>
+      <OptimizationLevel>Level0</OptimizationLevel>
       <Warnings>GenerateWarnings</Warnings>
     </ClCompile>
     <Link>
       <DataStripping>StripFuncs</DataStripping>
-      <InfoStripping>StripSymsAndDebug</InfoStripping>
+      <InfoStripping>None</InfoStripping>
       <OutputFormat>FSPRXFile</OutputFormat>
       <AdditionalOptions>--compress-output %(AdditionalOptions)</AdditionalOptions>
     </Link>

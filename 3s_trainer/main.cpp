@@ -114,12 +114,19 @@ void trainer_level_0()
 	switch(menu_get_current_level())
 	{
 		case 0:
-		menu_addItem("Player");
-		menu_addItem("Vehicle");
-		menu_addItem("World Settings");
-		menu_addItem("Teleport");
-		menu_addItem("Object");
-		menu_addItem("Network");
+		menu_addItem( "BLIP_PLAYER" );
+		menu_addItem( "VED_BLIPN" );
+
+		if ( get_current_language() == 0 )
+			menu_addItem( "World Settings" );
+		else
+			menu_addItem( "CELL_16" );
+
+		menu_addItem( "Teleport" );
+		menu_addItem( "Object" );
+
+		if ( network_is_game_in_progress() )
+			menu_addItem( "Network" );
 		break;
 		
 		case 1:
@@ -142,7 +149,11 @@ void trainer_level_1()
 	switch(menu_get_last_selected(0))
 	{
 		case 0:
-			trainer_player_level_1();
+		trainer_player_level_1();
+		break;
+		
+		case 1:
+		trainer_vehicle_level_1();
 		break;
 	}
 }
@@ -152,10 +163,11 @@ void trainer_level_2()
 	switch(menu_get_last_selected(0))
 	{
 		case 0:
-			trainer_player_level_2();
+		trainer_player_level_2();
 		break;
 		
 		case 1:
+		trainer_vehicle_level_2();
 		break;
 		
 	}
@@ -166,7 +178,7 @@ void trainer_level_3()
 	switch(menu_get_last_selected(0))
 	{
 		case 0:
-			trainer_player_level_3();
+		trainer_player_level_3();
 		break;
 		
 		case 1:

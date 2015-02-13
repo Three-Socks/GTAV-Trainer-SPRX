@@ -31,12 +31,14 @@ extern char* menu_items_extra_string[50];
 extern int menu_stored_data[50];
 
 extern bool trainer_never_wanted, trainer_invincible, trainer_infinite_ammo, trainer_infinite_clip,
- trainer_explosive_ammo, trainer_fire_ammo, trainer_explosive_melee, trainer_infinite_special, trainer_superjump;
+ trainer_explosive_ammo, trainer_fire_ammo, trainer_explosive_melee, trainer_infinite_special, trainer_superjump, trainer_wheel_check;
 
 extern Group trainer_ped_group;
 
 extern Hash trainer_ped_group_rel_hash, trainer_ped_group_rel_hash2;
 
-extern int trainer_explosive_ammo_override;
+extern int trainer_explosive_ammo_override, trainer_speed, trainer_brake, trainer_handling;
+
+extern Vehicle trainer_spawn_vehicle, trainer_current_vehicle;
 
 #endif

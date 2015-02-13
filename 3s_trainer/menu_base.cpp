@@ -852,14 +852,10 @@ void menu_catch_button_press()
 	{
 		if ( menu_items_type[menu_get_current_item()] == 1 || menu_items_type[menu_get_current_item()] == 7 || menu_items_type[menu_get_current_item()] == 13 || menu_items_type[menu_get_current_item()] == 14 )
 		{
-			//if ( menu_items_int[menu_get_current_item()] != menu_items_float[menu_get_current_item()] )
-			//{
+			if ( menu_items_int[menu_get_current_item()] != 0 )
 				menu_items_int[menu_get_current_item()]--;
-			//}
-			//else
-			//{
-			//	menu_items_int[menu_get_current_item()] = menu_items_extra_int[menu_get_current_item()];
-			//}
+			else
+				menu_items_int[menu_get_current_item()] = 0;
 			menu_play_sound( "NAV_LEFT_RIGHT" );
 		}
 		else

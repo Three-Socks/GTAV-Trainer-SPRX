@@ -1050,17 +1050,17 @@
 	float get_entity_forward_x(Entity e)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<float>(0x49FAE914, 1, float_int(e));
+		return l_NativeCall.Invoke<float>(0x49FAE914, 1, e);
 	}
 	float get_entity_forward_y(Entity e)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<float>(0x9E2F917C, 1, float_int(e));
+		return l_NativeCall.Invoke<float>(0x9E2F917C, 1, e);
 	}
 	float get_entity_heading(Entity e)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<float>(0x972CC383, 1, float_int(e));
+		return l_NativeCall.Invoke<float>(0x972CC383, 1, e);
 	}
 	int get_entity_health(Entity e)
 	{
@@ -1140,7 +1140,7 @@
 	float get_entity_speed(Entity e)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<float>(0x9E1E4798, 1, float_int(e));
+		return l_NativeCall.Invoke<float>(0x9E1E4798, 1, e);
 	}
 	Vector3 get_entity_speed_vector(Any p0, Any p1)
 	{
@@ -5242,10 +5242,10 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xFD15C065, 1, p0);
 	}
-	void set_vehicle_dirt_level(Any p0, Any p1)
+	void set_vehicle_dirt_level(Any p0, float p1)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x2B39128B, 2, p0, p1);
+		l_NativeCall.Invoke<Void>(0x2B39128B, 2, p0, float_int(p1));
 	}
 	Any _0xDAC523BC(Any p0)
 	{
@@ -5542,20 +5542,20 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x8880038A, 1, p0);
 	}
-	void set_vehicle_engine_health(Any p0, Any p1)
+	void set_vehicle_engine_health(Any p0, float p1)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x1B760FB5, 2, p0, p1);
+		l_NativeCall.Invoke<Void>(0x1B760FB5, 2, p0, float_int(p1));
 	}
 	Any get_vehicle_petrol_tank_health(Any p0)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0xE41595CE, 1, p0);
 	}
-	void set_vehicle_petrol_tank_health(Any p0, Any p1)
+	void set_vehicle_petrol_tank_health(Any p0, float p1)
 	{
 		NativeCall l_NativeCall;
-		l_NativeCall.Invoke<Void>(0x660A3692, 2, p0, p1);
+		l_NativeCall.Invoke<Void>(0x660A3692, 2, p0, float_int(p1));
 	}
 	BOOL is_vehicle_stuck_timer_up(Any p0, Any p1, Any p2)
 	{
@@ -6084,15 +6084,15 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xF0E1689F, 2, p0, p1);
 	}
-	Any get_mod_text_label(Any p0, Any p1, Any p2)
+	string get_mod_text_label(Any p0, Any p1, Any p2)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<Any>(0x0BA39CA7, 3, p0, p1, p2);
+		return l_NativeCall.Invoke<string>(0x0BA39CA7, 3, p0, p1, p2);
 	}
-	Any get_mod_slot_name(Any p0, Any p1)
+	string get_mod_slot_name(Any p0, Any p1)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<Any>(0x5E113483, 2, p0, p1);
+		return l_NativeCall.Invoke<string>(0x5E113483, 2, p0, p1);
 	}
 	Any get_livery_name(Any p0, Any p1)
 	{
@@ -6144,7 +6144,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x13D53892, 1, p0);
 	}
-	Any _0x625C7B66()
+	Any get_num_vehicle_window_tints()
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<Any>(0x625C7B66, 0);

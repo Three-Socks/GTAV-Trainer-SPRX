@@ -20,6 +20,8 @@
     <ClCompile Include="globals.cpp" />
     <ClCompile Include="trainer_player.cpp" />
     <ClCompile Include="trainer_player_action.cpp" />
+    <ClCompile Include="trainer_vehicle.cpp" />
+    <ClCompile Include="trainer_vehicle_action.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ScriptMachine\NativeArg.h">
@@ -37,5 +39,7 @@
     <ClInclude Include="globals.h" />
     <ClInclude Include="trainer_player.h" />
     <ClInclude Include="trainer_player_action.h" />
+    <ClInclude Include="trainer_vehicle.h" />
+    <ClInclude Include="trainer_vehicle_action.h" />
   </ItemGroup>
 </Project>

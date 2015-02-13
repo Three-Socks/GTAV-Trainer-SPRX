@@ -30,10 +30,12 @@ int menu_items_extra_int[50];
 int menu_stored_data[50];
 
 bool trainer_never_wanted, trainer_invincible, trainer_infinite_ammo, trainer_infinite_clip,
- trainer_explosive_ammo, trainer_fire_ammo, trainer_explosive_melee, trainer_infinite_special, trainer_superjump;
+ trainer_explosive_ammo, trainer_fire_ammo, trainer_explosive_melee, trainer_infinite_special, trainer_superjump, trainer_wheel_check;
 
 Group trainer_ped_group;
 
 Hash trainer_ped_group_rel_hash, trainer_ped_group_rel_hash2;
 
-int trainer_explosive_ammo_override;
+int trainer_explosive_ammo_override, trainer_speed, trainer_brake, trainer_handling;
+
+Vehicle trainer_spawn_vehicle, trainer_current_vehicle;

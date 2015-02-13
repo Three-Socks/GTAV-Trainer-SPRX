@@ -247,7 +247,7 @@ void trainer_player_settings_action()
 		break;
 		
 		case 2:
-		set_player_noise_multiplier( player_id(), menu_get_current_number() );
+		set_player_noise_multiplier( player_id(), menu_get_current_float() );
 		break;
 		
 		case 3:

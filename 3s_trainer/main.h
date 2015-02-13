@@ -45,6 +45,9 @@ typedef void (*CallbackType)();
 
 #include "trainer_player.h"
 #include "trainer_player_action.h"
+#include "trainer_vehicle.h"
+#include "trainer_vehicle_action.h"
+
 
 #include <cstdlib>
 #include <string>
