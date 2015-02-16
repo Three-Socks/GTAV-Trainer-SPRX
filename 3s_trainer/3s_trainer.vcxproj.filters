@@ -22,6 +22,10 @@
     <ClCompile Include="trainer_player_action.cpp" />
     <ClCompile Include="trainer_vehicle.cpp" />
     <ClCompile Include="trainer_vehicle_action.cpp" />
+    <ClCompile Include="ScriptMachine\scrThread.cpp">
+      <Filter>ScriptMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadArray.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ScriptMachine\NativeArg.h">
@@ -41,5 +45,9 @@
     <ClInclude Include="trainer_player_action.h" />
     <ClInclude Include="trainer_vehicle.h" />
     <ClInclude Include="trainer_vehicle_action.h" />
+    <ClInclude Include="ScriptMachine\scrThread.h">
+      <Filter>ScriptMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadArray.h" />
   </ItemGroup>
 </Project>

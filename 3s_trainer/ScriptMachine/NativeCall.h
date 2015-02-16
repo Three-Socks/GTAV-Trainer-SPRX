@@ -9,7 +9,10 @@ struct Natives // SNative
 	unsigned int 	uiNativeHashes[7];			// + 0x24	
 };
 
+
+
 static Natives** g_Natives = (Natives**) 0x01DDB730;
+
 
 class NativeCall
 {

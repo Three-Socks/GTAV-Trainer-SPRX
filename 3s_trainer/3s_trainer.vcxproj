@@ -11,6 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ScriptMachine\scrThread.cpp" />
+    <ClCompile Include="ThreadArray.cpp" />
     <ClCompile Include="trainer_player.cpp" />
     <ClCompile Include="globals.cpp" />
     <ClCompile Include="libc.cpp" />
@@ -25,6 +27,8 @@
     <ClCompile Include="trainer_vehicle_action.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ScriptMachine\scrThread.h" />
+    <ClInclude Include="ThreadArray.h" />
     <ClInclude Include="trainer_player.h" />
     <ClInclude Include="globals.h" />
     <ClInclude Include="main.h" />
@@ -67,14 +71,22 @@
       <PreprocessorDefinitions>_DEBUG;__CELL_ASSERT__;%(PreprocessorDefinitions);</PreprocessorDefinitions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <OptimizationLevel>Level0</OptimizationLevel>
+      <OptimizationLevel>Level2</OptimizationLevel>
       <Warnings>GenerateWarnings</Warnings>
+      <FastMath>true</FastMath>
+      <RelaxAlias>Default</RelaxAlias>
+      <Branchless>Branchless2</Branchless>
+      <AssumeCorrectAlignment>Yes</AssumeCorrectAlignment>
+      <AssumeCorrectSign>true</AssumeCorrectSign>
+      <AdditionalOptions>-lm %(AdditionalOptions)</AdditionalOptions>
+      <UnrollSsa>
+      </UnrollSsa>
     </ClCompile>
     <Link>
       <DataStripping>StripFuncs</DataStripping>
       <InfoStripping>None</InfoStripping>
       <OutputFormat>FSPRXFile</OutputFormat>
-      <AdditionalOptions>--compress-output %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>-lm %(AdditionalOptions)</AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|PS3'">

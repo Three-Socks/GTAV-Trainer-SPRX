@@ -180,9 +180,9 @@ void trainer_player_level_3()
 
 void trainer_player_variation_level_3( bool set_variation_current )
 {
-	int variation_current;
-	int variation_count;
-	int variation_txd_count;
+	unsigned int variation_current;
+	unsigned int variation_count;
+	unsigned int variation_txd_count;
 
 	menu_set_title("FACE_APP");
 	menu_set_catch_button_id( 2 );

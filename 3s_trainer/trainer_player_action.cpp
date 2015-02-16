@@ -9,7 +9,7 @@ void trainer_player_variation_action()
 		break;
 		
 		case 1:
-		int player_model = get_entity_model(player_ped_id());
+		Hash player_model = get_entity_model(player_ped_id());
 
 		if (player_model != get_hash_key("player_zero") && player_model != get_hash_key("player_one") && player_model != get_hash_key("player_two") && player_model != get_hash_key("mp_f_freemode_01") && player_model != get_hash_key("mp_m_freemode_01") )
 			set_ped_random_component_variation( player_ped_id(), 0 );
@@ -20,9 +20,9 @@ void trainer_player_variation_action()
 
 void trainer_player_prop_action()
 {
-	int player_prop;
-	int prop_index;
-	int prop_txd;
+	unsigned int player_prop;
+	unsigned int prop_index;
+	unsigned int prop_txd;
 	if ( menu_get_current_item() == 2 || menu_get_current_item() == 3 )
 	{
 		player_prop = 1;
@@ -208,7 +208,6 @@ void trainer_give_all_weapons( Ped player_ped )
 	give_weapon_to_ped( player_ped, 1672152130, 500, 0, 0 );
 	give_weapon_to_ped( player_ped, -1420407917, 500, 0, 0 );
 	give_weapon_to_ped( player_ped, 126349499, 500, 0, 0 );
-	return;
 }
 
 void trainer_player_special_action()
@@ -404,6 +403,6 @@ void trainer_player_weapons_explosion_action()
 
 void trainer_player_variation_set_action()
 {
-	int variation_selected = menu_get_last_selected(2) - 2;
+	unsigned int variation_selected = menu_get_last_selected(2) - 2;
 	set_ped_component_variation( player_ped_id(), variation_selected, menu_get_number(0), menu_get_number(1), 0 );
 }

@@ -2,7 +2,7 @@
 #define __VEHICLE_ACTION_H__
 
 Vehicle trainer_get_vehicle();
-void trainer_error_vehicle( int menu_level_back );
+void trainer_error_vehicle( unsigned int menu_level_back );
 void trainer_vehicle_spawn_action();
 void trainer_spawn_veh( Hash vehicle_hash );
 void trainer_vehicle_repair_action();

@@ -1,11 +1,11 @@
 #include "main.h"
 
-int menu_get_current_item()
+unsigned int menu_get_current_item()
 {
 	return menu_item_highlighted;
 }
 
-int menu_get_count()
+unsigned int menu_get_count()
 {
 	return menu_count;
 }
@@ -24,22 +24,22 @@ void menu_set_open_state( bool state )
 	menu_hidden = state;
 }
 
-int menu_get_action_mode()
+unsigned int menu_get_action_mode()
 {
 	return menu_action_mode;
 }
 
-void menu_set_action_mode( int action_mode )
+void menu_set_action_mode( unsigned int action_mode )
 {
 	menu_action_mode = action_mode;
 }
 
-int menu_get_sub_action_mode()
+unsigned int menu_get_sub_action_mode()
 {
 	return menu_sub_action_mode;
 }
 
-void menu_set_sub_action_mode( int sub_action_mode )
+void menu_set_sub_action_mode( unsigned int sub_action_mode )
 {
 	menu_sub_action_mode = sub_action_mode;
 }
@@ -54,12 +54,12 @@ void menu_set_continue_action( bool state )
 	menu_continue_action = state;
 }
 
-int menu_get_current_level()
+unsigned int menu_get_current_level()
 {
 	return menu_level;
 }
 
-int menu_get_last_selected( int menu_level )
+unsigned int menu_get_last_selected( unsigned int menu_level )
 {
 	return last_selected[menu_level];
 }
@@ -69,7 +69,7 @@ int menu_get_current_stored_data()
 	return menu_stored_data[menu_get_current_item()];
 }
 
-int menu_get_stored_data( int menu_item )
+int menu_get_stored_data( unsigned int menu_item )
 {
 	return menu_stored_data[menu_item];
 }
@@ -84,10 +84,10 @@ void menu_clean_stored_data()
 {
 	if (!menu_get_action_mode())
 	{
-		int clean_stored_index;
-		int clean_stored_count;
+		unsigned int clean_stored_index;
+		unsigned int clean_stored_count;
 		clean_stored_index = 0;
-		clean_stored_count = menu_get_count() + 1;
+		clean_stored_count = menu_get_count();
 		while ( clean_stored_index < clean_stored_count )
 		{
 			menu_stored_data[clean_stored_index] = 0;
@@ -110,12 +110,12 @@ void menu_set_bool_strings(char* bool_string_off, char* bool_string_on )
 	custom_bool_string_on = bool_string_on;
 }
 
-void menu_set_float_dp( int float_dp )
+void menu_set_float_dp( unsigned int float_dp )
 {
 	custom_float_dp = float_dp;
 }
 
-void menu_set_font( int font )
+void menu_set_font( unsigned int font )
 {
 	custom_font = font;
 }
@@ -134,8 +134,8 @@ void menu_addItem(char* menu_item_string )
 {
 	if ( !menu_get_action_mode() )
 	{
-		menu_count = menu_get_count() + 1;
 		menu_items_name[menu_get_count()] = menu_item_string;
+		menu_count = menu_get_count() + 1;
 	}
 }
 
@@ -143,10 +143,10 @@ void menu_addItem_add_number( char* menu_item_string, int num_val )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		menu_count = menu_get_count() + 1;
 		menu_items_type[menu_get_count()] = 8;
 		menu_items_name[menu_get_count()] = menu_item_string;
 		menu_items_int[menu_get_count()] = num_val;
+		menu_count = menu_get_count() + 1;
 	}
 }
 
@@ -154,10 +154,10 @@ void menu_addItem_gxt_add_number( char* gxt, int num_val )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		menu_count = menu_get_count() + 1;
 		menu_items_type[menu_get_count()] = 9;
 		menu_items_name[menu_get_count()] = gxt;
 		menu_items_int[menu_get_count()] = num_val;
+		menu_count = menu_get_count() + 1;
 	}
 }
 
@@ -165,10 +165,10 @@ void menu_addItem_gxt_add_number2( char* gxt, int num_val )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		menu_count = menu_get_count() + 1;
 		menu_items_type[menu_get_count()] = 10;
 		menu_items_name[menu_get_count()] = gxt;
 		menu_items_int[menu_get_count()] = num_val;
+		menu_count = menu_get_count() + 1;
 	}
 }
 
@@ -176,14 +176,14 @@ void menu_addItem_gxt_number( char* gxt, int num_val )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		menu_count = menu_get_count() + 1;
 		menu_items_type[menu_get_count()] = 11;
 		menu_items_name[menu_get_count()] = gxt;
 		menu_items_int[menu_get_count()] = num_val;
+		menu_count = menu_get_count() + 1;
 	}
 }
 
-void menu_addItem_number(int num_val, int max)
+void menu_addItem_number( int num_val, unsigned int max)
 {
 	if (!menu_get_action_mode())
 	{
@@ -193,7 +193,7 @@ void menu_addItem_number(int num_val, int max)
 	}
 }
 
-void menu_addItem_number_format( int num_val, int max )
+void menu_addItem_number_format( int num_val, unsigned int max )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
@@ -209,7 +209,7 @@ void menu_add_string(char* string_val)
 		menu_items_extra_string[menu_get_count()] = string_val;
 }
 
-void menu_set_string(int menu_item, char* string_val)
+void menu_set_string(unsigned int menu_item, char* string_val)
 {
 	menu_items_extra_string[menu_item] = string_val;
 }
@@ -219,7 +219,7 @@ char* menu_get_current_string()
 	return menu_items_extra_string[menu_get_current_item()];
 }
 
-char* menu_get_string( int menu_item )
+char* menu_get_string( unsigned int menu_item )
 {
 	return menu_items_extra_string[menu_item];
 }
@@ -232,7 +232,7 @@ void menu_add_number( int num_val )
 	}
 }
 
-void menu_set_number( int menu_item, int num_val )
+void menu_set_number( unsigned int menu_item, int num_val )
 {
 	menu_items_int[menu_item] = num_val;
 }
@@ -242,7 +242,7 @@ int menu_get_current_number()
 	return menu_items_int[menu_get_current_item()];
 }
 
-int menu_get_number( int menu_item )
+int menu_get_number( unsigned int menu_item )
 {
 	return menu_items_int[menu_item];
 }
@@ -269,7 +269,7 @@ void menu_add_data_2( int data_2 )
 	}
 }
 
-int menu_get_current_data_2()
+float menu_get_current_data_2()
 {
 	return menu_items_float[menu_get_current_item()];
 }
@@ -288,12 +288,12 @@ void menu_set_current_bool( bool state )
 	menu_items_extra_int[menu_get_current_item()] = state;
 }
 
-void menu_set_bool( int menu_item, bool state )
+void menu_set_bool( unsigned int menu_item, bool state )
 {
 	menu_items_extra_int[menu_item] = state;
 }
 
-void menu_toggle_bool( int menu_item )
+void menu_toggle_bool( unsigned int menu_item )
 {
 	menu_items_extra_int[menu_item] = !menu_get_current_bool();
 	return;
@@ -310,7 +310,7 @@ bool menu_get_current_bool()
 	return menu_items_extra_int[menu_get_current_item()];
 }
 
-bool menu_get_bool( int menu_item )
+bool menu_get_bool( unsigned int menu_item )
 {
 	return menu_items_extra_int[menu_item];
 }
@@ -319,13 +319,13 @@ void menu_addItem_gxt_veh_hash( int hash )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		menu_count = menu_get_count() + 1;
 		menu_items_extra_int[menu_get_count()] = hash;
 		menu_items_type[menu_get_count()] = 5;
+		menu_count = menu_get_count() + 1;
 	}
 }
 
-void menu_addItem_keyboard(char* string_val, int keyboard_len)
+void menu_addItem_keyboard(char* string_val, unsigned int keyboard_len)
 {
 	if (!menu_get_action_mode())
 	{
@@ -335,7 +335,7 @@ void menu_addItem_keyboard(char* string_val, int keyboard_len)
 	}
 }
 
-void menu_addItem_number_keyboard(int int_val, int max, int keyboard_len)
+void menu_addItem_number_keyboard(int int_val, unsigned int max, unsigned int keyboard_len)
 {
 	if (!menu_get_action_mode())
 	{
@@ -346,7 +346,7 @@ void menu_addItem_number_keyboard(int int_val, int max, int keyboard_len)
 	}
 }
 
-void menu_addItem_number_format_keyboard(float float_val, int keyboard_len)
+void menu_addItem_number_format_keyboard(float float_val, unsigned int keyboard_len)
 {
 	if (!menu_get_action_mode())
 	{
@@ -356,7 +356,7 @@ void menu_addItem_number_format_keyboard(float float_val, int keyboard_len)
 	}
 }
 
-void menu_addItem_float_keyboard(float float_val, int keyboard_len)
+void menu_addItem_float_keyboard(float float_val, unsigned int keyboard_len)
 {
 	if (!menu_get_action_mode())
 	{
@@ -382,7 +382,7 @@ void menu_add_extra( int extra_val )
 		menu_items_extra_int[menu_get_count()] = extra_val;
 }
 
-int menu_get_extra( int menu_item )
+int menu_get_extra( unsigned int menu_item )
 {
 	return menu_items_extra_int[menu_item];
 }
@@ -391,9 +391,9 @@ void menu_addItem_callback(char* menu_item_string, CallbackType action_func)
 {
 	if (!menu_get_action_mode())
 	{
-		menu_count = menu_get_count() + 1;
 		menu_items_name[menu_get_count()] = menu_item_string;
 		menu_items_action[menu_get_count()] = action_func;
+		menu_count = menu_get_count() + 1;
 	}
 }
 
@@ -401,10 +401,10 @@ void menu_add_callback_all(CallbackType action_func)
 {
 	if (!menu_get_action_mode())
 	{
-		int callback_all_index;
-		int callback_all_count;
+		unsigned int callback_all_index;
+		unsigned int callback_all_count;
 		callback_all_index = 0;
-		callback_all_count = menu_get_count() + 1;
+		callback_all_count = menu_get_count();
 		while ( callback_all_index < callback_all_count )
 		{
 			menu_items_action[callback_all_index] = action_func;
@@ -413,17 +413,17 @@ void menu_add_callback_all(CallbackType action_func)
 	}
 }
 
-void menu_addItem_frontend( int button_id, char* string_val )
+void menu_addItem_frontend( unsigned int button_id, char* string_val )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
-		frontend_count++;
 		frontend_items_button[frontend_count] = button_id;
 		frontend_items_name[frontend_count] = string_val;
+		frontend_count++;
 	}
 }
 
-void menu_set_catch_button_id( int catch_id )
+void menu_set_catch_button_id( unsigned int catch_id )
 {
 	if ( ! (menu_get_action_mode() ) )
 	{
@@ -431,14 +431,14 @@ void menu_set_catch_button_id( int catch_id )
 	}
 }
 
-int menu_get_catch_button_id()
+unsigned int menu_get_catch_button_id()
 {
 	return menu_catch_button_id;
 }
 
 void menu_draw_frontend_hook()
 {
-	int i = frontend_count;
+	unsigned int i = frontend_count;
 	if ( menu_items_type[menu_get_current_item()] == 6 || menu_items_type[menu_get_current_item()] == 7 || menu_items_type[menu_get_current_item()] == 12 || menu_items_type[menu_get_current_item()] == 14 )
 	{
 		i++;
@@ -453,7 +453,7 @@ void menu_draw_frontend_hook()
 	}
 }
 
-void menu_add_frontend( int frontend_id, int button_id, char* string_val )
+void menu_add_frontend( unsigned int frontend_id, unsigned int button_id, char* string_val )
 {
 	_0x215ABBE8( instructional_buttons, "SET_DATA_SLOT" );
 	_0x716777CB( frontend_id );
@@ -483,7 +483,7 @@ void menu_setup()
 		menu_x = 0.7546875f;
 	}
 	menu_item_highlighted = 0;
-	menu_count = -1;
+	menu_count = 0;
 	menu_set_action_mode( 0 );
 	menu_load_hold_pressed = 0;
 	menu_level = 0;
@@ -498,7 +498,7 @@ void menu_setup()
 	menu_consts_max = menu_max;
 	menu_start_scrolling = 7;
 	frontend_items_set = 0;
-	frontend_count = -1;
+	frontend_count = 0;
 	menu_set_bool_strings( "PIM_DHIGH0", "PIM_DHIGH1" );
 	menu_set_float_dp( 4 );
 	menu_set_font( 0 );
@@ -507,6 +507,9 @@ void menu_setup()
 
 void menu_modify_game_state()
 {
+	if ( !has_this_additional_text_loaded( "MOD_MNU", 9 ) )
+		request_additional_text( "MOD_MNU", 9 );
+
 	/*if ( ! (Global_13242.Imm[6183] ) )
 	{
 		menu_modify_game_state_globals();
@@ -771,6 +774,7 @@ void menu_reverse_game_state()
 void menu_shutdown()
 {
 	menu_reverse_game_state();
+	clear_additional_text( 9, 0 );
 	scaleform_requested = 0;
 	set_scaleform_movie_as_no_longer_needed( &instructional_buttons );
 	menu_texture_loaded = 0;
@@ -780,9 +784,9 @@ void menu_shutdown()
 
 void menu_catch_button_press()
 {
-	int catch_button_menu_count;
-	int catch_start_scolling;
-	int i;
+	unsigned int catch_button_menu_count;
+	unsigned int catch_start_scolling;
+	unsigned int i;
 	float float_change;
 	catch_button_menu_count = menu_get_count();
 	catch_start_scolling = catch_button_menu_count - menu_start_scrolling;
@@ -855,7 +859,7 @@ void menu_catch_button_press()
 			if ( menu_items_int[menu_get_current_item()] != 0 )
 				menu_items_int[menu_get_current_item()]--;
 			else
-				menu_items_int[menu_get_current_item()] = 0;
+				menu_items_int[menu_get_current_item()] = menu_items_extra_int[menu_get_current_item()];
 			menu_play_sound( "NAV_LEFT_RIGHT" );
 		}
 		else
@@ -913,8 +917,8 @@ void menu_catch_button_press()
 
 void menu_set_last_selected()
 {
-	int i;
-	int set_last_menu_count;
+	unsigned int i;
+	unsigned int set_last_menu_count;
 	if ( menu_get_last_selected( menu_get_current_level() ) <= menu_get_count() )
 	{
 		menu_item_highlighted = menu_get_last_selected( menu_get_current_level() );
@@ -986,18 +990,18 @@ void menu_catch_select_button_press()
 	}
 }
 
-char* menu_add_int_to_string( int int_val, char* string_val )
+char* menu_add_int_to_string( unsigned int int_val, char* string_val )
 {
 	/*char string_int[16];
 	
 	strcpy( &string_int, "", 16 );
 	strcpy( &string_int, string_val, 16 );
 	sprintf(string_int,"%d", int_val);
-	return menu_return_var( &string_int );*/
+	return menu_return_var( &string_unsigned int );*/
 	return "";
 }
 
-char* menu_add_int_to_string2( int int_val, char* string_val )
+char* menu_add_int_to_string2( unsigned int int_val, char* string_val )
 {
 	/*char string_int[16];
 	
@@ -1007,7 +1011,7 @@ char* menu_add_int_to_string2( int int_val, char* string_val )
 		strcat( &string_int, "0", 16 );
 	}
 	sprintf(string_int,"%d", int_val);
-	return menu_return_var( &string_int );*/
+	return menu_return_var( &string_unsigned int );*/
 	return "";
 }
 
@@ -1096,7 +1100,7 @@ void menu_msg( char* string_val )
 	_0x08F7AF78( 0, 1 );
 }
 
-void menu_error( char* string_val, int menu_level_back )
+void menu_error( char* string_val, unsigned int menu_level_back )
 {
 	if ( menu_level_back >= 1 )
 	{
@@ -1107,7 +1111,7 @@ void menu_error( char* string_val, int menu_level_back )
 	_0x08F7AF78( 0, 1 );
 }
 
-void menu_error_gxt( char* gxt, int menu_level_back )
+void menu_error_gxt( char* gxt, unsigned int menu_level_back )
 {
 	if ( menu_level_back >= 1 )
 	{
@@ -1117,7 +1121,7 @@ void menu_error_gxt( char* gxt, int menu_level_back )
 	_0x08F7AF78( 0, 1 );
 }
 
-void menu_error_2_strings( char* string_val, char* string_val2, int menu_level_back )
+void menu_error_2_strings( char* string_val, char* string_val2, unsigned int menu_level_back )
 {
 	if ( menu_level_back >= 1 )
 	{
@@ -1129,7 +1133,7 @@ void menu_error_2_strings( char* string_val, char* string_val2, int menu_level_b
 	_0x08F7AF78( 0, 1 );
 }
 
-void menu_error_2_strings_gxt( char* string_val, char* gxt, int menu_level_back )
+void menu_error_2_strings_gxt( char* string_val, char* gxt, unsigned int menu_level_back )
 {
 	if ( menu_level_back >= 1 )
 	{
@@ -1141,7 +1145,7 @@ void menu_error_2_strings_gxt( char* string_val, char* gxt, int menu_level_back 
 	_0x08F7AF78( 0, 1 );
 }
 
-void menu_error_back( int menu_level_back )
+void menu_error_back( unsigned int menu_level_back )
 {
 	menu_items_set = false;
 	frontend_items_set = 0;
@@ -1155,15 +1159,15 @@ void menu_error_back( int menu_level_back )
 void menu_frontend_clean()
 {
 	frontend_items_set = 0;
-	frontend_count = -1;
+	frontend_count = 0;
 }
 
 void menu_clean()
 {
-	int clean_index;
-	int clean_menu_count;
+	unsigned int clean_index;
+	unsigned int clean_menu_count;
 	clean_index = 0;
-	clean_menu_count = menu_get_count() + 1;
+	clean_menu_count = menu_get_count();
 	while ( clean_index < clean_menu_count )
 	{
 		menu_items_name[clean_index] = "";
@@ -1176,7 +1180,7 @@ void menu_clean()
 	}
 	menu_start_y = menu_consts_start_y;
 	menu_max = menu_consts_max;
-	menu_count = -1;
+	menu_count = 0;
 	menu_set_action_mode( 0 );
 	menu_set_sub_action_mode( 0 );
 	menu_keyboard_update = 0;
@@ -1187,11 +1191,11 @@ void menu_clean()
 
 void menu_draw_window()
 {
-	int win_r;
-	int win_g;
-	int win_b;
-	int win_a;
-	int win_menu_count;
+	unsigned int win_r;
+	unsigned int win_g;
+	unsigned int win_b;
+	unsigned int win_a;
+	unsigned int win_menu_count;
 	float win_size;
 	_0x228A2598( 76, 84 );
 	_0x76C641E4( -0.05f, -0.05f, 0.0f, 0.0f );
@@ -1206,9 +1210,10 @@ void menu_draw_window()
 	}
 	else
 	{
-		win_menu_count = menu_get_count() + 1;
+		win_menu_count = menu_get_count();
 	}
-	win_size = menu_spacing * (float)( win_menu_count );
+	//win_size = menu_spacing * (float)( win_menu_count );
+	win_size = menu_spacing * 14.0f;
 	menu_draw_rect( menu_x - 0.0046875f, 0.084722f, 0.225f, win_size, win_r, win_g, win_b, win_a );
 	menu_draw_rect( menu_x - 0.0046875f, 0.04999922f, 0.225f, menu_spacing, 0, 0, 0, 204 );
 	if ( menu_get_count() > menu_consts_max )
@@ -1217,12 +1222,12 @@ void menu_draw_window()
 	}
 }
 
-void menu_draw_rect(float rect_x, float rect_y, float rect_size_x, float rect_size_y, int rect_r, int rect_g, int rect_b, int rect_a)
+void menu_draw_rect(float rect_x, float rect_y, float rect_size_x, float rect_size_y, unsigned int rect_r, unsigned int rect_g, unsigned int rect_b, unsigned int rect_a)
 {
 	draw_rect(rect_x + rect_size_x * 0.5f, rect_y + rect_size_y * 0.5f, rect_size_x, rect_size_y, rect_r, rect_g, rect_b, rect_a);
 }
 
-void menu_do_hold_pressed( int button_id )
+void menu_do_hold_pressed( unsigned int button_id )
 {
 	if ( is_disabled_control_pressed( 2, button_id ) )
 	{
@@ -1243,7 +1248,7 @@ void menu_do_hold_pressed( int button_id )
 	}
 }
 
-bool menu_is_hold_pressed( int button_id )
+bool menu_is_hold_pressed( unsigned int button_id )
 {
 	if ( press_counter > 5 )
 	{
@@ -1342,8 +1347,8 @@ void menu_set_frontend()
 
 void menu_draw_frontend()
 {
-	int var_1;
-	int var_2;
+	unsigned int var_1;
+	unsigned int var_2;
 	if ( has_scaleform_movie_loaded( instructional_buttons ) )
 	{
 		if ( scaleform_requested )
@@ -1397,7 +1402,7 @@ void menu_draw_frontend()
 	}
 }
 
-void menu_draw_number_add( int item_id, float cur_menu_y )
+void menu_draw_number_add( unsigned int item_id, float cur_menu_y )
 {
 	char* string_add;
 
@@ -1408,7 +1413,7 @@ void menu_draw_number_add( int item_id, float cur_menu_y )
 	return;
 }
 
-void menu_draw_gxt_number_add( int item_id, float cur_menu_y )
+void menu_draw_gxt_number_add( unsigned int item_id, float cur_menu_y )
 {
 	char* string_add;
 
@@ -1417,7 +1422,7 @@ void menu_draw_gxt_number_add( int item_id, float cur_menu_y )
 	_draw_text( menu_x, cur_menu_y );
 }
 
-void menu_draw_gxt_number2_add( int item_id, float cur_menu_y )
+void menu_draw_gxt_number2_add( unsigned int item_id, float cur_menu_y )
 {
 	char* string_add;
 
@@ -1426,36 +1431,36 @@ void menu_draw_gxt_number2_add( int item_id, float cur_menu_y )
 	_draw_text( menu_x, cur_menu_y );
 }
 
-void menu_draw()
+__attribute__((hot)) void menu_draw()
 {
-	int var_1;
+	unsigned int var_1;
 	float var_2;
 	float var_3;
 	float var_4;
 	float var_5;
 	float var_6;
-	int var_7;
+	unsigned int var_7;
 	char* var_8;
 	char* var_9;
-	int var_10;
-	int var_11;
-	int var_12;
-	int var_13;
-	int var_14;
-	int var_15;
-	int var_16;
-	int var_17;
-	int var_18;
-	//int var_19;
-	int var_20;
-	int var_21;
-	int var_22;
-	int var_23;
-	int var_24;
-	int var_25;
+	unsigned int var_10;
+	unsigned int var_11;
+	unsigned int var_12;
+	unsigned int var_13;
+	unsigned int var_14;
+	unsigned int var_15;
+	unsigned int var_16;
+	unsigned int var_17;
+	unsigned int var_18;
+	//unsigned int var_19;
+	unsigned int var_20;
+	unsigned int var_21;
+	unsigned int var_22;
+	unsigned int var_23;
+	unsigned int var_24;
+	unsigned int var_25;
 	float var_26;
 	Vector3 var_27;
-	int var_31;
+	unsigned int var_31;
 	float var_32;
 	var_1 = 0;
 	var_2 = menu_start_y;
@@ -1463,7 +1468,7 @@ void menu_draw()
 	var_4 = 0.05f;
 	var_5 = var_4;
 	var_6 = menu_spacing;
-	var_7 = menu_get_count() + 1;
+	var_7 = menu_get_count();
 	var_8 = custom_bool_string_off;
 	var_9 = custom_bool_string_on;
 	var_10 = 240;
@@ -1482,7 +1487,7 @@ void menu_draw()
 	if ( menu_get_count() > menu_consts_max )
 	{
 		set_up_draw( custom_font, 0.0f, 0.35f, var_10, var_11, var_12, menu_x + 0.215625f, 1, 0 );
-		draw_item_count( menu_get_current_item() + 1, menu_get_count() + 1, 0.0f, 0.05416665f );
+		draw_item_count( menu_get_current_item() + 1, menu_get_count(), 0.0f, 0.05416665f );
 	}
 	while ( var_1 < var_7 )
 	{
@@ -1539,6 +1544,7 @@ void menu_draw()
 					set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, 1.0f, 0, 0 );
 					draw_string( menu_items_name[var_1], menu_x, var_3 );
 				}
+
 				if ( menu_items_type[var_1] == 1 || menu_items_type[var_1] == 2 || menu_items_type[var_1] == 7 || menu_items_type[var_1] == 12 || menu_items_type[var_1] == 13 || menu_items_type[var_1] == 14 )
 				{
 					set_up_draw( custom_font, 0.0f, 0.35f, var_16, var_17, var_18, menu_x + 0.203125f, 1, 0 );
@@ -1601,7 +1607,7 @@ void menu_draw()
 		}
 		var_1++;
 	}
-	if ( menu_texture_loaded )
+	/*if ( menu_texture_loaded )
 	{
 		if ( menu_get_count() > menu_consts_max )
 		{
@@ -1615,10 +1621,10 @@ void menu_draw()
 			var_27 = get_texture_resolution( "CommonMenu", "shop_arrows_upANDdown" );
 			draw_sprite( "CommonMenu", "shop_arrows_upANDdown", menu_x - 0.0046875f + 0.225f * 0.5f, var_32 + 0.04999922f + menu_spacing * 0.5f, var_27.x / (float) var_20, var_27.y / (float) var_21, 0.0f, var_22, var_23, var_24, var_25 );
 		}
-	}
+	}*/
 }
 
-void draw_item_count( int num_val, int num_val2, float x, float y )
+void draw_item_count( unsigned int num_val, unsigned int num_val2, float x, float y )
 {
 	_set_text_entry( "CM_ITEM_COUNT" );
 	add_text_component_integer( num_val );
@@ -1674,7 +1680,7 @@ void draw_number_gxt(char* gxt, int num_val, float x, float y )
 	_draw_text( x, y );
 }
 
-void set_up_draw( int font, float scale1, float scale2, int r, int g, int b, float wrap, bool right, bool centre )
+void set_up_draw( unsigned int font, float scale1, float scale2, unsigned int r, unsigned int g, unsigned int b, float wrap, bool right, bool centre )
 {
 	set_text_font( font );
 	set_text_scale( scale1, scale2 );

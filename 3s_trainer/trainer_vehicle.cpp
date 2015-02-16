@@ -18,10 +18,10 @@ void trainer_vehicle_level_1()
 
 void trainer_vehicle_level_2()
 {
-	int menu_index;
+	unsigned int menu_index;
 	char* mod_menu_items[28];
-	int vehicle_col_count;
-	int vehicle_livery_count;
+	unsigned int vehicle_col_count;
+	unsigned int vehicle_livery_count;
 
 	if ( menu_get_last_selected(1) != 0 )
 	{
@@ -191,7 +191,7 @@ void trainer_vehicle_level_2()
 			menu_index++;
 		}
 
-		if ( menu_get_count() < 0 )
+		if ( menu_get_count() == 0 )
 			menu_error( "Vehicle has no extras.", 1 );
 		break;
 		

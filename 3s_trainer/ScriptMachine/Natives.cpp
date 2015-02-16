@@ -4280,7 +4280,7 @@
 	Vehicle create_vehicle(Hash model, float x, float y, float z, float r, BOOL b1, BOOL b2)
 	{
 		NativeCall l_NativeCall;
-		return l_NativeCall.Invoke<Vehicle>(0xDD75460A, 7, model, float_int(x), float_int(y), float_int(z), r, b1, b2);
+		return l_NativeCall.Invoke<Vehicle>(0xDD75460A, 7, model, float_int(x), float_int(y), float_int(z), float_int(r), b1, b2);
 	}
 	void delete_vehicle(Vehicle *v)
 	{
@@ -13684,7 +13684,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x96F74838, 1, p0);
 	}
-	void request_additional_text(char* gxt, int slot)
+	void request_additional_text(string gxt, int slot)
 	{
 		NativeCall l_NativeCall;
 		l_NativeCall.Invoke<Void>(0x9FA9175B, 2, gxt, slot);
@@ -13704,7 +13704,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0xF079E4EB, 1, p0);
 	}
-	BOOL has_this_additional_text_loaded(Any p0, Any p1)
+	BOOL has_this_additional_text_loaded(string p0, int p1)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x80A52040, 2, p0, p1);
@@ -13714,7 +13714,7 @@
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x6A77FE8D, 0);
 	}
-	BOOL does_text_label_exist(char* gxtEntry)
+	BOOL does_text_label_exist(string gxtEntry)
 	{
 		NativeCall l_NativeCall;
 		return l_NativeCall.Invoke<BOOL>(0x6ECAE560, 1, gxtEntry);

@@ -8,27 +8,64 @@ SYS_LIB_EXPORT(FakeExportFunction, LIBNAME);
 
 sys_ppu_thread_t	g_MainThreadID;
 
-int float_int(float f)
+// Thanks wikipedia
+uint32_t jenkins_one_at_a_time_hash(char *key, size_t len)
+{
+    uint32_t hash, i;
+    for(hash = i = 0; i < len; ++i)
+    {
+        hash += key[i];
+        hash += (hash << 10);
+        hash ^= (hash >> 6);
+    }
+    hash += (hash << 3);
+    hash ^= (hash >> 11);
+    hash += (hash << 15);
+    return hash;
+}
+
+/*uint8_t float_int(float f)
+{
+	return *(uint8_t*)&f;
+}*/
+
+/*uint32_t float_int(float f)
+{
+	return (uint32_t)(int)floorf(f);
+}*/
+
+/*int float_int(float f)
 {
 	return *(int*)&f;
+}*/
+
+/*uint32_t float_int(float f)
+{
+	uint32_t* f_return = (uint32_t) ConvertFloatToHalf(f) << 16;
+	swapEndian(f_return);
+	return f_return;
 }
 
-int Memcpy(PVOID destination, const PVOID source, size_t size)
+uint16_t ConvertFloatToHalf(const float val)
 {
-	system_call_4(905, (uint64_t)sys_process_getpid(), (uint64_t)destination, size, (uint64_t)source);
-	__dcbst(destination);
-	__sync();
-	__isync();
-	return_to_user_prog(int);
-}
+	uint8_t *tmp = (uint8_t*)&val;
+	uint32_t bits = ((uint32_t)tmp[0] << 24) | ((uint32_t)tmp[1] << 16) | ((uint32_t)tmp[2] << 8) |(uint32_t)tmp[3];
 
-void HookNative(int native, int Destination)
-{
-	Destination = *(int*)Destination;
-	int FuncBytes[1];
-	FuncBytes[0] = Destination;
-	Memcpy((void*)native, FuncBytes, 4);
-}
+	if (bits == 0) {
+		return 0;
+	}
+	int32_t e = ((bits & 0x7f800000) >> 23) - 127 + 15;
+	if (e < 0) {
+		return 0;
+	}
+	else if (e > 31) {
+		e = 31;
+	}
+	uint32_t s = bits & 0x80000000;
+	uint32_t m = bits & 0x007fffff;
+
+	return ((s >> 16) & 0x8000) | ((e << 10) & 0x7c00) | ((m >> 13) & 0x03ff);
+}*/
 
 void trainer_loop_checks()
 {
@@ -201,7 +238,7 @@ void project_close()
 	menu_set_open_state( 0 );
 }
 
-void hook_func()
+void CallNativesHere()
 {
 	trainer_loop_checks();
 	trainer_catch_load_button_press();
@@ -240,11 +277,23 @@ void MainThread(uint64_t)
 {
 	menu_setup();
 	trainer_setup();
+	//scrThread*			l_pNewThread;
 
-	for (;;)
+	while(ThreadArray::GetThreadByName("startup") == 0) sys_timer_sleep(1);
+
+	printf("Creating our own thread.");
+	/*l_pNewThread = */
+	ThreadArray::NewThread("NativeCallThread");
+	printf("Thread created, have fun!\n");
+
+	for(;;)
 	{
-		Sleep(1);
+		// This thread is useless
+		// we need it to make the sprx always loaded on memory
+		//ThreadArray::DbgShowAllThread();
+		sys_timer_sleep(5);
 	}
+
 }
 
 
@@ -255,9 +304,7 @@ extern "C" int FakeExportFunction()
 
 extern "C" int EntryPoint()
 {
-	HookNative(0x1B9BF28, (int)hook_func);
-	//HookNative(0x01B96E40, (int)hook_func);
-	if(sys_ppu_thread_create(&g_MainThreadID, MainThread, 0, 1000, 2048, 0, "gtav_3s_trainer") != CELL_OK)
+	if(sys_ppu_thread_create(&g_MainThreadID, MainThread, 0, 0, 2048, SYS_PPU_THREAD_CREATE_JOINABLE, "gtav_3s_trainer") != CELL_OK)
 	{
 		printf("Unable to create the Thread !");
 	}

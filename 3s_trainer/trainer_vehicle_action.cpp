@@ -10,7 +10,7 @@ Vehicle trainer_get_vehicle()
 	return 0;
 }
 
-void trainer_error_vehicle( int menu_level_back )
+void trainer_error_vehicle( unsigned int menu_level_back )
 {
 	if ( menu_level_back >= 1 )
 		menu_error_back( menu_level_back );
@@ -32,43 +32,38 @@ void trainer_vehicle_spawn_action()
 		{
 			menu_error( "Model not valid.", 0 );
 			menu_set_continue_action(0);
-			return;
+			break;
 		}
 		if ( !is_model_in_cdimage( vehicle_hash ) )
 		{
 			menu_error( "Model does not exist.", 0 );
 			menu_set_continue_action(0);
-			return;
+			break;
 		}
 		if ( !is_model_a_vehicle( vehicle_hash ) )
 		{
 			menu_error( "Model not a valid vehicle.", 0 );
 			menu_set_continue_action(0);
-			return;
+			break;
 		}
-		printf("vehicle_spawn action 0");
-		menu_set_action_mode(1);
-		return;
+		menu_set_sub_action_mode(1);
+		break;
 		
 		case 1:
-		printf("vehicle_spawn action 1");
 		request_model( vehicle_hash );
 		if ( has_model_loaded( vehicle_hash ) )
 		{
-			printf("vehicle_spawn action 1 loaded");
-			menu_set_action_mode(2);
+			menu_set_sub_action_mode(2);
 		}
-		return;
+		break;
 		
 		case 2:
-		printf("vehicle_spawn action 2");
 		menu_set_continue_action(0);
 		trainer_spawn_veh( vehicle_hash );
-		menu_set_action_mode(0);
-		return;
+		menu_set_sub_action_mode(0);
+		break;
 		
 	}
-	return;
 }
 
 void trainer_spawn_veh( Hash vehicle_hash )
@@ -148,7 +143,6 @@ void trainer_spawn_veh( Hash vehicle_hash )
 		set_model_as_no_longer_needed( vehicle_hash );
 		set_vehicle_as_no_longer_needed( &trainer_spawn_vehicle );
 	}
-	return;
 }
 
 void trainer_vehicle_repair_action()
@@ -174,7 +168,7 @@ void trainer_vehicle_max()
 		trainer_error_vehicle( 1 );
 		return;
 	}
-	int vehicle_mod;
+	unsigned int vehicle_mod;
 	set_vehicle_mod_kit( trainer_current_vehicle, 0 );
 	vehicle_mod = 0;
 	while ( vehicle_mod <= 27 )
@@ -218,7 +212,7 @@ void trainer_vehicle_min()
 		trainer_error_vehicle( 1 );
 		return;
 	}
-	int vehicle_mod;
+	unsigned int vehicle_mod;
 	set_vehicle_mod_kit( trainer_current_vehicle, 0 );
 	vehicle_mod = 0;
 	while ( vehicle_mod <= 27 )
@@ -250,8 +244,8 @@ void trainer_vehicle_min()
 
 void trainer_vehicle_customize_action()
 {
-	int vehicle_wheel_l;
-	int vehicle_wheel_r;
+	unsigned int vehicle_wheel_l;
+	unsigned int vehicle_wheel_r;
 
 	if ( !trainer_get_vehicle() )
 	{

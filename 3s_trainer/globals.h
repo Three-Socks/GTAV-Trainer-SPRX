@@ -1,9 +1,7 @@
 #ifndef __GLOBALS_H__
 #define __GLOBALS_H__
 
-extern int menu_count, instructional_buttons, frontend_count;
-
-extern int menu_item_highlighted, menu_action_mode, menu_load_hold_pressed, menu_level,
+extern unsigned int menu_count, frontend_count, menu_item_highlighted, instructional_buttons, menu_action_mode, menu_load_hold_pressed, menu_level,
  press_counter, hold_counter, press_counter_timesby, press_id, menu_unload_hold_pressed,
  menu_max, menu_consts_max, menu_start_scrolling, menu_sub_action_mode, menu_keyboard_update, 
  menu_keyboard_custom_length, menu_catch_button_id, menu_just_opened, custom_float_dp,
@@ -18,11 +16,11 @@ extern char* menu_header;
 extern char* custom_bool_string_off;
 extern char* custom_bool_string_on;
 
-extern int frontend_items_button[6];
+extern unsigned int frontend_items_button[6];
 extern char* frontend_items_name[6];
-extern int last_selected[10];
+extern unsigned int last_selected[10];
 extern char* menu_items_name[50];
-extern int menu_items_type[50];
+extern unsigned int menu_items_type[50];
 extern CallbackType menu_items_action[50];
 extern int menu_items_int[50];
 extern float menu_items_float[50];
@@ -37,7 +35,7 @@ extern Group trainer_ped_group;
 
 extern Hash trainer_ped_group_rel_hash, trainer_ped_group_rel_hash2;
 
-extern int trainer_explosive_ammo_override, trainer_speed, trainer_brake, trainer_handling;
+extern unsigned int trainer_explosive_ammo_override, trainer_speed, trainer_brake, trainer_handling;
 
 extern Vehicle trainer_spawn_vehicle, trainer_current_vehicle;
 
